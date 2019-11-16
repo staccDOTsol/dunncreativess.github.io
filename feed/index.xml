@@ -1,3 +1,4 @@
+2595
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -12,7 +13,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sat, 16 Nov 2019 19:22:49 -0500</lastBuildDate>
+	<lastBuildDate>Sat, 16 Nov 2019 19:55:16 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +21,110 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Market Maker at 10% Realized Live Gains, Signal-Based Bots at 1%, 7%!</title>
+		<link>/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/</link>
+				<comments>/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/#respond</comments>
+				<pubDate>Sat, 16 Nov 2019 19:54:03 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=18</guid>
+				<description><![CDATA[See this post on it&#8217;s original location, github.io! It&#8217;s been a busy few days for me! What&#8217;s Current As I&#8217;d]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://dunncreativess.github.io/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/">See this post on it&#8217;s original location, github.io</a>!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-2-1024x722.png" alt="" class="wp-image-19" srcset="/wp-content/uploads/2019/11/image-2-1024x722.png 1024w, /wp-content/uploads/2019/11/image-2-300x212.png 300w, /wp-content/uploads/2019/11/image-2-768x542.png 768w, /wp-content/uploads/2019/11/image-2.png 1428w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><br></figcaption></figure>
+
+
+
+<p>It&#8217;s been a busy few days for me!</p>
+
+
+
+<h2>What&#8217;s Current</h2>
+
+
+
+<p>As I&#8217;d mentioned on Hackernoon before, <a href="https://hackernoon.com/porting-a-bot-to-binance-futures-market-making-competition-6v6a31qh">Coindex and I are admitted into the Binance Futures Market Making Competition</a>. This bot is currently being fed into the AI with competing genomes using different input variables, to give us the winning generations in terms of configurations. We&#8217;re running this market making bot on Deribit testnet and livenet &#8211; showing 10% gains on livenet, almost 50% on testnet, but these livenet results aren&#8217;t being published anywhere &#8211; yet!</p>
+
+
+
+<p><a href="http://coindexbot.duckdns.org:8080/">You can watch the market maker on Deribit testnet in realtime here</a> &#8211; which will soon be integrated to <a href="https://coindexlabs.com/">coindexlabs.com</a>!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-3-1024x398.png" alt="" class="wp-image-20" srcset="/wp-content/uploads/2019/11/image-3-1024x398.png 1024w, /wp-content/uploads/2019/11/image-3-300x117.png 300w, /wp-content/uploads/2019/11/image-3-768x299.png 768w, /wp-content/uploads/2019/11/image-3-1536x597.png 1536w, /wp-content/uploads/2019/11/image-3.png 1896w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Next up is the first bot I was hired to create in the last week. Without breaching terms of NDA, it executes trades based on a series of custom price action indicators confirmed twice by regular ol&#8217; indicators. It&#8217;s currently up 0.7% in the last three hours on Binance Futures <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br><br>You can <a href="http://patbot1.duckdns.org/">watch it live with one indicator confirming trend here</a>, <a href="http://patbot2.duckdns.org/">or two indicators to lessen the noise here</a>!</p>
+
+
+
+<p>This bot will be available for a small subscription fee in the future times, and the benefactor has even agreed to share some of that subscription money with me &#8211; for the win! It&#8217;s so far been running 2-3 days in profit. Aweo! This bot&#8217;s ideationmaster has given me more and more income to add indicators, exchanges, and in the future it will even have Telegram bot reporting. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-4-1024x500.png" alt="" class="wp-image-21" srcset="/wp-content/uploads/2019/11/image-4-1024x500.png 1024w, /wp-content/uploads/2019/11/image-4-300x147.png 300w, /wp-content/uploads/2019/11/image-4-768x375.png 768w, /wp-content/uploads/2019/11/image-4-1536x750.png 1536w, /wp-content/uploads/2019/11/image-4.png 1892w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>A second bot I was created to hire uses a genius system to identify support and resistence, and enters in Binance Futures limit post-only too &#8211; exiting when trends reverse at market and entering in new post-only orders to win in the next trend. It&#8217;s currently up 6.5% although it hasn&#8217;t traded in a little while, have no fear! It requires the trend to be confirmed one way or another over the course of some other safety inputs.</p>
+
+
+
+<p><a href="http://coindexbot.duckdns.org/">You can watch the delta of the delta for this one live here</a>. I don&#8217;t know if this bot&#8217;s benefactor wants to sell access to his creations or just throw some serious capital at them &#8211; stay tuned for details! Either way, he has decided he&#8217;s going to continue feeding me bot projects so I can concentrate on being productive while having the ol&#8217; rent paid <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>What&#8217;s Next</h2>
+
+
+
+<p>Coindex and myself and some of the bot ideationmasters we&#8217;ve mentioned will be working on ways to hedge losses in the case our bots see stoplosses.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-5-1024x542.png" alt="" class="wp-image-22" srcset="/wp-content/uploads/2019/11/image-5-1024x542.png 1024w, /wp-content/uploads/2019/11/image-5-300x159.png 300w, /wp-content/uploads/2019/11/image-5-768x406.png 768w, /wp-content/uploads/2019/11/image-5-1536x813.png 1536w, /wp-content/uploads/2019/11/image-5.png 1890w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>What this means for Coindex at least is to use different entries for long calls+puts on the same instrument and expiry, which is called a long straddle or strangle. If the price moves up OR down significantly (causing losses on market makers) then the options will go out of money and simultaneously in the money at the same time, and at leverage on a deriviative one of them will be worth some serious money! While we&#8217;re happy to use Deribit for this, we&#8217;re excited to see a new player: Binance JEX, which supports options on many more types of underlyings. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>What&#8217;s beautiful in the above screenshot (among other things&#8230;) is the dynamic leverage based on volatility. One can hedge using a fraction of the funds and balance one&#8217;s exposure with their hedging &#8211; and while the market maker makes money and the options lose money, we&#8217;re still smiling. When the market maker hits stoplosses and the options make money &#8211; we&#8217;re still laughing. <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>Do You Want to Know More?</h2>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization &#8211; where we&#8217;re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world&#8217;s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+
+
+
+<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
+
+ffc
+]]></content:encoded>
+							<wfw:commentRss>/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
 		<title>First Two GitHub Sponsors Subs!</title>
 		<link>/2019/11/16/first-two-github-sponsors-subs/</link>
 				<comments>/2019/11/16/first-two-github-sponsors-subs/#respond</comments>
@@ -79,3 +184,6 @@
 							</item>
 	</channel>
 </rss>
+
+0
+

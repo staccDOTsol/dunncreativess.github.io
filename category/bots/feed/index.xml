@@ -9,8 +9,8 @@
 	>
 
 <channel>
-	<title>Blog &#8211; DunnCreativeSS</title>
-	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<title>Bots &#8211; DunnCreativeSS</title>
+	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 16 Nov 2019 19:55:16 -0500</lastBuildDate>
@@ -119,67 +119,9 @@
 
 <p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
 
-ffc
+e7
 ]]></content:encoded>
 							<wfw:commentRss>/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
-		<item>
-		<title>First Two GitHub Sponsors Subs!</title>
-		<link>/2019/11/16/first-two-github-sponsors-subs/</link>
-				<comments>/2019/11/16/first-two-github-sponsors-subs/#respond</comments>
-				<pubDate>Sat, 16 Nov 2019 19:21:28 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Github]]></category>
-
-		<guid isPermaLink="false">/?p=11</guid>
-				<description><![CDATA[Today is a good day.. my open-source contributions make money (again!) With the apparent death of utopian.io, I can now]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-1-1024x570.png" alt="" class="wp-image-12" srcset="/wp-content/uploads/2019/11/image-1-1024x570.png 1024w, /wp-content/uploads/2019/11/image-1-300x167.png 300w, /wp-content/uploads/2019/11/image-1-768x427.png 768w, /wp-content/uploads/2019/11/image-1-1536x855.png 1536w, /wp-content/uploads/2019/11/image-1.png 1718w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Today is a good day.. my open-source contributions make money (again!) With the apparent death of utopian.io, I can now derive (2x my income for the first $5k USD!) income from GitHub.</p>
-
-
-
-<p>Everyone who wants to buy me a coffee every now and again or port my bot from my existing bots to your exchange or whathaveyou, <a href="https://github.com/sponsors/dunncreativess">sign up for GitHub Sponsors and Subscribe to Me</a>!</p>
-]]></content:encoded>
-							<wfw:commentRss>/2019/11/16/first-two-github-sponsors-subs/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
-		<item>
-		<title>Github.io Pages</title>
-		<link>/2019/11/16/github-io-pages/</link>
-				<comments>/2019/11/16/github-io-pages/#respond</comments>
-				<pubDate>Sat, 16 Nov 2019 19:19:01 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Github]]></category>
-
-		<guid isPermaLink="false">/?p=7</guid>
-				<description><![CDATA[Everyone read this helpful article on how to export static WordPress stuff to Github.io 🙂 Works like a breeze except]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-1024x599.png" alt="" class="wp-image-8" srcset="/wp-content/uploads/2019/11/image-1024x599.png 1024w, /wp-content/uploads/2019/11/image-300x176.png 300w, /wp-content/uploads/2019/11/image-768x449.png 768w, /wp-content/uploads/2019/11/image-1536x899.png 1536w, /wp-content/uploads/2019/11/image.png 1685w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Everyone read this helpful article on <a href="https://www.hywel.me/static/site/wordpress/2016/07/17/fast-free-static-website-with-wordpress-and-github-pages.html">how to export static WordPress stuff to Github.io</a> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Works like a breeze except I don&#8217;t think you need to change your branch over, more info to come&#8230;</p>
-
-
-
-<p>Now, a blog that won&#8217;t die in the fire of a series of unfortunate events like VPSs going down or a domain expiring. Hola! Hooah!</p>
-
-
-
-<p>That&#8217;s it that&#8217;s all &#8211; for now, folks!</p>
-]]></content:encoded>
-							<wfw:commentRss>/2019/11/16/github-io-pages/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>
