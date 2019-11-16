@@ -12,7 +12,7 @@
 	<atom:link href="/category/github/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sat, 16 Nov 2019 19:22:49 -0500</lastBuildDate>
+	<lastBuildDate>Sat, 16 Nov 2019 20:52:11 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,6 @@
 	<item>
 		<title>First Two GitHub Sponsors Subs!</title>
 		<link>/2019/11/16/first-two-github-sponsors-subs/</link>
-				<comments>/2019/11/16/first-two-github-sponsors-subs/#respond</comments>
 				<pubDate>Sat, 16 Nov 2019 19:21:28 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Blog]]></category>
@@ -41,13 +40,10 @@
 
 <p>Everyone who wants to buy me a coffee every now and again or port my bot from my existing bots to your exchange or whathaveyou, <a href="https://github.com/sponsors/dunncreativess">sign up for GitHub Sponsors and Subscribe to Me</a>!</p>
 ]]></content:encoded>
-							<wfw:commentRss>/2019/11/16/first-two-github-sponsors-subs/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+										</item>
 		<item>
 		<title>Github.io Pages</title>
 		<link>/2019/11/16/github-io-pages/</link>
-				<comments>/2019/11/16/github-io-pages/#respond</comments>
 				<pubDate>Sat, 16 Nov 2019 19:19:01 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Blog]]></category>
@@ -74,8 +70,6 @@
 
 <p>That&#8217;s it that&#8217;s all &#8211; for now, folks!</p>
 ]]></content:encoded>
-							<wfw:commentRss>/2019/11/16/github-io-pages/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
+										</item>
 	</channel>
 </rss>
