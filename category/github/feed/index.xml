@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>jare &#8211; DunnCreativeSS</title>
-	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
+	<title>Github &#8211; DunnCreativeSS</title>
+	<atom:link href="/category/github/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 16 Nov 2019 19:22:49 -0500</lastBuildDate>

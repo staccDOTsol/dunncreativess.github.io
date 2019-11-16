@@ -7,11 +7,11 @@
 	>
 <channel>
 	<title>
-	Comments for DunnCreativeSS	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	Comments on: Github.io Pages	</title>
+	<atom:link href="/2019/11/16/github-io-pages/feed/" rel="self" type="application/rss+xml" />
+	<link>/2019/11/16/github-io-pages/</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>2019-11-16 19:22:49</lastBuildDate>
+	<lastBuildDate>Sat, 16 Nov 2019 19:19:01 -0500</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
