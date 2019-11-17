@@ -1,8 +1,21 @@
-2137
 <!DOCTYPE html>
 <html lang="en-CA">
 
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@0.19.0/dist/web3.js"></script>
+    
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152704802-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152704802-1');
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -34,16 +47,19 @@ img.emoji {
 </style>
 	<link rel='stylesheet' id='maxwell-custom-fonts-css'  href='/wp-content/themes/maxwell/assets/css/custom-fonts.css?ver=20180413' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='steempress_sp-css'  href='/wp-content/plugins/steempress/public/css/steempress_sp-public.css?ver=2.6' type='text/css' media='all' />
 <link rel='stylesheet' id='maxwell-stylesheet-css'  href='/wp-content/themes/maxwell/style.css?ver=1.8.3' type='text/css' media='all' />
 <style id='maxwell-stylesheet-inline-css' type='text/css'>
 .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
 </style>
 <link rel='stylesheet' id='genericons-css'  href='/wp-content/themes/maxwell/assets/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-content/plugins/steempress/public/js/iframeResizer.min.js?ver=5.3'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/steempress/public/js/steempress_sp-public.js?ver=2.6'></script>
 <!--[if lt IE 9]>
 <script type='text/javascript' src='/wp-content/themes/maxwell/assets/js/html5shiv.min.js?ver=3.7.3'></script>
 <![endif]-->
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var maxwell_menu_title = "Navigation";
@@ -54,7 +70,7 @@ var maxwell_menu_title = "Navigation";
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.3" />
-<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+</head>
 
 <body class="archive category category-uncategorized category-1 wp-embed-responsive post-layout-one-column">
 
@@ -73,7 +89,7 @@ var maxwell_menu_title = "Navigation";
 			<p class="site-title"><a href="/" rel="home">DunnCreativeSS</a></p>
 
 							
-			<p class="site-description">Just another WordPress site</p>
+			<p class="site-description">Get Your Git Here!</p>
 
 		
 				</div><!-- .site-branding -->
@@ -89,7 +105,22 @@ var maxwell_menu_title = "Navigation";
 
 				
 				<nav id="main-navigation" class="primary-navigation navigation container clearfix" role="navigation">
-					<ul id="menu-main-navigation" class="main-navigation-menu menu"><li class="page_item page-item-2"><a href="/sample-page/">Sample Page</a></li>
+					<ul id="menu-menu" class="main-navigation-menu"><li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="https://dunncreativess.github.io/">Home</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-37"><a href="/about-jarett-dunn/">About Jarett Dunn</a>
+<ul class="sub-menu">
+	<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/about-jarett-dunn/">About Jarett Dunn</a></li>
+	<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="https://hackernoon.com/@jare">My Hackernoon</a></li>
+	<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://linkedin.com/in/jarettdunn">My LinkedIn</a></li>
+</ul>
+</li>
+<li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15"><a href="https://github.com/dunncreativess">My Github</a>
+<ul class="sub-menu">
+	<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="https://github.com/dunncreativess">My Github</a></li>
+	<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://github.com/sponsors/dunncreativess">My Sponsors</a></li>
+</ul>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="http://eepurl.com/gIykNL">Subscribe to My Mailing List, Get Coindex&#8217;s Teaser PDF!</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="/send-me-ether/">Send me Ether!</a></li>
 </ul>				</nav><!-- #main-navigation -->
 
 			</div>
@@ -114,19 +145,23 @@ var maxwell_menu_title = "Navigation";
 				
 <div class="post-column clearfix">
 
-	<article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
+	<article id="post-69" class="post-69 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+		
+			<a class="wp-post-image-link" href="/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/" rel="bookmark">
+				<img width="850" height="550" src="/wp-content/uploads/2019/11/image-16-850x550.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</a>
 
 		
 		<header class="entry-header">
 
-			<div class="entry-meta"><span class="meta-date"><a href="/2019/11/16/hello-world/" title="2:08 pm" rel="bookmark"><time class="entry-date published updated" datetime="2019-11-16T14:08:57-05:00">November 16, 2019</time></a></span><span class="meta-category"> <a href="/category/uncategorized/" rel="category tag">Uncategorized</a></span></div>
-			<h2 class="entry-title"><a href="/2019/11/16/hello-world/" rel="bookmark">Hello world!</a></h2>
+			<div class="entry-meta"><span class="meta-date"><a href="/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/" title="6:16 pm" rel="bookmark"><time class="entry-date published updated" datetime="2019-11-17T18:16:19-05:00">November 17, 2019</time></a></span><span class="meta-category"> <a href="/category/uncategorized/" rel="category tag">Uncategorized</a></span></div>
+			<h2 class="entry-title"><a href="/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/" rel="bookmark">POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</a></h2>
 		</header><!-- .entry-header -->
 
 		<div class="entry-content entry-excerpt clearfix">
-			<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+			<p>View This Post in It&#8217;s Original Form on dunncreativess.github.io! With nearly 31 BTC notional traded in recent memory, this bot</p>
 			
-			<a href="/2019/11/16/hello-world/" class="more-link">Continue reading</a>
+			<a href="/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/" class="more-link">Continue reading</a>
 
 				</div><!-- .entry-content -->
 
@@ -144,39 +179,35 @@ var maxwell_menu_title = "Navigation";
 	
 	<section id="secondary" class="sidebar widget-area clearfix" role="complementary">
 
-		<aside id="search-2" class="widget widget_search clearfix">
-<form role="search" method="get" class="search-form" action="/">
-	<label>
-		<span class="screen-reader-text">Search for:</span>
-		<input type="search" class="search-field"
-			placeholder="Search &hellip;"
-			value="" name="s"
-			title="Search for:" />
-	</label>
-	<button type="submit" class="search-submit">
-		<span class="genericon-search"></span>
-		<span class="screen-reader-text">Search</span>
-	</button>
-</form>
-
-902
-</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries clearfix">		<div class="widget-header"><h3 class="widget-title">Recent Posts</h3></div>		<ul>
+				<aside id="recent-posts-2" class="widget widget_recent_entries clearfix">		<div class="widget-header"><h3 class="widget-title">Recent Posts</h3></div>		<ul>
 											<li>
-					<a href="/2019/11/16/hello-world/" aria-current="page">Hello world!</a>
+					<a href="/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/">POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</a>
+									</li>
+											<li>
+					<a href="/2019/11/16/top-actionable-tips-to-grow-a-community-more-tips-to-monetize/">Top Actionable Tips to Grow a Community (+ More Tips to Monetize!)</a>
+									</li>
+											<li>
+					<a href="/2019/11/16/market-maker-at-10-realized-live-gains-signal-based-bots-at-1-7/">Market Maker at 10% Realized Live Gains, Signal-Based Bots at 1%, 7%!</a>
+									</li>
+											<li>
+					<a href="/2019/11/16/first-two-github-sponsors-subs/">First Two GitHub Sponsors Subs!</a>
+									</li>
+											<li>
+					<a href="/2019/11/16/github-io-pages/">Github.io Pages</a>
 									</li>
 					</ul>
-		</aside><aside id="recent-comments-2" class="widget widget_recent_comments clearfix"><div class="widget-header"><h3 class="widget-title">Recent Comments</h3></div><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="/2019/11/16/hello-world/#comment-1">Hello world!</a></li></ul></aside><aside id="archives-2" class="widget widget_archive clearfix"><div class="widget-header"><h3 class="widget-title">Archives</h3></div>		<ul>
-				<li><a href='/2019/11/'>November 2019</a></li>
-		</ul>
-			</aside><aside id="categories-2" class="widget widget_categories clearfix"><div class="widget-header"><h3 class="widget-title">Categories</h3></div>		<ul>
-				<li class="cat-item cat-item-1 current-cat"><a aria-current="page" href="/category/uncategorized/">Uncategorized</a>
+		</aside><aside id="categories-2" class="widget widget_categories clearfix"><div class="widget-header"><h3 class="widget-title">Categories</h3></div>		<ul>
+				<li class="cat-item cat-item-3"><a href="/category/blog/">Blog</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="/category/bots/">Bots</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="/category/coindex/">Coindex</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="/category/github/">Github</a>
+</li>
+	<li class="cat-item cat-item-1 current-cat"><a aria-current="page" href="/category/uncategorized/">Uncategorized</a>
 </li>
 		</ul>
-			</aside><aside id="meta-2" class="widget widget_meta clearfix"><div class="widget-header"><h3 class="widget-title">Meta</h3></div>			<ul>
-						<li><a href="/wp-login.php">Log in</a></li>
-			<li><a href="/feed/">Entries feed</a></li>
-			<li><a href="/comments/feed/">Comments feed</a></li>
-			<li><a href="https://en-ca.wordpress.org/">WordPress.org</a></li>			</ul>
 			</aside>
 	</section><!-- #secondary -->
 
@@ -207,6 +238,3 @@ var maxwell_menu_title = "Navigation";
 
 </body>
 </html>
-
-0
-

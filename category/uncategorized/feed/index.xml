@@ -11,8 +11,8 @@
 	<title>Uncategorized &#8211; DunnCreativeSS</title>
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>Just another WordPress site</description>
-	<lastBuildDate>Sat, 16 Nov 2019 19:08:57 -0500</lastBuildDate>
+	<description>Get Your Git Here!</description>
+	<lastBuildDate>Sun, 17 Nov 2019 23:19:12 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,20 +20,101 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
-		<title>Hello world!</title>
-		<link>/2019/11/16/hello-world/</link>
-				<comments>/2019/11/16/hello-world/#comments</comments>
-				<pubDate>Sat, 16 Nov 2019 19:08:57 +0000</pubDate>
+		<title>POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</title>
+		<link>/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/</link>
+				<pubDate>Sun, 17 Nov 2019 23:16:19 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=1</guid>
-				<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+		<guid isPermaLink="false">/?p=69</guid>
+				<description><![CDATA[View This Post in It&#8217;s Original Form on dunncreativess.github.io! With nearly 31 BTC notional traded in recent memory, this bot]]></description>
 								<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-15-1024x471.png" alt="" class="wp-image-70" srcset="/wp-content/uploads/2019/11/image-15-1024x471.png 1024w, /wp-content/uploads/2019/11/image-15-300x138.png 300w, /wp-content/uploads/2019/11/image-15-768x353.png 768w, /wp-content/uploads/2019/11/image-15-1536x706.png 1536w, /wp-content/uploads/2019/11/image-15.png 1805w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="https://dunncreativess.github.io/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/">View This Post in It&#8217;s Original Form on dunncreativess.github.io</a>!</p>
+
+
+
+<p>With nearly 31 BTC notional traded in recent memory, this bot Proof Of Concept even survived last night&#8217;s dump and subsequent pump and ended up 6% ROI after all was said and done. Aweo!</p>
+
+
+
+<p>You can <a href="http://patbot1.duckdns.org/">follow the delta graph for this so-far unnamed bot here</a>.</p>
+
+
+
+<p>The competing bot with like logic &#8211; less one indicator to confirm &#8211; lost a good 5% ROI during that dump &amp; pump. Less risk = more reward, in this sense!</p>
+
+
+
+<p>This bot&#8217;s performance at 20x leverage on Binance Futures is defined by it&#8217;s subroutines, finding price action among an index vs. another index (sorry can&#8217;t divulge more because of NDA) then acting when it&#8217;s doubly confirmed by a volume and a price volatility indicator. For the win!</p>
+
+
+
+<p>The best news? This bot&#8217;s creator (who shall remain unnamed for the time being, until he decides to come to light&#8230;) will be charging a monthly subscription fee of $59 USDT &#8211; and $10 USDT of that goes to affiliate referrers, indefinitely!</p>
+
+
+
+<p><a href="https://t.me/ManyVolumeSignalMonster">Sign up for our Telegram bot chat room here</a>, to discuss eligibility for coming onboard this bot in it&#8217;s alpha v1.0 form or starting to refer people to it for your own fun &amp; profit!</p>
+
+
+
+<p>In more detail, let&#8217;s look at the most recent hour&#8217;s graph of delta on delta&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-16-1024x393.png" alt="" class="wp-image-71" srcset="/wp-content/uploads/2019/11/image-16-1024x393.png 1024w, /wp-content/uploads/2019/11/image-16-300x115.png 300w, /wp-content/uploads/2019/11/image-16-768x295.png 768w, /wp-content/uploads/2019/11/image-16-1536x590.png 1536w, /wp-content/uploads/2019/11/image-16.png 1827w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Recovering from a 1.5% loss when it entered into a larger position, it&#8217;s slowly climbed from there &#8211; reaching a whopping 31.5% delta and a current +0.617 BTC position.</p>
+
+
+
+<p>Running this bot on other balances with other risk factors has been enlightening &#8211; following a liquidation of a small balance at 125x in a dump a few nights ago, the safer bets have been on smaller leverage and smaller order sizes.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-17-1024x45.png" alt="" class="wp-image-72" srcset="/wp-content/uploads/2019/11/image-17-1024x45.png 1024w, /wp-content/uploads/2019/11/image-17-300x13.png 300w, /wp-content/uploads/2019/11/image-17-768x34.png 768w, /wp-content/uploads/2019/11/image-17.png 1113w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-18-1024x200.png" alt="" class="wp-image-73" srcset="/wp-content/uploads/2019/11/image-18-1024x200.png 1024w, /wp-content/uploads/2019/11/image-18-300x59.png 300w, /wp-content/uploads/2019/11/image-18-768x150.png 768w, /wp-content/uploads/2019/11/image-18.png 1119w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>For the win!</p>
+
+
+
+<h2>Do You Want to Know More?</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-19-1024x617.png" alt="" class="wp-image-74" srcset="/wp-content/uploads/2019/11/image-19-1024x617.png 1024w, /wp-content/uploads/2019/11/image-19-300x181.png 300w, /wp-content/uploads/2019/11/image-19-768x463.png 768w, /wp-content/uploads/2019/11/image-19.png 1433w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><br></figcaption></figure>
+
+
+
+<p>Look &#8211; my employer Coindex&#8217;s market maker has doubled it&#8217;s funds in about 2 days <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+
+
+
+<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
 ]]></content:encoded>
-							<wfw:commentRss>/2019/11/16/hello-world/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-							</item>
+										</item>
 	</channel>
 </rss>
