@@ -12,7 +12,7 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 17 Nov 2019 23:21:38 -0500</lastBuildDate>
+	<lastBuildDate>Mon, 18 Nov 2019 05:40:34 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,99 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>POC Bot Selling Feature #9: Auto-Withdraw Realized PNL Take Profit</title>
+		<link>/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/</link>
+				<pubDate>Mon, 18 Nov 2019 05:39:17 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=78</guid>
+				<description><![CDATA[Read This Article in It&#8217;s Original Form on dunncreativess.github.io! The above screenshot may not seem like much&#8230; but it&#8217;s the]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-20-1024x551.png" alt="" class="wp-image-79" srcset="/wp-content/uploads/2019/11/image-20-1024x551.png 1024w, /wp-content/uploads/2019/11/image-20-300x162.png 300w, /wp-content/uploads/2019/11/image-20-768x414.png 768w, /wp-content/uploads/2019/11/image-20.png 1118w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="http://dunncreativess.github.io/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/">Read This Article in It&#8217;s Original Form on dunncreativess.github.io</a>!</p>
+
+
+
+<p>The above screenshot may not seem like much&#8230; but it&#8217;s the culmination of a genius moment and 11 lines of code (along with one NPM library very slightly rewritten &#8211; replacing the word &#8216;margin&#8217; with &#8216;futures&#8217; in one spot!)</p>
+
+
+
+<pre class="wp-block-code"><code>pnlusd = -1 * (1 - bal_usd / usd_init) * 100
+ if (pnlusd > ((min_withdrawal_perecent * 100) * 2)) {
+     var new_usd_init = bal_usd * (1 - (min_withdrawal_perecent));
+     binance.mgTransferMarginToMain('USDT', (min_withdrawal_perecent) * bal_usd, (error, response) => {
+         if (error) {
+             console.log(error)
+         } else {
+            usd_init = new_usd_init
+            initial_bal = usd_init / LB;
+        }
+    });
+}</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-21-1024x443.png" alt="" class="wp-image-80" srcset="/wp-content/uploads/2019/11/image-21-1024x443.png 1024w, /wp-content/uploads/2019/11/image-21-300x130.png 300w, /wp-content/uploads/2019/11/image-21-768x332.png 768w, /wp-content/uploads/2019/11/image-21-1536x664.png 1536w, /wp-content/uploads/2019/11/image-21.png 1778w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>When my PNL delta reached 5%, above, my min_withdrawal_perecent variable of 0.025 triggered the code block that withdrew 2.5% of my income from my futures wallet into my exchange wallet. The remaining 2.5% was left inside the futures wallet. </p>
+
+
+
+<p>What this means, in actual effect, is that my $5.98 in USDT is now safely in my exchange wallet and the futures bot has no more access to it.</p>
+
+
+
+<p>What this means is.. slowly, over time, I&#8217;ll gain back my initial deposit as gains that now cannot be lost unless I risk them again!</p>
+
+
+
+<p>What&#8217;s more is that the 2.5% left in the futures account will add to the order sizes, increasing the returns and &#8211; over time &#8211; giving a compounding interest on the returns.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-22.png" alt="" class="wp-image-82" srcset="/wp-content/uploads/2019/11/image-22.png 808w, /wp-content/uploads/2019/11/image-22-280x300.png 280w, /wp-content/uploads/2019/11/image-22-768x822.png 768w" sizes="(max-width: 808px) 100vw, 808px" /></figure>
+
+
+
+<p>People are thrilled&#8230;</p>
+
+
+
+<p>As a note on my previous article, the cost is $59/mo and $10 to affiliates &#8211; AND a $10/mo off if you sign up using our Binance referral link!</p>
+
+
+
+<p><a href="https://github.com/DunnCreativeSS/binanceBots/">Check out some of my Binance opensource bots here</a>!</p>
+
+
+
+<p>Next Steps?</p>
+
+
+
+<p>Stay tuned for our website (maybe on a github.io!) that allows you to pay a month in crypto to sign up for the bot. It&#8217;ll allow you to enter your api key and secret within the browser session, then that same browser session will spwan a google cloud compute instance with those keys &#8211; communicating directly with GCP, without us having any access to those keys! The GCP instance will be spawned with a random SSH key that&#8217;s then thrown away into the abyss of cleared memory! This magic was achieved once before for a bot I&#8217;d created, and I can sure as heck do it again &#8211; and the site will be opensource for auditing purposes. This is better than us asking for keys and leagues better than us giving out our source code, and GCP micro instances are CHEAP CHEAP CHEAP!</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+
+
+
+<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</title>
 		<link>/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/</link>
 				<pubDate>Sun, 17 Nov 2019 23:16:19 +0000</pubDate>
