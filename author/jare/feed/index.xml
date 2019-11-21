@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Mon, 18 Nov 2019 05:40:34 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 21 Nov 2019 01:57:21 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,124 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Complaint About BitMex&#8217;s WebSocket API, and Update On Profitable Market Makers</title>
+		<link>/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/</link>
+				<pubDate>Thu, 21 Nov 2019 01:56:52 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=86</guid>
+				<description><![CDATA[See this article in it&#8217;s original form, on dunncreativess.github.io! BitMex Taking Away From Their API In BitMex&#8217;s official nodejs websocket]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/">See this article in it&#8217;s original form, on dunncreativess.github.io</a>!</p>
+
+
+
+<h2>BitMex Taking Away From Their API</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-23-1024x278.png" alt="" class="wp-image-87" srcset="/wp-content/uploads/2019/11/image-23-1024x278.png 1024w, /wp-content/uploads/2019/11/image-23-300x81.png 300w, /wp-content/uploads/2019/11/image-23-768x209.png 768w, /wp-content/uploads/2019/11/image-23.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>In BitMex&#8217;s official nodejs websocket api connector README.md, they mention &#8216;order creation&#8217; via authenticated websocket.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-24.png" alt="" class="wp-image-88" srcset="/wp-content/uploads/2019/11/image-24.png 981w, /wp-content/uploads/2019/11/image-24-300x111.png 300w, /wp-content/uploads/2019/11/image-24-768x283.png 768w" sizes="(max-width: 981px) 100vw, 981px" /></figure>
+
+
+
+<p>Lo and behold, their web hosted websocket docs removed that functionality.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-25-1024x808.png" alt="" class="wp-image-89" srcset="/wp-content/uploads/2019/11/image-25-1024x808.png 1024w, /wp-content/uploads/2019/11/image-25-300x237.png 300w, /wp-content/uploads/2019/11/image-25-768x606.png 768w, /wp-content/uploads/2019/11/image-25.png 1076w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Common knowledge says their sample market maker they have on GitHub was set up to do websocket orders, but lo! behold! Their market maker has been updated to do all POST-style commands via REST.</p>
+
+
+
+<p>:'(</p>
+
+
+
+<p>The result is that our Market Making bot template with Coindex Labs hits rate limits incredibly fast when creating or editing orders, and when we enable our rate limiter we see loop times approaching 1min over 4 instruments (BTC perp, ETH perp, BTC futures) and 3 max orders for bid/ask each. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-26.png" alt="" class="wp-image-90" srcset="/wp-content/uploads/2019/11/image-26.png 861w, /wp-content/uploads/2019/11/image-26-300x202.png 300w, /wp-content/uploads/2019/11/image-26-768x517.png 768w, /wp-content/uploads/2019/11/image-26-120x80.png 120w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
+
+
+
+<p>Woe is me!</p>
+
+
+
+<p>With high-frequency trading one of the key aspects is &#8216;high frequency,&#8217; (no.. no joke!)</p>
+
+
+
+<p>The bot, however, is showing net net positive deltas:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-27-1024x387.png" alt="" class="wp-image-91" srcset="/wp-content/uploads/2019/11/image-27-1024x387.png 1024w, /wp-content/uploads/2019/11/image-27-300x113.png 300w, /wp-content/uploads/2019/11/image-27-768x290.png 768w, /wp-content/uploads/2019/11/image-27.png 1386w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>This brings us to our next section: </p>
+
+
+
+<h2>Profitable Market Making Bots!</h2>
+
+
+
+<p>Our deribit testnet bot is up nearly 500% on equity, while livenet broke it&#8217;s 10% gains and sits happily around 15%.. in less than a week!</p>
+
+
+
+<p>Binance Futures Market Maker will be in play in the coming weeks.. but their 0% fees after a once-a-day rebate might kill the strategy. Woe!</p>
+
+
+
+<p>BitMex has much, much more taker volume on their high-volume instruments.. so gains should be more quick to realize! Time will tell!</p>
+
+
+
+<h2>Look! A plug!</h2>
+
+
+
+<p>Some of these market makers could easily be made available for sale, while there are two READ: two whole bots coming available for sale by people who&#8217;ve hired me in Telegram.</p>
+
+
+
+<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us On Telegram for Updates</a>!</p>
+
+
+
+<h2>Look! Another plug!</h2>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>POC Bot Selling Feature #9: Auto-Withdraw Realized PNL Take Profit</title>
 		<link>/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/</link>
 				<pubDate>Mon, 18 Nov 2019 05:39:17 +0000</pubDate>
