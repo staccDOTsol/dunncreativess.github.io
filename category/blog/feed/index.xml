@@ -12,7 +12,7 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Mon, 18 Nov 2019 05:40:34 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 21 Nov 2019 20:42:09 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,85 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>The Verdict is In: I&#8217;ve Got a Vested Stake of a Hedgefund! Best News? You Can Be, Too!</title>
+		<link>/2019/11/21/the-verdict-is-in-ive-got-a-vested-stake-of-a-hedgefund-best-news-you-can-be-too/</link>
+				<pubDate>Thu, 21 Nov 2019 20:41:38 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=95</guid>
+				<description><![CDATA[View This Article in it&#8217;s Original Form on dunncreativess.github.io! Today Coindex Lab&#8217;s CEO had a sitdown with a capital markets]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://dunncreativess.github.io/2019/11/21/the-verdict-is-in-ive-got-a-vested-stake-of-a-hedgefund-best-news-you-can-be-too/">View This Article in it&#8217;s Original Form on dunncreativess.github.io!</a></p>
+
+
+
+<figure class="wp-block-image"><img src="https://scontent.fyhz1-1.fna.fbcdn.net/v/t1.15752-9/76702405_2533273790105081_4583222162055233536_n.png?_nc_cat=108&amp;_nc_ohc=4Vbyg5W14HwAQkZ8wLiECu10yKgvGxixDMyWU4xvTgW1tmhU24esQj0Cg&amp;_nc_ht=scontent.fyhz1-1.fna&amp;oh=418a76a2031e74a257d7ae938573091e&amp;oe=5E405713" alt=""/><figcaption><br></figcaption></figure>
+
+
+
+<p>Today Coindex Lab&#8217;s CEO had a sitdown with a capital markets guy and then later Two Sigma Ventures &#8211; with the goal of making Coindex a fighting force in quantitative finance.</p>
+
+
+
+<p>The good news? Capital markets guy wanted us to start a hedgefund. A random guy from the other coast approached the conversation out of nowhere asking to be connected.</p>
+
+
+
+<p>Later, the conversation with TSV yielded &#8216;Good news and bad news:&#8217;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-28.png" alt="" class="wp-image-96" srcset="/wp-content/uploads/2019/11/image-28.png 1011w, /wp-content/uploads/2019/11/image-28-300x229.png 300w, /wp-content/uploads/2019/11/image-28-768x587.png 768w" sizes="(max-width: 1011px) 100vw, 1011px" /></figure>
+
+
+
+<p>So we have two &#8211; maybe three! &#8211; pledges for funds when we figure out the legalize of doing so.</p>
+
+
+
+<p>The good news for me is that I get both equity share and a cut of the vig (gangster term for the take).</p>
+
+
+
+<p>The good news for my readers is that we have the opportunity to get capital into Coindex at ground floor, and start earning on crypto and traditional markets with our patented edge over any given set of market conditions.</p>
+
+
+
+<p>You might ask yourself, then ask me, &#8216;but I&#8217;m not a high net worth individual &#8211; how can I contribute to a hedgefund?&#8217;</p>
+
+
+
+<p>Well, in keeping with crypto tradition&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-29.png" alt="" class="wp-image-97" srcset="/wp-content/uploads/2019/11/image-29.png 938w, /wp-content/uploads/2019/11/image-29-300x137.png 300w, /wp-content/uploads/2019/11/image-29-768x350.png 768w" sizes="(max-width: 938px) 100vw, 938px" /></figure>
+
+
+
+<p>We very well might crowdfund in an STO!</p>
+
+
+
+<p>While this is still a gleam in the back of my eye and ultimately a rumor &#8211; what this means is that you &#8211; your friends, coworkers, acquaintances, grandma &#8211; can capitalize on <strong><a href="https://hackernoon.com/coindex-labs-novel-search-applied-via-evolutionary-ai-creating-a-money-making-machine-n62j2gei">our value proposition</a></strong>, and learn from my years of experience <a href="https://hackernoon.com/what-ive-learned-from-years-of-arbitrage-and-market-making-975w38rs"><strong>making markets and doing arbitrage trading</strong></a> and <strong><a href="https://hackernoon.com/porting-a-bot-to-binance-futures-market-making-competition-6v6a31qh">derive alphas from our bots</a></strong>!</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p>R<em>emember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>POC Bot Selling Feature #9: Auto-Withdraw Realized PNL Take Profit</title>
 		<link>/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/</link>
 				<pubDate>Mon, 18 Nov 2019 05:39:17 +0000</pubDate>
