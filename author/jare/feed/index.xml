@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 21 Nov 2019 20:42:09 -0500</lastBuildDate>
+	<lastBuildDate>Fri, 22 Nov 2019 08:42:35 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,89 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Risk-Free Futures Market Making by Hedging Long Straddle Options</title>
+		<link>/2019/11/22/risk-free-futures-market-making-by-hedging-long-straddle-options/</link>
+				<pubDate>Fri, 22 Nov 2019 08:41:40 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=100</guid>
+				<description><![CDATA[See This Article in It&#8217;s Original Form on dunncreativess.github.io! In the quantitative finance world, there are some holy grails: you]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://dunncreativess.github.io/2019/11/22/risk-free-futures-market-making-by-hedging-long-straddle-options/">See This Article in It&#8217;s Original Form on dunncreativess.github.io!</a></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-30-1024x130.png" alt="" class="wp-image-101" srcset="/wp-content/uploads/2019/11/image-30-1024x130.png 1024w, /wp-content/uploads/2019/11/image-30-300x38.png 300w, /wp-content/uploads/2019/11/image-30-768x97.png 768w, /wp-content/uploads/2019/11/image-30.png 1255w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>In the quantitative finance world, there are some holy grails: you can decrease the risk of an exposed position generally by doing something in the opposite direction.</p>
+
+
+
+<p>In the simplest form, we can both long and short in two opposite positions on exchanges that use the long-short model like OkEx. In doing so, a price movement up or down will have the exact same effect on your position &#8211; where you&#8217;re losing fees and only fees.</p>
+
+
+
+<p>In reality, that&#8217;s no good because we don&#8217;t want to be losing on every trade <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>What I&#8217;ve decided to try my hand at is something called a &#8216;long straddle.&#8217; This was mentioned during my interview with Coindex Labs a long time ago &#8211; but basically, if you buy a put option and buy a call option &#8216;out of the money&#8217; it&#8217;s relatively cheap &#8211; if the price doesn&#8217;t move at all, they both expire worthless. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-31.png" alt="" class="wp-image-102" srcset="/wp-content/uploads/2019/11/image-31.png 741w, /wp-content/uploads/2019/11/image-31-300x178.png 300w" sizes="(max-width: 741px) 100vw, 741px" /></figure>
+
+
+
+<p>But: if the price increases OR decreases a significant amount, one of those options expires in the money.. meaning it gianed value from potentially nothing into potentially something!</p>
+
+
+
+<p>What this means is that, while the market maker is performing within specifications and earning money from low price volatility and volumes on the bid/ask, these options can expire worthless and our income from market making pays for the expired options &#8211; and then more!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-32-1024x161.png" alt="" class="wp-image-103" srcset="/wp-content/uploads/2019/11/image-32-1024x161.png 1024w, /wp-content/uploads/2019/11/image-32-300x47.png 300w, /wp-content/uploads/2019/11/image-32-768x121.png 768w, /wp-content/uploads/2019/11/image-32-1536x241.png 1536w, /wp-content/uploads/2019/11/image-32.png 1649w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>If the market moves too much in one direction, we&#8217;re risking liquidating our funds if we hold market making positions that go sour.</p>
+
+
+
+<p>If this happens &#8211; one of our long straddle options expires &#8216;in the money&#8217; enough for us to cover our losses. What this means is risk-free trading &#8211; so long as the assumption holds true that the market making earns more than the cost of the options.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-33-1024x108.png" alt="" class="wp-image-104" srcset="/wp-content/uploads/2019/11/image-33-1024x108.png 1024w, /wp-content/uploads/2019/11/image-33-300x32.png 300w, /wp-content/uploads/2019/11/image-33-768x81.png 768w, /wp-content/uploads/2019/11/image-33.png 1247w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>In my code, we loop through all the expiries and all the strikes for all the options, and then find the one whose ratio of cost vs. profits for a 15% movement in price (which is 100% liquidated at 6.66x leverage) yields the minimum threshold we need to cover $15 000 in exposed futures ($99 900 notional). In our example output, the Dec 6 options straddle for $6250 put and $9750 call would cost a total of 0.017 BTC for both the long put and long call, and each would earn $342 profit if the underlying price moved 15% and all else remained the same. This means that spending 0.54 BTC would completely cover the risk of liquidating 2 BTC exposed at 6.66x leverage &#8211; at least until implied volatilities change significantly or time value declines as we approach expiry! When these situations occur, the hedging bot would just create new orders in real-time to hedge the risk. Hooah!</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+
+
+
+<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>The Verdict is In: I&#8217;ve Got a Vested Stake of a Hedgefund! Best News? You Can Be, Too!</title>
 		<link>/2019/11/21/the-verdict-is-in-ive-got-a-vested-stake-of-a-hedgefund-best-news-you-can-be-too/</link>
 				<pubDate>Thu, 21 Nov 2019 20:41:38 +0000</pubDate>
