@@ -12,7 +12,7 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 24 Nov 2019 05:27:28 -0500</lastBuildDate>
+	<lastBuildDate>Sun, 24 Nov 2019 10:18:12 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,217 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Skip the SSL w/ Serverless Telegram Bot via Now.js</title>
+		<link>/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/</link>
+				<pubDate>Sun, 24 Nov 2019 10:17:00 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=109</guid>
+				<description><![CDATA[See this article in it&#8217;s original form on dunncreativess.github.io! Try this bot on Telegram! https://t.me/JareBotBot! Sponsor my opensource efforts on]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://dunncreativess.github.io/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/">See this article in it&#8217;s original form on dunncreativess.github.io!</a></p>
+
+
+
+<p>Try this bot on Telegram! <a href="https://t.me/JareBotBot">https://t.me/JareBotBot</a>!</p>
+
+
+
+<p><a href="https://github.com/sponsors/dunncreativess">Sponsor my opensource efforts on GitHub</a>!</p>
+
+
+
+<p>Note: these directions come without much conversation, let the hacking begin!</p>
+
+
+
+<p>Set up a Bot with @BotFather<br> </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-34.png" alt="" class="wp-image-110" srcset="/wp-content/uploads/2019/11/image-34.png 641w, /wp-content/uploads/2019/11/image-34-289x300.png 289w" sizes="(max-width: 641px) 100vw, 641px" /></figure>
+
+
+
+<p>Create a package.json</p>
+
+
+
+<p><code>{<br>   "name": "tg-bot-now",<br>   "version": "0.2.0",<br>   "description": "A sample Telegram bot via now.js",<br>   "main": "app.js",<br>   "scripts": {<br>     "start": "node app.js"<br>   },<br>   "dependencies": {<br>     "axios": "<em>",     "body-parser": "</em>",<br>     "express": "*",<br>     "request": "^2.88.0",<br>     "requests": "^0.3.0"<br>   },<br>   "license": "MIT"<br> }</code></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-35.png" alt="" class="wp-image-111" srcset="/wp-content/uploads/2019/11/image-35.png 827w, /wp-content/uploads/2019/11/image-35-300x150.png 300w, /wp-content/uploads/2019/11/image-35-768x384.png 768w" sizes="(max-width: 827px) 100vw, 827px" /></figure>
+
+
+
+<p>Create a now.json</p>
+
+
+
+<p><code>{<br>   "version": 2,<br>   "builds": [<br>     { "src": "app.js", "use": "@now/node-server" }<br>   ],<br>   "routes": [<br>     { "src": "/(.*)", "dest": "app.js" }<br>   ]<br> }</code></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-36.png" alt="" class="wp-image-112" srcset="/wp-content/uploads/2019/11/image-36.png 606w, /wp-content/uploads/2019/11/image-36-300x139.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></figure>
+
+
+
+<p>Create an app.js</p>
+
+
+
+<pre class="wp-block-code"><code>var express = require("express");
+ var app = express();
+ var request = require('request');
+ var bodyParser = require("body-parser");
+ const axios = require("axios");
+ app.use(bodyParser.json());
+ app.use(
+     bodyParser.urlencoded({
+         extended: true
+     })
+ );
+ console.log("run"); 
+function sendMessage(url, message, reply, res) {
+axios.post(url, {
+    chat_id: message.chat.id,
+    text: reply
+}).then(response => {
+    console.log("Message posted");
+    res.end("ok");
+}).catch(error => {
+    console.log(error);
+});
+}
+ app.get('/', function(req, res) {
+     res.send('hello');
+ })
+ var bots = &#91;"http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
+ app.post("/startbot", function(req, res) {
+     console.log("startbot");
+     const {
+         message
+     } = req.body;
+     let reply = "Welcome to Jare's bot bot";
+     if (message.text != undefined) {
+         if (message.text.toLowerCase().indexOf("statusupdate") != -1) {
+             reply = ""
+             for (var b in bots) {
+ r = request.get(bots&#91;b], function(e, r, d) {
+
+                j = JSON.parse(d)
+                start = j.btc&#91;0]&#91;0]
+                btc = j.btc&#91;j.btc.length - 1]&#91;1]
+                end = j.btc&#91;j.btc.length - 1]&#91;0]
+                diff = end - start
+                var s = diff / 1000
+                var m = s / 60
+                var h = m / 60
+                var d = h / 24
+                var y = d / 365
+                var apr = (j.btc&#91;j.btc.length - 1]&#91;1] - j.btc&#91;0]&#91;1]) / y
+                reply += r.request.uri.href.substring(0, r.request.uri.href.length - 7) + '\n'
+                reply += "Start: " + new Date(start) + '\n'
+                reply += "Now: " + new Date(end) + "\n"
+                reply += "BTC Notional traded recent memory: " + j.qty + "\n"
+                reply += "Current position: " + j.pos + "\n"
+                reply += "BTC % Delta: " + btc.toPrecision(4) + '%\n'
+                reply += "BTC % ROI / day projected: " + (apr / 365).toPrecision(4) + '%\n'
+                reply += "BTC % APR projected: " + (apr).toPrecision(4) + '%\n\n'
+            })
+        }
+        setTimeout(function() {
+            sendMessage(telegram_url, message, reply, res);
+        }, 2000);
+    } else {
+        res.end("ok");
+    }
+}
+});
+ let telegram_url = "https://api.telegram.org/bot" + process.env.key + "/sendMessage";
+ app.listen(8000, () => console.log("Telegram bot is listening on port 8000!"));</code></pre>
+
+
+
+<p>Note: it&#8217;s important to send a res.end in every case, or else your bot will get hung up on old messages it couldn&#8217;t process and no res.end was sent &#8211; putting it in a forever loop of never sending a response!</p>
+
+
+
+<p>set your env key</p>
+
+
+
+<p><code>export key="whateverbotfathergaveyou"</code></p>
+
+
+
+<p>npm i</p>
+
+
+
+<p><code>npm i</code></p>
+
+
+
+<p>install now</p>
+
+
+
+<p><code>npm i -g now</code></p>
+
+
+
+<p>run now</p>
+
+
+
+<p><code>now</code></p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-37.png" alt="" class="wp-image-113" srcset="/wp-content/uploads/2019/11/image-37.png 902w, /wp-content/uploads/2019/11/image-37-300x58.png 300w, /wp-content/uploads/2019/11/image-37-768x148.png 768w" sizes="(max-width: 902px) 100vw, 902px" /></figure>
+
+
+
+<p>Register your POST callback wtih Telegram&#8217;s grandmasters</p>
+
+
+
+<p><code>curl -F "url=https://URL_FROM_NOW/startbot" https://api.telegram.org/botYOUR_TELEGRAM_API_TOKEN/setWebhook</code></p>
+
+
+
+<p>Congrats!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-38.png" alt="" class="wp-image-114" srcset="/wp-content/uploads/2019/11/image-38.png 655w, /wp-content/uploads/2019/11/image-38-300x298.png 300w, /wp-content/uploads/2019/11/image-38-150x150.png 150w" sizes="(max-width: 655px) 100vw, 655px" /></figure>
+
+
+
+<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us on Telegram</a></p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
+
+
+
+<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Risk-Free Futures Market Making by Hedging Long Straddle Options</title>
 		<link>/2019/11/22/risk-free-futures-market-making-by-hedging-long-straddle-options/</link>
 				<pubDate>Fri, 22 Nov 2019 08:41:40 +0000</pubDate>
