@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 24 Nov 2019 10:18:12 -0500</lastBuildDate>
+	<lastBuildDate>Sun, 24 Nov 2019 22:40:17 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,120 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Blog Monetization on SteemIt.com and Dblog.io</title>
+		<link>/2019/11/24/blog-monetization-on-steemit-com-and-dblog-io/</link>
+				<pubDate>Sun, 24 Nov 2019 22:39:54 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[steemit]]></category>
+
+		<guid isPermaLink="false">/?p=119</guid>
+				<description><![CDATA[See this post in it&#8217;s original form on dunncreativess.github.io! Awhile ago I installed Steempress on my WordPress blog on ,]]>/</description>
+								<content:encoded><![CDATA[
+<p><a href="https://dunncreativess.github.io/2019/11/24/blog-monetization-on-steemit-com-and-dblog-io/">See this post in it&#8217;s original form on dunncreativess.github.io!</a></p>
+
+
+
+<p>Awhile ago I installed Steempress on my WordPress blog on ,/ and Simply Static to export my WordPress site as a static site to local drive and the git commit it to my github.io repository.</p>
+
+
+
+<p>Lo and behold, after originally thinking that Steempress wasn&#8217;t working, it appears it is!</p>
+
+
+
+<p>I&#8217;ve even included the dblog.io dblog tag, which means they appear here:</p>
+
+
+
+<p></p>
+
+
+
+<p>The only issue is that I have to replace the images from localhost to dunncreativess.github.io. Small price to pay! If I were to instead host my WordPress somewhere in the cloud (even on a port other than 80/443), it would work.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-39-1024x155.png" alt="" class="wp-image-120" srcset="/wp-content/uploads/2019/11/image-39-1024x155.png 1024w, /wp-content/uploads/2019/11/image-39-300x45.png 300w, /wp-content/uploads/2019/11/image-39-768x116.png 768w, /wp-content/uploads/2019/11/image-39.png 1202w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-40-1024x189.png" alt="" class="wp-image-121" srcset="/wp-content/uploads/2019/11/image-40-1024x189.png 1024w, /wp-content/uploads/2019/11/image-40-300x55.png 300w, /wp-content/uploads/2019/11/image-40-768x142.png 768w, /wp-content/uploads/2019/11/image-40.png 1256w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Now, $0.06 USD in crypto over 7 posted articles might not sound like much &#8211; but in an adless presentation that solves the monetization-without-bugging-people sense, I&#8217;m now being rewarded by all these people voting on my content instead of a centralized force like Adsense and you&#8217;ll notice that my github.io and my hackernoon don&#8217;t share ads!</p>
+
+
+
+<p>It&#8217;s also continuously improving.. that $0.04 is for the lastest article, meaning I&#8217;m gaining momentum.</p>
+
+
+
+<p>I mentioned the benefits of DPoS at length to the folks at Hackernoon when they were dreaming up HN 2.0.</p>
+
+
+
+<p>Monetization is key. Incentivization is what rules the internet and any publication platform should be centered around ‘how do we turn content into $.’</p>
+
+
+
+<p>I’ve said it before and I’ll say it again that we need to consider tokenization and blockchain in order to put the ability to upvote/downvote content (self regulate and moderate) while also allowing shareholders and prolific content producers to have the most influence on the monetary rewards for contributing authors. While Steem appears to be failing because of a misbalance in currencies producing bidbots and scammy 115% returns on promotion budgets, there are alternative sidechains to consider that did away with the SBD concept and pay everything out as VESTed income, so that people are &#8211; in turn &#8211; vested into the success of the platform. Check <a href="http://smoke.io/">smoke.io</a> and <a href="http://whaleshares.io/">whaleshares.io</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-42-1024x571.png" alt="" class="wp-image-123" srcset="/wp-content/uploads/2019/11/image-42-1024x571.png 1024w, /wp-content/uploads/2019/11/image-42-300x167.png 300w, /wp-content/uploads/2019/11/image-42-768x428.png 768w, /wp-content/uploads/2019/11/image-42-1536x857.png 1536w, /wp-content/uploads/2019/11/image-42.png 1544w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-43-1024x559.png" alt="" class="wp-image-124" srcset="/wp-content/uploads/2019/11/image-43-1024x559.png 1024w, /wp-content/uploads/2019/11/image-43-300x164.png 300w, /wp-content/uploads/2019/11/image-43-768x419.png 768w, /wp-content/uploads/2019/11/image-43-1536x839.png 1536w, /wp-content/uploads/2019/11/image-43.png 1617w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>I truly believe in DPoS as a technology &#8211; although with a few tweaks it could serve far better than it does on <a href="http://steemit.com/">steemit.com</a>.</p>
+
+
+
+<p>When someone shares or upvotes a story, if it then becomes popular and earns a ton of rewards through the social algorithm % of inflation, that person who shared it to get it popular in the first place earns a % of that social % as a curator &#8211; as do all the other curators, weighted by when they expressed interest. This is important for a few reasons. .first, as your most prolific writers along with the team and the stakeholders would be the biggest currency holders, they can do a lot of good by spending time (or automation ways to) upvote posts they like, and get exposure to users or groups of users they think deserve it &#8211; you only get a certain number of upvotes/downvotes per day, which you can increase or decrease by increasing or decreasing the ‘strength’ of your vote (out of 100%). Second &#8211; these large token holders would also be paramount in fighting spam and self-regulating the environment. If there are people drawn to the site with the gleam in their eye of earning crypto by regurgitating content or plagiarizing, these highly vested people can ‘downvote’ said spammy posts and undo any earnings they may have accumulated &#8211; to the point that their post gets a negative up/downvote ratio and can be taken off of web + mobile + whatever UI interfaces to the chain. In short, you gain currency by sharing, creating, or upvoting content… . proportional to your VESTed interest in the platform.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-41-1024x607.png" alt="" class="wp-image-122" srcset="/wp-content/uploads/2019/11/image-41-1024x607.png 1024w, /wp-content/uploads/2019/11/image-41-300x178.png 300w, /wp-content/uploads/2019/11/image-41-768x455.png 768w, /wp-content/uploads/2019/11/image-41.png 1516w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Moreover, there can be other % uses for the inflation of the currency that can do a lot of good &#8211; one of the integral parts of DPoS is the ‘delegated’ part where there are many nodes hosted by many people, and they can acquire votes from users that are weighted based on how vested they are into the system as a whole. Some of these people (usually the top 21) will earn a % of the inflation pie just for helping produce blocks &#8211; but how they accumulate votes is the important part. They must continually deliver value and hold the network’s priorities at heart in order to outperform those other contenders &#8211; which is good for the network.</p>
+
+
+
+<p>Lastly, there can be a ‘team’ or ‘reserve’ % of inflation that can be used to continually fundraise based on the current value of the coin. While everyone is earning via social algos or by being a witness, the team can have a source of continual income with which to spend on the project or improving various aspects to it.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://community.hackernoon.com/images/emoji/twitter/slight_smile.png?v=6" alt=":slight_smile:"/></figure>
+
+
+
+<p><a href="https://community.hackernoon.com/u/david">@David</a>&nbsp;<a href="https://community.hackernoon.com/u/dane">@Dane</a>&nbsp;I know that HN in the past has said one of the advantages to HN 2.0 will be the ability to publish without the hassle of ads… and a DPoS-driven network is one way to ensure that HN will never have to sustain itself by running ads. If the team creates wealth through inflation and the community drives the value of that currency upwards (when really the token came from almost nowhere and represents no legal obligation) it’s basically free money… for everyone&nbsp;&nbsp;&#8211; while empowering those with faith and trust in the new platform to exert more influence by buying more and VESTing more.</p>
+
+
+
+<p>It opens a whole lot of other doors, too. How do we add ‘real value’ to that coin? What sorts of services or products can we sell as a group or as the team that aligns the value of the coin to something? Can we create a distributed network of writers that are vouched by community consensus via a new kind of Blockchain reputation system that doesn’t yet exist in Blockchain content networks (aside from their exponential ‘rating’ applied to accounts which can be fabricated if you buy enough attention for your posts), and then pitch this new marketplace of content creators at brands and agencies for exposure and so everyone can win &#8211; while having them pay in the currency, which drives value? Swag stores? Can we set it up so that content creators on the network can hustle out communications to their subscriber list to these brands and agencies? What sort of services can we come up with that are ‘out of the box’ and apply to the hacker community?</p>
+
+
+
+<p>I agree wholeheartedly the incentives need to be aligned. I think a good step in the right direction would be to move rewards from liquid to VESTed amounts, which means that those who are looking for a ‘quick buck’ will be less likely to spam up the ecosystem.</p>
+
+
+
+<p>I really shouldn’t have said ‘free money,’ and you’re right that it’d have a huge impact on the project and the value of the coin could potentially devour what we’re trying to achieve &#8211; ‘Sure, the upside of a token is very high…but the downside is also very low.’ this is absolutely true!<br></p>
+
+
+
+<p></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Skip the SSL w/ Serverless Telegram Bot via Now.js</title>
 		<link>/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/</link>
 				<pubDate>Sun, 24 Nov 2019 10:17:00 +0000</pubDate>
@@ -941,36 +1055,6 @@ axios.post(url, {
 
 
 <p>Everyone who wants to buy me a coffee every now and again or port my bot from my existing bots to your exchange or whathaveyou, <a href="https://github.com/sponsors/dunncreativess">sign up for GitHub Sponsors and Subscribe to Me</a>!</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Github.io Pages</title>
-		<link>/2019/11/16/github-io-pages/</link>
-				<pubDate>Sat, 16 Nov 2019 19:19:01 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Github]]></category>
-
-		<guid isPermaLink="false">/?p=7</guid>
-				<description><![CDATA[Everyone read this helpful article on how to export static WordPress stuff to Github.io 🙂 Works like a breeze except]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-1024x599.png" alt="" class="wp-image-8" srcset="/wp-content/uploads/2019/11/image-1024x599.png 1024w, /wp-content/uploads/2019/11/image-300x176.png 300w, /wp-content/uploads/2019/11/image-768x449.png 768w, /wp-content/uploads/2019/11/image-1536x899.png 1536w, /wp-content/uploads/2019/11/image.png 1685w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Everyone read this helpful article on <a href="https://www.hywel.me/static/site/wordpress/2016/07/17/fast-free-static-website-with-wordpress-and-github-pages.html">how to export static WordPress stuff to Github.io</a> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Works like a breeze except I don&#8217;t think you need to change your branch over, more info to come&#8230;</p>
-
-
-
-<p>Now, a blog that won&#8217;t die in the fire of a series of unfortunate events like VPSs going down or a domain expiring. Hola! Hooah!</p>
-
-
-
-<p>That&#8217;s it that&#8217;s all &#8211; for now, folks!</p>
 ]]></content:encoded>
 										</item>
 	</channel>
