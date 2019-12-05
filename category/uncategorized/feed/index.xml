@@ -12,7 +12,7 @@
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 17 Nov 2019 23:19:12 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 05 Dec 2019 19:20:13 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,100 +20,124 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
-		<title>POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</title>
-		<link>/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/</link>
-				<pubDate>Sun, 17 Nov 2019 23:16:19 +0000</pubDate>
+		<title>Our Next-Gen Crypto Trading Bot Neomenia Goes Live!</title>
+		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
+				<pubDate>Thu, 05 Dec 2019 19:20:11 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=69</guid>
-				<description><![CDATA[View This Post in It&#8217;s Original Form on dunncreativess.github.io! With nearly 31 BTC notional traded in recent memory, this bot]]></description>
+		<guid isPermaLink="false">/?p=128</guid>
+				<description><![CDATA[Intro http://patbot1.duckdns.org/ Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC) Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC) BTC Notional]]></description>
 								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-15-1024x471.png" alt="" class="wp-image-70" srcset="/wp-content/uploads/2019/11/image-15-1024x471.png 1024w, /wp-content/uploads/2019/11/image-15-300x138.png 300w, /wp-content/uploads/2019/11/image-15-768x353.png 768w, /wp-content/uploads/2019/11/image-15-1536x706.png 1536w, /wp-content/uploads/2019/11/image-15.png 1805w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<h2>Intro</h2>
 
 
 
-<p><a href="https://dunncreativess.github.io/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/">View This Post in It&#8217;s Original Form on dunncreativess.github.io</a>!</p>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-473x1024.png" alt="" class="wp-image-129" srcset="/wp-content/uploads/2019/12/image-473x1024.png 473w, /wp-content/uploads/2019/12/image-139x300.png 139w, /wp-content/uploads/2019/12/image.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
 
 
 
-<p>With nearly 31 BTC notional traded in recent memory, this bot Proof Of Concept even survived last night&#8217;s dump and subsequent pump and ended up 6% ROI after all was said and done. Aweo!</p>
+<p>http://patbot1.duckdns.org/<br> Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC)<br> Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC)<br> BTC Notional traded recent memory: 38.44400000000188<br> Current position: -1.952<br> BTC % Delta: 31.89%<br> BTC % ROI / day projected: 51.22%<br> BTC % APR projected: 1.869e+4%</p>
 
 
 
-<p>You can <a href="http://patbot1.duckdns.org/">follow the delta graph for this so-far unnamed bot here</a>.</p>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-1-473x1024.png" alt="" class="wp-image-130" srcset="/wp-content/uploads/2019/12/image-1-473x1024.png 473w, /wp-content/uploads/2019/12/image-1-139x300.png 139w, /wp-content/uploads/2019/12/image-1.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
 
 
 
-<p>The competing bot with like logic &#8211; less one indicator to confirm &#8211; lost a good 5% ROI during that dump &amp; pump. Less risk = more reward, in this sense!</p>
+<h2>Steps to Reproduce</h2>
 
 
 
-<p>This bot&#8217;s performance at 20x leverage on Binance Futures is defined by it&#8217;s subroutines, finding price action among an index vs. another index (sorry can&#8217;t divulge more because of NDA) then acting when it&#8217;s doubly confirmed by a volume and a price volatility indicator. For the win!</p>
+<p>Step 1. Join our Telegram https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A<br> Step 2. Create a net-new Binance account, and enable futures, and create an api key after enabling futures http://www.binance.com/en/register?ref=27039658, You&#8217;re allowed to have as many Binance accounts as you like, while only verifying one &#8211; the max daily withdrawal on an unverified account is still huge<br> Step 3: Sent the subscription fee to our wallet 0x55FC78F760fBeb15A8a14ce2B8e9DCfA4CE0f966<br> Step 4: Enter your transaction ID on this form.<br> Step 5: And the last 6 characters of your API key.<br> Step 6: The team will manually add you to the bot&#8217;s license, and send you the executable file and other directions.<br> Step 7: Run the appropriate exports or setx&#8217;s from within env.sh. DO NOT simply run env.sh, it won&#8217;t work, copy and paste the commands into a terminal/cmd window. On windows, open a net new cmd when finished.<br> Step 8: Run the executable for app for BTCUSDT, eth for ETHUSDT, and balance for a balance output graph like the ones you&#8217;re used to seeing.</p>
 
 
 
-<p>The best news? This bot&#8217;s creator (who shall remain unnamed for the time being, until he decides to come to light&#8230;) will be charging a monthly subscription fee of $59 USDT &#8211; and $10 USDT of that goes to affiliate referrers, indefinitely!</p>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-2-473x1024.png" alt="" class="wp-image-131" srcset="/wp-content/uploads/2019/12/image-2-473x1024.png 473w, /wp-content/uploads/2019/12/image-2-139x300.png 139w, /wp-content/uploads/2019/12/image-2.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
 
 
 
-<p><a href="https://t.me/ManyVolumeSignalMonster">Sign up for our Telegram bot chat room here</a>, to discuss eligibility for coming onboard this bot in it&#8217;s alpha v1.0 form or starting to refer people to it for your own fun &amp; profit!</p>
+<h2>Neomenia FAQs</h2>
 
 
 
-<p>In more detail, let&#8217;s look at the most recent hour&#8217;s graph of delta on delta&#8230;</p>
+<h1>FAQ 1: Settings</h1>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-16-1024x393.png" alt="" class="wp-image-71" srcset="/wp-content/uploads/2019/11/image-16-1024x393.png 1024w, /wp-content/uploads/2019/11/image-16-300x115.png 300w, /wp-content/uploads/2019/11/image-16-768x295.png 768w, /wp-content/uploads/2019/11/image-16-1536x590.png 1536w, /wp-content/uploads/2019/11/image-16.png 1827w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>variables with ‘eth’ prepended are the same, for the ethusdt bot<br></p>
 
 
 
-<p>Recovering from a 1.5% loss when it entered into a larger position, it&#8217;s slowly climbed from there &#8211; reaching a whopping 31.5% delta and a current +0.617 BTC position.</p>
+<p>delaybetweenorder, higher for more delay before a new limit order</p>
 
 
 
-<p>Running this bot on other balances with other risk factors has been enlightening &#8211; following a liquidation of a small balance at 125x in a dump a few nights ago, the safer bets have been on smaller leverage and smaller order sizes.</p>
+<p>takeProfit, in % what gains to lock in before market out</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-17-1024x45.png" alt="" class="wp-image-72" srcset="/wp-content/uploads/2019/11/image-17-1024x45.png 1024w, /wp-content/uploads/2019/11/image-17-300x13.png 300w, /wp-content/uploads/2019/11/image-17-768x34.png 768w, /wp-content/uploads/2019/11/image-17.png 1113w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>stopLoss, in % what losses to accept before market out</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-18-1024x200.png" alt="" class="wp-image-73" srcset="/wp-content/uploads/2019/11/image-18-1024x200.png 1024w, /wp-content/uploads/2019/11/image-18-300x59.png 300w, /wp-content/uploads/2019/11/image-18-768x150.png 768w, /wp-content/uploads/2019/11/image-18.png 1119w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p>tgUser, your Telegram username for use with the Telegram bot</p>
 
 
 
-<p>For the win!</p>
+<p>key, APIkey</p>
 
 
 
-<h2>Do You Want to Know More?</h2>
+<p>secret, APIsecret<br></p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-19-1024x617.png" alt="" class="wp-image-74" srcset="/wp-content/uploads/2019/11/image-19-1024x617.png 1024w, /wp-content/uploads/2019/11/image-19-300x181.png 300w, /wp-content/uploads/2019/11/image-19-768x463.png 768w, /wp-content/uploads/2019/11/image-19.png 1433w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><br></figcaption></figure>
+<p>&#8212;-<br></p>
 
 
 
-<p>Look &#8211; my employer Coindex&#8217;s market maker has doubled it&#8217;s funds in about 2 days <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Note that the key and secret are never communicated anywhere off the local machine, except in signed requests to the exchange (which hide your details). Wireshark sniffing can confirm this.<br></p>
 
 
 
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
+<p>&#8212;-<br></p>
 
 
 
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+<p>site, the http or https address where your server is located. You can google curl ipify to find your address if you’re in a headless server, or google ‘what is my ip’ if you have an interface. You can set up DNS forwarding on duckdns.org or register your own spiffy shiny new domain if you like.</p>
 
 
 
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+<p>poirt, which port to run the balance server on. Use 80 for http 443 for https (which isn’t enabled anyhow) or a higher number like 8080 if you’re having permissions issues.</p>
 
 
 
-<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
+<p>maxFreePerc, what maximum % of the wallet will be used before stopping ordering in the same direction. Note this doesn’t count existing limit orders, which could max our margin if your delay is too small.</p>
+
+
+
+<p>orderSizeMult, for a $50 USDT account use 5, for $250 use 1, for $500 use 0.5. Etc.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-3-1024x549.png" alt="" class="wp-image-132" srcset="/wp-content/uploads/2019/12/image-3-1024x549.png 1024w, /wp-content/uploads/2019/12/image-3-300x161.png 300w, /wp-content/uploads/2019/12/image-3-768x412.png 768w, /wp-content/uploads/2019/12/image-3.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>FAQ 2: Legal Mumbo Jumbo</h2>
+
+
+
+<p>In no way are our team or any affiliated member responsible for any gains or losses you might experience. Previous action is no indication implied or assured of future performance. Risk only what you can afford to lose. This bot does not constitute financial advice by any means, and is meant to be used in an educational, communal, and fun format.</p>
+
+
+
+<h2>Sign Up Now!</h2>
+
+
+
+<p><a href="https://forms.gle/hWa7uzZFg9nD1khg8">https://forms.gle/hWa7uzZFg9nD1khg8</a></p>
 ]]></content:encoded>
 										</item>
 	</channel>

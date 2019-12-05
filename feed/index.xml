@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 24 Nov 2019 22:40:17 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 05 Dec 2019 19:20:13 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,127 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3</generator>
 	<item>
+		<title>Our Next-Gen Crypto Trading Bot Neomenia Goes Live!</title>
+		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
+				<pubDate>Thu, 05 Dec 2019 19:20:11 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=128</guid>
+				<description><![CDATA[Intro http://patbot1.duckdns.org/ Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC) Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC) BTC Notional]]></description>
+								<content:encoded><![CDATA[
+<h2>Intro</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-473x1024.png" alt="" class="wp-image-129" srcset="/wp-content/uploads/2019/12/image-473x1024.png 473w, /wp-content/uploads/2019/12/image-139x300.png 139w, /wp-content/uploads/2019/12/image.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+
+
+
+<p>http://patbot1.duckdns.org/<br> Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC)<br> Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC)<br> BTC Notional traded recent memory: 38.44400000000188<br> Current position: -1.952<br> BTC % Delta: 31.89%<br> BTC % ROI / day projected: 51.22%<br> BTC % APR projected: 1.869e+4%</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-1-473x1024.png" alt="" class="wp-image-130" srcset="/wp-content/uploads/2019/12/image-1-473x1024.png 473w, /wp-content/uploads/2019/12/image-1-139x300.png 139w, /wp-content/uploads/2019/12/image-1.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+
+
+
+<h2>Steps to Reproduce</h2>
+
+
+
+<p>Step 1. Join our Telegram https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A<br> Step 2. Create a net-new Binance account, and enable futures, and create an api key after enabling futures http://www.binance.com/en/register?ref=27039658, You&#8217;re allowed to have as many Binance accounts as you like, while only verifying one &#8211; the max daily withdrawal on an unverified account is still huge<br> Step 3: Sent the subscription fee to our wallet 0x55FC78F760fBeb15A8a14ce2B8e9DCfA4CE0f966<br> Step 4: Enter your transaction ID on this form.<br> Step 5: And the last 6 characters of your API key.<br> Step 6: The team will manually add you to the bot&#8217;s license, and send you the executable file and other directions.<br> Step 7: Run the appropriate exports or setx&#8217;s from within env.sh. DO NOT simply run env.sh, it won&#8217;t work, copy and paste the commands into a terminal/cmd window. On windows, open a net new cmd when finished.<br> Step 8: Run the executable for app for BTCUSDT, eth for ETHUSDT, and balance for a balance output graph like the ones you&#8217;re used to seeing.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-2-473x1024.png" alt="" class="wp-image-131" srcset="/wp-content/uploads/2019/12/image-2-473x1024.png 473w, /wp-content/uploads/2019/12/image-2-139x300.png 139w, /wp-content/uploads/2019/12/image-2.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+
+
+
+<h2>Neomenia FAQs</h2>
+
+
+
+<h1>FAQ 1: Settings</h1>
+
+
+
+<p>variables with ‘eth’ prepended are the same, for the ethusdt bot<br></p>
+
+
+
+<p>delaybetweenorder, higher for more delay before a new limit order</p>
+
+
+
+<p>takeProfit, in % what gains to lock in before market out</p>
+
+
+
+<p>stopLoss, in % what losses to accept before market out</p>
+
+
+
+<p>tgUser, your Telegram username for use with the Telegram bot</p>
+
+
+
+<p>key, APIkey</p>
+
+
+
+<p>secret, APIsecret<br></p>
+
+
+
+<p>&#8212;-<br></p>
+
+
+
+<p>Note that the key and secret are never communicated anywhere off the local machine, except in signed requests to the exchange (which hide your details). Wireshark sniffing can confirm this.<br></p>
+
+
+
+<p>&#8212;-<br></p>
+
+
+
+<p>site, the http or https address where your server is located. You can google curl ipify to find your address if you’re in a headless server, or google ‘what is my ip’ if you have an interface. You can set up DNS forwarding on duckdns.org or register your own spiffy shiny new domain if you like.</p>
+
+
+
+<p>poirt, which port to run the balance server on. Use 80 for http 443 for https (which isn’t enabled anyhow) or a higher number like 8080 if you’re having permissions issues.</p>
+
+
+
+<p>maxFreePerc, what maximum % of the wallet will be used before stopping ordering in the same direction. Note this doesn’t count existing limit orders, which could max our margin if your delay is too small.</p>
+
+
+
+<p>orderSizeMult, for a $50 USDT account use 5, for $250 use 1, for $500 use 0.5. Etc.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-3-1024x549.png" alt="" class="wp-image-132" srcset="/wp-content/uploads/2019/12/image-3-1024x549.png 1024w, /wp-content/uploads/2019/12/image-3-300x161.png 300w, /wp-content/uploads/2019/12/image-3-768x412.png 768w, /wp-content/uploads/2019/12/image-3.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>FAQ 2: Legal Mumbo Jumbo</h2>
+
+
+
+<p>In no way are our team or any affiliated member responsible for any gains or losses you might experience. Previous action is no indication implied or assured of future performance. Risk only what you can afford to lose. This bot does not constitute financial advice by any means, and is meant to be used in an educational, communal, and fun format.</p>
+
+
+
+<h2>Sign Up Now!</h2>
+
+
+
+<p><a href="https://forms.gle/hWa7uzZFg9nD1khg8">https://forms.gle/hWa7uzZFg9nD1khg8</a></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Blog Monetization on SteemIt.com and Dblog.io</title>
 		<link>/2019/11/24/blog-monetization-on-steemit-com-and-dblog-io/</link>
 				<pubDate>Sun, 24 Nov 2019 22:39:54 +0000</pubDate>
@@ -1033,28 +1154,6 @@ axios.post(url, {
 
 
 <p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>First Two GitHub Sponsors Subs!</title>
-		<link>/2019/11/16/first-two-github-sponsors-subs/</link>
-				<pubDate>Sat, 16 Nov 2019 19:21:28 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Github]]></category>
-
-		<guid isPermaLink="false">/?p=11</guid>
-				<description><![CDATA[Today is a good day.. my open-source contributions make money (again!) With the apparent death of utopian.io, I can now]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-1-1024x570.png" alt="" class="wp-image-12" srcset="/wp-content/uploads/2019/11/image-1-1024x570.png 1024w, /wp-content/uploads/2019/11/image-1-300x167.png 300w, /wp-content/uploads/2019/11/image-1-768x427.png 768w, /wp-content/uploads/2019/11/image-1-1536x855.png 1536w, /wp-content/uploads/2019/11/image-1.png 1718w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Today is a good day.. my open-source contributions make money (again!) With the apparent death of utopian.io, I can now derive (2x my income for the first $5k USD!) income from GitHub.</p>
-
-
-
-<p>Everyone who wants to buy me a coffee every now and again or port my bot from my existing bots to your exchange or whathaveyou, <a href="https://github.com/sponsors/dunncreativess">sign up for GitHub Sponsors and Subscribe to Me</a>!</p>
 ]]></content:encoded>
 										</item>
 	</channel>
