@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 05 Dec 2019 19:20:13 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 05 Dec 2019 19:27:07 -0500</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -24,7 +24,7 @@
 		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
 				<pubDate>Thu, 05 Dec 2019 19:20:11 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Bots]]></category>
 
 		<guid isPermaLink="false">/?p=128</guid>
 				<description><![CDATA[Intro http://patbot1.duckdns.org/ Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC) Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC) BTC Notional]]></description>
