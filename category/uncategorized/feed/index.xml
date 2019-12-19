@@ -12,132 +12,115 @@
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 05 Dec 2019 19:20:13 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 19 Dec 2019 00:07:41 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 	<item>
-		<title>Our Next-Gen Crypto Trading Bot Neomenia Goes Live!</title>
-		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
-				<pubDate>Thu, 05 Dec 2019 19:20:11 +0000</pubDate>
+		<title>A Week of Neomenia LIVE Trading Binance Futures</title>
+		<link>/2019/12/18/a-week-of-neomenia-live-trading-binance-futures/</link>
+				<pubDate>Thu, 19 Dec 2019 00:07:40 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=128</guid>
-				<description><![CDATA[Intro http://patbot1.duckdns.org/ Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC) Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC) BTC Notional]]></description>
+		<guid isPermaLink="false">/?p=140</guid>
+				<description><![CDATA[Neomenia is currently running on 8 subscriber&#8217;s accounts, creating predictable yield in sideways or bullish or bearish markets! The strategy]]></description>
 								<content:encoded><![CDATA[
-<h2>Intro</h2>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn1-1024x635.png" alt="" class="wp-image-141" srcset="/wp-content/uploads/2019/12/hn1-1024x635.png 1024w, /wp-content/uploads/2019/12/hn1-300x186.png 300w, /wp-content/uploads/2019/12/hn1-768x476.png 768w, /wp-content/uploads/2019/12/hn1.png 1276w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-473x1024.png" alt="" class="wp-image-129" srcset="/wp-content/uploads/2019/12/image-473x1024.png 473w, /wp-content/uploads/2019/12/image-139x300.png 139w, /wp-content/uploads/2019/12/image.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+<p>Neomenia is currently running on 8 subscriber&#8217;s accounts, creating predictable yield in sideways or bullish or bearish markets! </p>
 
 
 
-<p>http://patbot1.duckdns.org/<br> Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC)<br> Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC)<br> BTC Notional traded recent memory: 38.44400000000188<br> Current position: -1.952<br> BTC % Delta: 31.89%<br> BTC % ROI / day projected: 51.22%<br> BTC % APR projected: 1.869e+4%</p>
+<p>The strategy itself is protected under NDA, but as much as I can say it finds price indication in one place confirms it in another then also confirms with directional indication. The result is magic!</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-1-473x1024.png" alt="" class="wp-image-130" srcset="/wp-content/uploads/2019/12/image-1-473x1024.png 473w, /wp-content/uploads/2019/12/image-1-139x300.png 139w, /wp-content/uploads/2019/12/image-1.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn2-1-1024x692.png" alt="" class="wp-image-142" srcset="/wp-content/uploads/2019/12/hn2-1-1024x692.png 1024w, /wp-content/uploads/2019/12/hn2-1-300x203.png 300w, /wp-content/uploads/2019/12/hn2-1-768x519.png 768w, /wp-content/uploads/2019/12/hn2-1-120x80.png 120w, /wp-content/uploads/2019/12/hn2-1.png 1224w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<h2>Steps to Reproduce</h2>
+<p>I&#8217;ve created a web interface to launch bots on our own Google Cloud Compute account, taking the hassle and potential issues with configuring your own VPS with bot options straight off your shoulders.. and as it costs us a pretty penny a month, and saves you renting your own VPS, it&#8217;s basically a free VPS giveaway! Woot!</p>
 
 
 
-<p>Step 1. Join our Telegram https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A<br> Step 2. Create a net-new Binance account, and enable futures, and create an api key after enabling futures http://www.binance.com/en/register?ref=27039658, You&#8217;re allowed to have as many Binance accounts as you like, while only verifying one &#8211; the max daily withdrawal on an unverified account is still huge<br> Step 3: Sent the subscription fee to our wallet 0x55FC78F760fBeb15A8a14ce2B8e9DCfA4CE0f966<br> Step 4: Enter your transaction ID on this form.<br> Step 5: And the last 6 characters of your API key.<br> Step 6: The team will manually add you to the bot&#8217;s license, and send you the executable file and other directions.<br> Step 7: Run the appropriate exports or setx&#8217;s from within env.sh. DO NOT simply run env.sh, it won&#8217;t work, copy and paste the commands into a terminal/cmd window. On windows, open a net new cmd when finished.<br> Step 8: Run the executable for app for BTCUSDT, eth for ETHUSDT, and balance for a balance output graph like the ones you&#8217;re used to seeing.</p>
+<p>I&#8217;m writing an update predominantly to create FOMO, but the community results speak for themselves&#8230;</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-2-473x1024.png" alt="" class="wp-image-131" srcset="/wp-content/uploads/2019/12/image-2-473x1024.png 473w, /wp-content/uploads/2019/12/image-2-139x300.png 139w, /wp-content/uploads/2019/12/image-2.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn3-1.png" alt="" class="wp-image-143" srcset="/wp-content/uploads/2019/12/hn3-1.png 626w, /wp-content/uploads/2019/12/hn3-1-300x124.png 300w" sizes="(max-width: 626px) 100vw, 626px" /></figure>
 
 
 
-<h2>Neomenia FAQs</h2>
+<p>The price of the bot will increase from $49 or $59 (depending if you use our Binance Futures referral code) up to minimum $99 in the new year. The time to come onboard is now! Have no fear, our team and community moderators have your back through thick and thin.</p>
 
 
 
-<h1>FAQ 1: Settings</h1>
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn4.png" alt="" class="wp-image-144" srcset="/wp-content/uploads/2019/12/hn4.png 606w, /wp-content/uploads/2019/12/hn4-300x137.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></figure>
 
 
 
-<p>variables with ‘eth’ prepended are the same, for the ethusdt bot<br></p>
+<p>So &#8211; come on in, grab it while it&#8217;s cheap!</p>
 
 
 
-<p>delaybetweenorder, higher for more delay before a new limit order</p>
+<p>There are other monetization methods for people who otherwise have no access to futures, join <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> and check out the pin!</p>
 
 
 
-<p>takeProfit, in % what gains to lock in before market out</p>
+<p>Interested in Neomenia? Join here! <a href="https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A">https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A</a></p>
 
 
 
-<p>stopLoss, in % what losses to accept before market out</p>
+<p><em>! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Trade Smarter, Trade Together! Crypto Growth Hacker Crowdfunded Bot Tokens to Mint</title>
+		<link>/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/</link>
+				<pubDate>Sun, 15 Dec 2019 02:05:36 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
 
+		<guid isPermaLink="false">/?p=134</guid>
+				<description><![CDATA[I&#8217;m offering my market maker bot one of two possible ways: 1. I provide you the source code and you]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn2-1024x612.png" alt="" class="wp-image-135" srcset="/wp-content/uploads/2019/12/hn2-1024x612.png 1024w, /wp-content/uploads/2019/12/hn2-300x179.png 300w, /wp-content/uploads/2019/12/hn2-768x459.png 768w, /wp-content/uploads/2019/12/hn2.png 1452w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
-<p>tgUser, your Telegram username for use with the Telegram bot</p>
 
+<p>I&#8217;m offering my market maker bot one of two possible ways: 1. I provide you the source code and you can configure your apikey and secret and review the code to make sure nothing malicious happens, on a profit-share scheme where you provide 40% of the earnings after every month &#8211; as confirmed by API. </p>
 
 
-<p>key, APIkey</p>
 
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn3.png" alt="" class="wp-image-136" srcset="/wp-content/uploads/2019/12/hn3.png 1000w, /wp-content/uploads/2019/12/hn3-300x296.png 300w, /wp-content/uploads/2019/12/hn3-768x759.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 
 
-<p>secret, APIsecret<br></p>
 
+<p>2. I&#8217;m creating a dividend token for sale to the general public (including Americans) that I then pay monthly 70% of the profit (10% for me, 15% reinvested for compounding effect, 5% BNB holdings). The dividend trading fund would span multiple bots, with an initial spread of 25% Neomenia BTC 25% Neomenia ETH 25% Deribit arb + options BTC 25% Eth. The dividend token script I&#8217;m using doesn&#8217;t have voting, but we&#8217;ll vote on bot % holdings and bot strategies using an off-chain voting system enabled by etherscan reports on holding %, anything more than 5% gets a vote.</p>
 
 
-<p>&#8212;-<br></p>
 
+<p>The benefits of option 1 is that you get to run one of my bots with a profit-share model, the benefits of option 2 are: a. if you&#8217;re an american citizen you can now kindof take part in leveraged futures trading, by way of the token. b. as our BNB accumulates, we pay less fees c. as our BNB accumulates, we get more % from our referrals d. the combined notional traded on Binance will allow us to further climb their fee ladder. You can also refer people to the crowdfunded bot, for every 100 tokens at $1 worth of Eth apiece minted you get 10 tokens. For every 100 tokens that a referral of your referral mints you get 5 tokens.</p>
 
 
-<p>Note that the key and secret are never communicated anywhere off the local machine, except in signed requests to the exchange (which hide your details). Wireshark sniffing can confirm this.<br></p>
 
+<figure class="wp-block-embed-imgur wp-block-embed is-type-rich is-provider-imgur"><div class="wp-block-embed__wrapper">
+<blockquote class="imgur-embed-pub" lang="en" data-id="PBQZAB1"><a href="https://imgur.com/PBQZAB1">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+</div></figure>
 
 
-<p>&#8212;-<br></p>
 
+<ol><li>Join Telegram https://t.me/ManyVolumeSignalMonster</li><li>Fill out this form.</li><li>Send your Eth here: 0x9c33b574c8D013Ba501a897484E3b92a27A3FDB8</li><li>Fill the TXID in this form.</li><li>Tokens will be minted as often as possible, with the least often being once a month before dividends are paid.</li></ol>
 
 
-<p>site, the http or https address where your server is located. You can google curl ipify to find your address if you’re in a headless server, or google ‘what is my ip’ if you have an interface. You can set up DNS forwarding on duckdns.org or register your own spiffy shiny new domain if you like.</p>
 
-
-
-<p>poirt, which port to run the balance server on. Use 80 for http 443 for https (which isn’t enabled anyhow) or a higher number like 8080 if you’re having permissions issues.</p>
-
-
-
-<p>maxFreePerc, what maximum % of the wallet will be used before stopping ordering in the same direction. Note this doesn’t count existing limit orders, which could max our margin if your delay is too small.</p>
-
-
-
-<p>orderSizeMult, for a $50 USDT account use 5, for $250 use 1, for $500 use 0.5. Etc.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-3-1024x549.png" alt="" class="wp-image-132" srcset="/wp-content/uploads/2019/12/image-3-1024x549.png 1024w, /wp-content/uploads/2019/12/image-3-300x161.png 300w, /wp-content/uploads/2019/12/image-3-768x412.png 768w, /wp-content/uploads/2019/12/image-3.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h2>FAQ 2: Legal Mumbo Jumbo</h2>
-
-
-
-<p>In no way are our team or any affiliated member responsible for any gains or losses you might experience. Previous action is no indication implied or assured of future performance. Risk only what you can afford to lose. This bot does not constitute financial advice by any means, and is meant to be used in an educational, communal, and fun format.</p>
-
-
-
-<h2>Sign Up Now!</h2>
-
-
-
-<p><a href="https://forms.gle/hWa7uzZFg9nD1khg8">https://forms.gle/hWa7uzZFg9nD1khg8</a></p>
+<p>Form to fill: https://forms.gle/bDQmuUhQQ5FJPvgN6</p>
 ]]></content:encoded>
 										</item>
 	</channel>

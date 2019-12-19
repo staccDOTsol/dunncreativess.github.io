@@ -11,11 +11,11 @@
 	<atom:link href="/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/feed/" rel="self" type="application/rss+xml" />
 	<link>/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 21 Nov 2019 03:44:11 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 21 Nov 2019 03:44:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 </channel>
 </rss>

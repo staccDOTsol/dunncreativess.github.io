@@ -12,13 +12,13 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Sun, 24 Nov 2019 22:40:17 -0500</lastBuildDate>
+	<lastBuildDate>Sun, 24 Nov 2019 22:40:17 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 	<item>
 		<title>Blog Monetization on SteemIt.com and Dblog.io</title>
 		<link>/2019/11/24/blog-monetization-on-steemit-com-and-dblog-io/</link>

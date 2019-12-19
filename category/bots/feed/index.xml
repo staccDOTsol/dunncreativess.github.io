@@ -12,13 +12,13 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 05 Dec 2019 19:27:07 -0500</lastBuildDate>
+	<lastBuildDate>Thu, 05 Dec 2019 19:27:07 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.3</generator>
+	<generator>https://wordpress.org/?v=5.3.1</generator>
 	<item>
 		<title>Our Next-Gen Crypto Trading Bot Neomenia Goes Live!</title>
 		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
