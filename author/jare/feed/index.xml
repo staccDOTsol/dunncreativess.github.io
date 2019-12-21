@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Thu, 19 Dec 2019 00:07:41 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 Dec 2019 08:13:01 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -24,7 +24,8 @@
 		<link>/2019/12/18/a-week-of-neomenia-live-trading-binance-futures/</link>
 				<pubDate>Thu, 19 Dec 2019 00:07:40 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
 
 		<guid isPermaLink="false">/?p=140</guid>
 				<description><![CDATA[Neomenia is currently running on 8 subscriber&#8217;s accounts, creating predictable yield in sideways or bullish or bearish markets! The strategy]]></description>
@@ -85,7 +86,8 @@
 		<link>/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/</link>
 				<pubDate>Sun, 15 Dec 2019 02:05:36 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
 
 		<guid isPermaLink="false">/?p=134</guid>
 				<description><![CDATA[I&#8217;m offering my market maker bot one of two possible ways: 1. I provide you the source code and you]]></description>
