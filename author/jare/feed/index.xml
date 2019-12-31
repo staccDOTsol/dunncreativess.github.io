@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Tue, 31 Dec 2019 03:20:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2019 04:31:21 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -24,7 +24,8 @@
 		<link>/2019/12/30/decentralized-social-media/</link>
 				<pubDate>Tue, 31 Dec 2019 03:19:27 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coindex]]></category>
 
 		<guid isPermaLink="false">/?p=155</guid>
 				<description><![CDATA[**submitted to Hackernoon, submitted to GCNews.io** Incentive I’m not necessarily after $200, I’m after a voice. While published on Hackernoon]]></description>
@@ -135,7 +136,8 @@
 		<link>/2019/12/23/benefits-of-neomenia-and-crypto-growth-hacker-compound-your-crypto/</link>
 				<pubDate>Mon, 23 Dec 2019 11:10:46 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
 
 		<guid isPermaLink="false">/?p=146</guid>
 				<description><![CDATA[Hi SteemIt! View this post in it&#8217;s original form on dunncreativess.github.io! View my other posts on Hackernoon. Yes I&#8217;m promoting]]></description>
