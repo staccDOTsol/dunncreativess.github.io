@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Get Your Git Here!</description>
-	<lastBuildDate>Mon, 23 Dec 2019 11:11:25 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 31 Dec 2019 03:20:22 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,117 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Decentralized Social Media</title>
+		<link>/2019/12/30/decentralized-social-media/</link>
+				<pubDate>Tue, 31 Dec 2019 03:19:27 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=155</guid>
+				<description><![CDATA[**submitted to Hackernoon, submitted to GCNews.io** Incentive I’m not necessarily after $200, I’m after a voice. While published on Hackernoon]]></description>
+								<content:encoded><![CDATA[
+<p>**submitted to Hackernoon, submitted to GCNews.io**</p>
+
+
+
+<h2>Incentive</h2>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Let&#39;s try an experiment: $200 BTC bounty for the best review of decentralized social media.<br><br>The ideal piece covers not just crypto efforts like Voice/Akasha, but allied tech like Mastodon, CRDT, Bittorrent, Git.<br><br>Reply to this tweet with your post! cc <a href="https://twitter.com/cz_binance?ref_src=twsrc%5Etfw">@cz_binance</a> <a href="https://twitter.com/VitalikButerin?ref_src=twsrc%5Etfw">@VitalikButerin</a> <a href="https://t.co/hhS0TXU9fX">https://t.co/hhS0TXU9fX</a></p>&mdash; Balaji S. Srinivasan (@balajis) <a href="https://twitter.com/balajis/status/1210639705143951360?ref_src=twsrc%5Etfw">December 27, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>I’m not necessarily after $200, I’m after a voice. While <a href="https://hackernoon.com/@jare">published on Hackernoon many times</a> and having a <a href="https://github.com/dunncreativess">Github with 100+ repositories</a>, I’d thought it might be a good idea to take part in this competition and get the attention of <a href="https://twitter.com/balajis">https://twitter.com/balajis</a> <a href="https://twitter.com/cz_binance">https://twitter.com/cz_binance</a> &#8211; maybe even <a href="https://twitter.com/VitalikButerin">https://twitter.com/VitalikButerin</a>.</p>
+
+
+
+<h1>Preface: Censorship</h1>
+
+
+
+<p>This most recent bit of news time saw YouTube censor many crypto-related voices, and a mail broadcast I received from LBRY mentioned a few (or a lot?) of them ended up there to promote their views and opinions. Moreover, we saw MetaMask removed from the Android Play Store (and also, consequently, my device), purportedly for mining crypto and more likely for offering a competing environment where people can consume the internet than the Play Store itself. This level of censorship creates a world where a few big players (aka. the ultra-rich) can dictate to us what content we can consume where, and leads the way to a dangerous version of the internet where all we can possibly consume is the ultra-rich’s agenda.<br></p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/1gypbqvU8CjCzicIgUaUFeVLX56b7Te7lREUwnDONBeR9DMGKZo5NmhRbJBZ4ZGP5wvN_Ze4cSy0XxFxZ0LcX5YxynExXuxQOQRXXrBQfrvJb7W-aVqSS6ybJrjbRCUkjmx16S-R" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/4qwxvQORDVRn_oxTr_nuxml1XJZLFwyXCl8daa-l7-PRVzmaE2r4NGU9vv-AT-p6BU_CPQD7EQwsHA7XnOVhs6aWbxa9LZEeDawyXMMVqyPWFT_EvREpnsAOEt2UGl_I_WoxAPKp" alt=""/></figure>
+
+
+
+<p>The answer is an open and vibrant decentralized community where censorship plays no part. Minds.com comes to mind, but there has to be other underlying mechanisms to preserve the rights and freedoms of people everywhere &#8211; even in a censorship-free arena, we shouldn’t be subjected to hate speech and other dark web reminiscent dark corners of the internet. This kind of content from supremacists and trolls alike would hurt the overall image and therein hurt adoption &#8211; which would kill our creation before it’s born.<br></p>
+
+
+
+<p>SteemIt comes to mind &#8211; along with it’s various interfaces, (and in recent iterations allow an even more well-thought / which allow a) way for people to downvote ‘bad’ content. This is a great solution for the decentralized community to self-moderate it’s own content monstrosity, but by and large this creates a demand for labor that can’t easily be rewarded (cue Steem’s life-long battle trying to figure out how to balance inflationary rewards with the need to self-moderate &#8211; and their nearly Steem-killing problem with people using the reward structure to bribe rewards and over-reward themselves).<br></p>
+
+
+
+<h1>Monetization and Reward Mechanisms</h1>
+
+
+
+<p>At this point, it’s crucial to remind ourselves that Blockchain is not cryptocurrency. Read that again! The huge interest that the ICO craze pulled into Blockchain was equally as damaging to the image of Blockchain &#8211; if not more &#8211; than the dark web’s dependency on Bitcoin as an anonymous online currency was to the image of Bitcoin. A reward mechanism for users for a decentralized social platform is not required, but could benefit actual users &#8211; actual people &#8211; for their content and social interactions.<br></p>
+
+
+
+<p>If there’s a reward mechanism built into a new decentralized social media, it should be one that allows users to reward their favorite users through micropayments and allows the generation of additional rewards through staking an amount of e-currency someone already has &#8211; showing a dedication to the network and allowing the network more buying pressure than selling pressure. Steem does this, but I’m guessing people would want to stake more if there were more perceived reward &#8211; ie. you could earn more from your social presence as a direct result of staking more.&nbsp;<br></p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/tawIPlUa64-MNSJ2LPqEAZDmam5AF-HvZ_d_J6iFcNreeFphWd9CzwRG5AkMrSee2i2Op4R0ivoHrBSHYyu_88pT2YUmCX-oJw5io_LRWixstkez3Q74z8XVczk0mv-dE76LEFvk" alt=""/></figure>
+
+
+
+<p>If I had a dime for each time I had this conversation &#8211; with some underemployed or unemployed, disenfranchised friend on the internet &#8211; if we had a way to monetize and reward engaging social content we could empower the unbanked worldwide.&nbsp;<br></p>
+
+
+
+<h1>Moderation</h1>
+
+
+
+<p>&#8212; Note this isn’t the original (or even unoriginal) purposes of this neural evolutionary AI project &#8211; I’m going out on a limb here, without consulting our AI devs on this &#8211; but I think that the given problem would be socially acceptable content, and one could train the proof of fitness to provide that goal. Why not? &#8212;</p>
+
+
+
+<p>In projects in the past like Akasha or Mastadon, one key feature that’s perplexed developers is how to monitor and remove spam, plagiarism, hate speech, etc. In a world with increasingly smart AI, there’s no reason to put this labor onto individual users like in Steem &#8211; one could create a neural evolutionary AI that’s rewarded by achieving happier individuals through a ‘report’ mechanism on leftover content. If something’s reported, then that competing generation responsible for that post is hit with a ‘ding’ that keeps it from being the master genome in that set &#8211; and the master genome carries on to start a new generation of competing genomes to do a better job in the next set of posts that are all moderated.&nbsp;</p>
+
+
+
+<p>The computational power required to run these competing and learning sets of problem-solving algos could be served by p2p nodes that are run by users around the world &#8211; with as little as a laptop, in another chain that rewards the users submitting to the champion net.&nbsp;</p>
+
+
+
+<p><a href="https://docs.google.com/document/d/1VBJ0UoY7MjeIEX0ljPj6G35qqnSizTv-XgzCiAx04F8/edit?usp=sharing">Read more in OuroborosChain &#8211; a white paper detailing neural evolutionary AI</a>.</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em>&nbsp;</em></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
+
+
+
+<h1>Disclaimer</h1>
+
+
+
+<p>The author is Chief Liquidity Officer for Coindex Labs.<br></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Benefits of Neomenia and Crypto Growth Hacker &#8211; Compound Your Crypto!</title>
 		<link>/2019/12/23/benefits-of-neomenia-and-crypto-growth-hacker-compound-your-crypto/</link>
 				<pubDate>Mon, 23 Dec 2019 11:10:46 +0000</pubDate>
@@ -990,99 +1101,6 @@ axios.post(url, {
 
 
 <p>——</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>POC Bot Selling Feature #9: Auto-Withdraw Realized PNL Take Profit</title>
-		<link>/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/</link>
-				<pubDate>Mon, 18 Nov 2019 05:39:17 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=78</guid>
-				<description><![CDATA[Read This Article in It&#8217;s Original Form on dunncreativess.github.io! The above screenshot may not seem like much&#8230; but it&#8217;s the]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-20-1024x551.png" alt="" class="wp-image-79" srcset="/wp-content/uploads/2019/11/image-20-1024x551.png 1024w, /wp-content/uploads/2019/11/image-20-300x162.png 300w, /wp-content/uploads/2019/11/image-20-768x414.png 768w, /wp-content/uploads/2019/11/image-20.png 1118w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><a href="http://dunncreativess.github.io/2019/11/18/poc-bot-selling-feature-9-auto-withdraw-realized-pnl-take-profit/">Read This Article in It&#8217;s Original Form on dunncreativess.github.io</a>!</p>
-
-
-
-<p>The above screenshot may not seem like much&#8230; but it&#8217;s the culmination of a genius moment and 11 lines of code (along with one NPM library very slightly rewritten &#8211; replacing the word &#8216;margin&#8217; with &#8216;futures&#8217; in one spot!)</p>
-
-
-
-<pre class="wp-block-code"><code>pnlusd = -1 * (1 - bal_usd / usd_init) * 100
- if (pnlusd > ((min_withdrawal_perecent * 100) * 2)) {
-     var new_usd_init = bal_usd * (1 - (min_withdrawal_perecent));
-     binance.mgTransferMarginToMain('USDT', (min_withdrawal_perecent) * bal_usd, (error, response) => {
-         if (error) {
-             console.log(error)
-         } else {
-            usd_init = new_usd_init
-            initial_bal = usd_init / LB;
-        }
-    });
-}</code></pre>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-21-1024x443.png" alt="" class="wp-image-80" srcset="/wp-content/uploads/2019/11/image-21-1024x443.png 1024w, /wp-content/uploads/2019/11/image-21-300x130.png 300w, /wp-content/uploads/2019/11/image-21-768x332.png 768w, /wp-content/uploads/2019/11/image-21-1536x664.png 1536w, /wp-content/uploads/2019/11/image-21.png 1778w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>When my PNL delta reached 5%, above, my min_withdrawal_perecent variable of 0.025 triggered the code block that withdrew 2.5% of my income from my futures wallet into my exchange wallet. The remaining 2.5% was left inside the futures wallet. </p>
-
-
-
-<p>What this means, in actual effect, is that my $5.98 in USDT is now safely in my exchange wallet and the futures bot has no more access to it.</p>
-
-
-
-<p>What this means is.. slowly, over time, I&#8217;ll gain back my initial deposit as gains that now cannot be lost unless I risk them again!</p>
-
-
-
-<p>What&#8217;s more is that the 2.5% left in the futures account will add to the order sizes, increasing the returns and &#8211; over time &#8211; giving a compounding interest on the returns.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-22.png" alt="" class="wp-image-82" srcset="/wp-content/uploads/2019/11/image-22.png 808w, /wp-content/uploads/2019/11/image-22-280x300.png 280w, /wp-content/uploads/2019/11/image-22-768x822.png 768w" sizes="(max-width: 808px) 100vw, 808px" /></figure>
-
-
-
-<p>People are thrilled&#8230;</p>
-
-
-
-<p>As a note on my previous article, the cost is $59/mo and $10 to affiliates &#8211; AND a $10/mo off if you sign up using our Binance referral link!</p>
-
-
-
-<p><a href="https://github.com/DunnCreativeSS/binanceBots/">Check out some of my Binance opensource bots here</a>!</p>
-
-
-
-<p>Next Steps?</p>
-
-
-
-<p>Stay tuned for our website (maybe on a github.io!) that allows you to pay a month in crypto to sign up for the bot. It&#8217;ll allow you to enter your api key and secret within the browser session, then that same browser session will spwan a google cloud compute instance with those keys &#8211; communicating directly with GCP, without us having any access to those keys! The GCP instance will be spawned with a random SSH key that&#8217;s then thrown away into the abyss of cleared memory! This magic was achieved once before for a bot I&#8217;d created, and I can sure as heck do it again &#8211; and the site will be opensource for auditing purposes. This is better than us asking for keys and leagues better than us giving out our source code, and GCP micro instances are CHEAP CHEAP CHEAP!</p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
 ]]></content:encoded>
 										</item>
 	</channel>
