@@ -12,7 +12,7 @@
 	<atom:link href="/category/github/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 15 Jan 2020 02:31:20 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jan 2020 21:20:59 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,169 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Automated Crypto Trading Bot to Buy Pump and Dump Sentiment Signals from Twitter</title>
+		<link>/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/</link>
+				<pubDate>Wed, 15 Jan 2020 21:20:41 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=202</guid>
+				<description><![CDATA[View This Article in it&#8217;s Original Form on Jare.Cloud! Strategy We follow Twitter accounts we trust: exchanges, coins, Twitter crypto]]></description>
+								<content:encoded><![CDATA[
+<p><a href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">View This Article in it&#8217;s Original Form on Jare.Cloud</a>!</p>
+
+
+
+<h2>Strategy</h2>
+
+
+
+<ol><li>We follow Twitter accounts we trust: exchanges, coins, Twitter crypto influencers</li><li>We wait around until someone tweets a coin name or coin ticker</li><li>We measure the sentiment of the message: is it buy or sell?</li><li>On strong buys, or multiple instances of buys in a period of time, we execute a market buy order on Binance Spot</li><li>We wait around until our exits are hit</li><li>1 out of every 3-4 signals we act on the crowd will also act on&#8230; </li><li>&#8230;meaning there&#8217;s upwards potential for everyone</li><li>and we can net 100s 1000s% gains!</li></ol>
+
+
+
+<p>In practice:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-10.png" alt="" class="wp-image-205" srcset="/wp-content/uploads/2020/01/image-10.png 862w, /wp-content/uploads/2020/01/image-10-300x289.png 300w, /wp-content/uploads/2020/01/image-10-768x739.png 768w" sizes="(max-width: 862px) 100vw, 862px" /><figcaption> <br></figcaption></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://media.discordapp.net/attachments/666371834102677565/667093503817547794/tempFileForShare_20200115-205117.jpg?width=340&amp;height=659" alt=""/></figure>
+
+
+
+<h2>NLTK &amp; New Words</h2>
+
+
+
+<p>The Python programming language has a package called Natural Language Tool Kit, or NLTK. Inside NLTK are lexicons that you can use to accomplish different goals &#8211; in our project, the Vader Lexicon is useful because we can rank all sorts of English words on a scale of -1 to 1 based on how strongly they express good or bad emotions. This is called &#8216;sentiment analysis.&#8217;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-8.png" alt="" class="wp-image-203" srcset="/wp-content/uploads/2020/01/image-8.png 451w, /wp-content/uploads/2020/01/image-8-300x199.png 300w, /wp-content/uploads/2020/01/image-8-120x80.png 120w" sizes="(max-width: 451px) 100vw, 451px" /></figure>
+
+
+
+<p>We add some new words to the mix.. given our very specific scenario.</p>
+
+
+
+<h2>Weighted Twitter Accounts and Tiers</h2>
+
+
+
+<p>Of the accounts in our followed list, we&#8217;ll have exchanges, coins and crypto influencers. Of these, exchanges have the highest amount of influence when they make an announcement about an alt, the coins themselves have a medium amount and the influencers have a variable but usually less amount.</p>
+
+
+
+<p>We organize each account we follow (or simply have in a static list) into a list with corresponding ratios for how they affect our sentiment scores. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-9.png" alt="" class="wp-image-204" srcset="/wp-content/uploads/2020/01/image-9.png 304w, /wp-content/uploads/2020/01/image-9-300x128.png 300w" sizes="(max-width: 304px) 100vw, 304px" /></figure>
+
+
+
+<h2>Parsing and Referencing All the Binance Spot Coins</h2>
+
+
+
+<p>Here&#8217;s what Binance&#8217;s 24hr ticker endpoint looks like:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-11.png" alt="" class="wp-image-206" srcset="/wp-content/uploads/2020/01/image-11.png 649w, /wp-content/uploads/2020/01/image-11-217x300.png 217w" sizes="(max-width: 649px) 100vw, 649px" /></figure>
+
+
+
+<p>We loop through all these results, look for ones that end in BTC and then replace the BTC out of the symbol string &#8211; leaving the coin. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-12-1024x172.png" alt="" class="wp-image-207" srcset="/wp-content/uploads/2020/01/image-12-1024x172.png 1024w, /wp-content/uploads/2020/01/image-12-300x50.png 300w, /wp-content/uploads/2020/01/image-12-768x129.png 768w, /wp-content/uploads/2020/01/image-12-1536x258.png 1536w, /wp-content/uploads/2020/01/image-12.png 1890w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>We now have a list of coins!</p>
+
+
+
+<h2>Get Twitter Followed, 100 Recent Tweets Within Last Hour</h2>
+
+
+
+<p>This is optional and I may replace the followed list with a flat and static file or coded list, but presently the bot will read the followed list and then loop through it, grabbing everyone&#8217;s 100 most recent tweets (and and/or and not retweets &#8211; optional) and then cycle through those to see which occurred in the last (given timeframe). These are the goldmoney&#8230; we save tweets we&#8217;ve previously indexed to an array so as to not re-index them.</p>
+
+
+
+<h2>Find Potential Coinnames, Compare to Our Binance List and Tweeter List</h2>
+
+
+
+<p>We split the text of the tweets up by &#8216; &#8216; (space) and &#8216;\n&#8217; (newline). We then look at each resulting word or hashtag, capitalize them and compare them (or $ + the word, like $MANA or $mana or mana or Mana) against our list of tickers from the Binance API. We also then compare against a list of tickers that correspond to specific Twitter accounts, in the event of something like the MANA tweet above that didn&#8217;t mention &#8216;MANA.&#8217; So we can tell that decentraland tweets are, usually, unless otherwise specified, for MANA.</p>
+
+
+
+<h2>For High Sentiment Scores, Buy</h2>
+
+
+
+<p>On Binance we market buy with a % of our holdings. The % is configurable, and depends on someone&#8217;s aversion to risk.</p>
+
+
+
+<h2>For Repeat Occurrences, Buy Again</h2>
+
+
+
+<p>If another one of our trusted tweeters tweets another signal confirming the same trend, we &#8216;double down&#8217; and buy another % of remaining balance worth of the coin.</p>
+
+
+
+<h2>1% Trailing Take Profit</h2>
+
+
+
+<p>If the price immediately drops 1%, we gracefully exit as a stoploss and count our losses. If the price goes up 2% and then down 1%, we exit the trade at 1% gains less fees. If, however, the coin goes up 10% 40% 100% before dropping 1% &#8211; as it might do with mass hysteria &#8211; then we laugh all the way to the bank! 1%, of course, is configurable.</p>
+
+
+
+<h2>Rinse, Wash, Repeat</h2>
+
+
+
+<p>Another signal another coin another potential 100%!</p>
+
+
+
+<h2>Considerations</h2>
+
+
+
+<p>We want to use a custom list of crypto influencers because most of the people calling out signals on twitter are actually doing so in their own vested interest &#8211; having posted a buy signal in their private Pump &amp; Dump discords, their private group buys up the coin and then &#8211; 5 minutes later &#8211; they all post signals to their twitters and bought &#8216;influencer&#8217; twitters as tweets that seem to double, triply, quadruply confirm each other. In reality, these folks are dumping by the time anyone else starts to buy in &#8211; meaning that you&#8217;d likely face losses if you used a twitter-wide sentiment analysis and automated trading tool. This is where all existing tools &#8211; including AI-driven ones &#8211; fail in this space, and why my bot has a considerable edge on the competition.</p>
+
+
+
+<h2>Next Steps</h2>
+
+
+
+<p>I&#8217;d like the bot to keep track of the win/lose rate and severity of wins/losses from specific tweeters, so that it can potentially modify the sentiment score by a previous success factor &#8211; so if someone was right about a buy signal 2/5 times it&#8217;s worth more than someone with 1/5 times. If someone is right 1/10 times, though, and their signal does 25x better than the first two in these examples &#8211; that one is worth considerably more.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-13-1024x629.png" alt="" class="wp-image-208" srcset="/wp-content/uploads/2020/01/image-13-1024x629.png 1024w, /wp-content/uploads/2020/01/image-13-300x184.png 300w, /wp-content/uploads/2020/01/image-13-768x471.png 768w, /wp-content/uploads/2020/01/image-13.png 1471w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>It&#8217;d be nice to incorporate a python django webserver like a hackathon starter so I can take advantage of their Twitter oauth2 sign-in scheme. This way I can potentially have accounts log in without supplying their own twitter API credentials &#8211; which require an application process now &#8211; and more accounts can work with my bot. This would increase the amount of actionable data and win/loss rates and severities that can be used to package tailored lists of tweeters to know.</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Top Money-Making Decentralized Finance #DeFi Applications</title>
 		<link>/2020/01/14/top-money-making-decentralized-finance-defi-applications/</link>
 				<pubDate>Wed, 15 Jan 2020 01:46:23 +0000</pubDate>

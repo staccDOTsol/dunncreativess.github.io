@@ -53,6 +53,7 @@ img.emoji {
 	<link rel='stylesheet' id='maxwell-custom-fonts-css'  href='/wp-content/themes/maxwell/assets/css/custom-fonts.css?ver=20180413' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-css'  href='/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='steempress_sp-css'  href='/wp-content/plugins/steempress/public/css/steempress_sp-public.css?ver=2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSImainCss-css'  href='/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=5.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='maxwell-stylesheet-css'  href='/wp-content/themes/maxwell/style.css?ver=1.8.3' type='text/css' media='all' />
 <style id='maxwell-stylesheet-inline-css' type='text/css'>
 .site-description { position: absolute; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
@@ -75,7 +76,7 @@ var maxwell_menu_title = "Navigation";
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.3.2" />
-</head>
+<meta name="specificfeeds-verification-code-djVYYk9aODArV2t2RnJBSjB5c1Zud1VtZDkvQlQwVzBFa1lmU2FSNmxwU2ZmV0Y1cTdUU1h1OXVSN0cwWW01blNONnpPemIvQ3c1ditGREhLMnptL05kcjh4SlkvZzd1Vi9ZWSt0cHdPbU5iUGMyZW9uaC83WGJRcVBsenV5b1R8RjhPTEl5eFAzRUtjYmtYWWpLSE8zS0dnakdHTVF3bU0wa1JiVXZuWjNqQT0=" content="5pC7CS6ftf8U5uguzJl2"/><meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:image" content="/wp-content/uploads/2020/01/1-5.png" data-id="sfsi"><meta property="og:image:type" content="image/png" data-id="sfsi" /><meta property="og:image:width" content="385" data-id="sfsi" /><meta property="og:image:height" content="760" data-id="sfsi" /><meta property="og:url" content="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/" data-id="sfsi" /><meta property="og:description" content="View This Article in it's Original Form on Jare.Cloud!StrategyWe follow Twitter accounts we trust: exchanges, coins, Twitter crypto influencersWe wait around until someone tweets a coin name or coin tickerWe measure the sentiment of the message: is it buy or sell?On strong buys, or multiple instances of buys in a period of time, we execute a market buy order on Binance SpotWe wait around until our exits are hit1 out of every 3-4 signals we act on the crowd will also act on... ...meaning there's upwards potential for everyoneand we can net 100s 1000s% gains!In practice: NLTK &amp; New WordsThe Python programming language has a package called Natural Language Tool Kit, or NLTK. Inside NLTK are lexicons that you can use to accomplish different goals - in our project, the Vader Lexicon is useful because we can rank all sorts of English words on a scale of -1 to 1 based on how strongly they express good or bad emotions. This is called 'sentiment analysis.'We add some new words to the mix.. given our very specific scenario.Weighted Twitter Accounts and TiersOf the accounts in our followed list, we'll have exchanges, coins and crypto influencers. Of these, exchanges have the highest amount of influence when they make an announcement about an alt, the coins themselves have a medium amount and the influencers have a variable but usually less amount.We organize each account we follow (or simply have in a static list) into a list with corresponding ratios for how they affect our sentiment scores. Parsing and Referencing All the Binance Spot CoinsHere's what Binance's 24hr ticker endpoint looks like:We loop through all these results, look for ones that end in BTC and then replace the BTC out of the symbol string - leaving the coin. We now have a list of coins!Get Twitter Followed, 100 Recent Tweets Within Last HourThis is optional and I may replace the followed list with a flat and static file or coded list, but presently the bot will read the followed list and then loop through it, grabbing everyone's 100 most recent tweets (and and/or and not retweets - optional) and then cycle through those to see which occurred in the last (given timeframe). These are the goldmoney... we save tweets we've previously indexed to an array so as to not re-index them.Find Potential Coinnames, Compare to Our Binance List and Tweeter ListWe split the text of the tweets up by ' ' (space) and '\n' (newline). We then look at each resulting word or hashtag, capitalize them and compare them (or $ + the word, like $MANA or $mana or mana or Mana) against our list of tickers from the Binance API. We also then compare against a list of tickers that correspond to specific Twitter accounts, in the event of something like the MANA tweet above that didn't mention 'MANA.' So we can tell that decentraland tweets are, usually, unless otherwise specified, for MANA.For High Sentiment Scores, BuyOn Binance we market buy with a % of our holdings. The % is configurable, and depends on someone's aversion to risk.For Repeat Occurrences, Buy AgainIf another one of our trusted tweeters tweets another signal confirming the same trend, we 'double down' and buy another % of remaining balance worth of the coin.1% Trailing Take ProfitIf the price immediately drops 1%, we gracefully exit as a stoploss and count our losses. If the price goes up 2% and then down 1%, we exit the trade at 1% gains less fees. If, however, the coin goes up 10% 40% 100% before dropping 1% - as it might do with mass hysteria - then we laugh all the way to the bank! 1%, of course, is configurable.Rinse, Wash, RepeatAnother signal another coin another potential 100%!ConsiderationsWe want to use a custom list of crypto influencers because most of the people calling out signals on twitter are actually doing so in their own vested interest - having posted a buy signal in their private Pump &amp; Dump discords, their private group buys up the coin and then - 5 minutes later - they all post signals to their twitters and bought 'influencer' twitters as tweets that seem to double, triply, quadruply confirm each other. In reality, these folks are dumping by the time anyone else starts to buy in - meaning that you'd likely face losses if you used a twitter-wide sentiment analysis and automated trading tool. This is where all existing tools - including AI-driven ones - fail in this space, and why my bot has a considerable edge on the competition.Next StepsI'd like the bot to keep track of the win/lose rate and severity of wins/losses from specific tweeters, so that it can potentially modify the sentiment score by a previous success factor - so if someone was right about a buy signal 2/5 times it's worth more than someone with 1/5 times. If someone is right 1/10 times, though, and their signal does 25x better than the first two in these examples - that one is worth considerably more.It'd be nice to incorporate a python django webserver like a hackathon starter so I can take advantage of their Twitter oauth2 sign-in scheme. This way I can potentially have accounts log in without supplying their own twitter API credentials - which require an application process now - and more accounts can work with my bot. This would increase the amount of actionable data and win/loss rates and severities that can be used to package tailored lists of tweeters to know." data-id="sfsi" /><meta property="og:title" content="Automated Crypto Trading Bot to Buy Pump and Dump Sentiment Signals from Twitter" data-id="sfsi" /></head>
 
 <body class="archive author author-jare author-1 wp-embed-responsive post-layout-one-column">
 
@@ -149,6 +150,32 @@ var maxwell_menu_title = "Navigation";
 			<div id="post-wrapper" class="post-wrapper clearfix">
 
 				
+<div class="post-column clearfix">
+
+	<article id="post-202" class="post-202 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-bots category-github">
+
+		
+			<a class="wp-post-image-link" href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/" rel="bookmark">
+				<img width="385" height="550" src="/wp-content/uploads/2020/01/1-5-385x550.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</a>
+
+		
+		<header class="entry-header">
+
+			<div class="entry-meta"><span class="meta-date"><a href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/" title="4:20 pm" rel="bookmark"><time class="entry-date published updated" datetime="2020-01-15T16:20:41-05:00">January 15, 2020</time></a></span><span class="meta-category"> <a href="/category/blog/" rel="category tag">Blog</a> / <a href="/category/bots/" rel="category tag">Bots</a> / <a href="/category/github/" rel="category tag">Github</a></span></div>
+			<h2 class="entry-title"><a href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/" rel="bookmark">Automated Crypto Trading Bot to Buy Pump and Dump Sentiment Signals from Twitter</a></h2>
+		</header><!-- .entry-header -->
+
+		<div class="entry-content entry-excerpt clearfix">
+			<p>View This Article in it&#8217;s Original Form on Jare.Cloud! Strategy We follow Twitter accounts we trust: exchanges, coins, Twitter crypto</p>
+			
+			<a href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/" class="more-link">Continue reading</a>
+
+				</div><!-- .entry-content -->
+
+	</article>
+
+</div>
+
 <div class="post-column clearfix">
 
 	<article id="post-192" class="post-192 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-mental-health">
@@ -383,32 +410,6 @@ var maxwell_menu_title = "Navigation";
 
 </div>
 
-<div class="post-column clearfix">
-
-	<article id="post-134" class="post-134 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-bots">
-
-		
-			<a class="wp-post-image-link" href="/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/" rel="bookmark">
-				<img width="850" height="550" src="/wp-content/uploads/2019/12/1-850x550.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />			</a>
-
-		
-		<header class="entry-header">
-
-			<div class="entry-meta"><span class="meta-date"><a href="/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/" title="9:05 pm" rel="bookmark"><time class="entry-date published updated" datetime="2019-12-14T21:05:36-05:00">December 14, 2019</time></a></span><span class="meta-category"> <a href="/category/blog/" rel="category tag">Blog</a> / <a href="/category/bots/" rel="category tag">Bots</a></span></div>
-			<h2 class="entry-title"><a href="/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/" rel="bookmark">Trade Smarter, Trade Together! Crypto Growth Hacker Crowdfunded Bot Tokens to Mint</a></h2>
-		</header><!-- .entry-header -->
-
-		<div class="entry-content entry-excerpt clearfix">
-			<p>I&#8217;m offering my market maker bot one of two possible ways: 1. I provide you the source code and you</p>
-			
-			<a href="/2019/12/14/trade-smarter-trade-together-crypto-growth-hacker-crowdfunded-bot-tokens-to-mint/" class="more-link">Continue reading</a>
-
-				</div><!-- .entry-content -->
-
-	</article>
-
-</div>
-
 			</div>
 
 			
@@ -428,6 +429,9 @@ var maxwell_menu_title = "Navigation";
 
 				<aside id="recent-posts-2" class="widget widget_recent_entries clearfix">		<div class="widget-header"><h3 class="widget-title">Recent Posts</h3></div>		<ul>
 											<li>
+					<a href="/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Automated Crypto Trading Bot to Buy Pump and Dump Sentiment Signals from Twitter</a>
+									</li>
+											<li>
 					<a href="/2020/01/15/why-schizophrenia-is-the-most-under-represented-of-all-the-death-sentences/">Why Schizophrenia is the Most Under-Represented of All the Death Sentences</a>
 									</li>
 											<li>
@@ -438,9 +442,6 @@ var maxwell_menu_title = "Navigation";
 									</li>
 											<li>
 					<a href="/2020/01/14/top-money-making-decentralized-finance-defi-applications/">Top Money-Making Decentralized Finance #DeFi Applications</a>
-									</li>
-											<li>
-					<a href="/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/">How do people with mental health illnesses like schizophrenia or other psychoses think?</a>
 									</li>
 					</ul>
 		</aside><aside id="categories-2" class="widget widget_categories clearfix"><div class="widget-header"><h3 class="widget-title">Categories</h3></div>		<ul>
@@ -483,6 +484,236 @@ var maxwell_menu_title = "Navigation";
 
 </div><!-- #page -->
 
+<script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(0);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})
+</script>
+
+    <script>
+        window.addEventListener('sfsi_functions_loaded', function() {
+            if (typeof sfsi_plugin_version == 'function') {
+                sfsi_plugin_version(2.46);
+            }
+        });
+
+        function sfsi_processfurther(ref) {
+
+            var feed_id = 'djVYYk9aODArV2t2RnJBSjB5c1Zud1VtZDkvQlQwVzBFa1lmU2FSNmxwU2ZmV0Y1cTdUU1h1OXVSN0cwWW01blNONnpPemIvQ3c1ditGREhLMnptL05kcjh4SlkvZzd1Vi9ZWSt0cHdPbU5iUGMyZW9uaC83WGJRcVBsenV5b1R8RjhPTEl5eFAzRUtjYmtYWWpLSE8zS0dnakdHTVF3bU0wa1JiVXZuWjNqQT0=';
+            var feedtype = 8;
+
+            var email = jQuery(ref).find('input[name="data[Widget][email]"]').val();
+
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            if ((email != "Enter your email") && (filter.test(email))) {
+                if (feed_id != "") {
+
+                    if (feedtype == "8") {
+
+                        var url = "https://www.specificfeeds.com/widgets/subscribeWidget/" + feed_id + "/" + feedtype;
+
+                        window.open('', "popupwindow", "scrollbars=yes,width=1080,height=760");
+
+                        ref.action = url;
+
+                        ref.target = "popupwindow";
+
+                        return true;
+
+                    } else {
+
+                        return false
+
+                    }
+                }
+            } else {
+
+                alert("Please enter email address");
+
+                jQuery(ref).find('input[name="data[Widget][email]"]').focus();
+
+                return false;
+
+            }
+
+        }
+    </script>
+
+    <style type="text/css" aria-selected="true">
+        .sfsi_subscribe_Popinner {
+
+            width: 100% !important;
+
+            height: auto !important;
+
+            padding: 18px 0px !important;
+
+            background-color: #ffffff !important;
+
+        }
+
+        .sfsi_subscribe_Popinner form {
+
+            margin: 0 20px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner h5 {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            margin: 0 0 10px !important;
+
+            padding: 0 !important;
+
+        }
+
+        .sfsi_subscription_form_field {
+
+            margin: 5px 0 !important;
+
+            width: 100% !important;
+
+            display: inline-flex;
+
+            display: -webkit-inline-flex;
+
+        }
+
+        .sfsi_subscription_form_field input {
+
+            width: 100% !important;
+
+            padding: 10px 0px !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color: #000000 !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color: #000000 !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+            /* Firefox 18- */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color: #000000 !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+            /* Firefox 19+ */
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color: #000000 !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-style: normal !important;
+
+            color: #000000 !important;
+
+            font-size: 14px !important;
+
+            text-align: center !important;
+
+        }
+
+        .sfsi_subscribe_Popinner input[type=submit] {
+
+            font-family: Helvetica,Arial,sans-serif !important;
+
+            font-weight: bold !important;
+
+            color: #000000 !important;
+
+            font-size: 16px !important;
+
+            text-align: center !important;
+
+            background-color: #dedede !important;
+
+        }
+
+                .sfsi_shortcode_container {
+            float: left;
+        }
+
+        .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+            position: relative !important;
+        }
+
+        .sfsi_shortcode_container .sfsi_holders {
+            display: none;
+        }
+
+            </style>
+
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"\/wp-admin\/admin-ajax.php","plugin_url":"\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=5.3.2'></script>
 <script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
 
 </body>
