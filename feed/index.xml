@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 08 Jan 2020 07:00:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jan 2020 01:51:37 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,725 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>In Simple Terms: Risk-Free (Free Money!) Futures Trading by Leveraging Options Strategy</title>
+		<link>/2020/01/14/in-simple-terms-risk-free-free-money-futures-trading-by-leveraging-options-strategy/</link>
+				<pubDate>Wed, 15 Jan 2020 01:51:13 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=176</guid>
+				<description><![CDATA[View this content in it&#8217;s original form, on jare.cloud! Introduction In short: using an options strategy, we can trade any]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1575/1*wQN_FGI4ff7a26rJBS45Og.jpeg" alt=""/></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/14/in-simple-terms-risk-free-free-money-futures-trading-by-leveraging-options-strategy/">View this content in it&#8217;s original form, on jare.cloud</a>!</p>
+
+
+
+<h1 id="4def">Introduction</h1>
+
+
+
+<p>In short: using an options strategy, we can trade any sideways futures strategy with absolutely 0 risk. Price movements up, down, or sideways all yield profitable results. Markets go bullish, bearish, sideways or do a dance — you win no matter what!</p>
+
+
+
+<p>Awhile ago, on my Hackernoon, I penned this technical article on&nbsp;<a href="https://hackernoon.com/risk-free-futures-market-making-by-hedging-long-straddle-options-pc1236bl" target="_blank" rel="noreferrer noopener">Risk-Free Futures Market Making by Hedging Long Straddle Options</a>. In this article I will strive to deliver the points discussed in that first article to a less technical audience — who might be left scratching their heads.</p>
+
+
+
+<p>What I mean by ‘sideways’ is that the futures strategy wants to earn the best it can when the markets are neither upwards (bullish) or downwards (bearish).</p>
+
+
+
+<h1 id="3b67">Options Strategy</h1>
+
+
+
+<p>Places like Deribit via&nbsp;<a href="https://medium.com/u/c1bc81c4789b?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Deribit</a>&nbsp;and&nbsp;<a href="https://medium.com/u/c1bc81c4789b?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Deribit</a>&nbsp;(yes, two separate accounts) and Binance’s JEX platform via&nbsp;<a href="https://medium.com/u/57600910a883?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Binance</a>&nbsp;and&nbsp;<a href="https://medium.com/u/590e572dc6e7?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Miko Ilas</a>&nbsp;allow you to buy and sell BTC (and other coins…) options. An option is a deriviative, meaning that it’s value is derived from the underlying asset but not necessarily correlated — there’s loads of other ‘deriviatives,’ like futures, and that’s why we can trade with so much more leverage on options and futures — they’re not representing the actual asset, but an ‘derived’ idea.</p>
+
+
+
+<p>When you buy a call and a put you’re buying the right or ability to buy or sell (respectively) an underlying asset for the specified quantity and price sometime in the future. In European options, this point in the future is only on the day the options expire — or when they run out of time. Note that I’m not obligated to buy or sell — I simply have the right to, should I want to (or it makes financial sense). This means that (if I pay enough money, and someone is there to sell me this option) I should be able to buy the ABILITY to buy BTC for $1 sometime within the next month. That’s probably going to be a very lucrative deal, right? That’s why this option would be worth A LOT of money, and probably astronomically expensive to buy. The price at which you may buy or sell the underlying in the future is called ‘the strike.’</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/2118/1*_Ox5mK27cfvVSMM-VMvZhA.png" alt=""/></figure>
+
+
+
+<p>In the above screenshot, we see the calls and puts for BTC should the underlying index reach a price of $6750 on expiry or $6500 on expiry. Not that the price of the calls — the right to buy the asset — increases as the strike price decreases, while the cost of puts is decreasing along with it.</p>
+
+
+
+<p>On the other side of potential prices for BTC on 24 Jan 2020 (the date the options expire, or end), we see the opposite effect.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/2128/1*90q1y2_UhEPPSN60AfcKew.png" alt=""/></figure>
+
+
+
+<p>Calls are cheaper, puts are more expensive.</p>
+
+
+
+<p>Anyways, to get to my point — if you buy both a call and a put with two different strike prices at the same expiry, then you can do so for&nbsp;<em>VERY&nbsp;</em>cheap.</p>
+
+
+
+<p>What happens if the price remains around the same? The value of both the call and the put will reduce over time (as their distance to expiry is one of the things that gives them value — the uncertainty and possibility of volatility in this case means that they’re worth more now than they are tomorrow). Eventually, by expiry, they expire worthless.</p>
+
+
+
+<p>What happens if the price goes up? The value of the put goes down, and the call goes up. The more the price moves upwards, the less the put is worth — all the way down to worthless — while the call increases in value&nbsp;<em>EXPONENTIALLY</em>.</p>
+
+
+
+<p>What happens if the price goes down? The&nbsp;<em>OPPOSITE</em>. One $0 and the other gains value&nbsp;<em>EXPONENTIALLY</em>.</p>
+
+
+
+<p>This options strategy is called a ‘long straddle,’ and it essentially means you’re betting on the price moving up or down by a large amount. It’s handy in markets you expect to be volatile — like stocks on days they report earnings or, much less likely in practice, you’re aware of someone’s unannounced merger and acquisition. What this also means is that cryptocurrencies — arguably the most volatile of the assets — allow an options trader to reap in the benefits of a highly volatile market.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1680/1*YnzM0Mta90lpGCtm-wzjKg.jpeg" alt=""/></figure>
+
+
+
+<p>For instance, we know that Bitcoin’s mining yields will be half what they have been for awhile sometime in the not-so-distant future. We can surely bet that the price will either go up or down&nbsp;<em>drastically</em>&nbsp;in a short period of time. Take out a long straddle!</p>
+
+
+
+<p>Anyways, the above article I wrote on Hackernoon goes on to say that you can use some smart guys math to guesstimate the potential future ‘fair value’ for these long straddles. There’s a few smart guys to choose from, I chose Black Scholes. Now we have a programmatic way to say ‘hey if price moves 5% then I can expect my long straddle to be worth x% more,’ their math model solves for x.</p>
+
+
+
+<p>Now, where long straddles lose money is when the markets are sideways. I actually found this strategy when I was dreaming up ways to have less risk with my sideways market trading strategies — be they market makers, for instance, they lose money when the markets go up and down and they’re caught holding a bag of $$ that takes away all my yields.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/974/1*OeEhtZQFJ88ZqAvFzTlVjQ.png" alt=""/></figure>
+
+
+
+<p>These Market Makers make $$ when the markets are sideways, by earning on $ fees and $ spread. On Deribit,&nbsp;<a href="https://medium.com/u/94b52ae5502e?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">BitMEX</a>,&nbsp;<a href="https://medium.com/u/b7ff9821c710?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Bybit</a>,&nbsp;<a href="https://medium.com/u/724240b60d22?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Bitfinex</a>&nbsp;Kraken and&nbsp;<a href="https://medium.com/u/316a1a75d708?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">CoinFLEX</a>&nbsp;they give you REBATES on fees you can earn when people trade against your orders. When you add liquidity to their exchanges, they split their earnings with you — sometimes 50/50!</p>
+
+
+
+<p>This means that if I was to know that my max exposure is (how many positions of what sizes I might hold if the markets go one way or another) in $$ and if the market moves y% at 6x leverage, I then liquidate at y%. This is normally bad, but…</p>
+
+
+
+<p>I can buy the exact (or almost exact) number puts/calls I need to make sure that if price goes up OR down by any % all the way up to liquidation % then I’m making money on my long straddle when I’m losing money on my Market Maker.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1096/1*f-8ikqYVWMFzCSgXAEthng.png" alt=""/></figure>
+
+
+
+<p>This applies to any strategy that generates yield when sideways, not just market makers. Say price goes up 5% in a day and my sideways strategy liquidates, and out of my puts and calls one of them is $0 and the other one increased in value&nbsp;<em>A WHOLE HECK OF A LOT.</em></p>
+
+
+
+<p>The only way this doesn’t work is if your sideways strategy doesn’t earn more than what you lose when you hold onto the long straddles and their value goes down over time…</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization — where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Top Money-Making Decentralized Finance #DeFi Applications</title>
+		<link>/2020/01/14/top-money-making-decentralized-finance-defi-applications/</link>
+				<pubDate>Wed, 15 Jan 2020 01:46:23 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=172</guid>
+				<description><![CDATA[View this content in it&#8217;s original form, on jare.cloud! Preface Today we’ll discuss some of the top Decentralized Finance (DeFi)]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1134/0*6V4x3aCeDeW4pZJ9.jpeg" alt=""/></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/14/top-money-making-decentralized-finance-defi-applications/">View this content in it&#8217;s original form, on jare.cloud</a>!</p>
+
+
+
+<h1 id="cfa9">Preface</h1>
+
+
+
+<p>Today we’ll discuss some of the top Decentralized Finance (DeFi) applications that exist, serving people in a trustless manner around the world.</p>
+
+
+
+<p>What do I mean by trustless? Given Ether’s immutable (cannot change) smart contracts, the behavior of the money moved around DeFi is such that it cannot be stolen, hacked, lost or misappropriated. Moreover, to earn the word ‘trustless,’ I don’t have to put my trust into a given person or organization — instead, I trust the underlying technology of the contracts they’ve devised. It’s trustless!</p>
+
+
+
+<p>I’ve separated the following doc into four sections, comparing the platforms in each: Trading, Borrowing, WBTC Borrowing, and Lending.</p>
+
+
+
+<h1 id="f070">Trading</h1>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*tZBzoXMQbrq7X6NUJnaL8w.png?q=20" alt=""/></figure>
+
+
+
+<p>With up to 5x leverage available to traders, dydxprotocol at&nbsp;<a href="http://dydx.exchange/" target="_blank" rel="noreferrer noopener">dydx.exchange</a>&nbsp;and folks like&nbsp;<a href="https://medium.com/u/b3d17ffd3219?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Antonio Juliano</a>&nbsp;and&nbsp;<a href="https://medium.com/u/67f0a6970a7c?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Zhuoxun Yin</a>&nbsp;bring you a beautiful night-mode interface that allows you to trade some of your favorite assets. Some people — especially those burned by Mt. Gox or other exit scams — are risk-averse to what we call ‘counterparty risk.’ What this means is that some people would much rather have less single points of failure when it comes to the custody of their money — and now we can even trade with leverage on platforms like dydx, so who needs centralized exchanges and their bankster owners?</p>
+
+
+
+<p>Dydx lets you borrow, too, but we’ll discuss that more in detail in a future section of this article.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*b6kUKIB8rLIy9QBa_KE7hw.png?q=20" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*Bb6NKV_XMMXdEZkAw1_cfQ.png?q=20" alt=""/></figure>
+
+
+
+<p>I do like how the people at&nbsp;<a href="http://fulcrum.trade/" target="_blank" rel="noreferrer noopener">fulcrum.trade</a>&nbsp;(their parent org: bZx) separated their trading interface from their borrowing interface. We’ll have a closer look at their not-for-margin-trading borrowing interface in a later section, but the fulcrum.trade interface lacks some of the leverage available to dydx — although that negative is helped by having a broader selection of coins.</p>
+
+
+
+<h1 id="2015">Borrowing</h1>
+
+
+
+<p>With a resounding set of achieved milestones and growth,&nbsp;<a href="http://compound.finance/" target="_blank" rel="noreferrer noopener">compound.finance</a>&nbsp;and some of the team&nbsp;<a href="https://medium.com/u/54f6f223cd12?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Robert Leshner</a>,&nbsp;<a href="https://medium.com/u/8808a762900f?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Calvin Liu</a>&nbsp;and&nbsp;<a href="https://medium.com/u/42c8b7010550?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Jayson Hobby</a>&nbsp;have been building another Ether unicorn to add to our growing list.</p>
+
+
+
+<p>With millions under management, and a wide variety of coins to choose from to use as collateral, Compound provides a unique opportunity in traditional financial history. It’s apparent that we can over-collateralize loans in crypto against stablecoins and be long those cryptos while getting spending money for the time being — the bullish attitude we have towards these cryptos says that their underlying growth in equity value will outperform the interest rates we’re paying on our stablecoin loans. Boom, we’ve just earned ‘free-ish’ crypto!</p>
+
+
+
+<p>Wait, though, this really only applies to Ether and the Ethereum tokens listed on Compound At Time of Writing, and doesn’t appear to apply to WBTC? I really had hoped to diversify my collateral I’m holding to maximize the upwards potential of both DeFi and The King of Coins, $BTC!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*ar7ch_ZSKslofPWRdvGJQg.png?q=20" alt=""/></figure>
+
+
+
+<p>(See, a ‘Collateral Factor’ of 0% means we can’t use Wrapped BTC as a collateral coin).</p>
+
+
+
+<p>Whatever are we to do?</p>
+
+
+
+<h1 id="1990">Borrowing Against WBTC</h1>
+
+
+
+<p>Like I’d mentioned above,&nbsp;<a href="http://bzx.network/" target="_blank" rel="noreferrer noopener">bzx.network</a>&nbsp;has the tools&nbsp;<a href="http://fulcrum.trade/" target="_blank" rel="noreferrer noopener">fulcrum.trade</a>&nbsp;and&nbsp;<a href="http://torque.loans/" target="_blank" rel="noreferrer noopener">torque.loans</a>, and some of the people working wonders like&nbsp;<a href="https://medium.com/u/e65fe39afe1d?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Nick Sawinyh</a>,&nbsp;<a href="https://medium.com/u/7c5899852965?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Kyle J Kistner</a>&nbsp;or their team account here&nbsp;<a href="https://medium.com/u/c84b634c7ca3?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">bZx Team</a>. We discussed fulcrum.trade above and hinted at the existence of torque.loans — as a flipside of the same coin, instead of lending and borrowing under-collateralized loans for the purpose of margin trading (a la dydx) we can lend and borrow over-collateralized loans for the purpose of hedging, or whatever other purpose you had in mind (a la compound)!</p>
+
+
+
+<p>Simply load up your MetaMask or other wallet, select the token to receive, change your collateral to WBTC and — oh, spoke too soon! Found an error among all tokens when selecting WBTC as collateral.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*7FQA5lzB_AAtgsnIVkEJsg.png?q=20" alt=""/></figure>
+
+
+
+<p>Wonder if there’s a bug bounty…</p>
+
+
+
+<p><em>Soon</em>! You’ll be able to achieve all that diversification and goodness I was speaking about earlier.</p>
+
+
+
+<p>EDIT: 15 minutes after my Tweet to bZx and everyone else, at some ungodly hour in the morning that it is right now:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*APv0pSO6xIE8ozzlL9sNvA.png?q=20" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*AGRk-fkbzxjZQ2RZ7dhrsw.png?q=20" alt=""/></figure>
+
+
+
+<p>When was the last time your banks answered the phone that quick?</p>
+
+
+
+<p>EDIT AGAIN: It looks as though the bug was on my side, and it’s working fine now that I’ve restarted my machine trying to take a screencast for their team — all is good in the hood, and likely no cause for alarm! I’m going to leave this little diversion in here about the bug-that-could-have-been, because it illustrats how prompt, friendly and helpful bZx’s team are.</p>
+
+
+
+<p><a href="https://twitter.com/jarettdunn/status/1216982964233437185" target="_blank" rel="noreferrer noopener">Check Out the Chat and Follow My Twitter</a>!</p>
+
+
+
+<h1 id="85de">Lending</h1>
+
+
+
+<p>What do diversified assets and Albert Einstein have in common?</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*KlOBylBk6AmLAj9PNKQO1w.png?q=20" alt=""/></figure>
+
+
+
+<p>Einstein knew that being on the winning side of compound interest would free people — and diversifying your portfolio is step #1 to earning consistent returns. All our moms (or indeed dads, or indeed people-y people) told us ‘don’t put all your eggs in one basket,’ right?</p>
+
+
+
+<p>Here’s where stuff gets interesting. Because the three solutions noted above are all open-source and allow and encourage people to develop tools to add to their utility,&nbsp;<a href="http://staked.us/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">staked.us</a>&nbsp;of course at&nbsp;<a href="https://medium.com/u/2e226f754735?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Staked</a>&nbsp;developed their tool&nbsp;<a href="https://staked.us/v/robo-advisor-yield/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">Robo Advisor for Yield</a>. Edit: Shoutout to their man&nbsp;<a href="https://medium.com/u/94138e7bc2b8?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Devan Purhar</a>, who handles all my support tickets I’ve had on their GitHub (one example link and ensuing conversation to follow). Much appreciated!</p>
+
+
+
+<p>What’s it do?</p>
+
+
+
+<p>At present, it indexes Compound, dydx, and fulcrum.trade and gives you the best rate among each of them — meaning that if you were to have Robo Advisors for Eth, USDC, DAI and SAI, you’d be earning the best yields for four different assets (one might moon! And: eth staking, coming soon!) — maybe more different assets in the future:&nbsp;<a href="https://github.com/Stakedllc/robo-advisor-yield/issues/5" target="_blank" rel="noreferrer noopener">https://github.com/Stakedllc/robo-advisor-yield/issues/5</a>&nbsp;at any given point.</p>
+
+
+
+<p>They’ve used on-chain, open-source solutions in the keeping with crypto spirit and in order to bolster the offerings of the participant protocols. This means that they add a layer to the tech without adding a party to be considered when thinking about counterparty risk — the trust is still in the tech (which has all been thoroughly audited, be sure)!</p>
+
+
+
+<h1 id="050e">Conclusion</h1>
+
+
+
+<p>So head on over to&nbsp;<a href="http://staked.us/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">staked.us</a>, check out their platform where you can earn returns on staking PoS coins, but more importantly check out their&nbsp;<a href="https://staked.us/v/robo-advisor-yield/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">Robo Advisor for Yield</a>&nbsp;today. You can mint your own RAYs and begin the journey to doubling your crypto, too!</p>
+
+
+
+<p>Looking to trade undercollateralized loans, on the blockchain and without a third party? Check out some of the other solutions, like dydx.exchange and fulcrum.trade.</p>
+
+
+
+<p>Looking to borrow funds against your crypto? I’d recommend compound.finance or torque.loans.</p>
+
+
+
+<p>DeFi is here to stay — banking the unbanked — let the games commence!</p>
+
+
+
+<h1 id="0d3a">Bonus 1: Nuo.Network</h1>
+
+
+
+<p>Nuo.network (with an encouring team including team account&nbsp;<a href="https://medium.com/u/d834ca07a5ac?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Nuo Network</a>,&nbsp;<a href="https://medium.com/u/29f0b8f49104?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Varun Deshpande</a>,&nbsp;<a href="https://medium.com/u/2e63d860a40d?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Siddharth Verma</a>&nbsp;and&nbsp;<a href="https://medium.com/u/a48f2610a12d?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Praneet Sinha</a>&nbsp;allows you to lend and borrow — including WBTC — and margin trade using non-custodial addresses, like the other contenders in this list.</p>
+
+
+
+<p>Why didn’t Nuo make the original list?</p>
+
+
+
+<p>Their smart contracts aren’t public — meaning that&nbsp;the interface to build on nuo.network is controlled by their team, and doesn’t allow folks to create additional value by plugging pieces together and offering something brand new — like&nbsp;<a href="https://staked.us/v/robo-advisor-yield/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">staked.us’s Robo Advisor for Yield</a>&nbsp;does.</p>
+
+
+
+<p>However, the Staked team reassures us that they’ve been in touch with Nuo’s and that — pending an upcoming update — the code will be public and the joys of Nuo can be introduced into the Robo Advisor for Yield.</p>
+
+
+
+<p>Check more details on this post I made outlining Nuo as a possible way to earn yield (and earn yield on WBTC) on Staked’s RAY:&nbsp;<a href="https://github.com/Stakedllc/robo-advisor-yield/issues/5" target="_blank" rel="noreferrer noopener">https://github.com/Stakedllc/robo-advisor-yield/issues/5</a></p>
+
+
+
+<h1 id="3258">Bonus 2: Uniswap</h1>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/1*h9q1b-UntQQAeNW0MQfWMw.png?q=20" alt=""/></figure>
+
+
+
+<p>People like&nbsp;<a href="https://medium.com/u/5b6f44a990f8?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Callil Capuozzo</a>&nbsp;and&nbsp;<a href="https://medium.com/u/ec7001b3c11f?source=post_page-----75a757dc6408----------------------" target="_blank" rel="noreferrer noopener">Hayden Adams</a>&nbsp;have been building Uniswap: Heralded as Ethereum’s unicorn — Uniswap allows a whole bunch of interesting features. These include swapping Ether tokens and paying a small fee all the way up to submitting your own new exchange (token) to the network and having all your friends increase your token’s liquidity.</p>
+
+
+
+<p>What happens (as far as I know, and in Laymen’s) is, as I undertand it, a liquidity pool I can put funds into so that market makers and other parties can execute trades at leverage or for ‘free-ish.’ These funds then produce yield as the market makers have paid fees which gets added to the pot, then available for the liquidity providers to later withdraw. I may be incorrect in my understanding or I may have forgotten something.</p>
+
+
+
+<p>Check out an idea I had to generate yield by COMBINING Compound and Uniswap (I know, insane) here:&nbsp;<a href="https://github.com/Stakedllc/robo-advisor-yield/issues/3" target="_blank" rel="noreferrer noopener">https://github.com/Stakedllc/robo-advisor-yield/issues/3</a></p>
+
+
+
+<p>And see an idea of mine for integrating Uniswap in their own traditional sense into Staked.us’s RAY here:&nbsp;<a href="https://github.com/Stakedllc/robo-advisor-yield/issues/6" target="_blank" rel="noreferrer noopener">https://github.com/Stakedllc/robo-advisor-yield/issues/6</a></p>
+
+
+
+<h1 id="524f">Disclaimer</h1>
+
+
+
+<p>No, I don’t work for Staked.</p>
+
+
+
+<p>Yes, I am an affiliate and will earn affiliate commissions if you sign up using my links.</p>
+
+
+
+<p>No, there are no other affiliate links in this doc — I gave an honest and unbiased opinion here, not affiliate spam <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>You can be Staked.us affiliated, too!</p>
+
+
+
+<p>After signing up for Staked.us (here’s the full url of my affiliate link:&nbsp;<a href="https://staked.us/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">https://staked.us/?pid=fr5BC09Vgc</a>) , you’ll have access to the Partners area:&nbsp;<a href="https://staked.us/stake/partners/" target="_blank" rel="noreferrer noopener">https://staked.us/stake/partners/</a></p>
+
+
+
+<p>The author is, however, employed by Coindex Labs — leading us nicely into a plug:</p>
+
+
+
+<h1 id="cfd7">A Plug</h1>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization — where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How do people with mental health illnesses like schizophrenia or other psychoses think?</title>
+		<link>/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/</link>
+				<pubDate>Wed, 15 Jan 2020 01:43:57 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Mental Health]]></category>
+
+		<guid isPermaLink="false">/?p=168</guid>
+				<description><![CDATA[View this article in it&#8217;s original form, on jare.cloud! He stared out from behind his eyes wide shut. In front]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/722/0*xYsewcQ1HGRJq-Us" alt=""/></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/">View this article in it&#8217;s original form, on jare.cloud!</a></p>
+
+
+
+<p>He stared out from behind his eyes wide shut. In front of him, displayed like countless myriad millions television screens laid one next to each other, were the lives of everyone he’d ever lived — partially, completely, not at all or fully.</p>
+
+
+
+<p>He focused on one where he was little Jane being picked up and twirled by her dad. In ecstasy, Jane laughed in joy and giggled in fear as she twirled higher and faster. These are the moments she would remember with elation for the rest of her life, years after her father died in a tragic motorbike accident that could have been avoided — years after Jane has her own kids, twirling them with the same gusto every opportunity she’d had.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*qdoq097kM6cGT8MP.jpg?q=20" alt=""/></figure>
+
+
+
+<p>Focusing again, James was Ira being raped by four men in a back alley. The pain, anguish, fear and feel of the knife built anxiety and pain, paranoia and shame for a lifetime — never to be forgiven, forgotten, and never to be repaired.</p>
+
+
+
+<p>He was the rapists, exacting dominance. Both the shameful and the shameless.</p>
+
+
+
+<p>He was the onlooker, too scared to intervene. Coward. Dastardly.</p>
+
+
+
+<p>He was the doctor, the father, the stillborn.</p>
+
+
+
+<p>James’ eyes shifted and saw 100s more ‘screens,’ 100s more entries into the days, moments, lifetimes of people around the world — billions of people he was doomed to relive the lives of, over and over, backwards and forwards throughout time and back again.</p>
+
+
+
+<p>There was no escape.</p>
+
+
+
+<p>He is God, having only ever wanted to sacrifice immortality and — as is the only Godly pursuit — die and be forgotten.</p>
+
+
+
+<p>He is Jane.</p>
+
+
+
+<p>He is Ira.</p>
+
+
+
+<p>He will wake up tomorrow and be Josh for a day.</p>
+
+
+
+<p>A moment, Alex.</p>
+
+
+
+<p>An infinity, Gods long dead and forgotten by history. Contrived and devised, planned and propagated by people — propagated to subjugate, control, extract money and exact dominance — immortal by design, infinite in the eyes of those who can’t plausibly conceive infinity.</p>
+
+
+
+<p>Eyes wide shut.</p>
+
+
+
+<p>Countless more animals, rocks, alien worlds — dissociation is a scary, scary thing. One loses one’s senses and knowledge of one’s self, one loses one’s memories and sense of humanity. As a rock on Mars, what do we remember of the Holocaust? What do we remember of Christianity? What do we remember of James? As a rock on Neptune, what do we remember of the rock on Mars?</p>
+
+
+
+<p>Being God, how could he refute God?</p>
+
+
+
+<p>He’d long since felt the panic leave his body. He’d long since laid there, catatonic, wishing for a sanity he remembered in his childhood. Drifting in and out of consciousness, drifting in and out of the conscience of others. He was all of his ex lovers, he was every side of every argument he’d ever had. He was the ultra-rich. He was the ultra-poor. He was puppy, squid, house. Woman, house, fish, bee. Acceleration, deceleration. Up, down.</p>
+
+
+
+<p>As his mind entered the all-familiar mantra of dichotomies, a part of him wondered if he were stuck like this — forever lost between perceptions and realities, forever without a name, legacy, or history. A part of him chimed in that this is what happens every time, and like the Beatles said the sun will come out tomorrow.. There will always be another day, another dawn, another lapse of time where he was he and he wasn’t Jane, Ira, or God. These two parts argued — there were other voices that chimed in — the voices argued, and took bets amongst themselves about whether or not this was the last time, the final straw that broke that camel’s back and landed him forever lost. The voices took bets whether or not he would commit suicide today, tomorrow, die by arrow or die by plane engines falling from the sky — the voices argued…</p>
+
+
+
+<p>The dichotomies grew louder to keep them from taking over. To keep them at bay: ocean, sky. Arrow, wound. Nothingness, everything. Quantum. Three states. On, off, both and neither. 1, 0,…</p>
+
+
+
+<p>Catatonic. Not moving. Not interacting. Fearing the next day, fearing the chances the voices won and saw him off himself with a bottle of bleach. Fearing God’s revenge. Fearing Ira’s rapists. Fearing Jane’s dad’s drunk driver hit-and-run. Panic sets in…</p>
+
+
+
+<p>The heart feels on fire, the heart feels as though it’ll give out. The breathing speeds up. The thoughts continue, and the feedback cycle sets in — faster heart, faster breathing, more psychosis, faster heart, faster breathing.. In the past, James had called emergency services fearing the physical symptoms. Now, having learned how his body tricks his mind tricks his body — a tango nobody wants to endure — he endures it. He sits through it. Looking out from eyes wide shut, he’s aware of the room around him behind closed eyes. Open eyes? He can’t tell anymore. They’re shutting and opening, he can see through them when shut. He is infinite. He is God.</p>
+
+
+
+<p>He wouldn’t wish this fate on his worst enemies.</p>
+
+
+
+<p>He is patient zero.</p>
+
+
+
+<p>He wants to start support groups. He wants to help. He wants to educate, lift stigma, teach, and help others find a peace within themselves they can’t find on their own. He wants to be a voice for those without a voice.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*L3XI76HxjbFRSB_a?q=20" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*FUcYxeuEueSWPZ0J?q=20" alt=""/></figure>
+
+
+
+<p>He can’t.</p>
+
+
+
+<p>He’s disabled.</p>
+
+
+
+<p>He’s destroyed — inwardly, outwardly — he lays there each night on the brink of madness and puts on a smile each day for friends and family. He turns to drugs and alcohol to turn down the mantra, turn down the voices, and takes his medication knowing that The Man’s pharmaceutical agenda is to keep his voice from being heard. He’s dangerous. He threatens the status quo.</p>
+
+
+
+<p>He’s not alone.</p>
+
+
+
+<p>Squelched by the drugs — prescribed and not — he’s silenced by a system that didn’t give him a chance. The trade is a fair one — lose your autonomy for a series of time that goes by without hallucinations or delusions. Keep yourself in the ‘real’ reality, take these pills, we’ve supplied loads of cocaine on the street to keep you in check.</p>
+
+
+
+<p>He is your cousin, your son, your friend, your lover.</p>
+
+
+
+<p>As much as he’s everyone, everyone is him.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Proposing a Blockchain Solution During an Interview</title>
+		<link>/2020/01/14/proposing-a-blockchain-solution-during-an-interview/</link>
+				<pubDate>Wed, 15 Jan 2020 01:41:31 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">/?p=164</guid>
+				<description><![CDATA[View this article in it&#8217;s original form, on jare.cloud! The Interview The other day, I interviewed for a supervisor role]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/840/1*GYULX2E1ENRA06Kz1_6lpg.jpeg" alt=""/></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/14/proposing-a-blockchain-solution-during-an-interview/">View this article in it&#8217;s original form, on jare.cloud!</a></p>
+
+
+
+<h1 id="bdb7">The Interview</h1>
+
+
+
+<p>The other day, I interviewed for a supervisor role within a top domain name registrar. Although most of the requirements are something I’ve already done before, it should prove an interesting diversion and provide funds to fuel my other ventures into creating passive income. Moreover, it would allow me to concentrate on my overall health and wellness — and support my goals of starting a family. While working in crypto is fun and exciting, it would be nice (wonderful?) to have a sustainable income I can depend on, while funding retirement plans ie. ~3% APR on WBTC on some providers or ~4–4.5% returns across many DeFi on the&nbsp;<a href="http://staked.us/?pid=fr5BC09Vgc" target="_blank" rel="noreferrer noopener">staked.us</a>&nbsp;Robo Advisor. Even better — there are certain advantages to working in an environment with other people, for once, that I’ve been sorely lacking for the last 7–8 years working remotely from home — as well as benefits, employment insurance contributions, tax withholdings,.. etc… which I hadn’t had for that entire time, either!</p>
+
+
+
+<p>I went into some details surrounding my mental health background, having conquered my own battles in order to learn and grow and become more able to perceive and understand other people’s points of view — turning a ‘disadvantage’ into one of my greatest selling points.</p>
+
+
+
+<p>I feel happy with how the interview went, and should hear back about the potential for a 2nd interview soon.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*hzSw3_bLNOiQsSz6?q=20" alt=""/></figure>
+
+
+
+<h1 id="c570">The Pitch</h1>
+
+
+
+<p>During the interview, one of the questions was ‘sometimes meeting metrics and showing up every day is tough. How would you motivate your team?’</p>
+
+
+
+<p>I said something akin to ‘I’ve actually given this question a lot of thought before the interview. What it really boils down to is what’s allowed or what there’s a budget for: can I offer people gift certificates in a competition for hitting targets? If there’s no budget to do that, can I offer them up on my own? Maybe we could have a points system to redeem for merchandise, paid time off, or other financial incentives..’</p>
+
+
+
+<p>Read that again, but in the terms crypto fans would appreciate: A Blockchain solution for immutable transactions recorded to a distributed system for persistence, redundancy, transparency and accountability.</p>
+
+
+
+<p>In the interview process, I can’t really suggest a ground-breaking solution using new and novel tech to an internet giant company. While they might be reciprocal at a later stage to something like this, they’d probably look at me with eyes wide shut if I came up with something as absurd (and potentially as costly) as that.</p>
+
+
+
+<p>This does, however, ‘plant the seed’ that could take over into a successful pitch in the not-so-distant-future.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*wSkt5SOyCQgiC5ci?q=20" alt=""/></figure>
+
+
+
+<h1 id="8918">What Are the Actual Sunk Costs of Dev?</h1>
+
+
+
+<p>$0.</p>
+
+
+
+<p>As I’ve detailed in&nbsp;<a href="https://www.education-ecosystem.com/h3xadecimal/lMJPV-how-to-build-your-own-ethereum-network" target="_blank" rel="noreferrer noopener">a 3–4 hour video presentation on education-ecosystem</a>&nbsp;(that you might have to unfortunately pay to see), I’ve already forked and successfully recreated the Ethereum mainnet onto my own single-use block producing machine. What this means in layman’s is that I can do anything that the Ethereum blockchain can do — on my own computers or devices, with my own tokens or smart contracts, in an environment where I set my own difficulty and I’m the only one mining — meaning I have full control over the Ether token and full rewards from all mining.</p>
+
+
+
+<p>What this means in a global organization with many thousands computers across datacenters already is that some of these machines can run an eth-fork node running this new blockchain, in their idle processing time, and confirm blocks — achieving distributed systems for our new and fledgling blockchain.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*DVffGwMC_uCmrjdS?q=20" alt=""/></figure>
+
+
+
+<p>As I’ve taped myself elsewhere on education-ecosystem&nbsp;<a href="https://www.education-ecosystem.com/projects/?q=h3xadecimal" target="_blank" rel="noreferrer noopener">(give a project search for my username h3xadecimal)</a>, I’ve created DApps on Ether using Truffle.js or other frameworks. The next step would be a simple but beautiful templated website in static HTML that’s served, again, for free or near-0 costs that then integrates — via MetaMask — with the newly created blockchain and its nodes, using a custom endpoint for provider.</p>
+
+
+
+<p>This website would then allow a whole bunch of different functions — without confusing users with Blockchain-ish terms — from transferring ‘points’ from your own account to your friend’s account, or (like I said in the interview) exchanging tokens for corporate merchandise, partner’s merchandise or other partner offerings, and even paid time off — even including gift cards or entry into contests for more financial rewards, more merch or more PTO. The ideas can stream from here and I wouldn’t be the only head in the mix at this point, and I’m sure we would have a ton of rewarding things that tokens can be sent to 0x0 (the originating address) for.</p>
+
+
+
+<p>Insofar as the upkeep of nodes and the static site — all of this is easily documented in the same way I’ve documented other tech solutions, for complete newbies to consume and understand and replicate the success I’ve achieved — meaning the solution may well have longevity after I’ve gone.</p>
+
+
+
+<h1 id="7ce6">Next Steps?</h1>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/39/0*t_CcjnO84tr8zDO_?q=20" alt=""/></figure>
+
+
+
+<p>With 3500+ employees on LinkedIn, I could give a 0- or near-0 cost to incentivize first my team in a pilot and, later, more in the building — and more in the world.</p>
+
+
+
+<p>This benefits the organization by allowing them an uncompromisable solution for employee rewards — and, if successful, one that could be packaged and resold to small- to medium-sized organizations. This is a pro I seem to think that one of the largest internet domain name registrars would appeal to, do you agree?</p>
+
+
+
+<p>This benefits the employees by gamifying employee rewards, and allowing them to accumulate, share, compete with their tokens — potentially taking part in contests and other fun activities. I didn’t mention this in detail but people would acquire tokens for perceivably good behavior: good attendance, exemplary metrics, and other types of achievable objectives that benefit them and the greater whole.</p>
+
+
+
+<p>This benefits blockchain by putting a real-world example into focus within a large IT organization, where the users themselves get direct exposure to the technology and then can learn more about it if they choose — and the organization itself can champion the acceptance of blockchain worldwide, if we prove we can achieve a net net positive result for everyone involved.</p>
+
+
+
+<h1 id="3690">A Plug</h1>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization — where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Decentralized Social Media</title>
 		<link>/2019/12/30/decentralized-social-media/</link>
 				<pubDate>Tue, 31 Dec 2019 03:19:27 +0000</pubDate>
@@ -552,557 +1271,6 @@
 
 
 <p></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Skip the SSL w/ Serverless Telegram Bot via Now.js</title>
-		<link>/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/</link>
-				<pubDate>Sun, 24 Nov 2019 10:17:00 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=109</guid>
-				<description><![CDATA[See this article in it&#8217;s original form on dunncreativess.github.io! Try this bot on Telegram! https://t.me/JareBotBot! Sponsor my opensource efforts on]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://dunncreativess.github.io/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/">See this article in it&#8217;s original form on dunncreativess.github.io!</a></p>
-
-
-
-<p>Try this bot on Telegram! <a href="https://t.me/JareBotBot">https://t.me/JareBotBot</a>!</p>
-
-
-
-<p><a href="https://github.com/sponsors/dunncreativess">Sponsor my opensource efforts on GitHub</a>!</p>
-
-
-
-<p>Note: these directions come without much conversation, let the hacking begin!</p>
-
-
-
-<p>Set up a Bot with @BotFather<br> </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-34.png" alt="" class="wp-image-110" srcset="/wp-content/uploads/2019/11/image-34.png 641w, /wp-content/uploads/2019/11/image-34-289x300.png 289w" sizes="(max-width: 641px) 100vw, 641px" /></figure>
-
-
-
-<p>Create a package.json</p>
-
-
-
-<p><code>{<br>   "name": "tg-bot-now",<br>   "version": "0.2.0",<br>   "description": "A sample Telegram bot via now.js",<br>   "main": "app.js",<br>   "scripts": {<br>     "start": "node app.js"<br>   },<br>   "dependencies": {<br>     "axios": "<em>",     "body-parser": "</em>",<br>     "express": "*",<br>     "request": "^2.88.0",<br>     "requests": "^0.3.0"<br>   },<br>   "license": "MIT"<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-35.png" alt="" class="wp-image-111" srcset="/wp-content/uploads/2019/11/image-35.png 827w, /wp-content/uploads/2019/11/image-35-300x150.png 300w, /wp-content/uploads/2019/11/image-35-768x384.png 768w" sizes="(max-width: 827px) 100vw, 827px" /></figure>
-
-
-
-<p>Create a now.json</p>
-
-
-
-<p><code>{<br>   "version": 2,<br>   "builds": [<br>     { "src": "app.js", "use": "@now/node-server" }<br>   ],<br>   "routes": [<br>     { "src": "/(.*)", "dest": "app.js" }<br>   ]<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-36.png" alt="" class="wp-image-112" srcset="/wp-content/uploads/2019/11/image-36.png 606w, /wp-content/uploads/2019/11/image-36-300x139.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></figure>
-
-
-
-<p>Create an app.js</p>
-
-
-
-<pre class="wp-block-code"><code>var express = require("express");
- var app = express();
- var request = require('request');
- var bodyParser = require("body-parser");
- const axios = require("axios");
- app.use(bodyParser.json());
- app.use(
-     bodyParser.urlencoded({
-         extended: true
-     })
- );
- console.log("run"); 
-function sendMessage(url, message, reply, res) {
-axios.post(url, {
-    chat_id: message.chat.id,
-    text: reply
-}).then(response => {
-    console.log("Message posted");
-    res.end("ok");
-}).catch(error => {
-    console.log(error);
-});
-}
- app.get('/', function(req, res) {
-     res.send('hello');
- })
- var bots = &#91;"http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
- app.post("/startbot", function(req, res) {
-     console.log("startbot");
-     const {
-         message
-     } = req.body;
-     let reply = "Welcome to Jare's bot bot";
-     if (message.text != undefined) {
-         if (message.text.toLowerCase().indexOf("statusupdate") != -1) {
-             reply = ""
-             for (var b in bots) {
- r = request.get(bots&#91;b], function(e, r, d) {
-
-                j = JSON.parse(d)
-                start = j.btc&#91;0]&#91;0]
-                btc = j.btc&#91;j.btc.length - 1]&#91;1]
-                end = j.btc&#91;j.btc.length - 1]&#91;0]
-                diff = end - start
-                var s = diff / 1000
-                var m = s / 60
-                var h = m / 60
-                var d = h / 24
-                var y = d / 365
-                var apr = (j.btc&#91;j.btc.length - 1]&#91;1] - j.btc&#91;0]&#91;1]) / y
-                reply += r.request.uri.href.substring(0, r.request.uri.href.length - 7) + '\n'
-                reply += "Start: " + new Date(start) + '\n'
-                reply += "Now: " + new Date(end) + "\n"
-                reply += "BTC Notional traded recent memory: " + j.qty + "\n"
-                reply += "Current position: " + j.pos + "\n"
-                reply += "BTC % Delta: " + btc.toPrecision(4) + '%\n'
-                reply += "BTC % ROI / day projected: " + (apr / 365).toPrecision(4) + '%\n'
-                reply += "BTC % APR projected: " + (apr).toPrecision(4) + '%\n\n'
-            })
-        }
-        setTimeout(function() {
-            sendMessage(telegram_url, message, reply, res);
-        }, 2000);
-    } else {
-        res.end("ok");
-    }
-}
-});
- let telegram_url = "https://api.telegram.org/bot" + process.env.key + "/sendMessage";
- app.listen(8000, () => console.log("Telegram bot is listening on port 8000!"));</code></pre>
-
-
-
-<p>Note: it&#8217;s important to send a res.end in every case, or else your bot will get hung up on old messages it couldn&#8217;t process and no res.end was sent &#8211; putting it in a forever loop of never sending a response!</p>
-
-
-
-<p>set your env key</p>
-
-
-
-<p><code>export key="whateverbotfathergaveyou"</code></p>
-
-
-
-<p>npm i</p>
-
-
-
-<p><code>npm i</code></p>
-
-
-
-<p>install now</p>
-
-
-
-<p><code>npm i -g now</code></p>
-
-
-
-<p>run now</p>
-
-
-
-<p><code>now</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-37.png" alt="" class="wp-image-113" srcset="/wp-content/uploads/2019/11/image-37.png 902w, /wp-content/uploads/2019/11/image-37-300x58.png 300w, /wp-content/uploads/2019/11/image-37-768x148.png 768w" sizes="(max-width: 902px) 100vw, 902px" /></figure>
-
-
-
-<p>Register your POST callback wtih Telegram&#8217;s grandmasters</p>
-
-
-
-<p><code>curl -F "url=https://URL_FROM_NOW/startbot" https://api.telegram.org/botYOUR_TELEGRAM_API_TOKEN/setWebhook</code></p>
-
-
-
-<p>Congrats!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-38.png" alt="" class="wp-image-114" srcset="/wp-content/uploads/2019/11/image-38.png 655w, /wp-content/uploads/2019/11/image-38-300x298.png 300w, /wp-content/uploads/2019/11/image-38-150x150.png 150w" sizes="(max-width: 655px) 100vw, 655px" /></figure>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us on Telegram</a></p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Risk-Free Futures Market Making by Hedging Long Straddle Options</title>
-		<link>/2019/11/22/risk-free-futures-market-making-by-hedging-long-straddle-options/</link>
-				<pubDate>Fri, 22 Nov 2019 08:41:40 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-		<category><![CDATA[Coindex]]></category>
-
-		<guid isPermaLink="false">/?p=100</guid>
-				<description><![CDATA[See This Article in It&#8217;s Original Form on dunncreativess.github.io! Want to See And Play With The Code? Here it Is]]></description>
-								<content:encoded><![CDATA[
-<p><a href="http://dunncreativess.github.io/2019/11/22/risk-free-futures-market-making-by-hedging-long-straddle-options/">See This Article in It&#8217;s Original Form on dunncreativess.github.io!</a></p>
-
-
-
-<p><a href="https://github.com/DunnCreativeSS/CryptoFuturesHedgingWithBlackScholesOptions">Want to See And Play With The Code? Here it Is On Github! </a></p>
-
-
-
-<p><a href="https://github.com/sponsors/dunncreativess">Sponsor Me On Github!</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-30-1024x130.png" alt="" class="wp-image-101" srcset="/wp-content/uploads/2019/11/image-30-1024x130.png 1024w, /wp-content/uploads/2019/11/image-30-300x38.png 300w, /wp-content/uploads/2019/11/image-30-768x97.png 768w, /wp-content/uploads/2019/11/image-30.png 1255w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>In the quantitative finance world, there are some holy grails: you can decrease the risk of an exposed position generally by doing something in the opposite direction.</p>
-
-
-
-<p>In the simplest form, we can both long and short in two opposite positions on exchanges that use the long-short model like OkEx. In doing so, a price movement up or down will have the exact same effect on your position &#8211; where you&#8217;re losing fees and only fees.</p>
-
-
-
-<p>In reality, that&#8217;s no good because we don&#8217;t want to be losing on every trade <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>What I&#8217;ve decided to try my hand at is something called a &#8216;long straddle.&#8217; This was mentioned during my interview with Coindex Labs a long time ago &#8211; but basically, if you buy a put option and buy a call option &#8216;out of the money&#8217; it&#8217;s relatively cheap &#8211; if the price doesn&#8217;t move at all, they both expire worthless. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-31.png" alt="" class="wp-image-102" srcset="/wp-content/uploads/2019/11/image-31.png 741w, /wp-content/uploads/2019/11/image-31-300x178.png 300w" sizes="(max-width: 741px) 100vw, 741px" /></figure>
-
-
-
-<p>But: if the price increases OR decreases a significant amount, one of those options expires in the money.. meaning it gianed value from potentially nothing into potentially something!</p>
-
-
-
-<p>What this means is that, while the market maker is performing within specifications and earning money from low price volatility and volumes on the bid/ask, these options can expire worthless and our income from market making pays for the expired options &#8211; and then more!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-32-1024x161.png" alt="" class="wp-image-103" srcset="/wp-content/uploads/2019/11/image-32-1024x161.png 1024w, /wp-content/uploads/2019/11/image-32-300x47.png 300w, /wp-content/uploads/2019/11/image-32-768x121.png 768w, /wp-content/uploads/2019/11/image-32-1536x241.png 1536w, /wp-content/uploads/2019/11/image-32.png 1649w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>If the market moves too much in one direction, we&#8217;re risking liquidating our funds if we hold market making positions that go sour.</p>
-
-
-
-<p>If this happens &#8211; one of our long straddle options expires &#8216;in the money&#8217; enough for us to cover our losses. What this means is risk-free trading &#8211; so long as the assumption holds true that the market making earns more than the cost of the options.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-33-1024x108.png" alt="" class="wp-image-104" srcset="/wp-content/uploads/2019/11/image-33-1024x108.png 1024w, /wp-content/uploads/2019/11/image-33-300x32.png 300w, /wp-content/uploads/2019/11/image-33-768x81.png 768w, /wp-content/uploads/2019/11/image-33.png 1247w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>In my code, we loop through all the expiries and all the strikes for all the options, and then find the one whose ratio of cost vs. profits for a 15% movement in price (which is 100% liquidated at 6.66x leverage) yields the minimum threshold we need to cover $15 000 in exposed futures ($99 900 notional). In our example output, the Dec 6 options straddle for $6250 put and $9750 call would cost a total of 0.017 BTC for both the long put and long call, and each would earn $342 profit if the underlying price moved 15% and all else remained the same. This means that spending 0.54 BTC would completely cover the risk of liquidating 2 BTC exposed at 6.66x leverage &#8211; at least until implied volatilities change significantly or time value declines as we approach expiry! When these situations occur, the hedging bot would just create new orders in real-time to hedge the risk. Hooah!</p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>The Verdict is In: I&#8217;ve Got a Vested Stake of a Hedgefund! Best News? You Can Be, Too!</title>
-		<link>/2019/11/21/the-verdict-is-in-ive-got-a-vested-stake-of-a-hedgefund-best-news-you-can-be-too/</link>
-				<pubDate>Thu, 21 Nov 2019 20:41:38 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-		<category><![CDATA[Coindex]]></category>
-
-		<guid isPermaLink="false">/?p=95</guid>
-				<description><![CDATA[View This Article in it&#8217;s Original Form on dunncreativess.github.io! Today Coindex Lab&#8217;s CEO had a sitdown with a capital markets]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://dunncreativess.github.io/2019/11/21/the-verdict-is-in-ive-got-a-vested-stake-of-a-hedgefund-best-news-you-can-be-too/">View This Article in it&#8217;s Original Form on dunncreativess.github.io!</a></p>
-
-
-
-<figure class="wp-block-image"><img src="https://scontent.fyhz1-1.fna.fbcdn.net/v/t1.15752-9/76702405_2533273790105081_4583222162055233536_n.png?_nc_cat=108&amp;_nc_ohc=4Vbyg5W14HwAQkZ8wLiECu10yKgvGxixDMyWU4xvTgW1tmhU24esQj0Cg&amp;_nc_ht=scontent.fyhz1-1.fna&amp;oh=418a76a2031e74a257d7ae938573091e&amp;oe=5E405713" alt=""/><figcaption><br></figcaption></figure>
-
-
-
-<p>Today Coindex Lab&#8217;s CEO had a sitdown with a capital markets guy and then later Two Sigma Ventures &#8211; with the goal of making Coindex a fighting force in quantitative finance.</p>
-
-
-
-<p>The good news? Capital markets guy wanted us to start a hedgefund. A random guy from the other coast approached the conversation out of nowhere asking to be connected.</p>
-
-
-
-<p>Later, the conversation with TSV yielded &#8216;Good news and bad news:&#8217;</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-28.png" alt="" class="wp-image-96" srcset="/wp-content/uploads/2019/11/image-28.png 1011w, /wp-content/uploads/2019/11/image-28-300x229.png 300w, /wp-content/uploads/2019/11/image-28-768x587.png 768w" sizes="(max-width: 1011px) 100vw, 1011px" /></figure>
-
-
-
-<p>So we have two &#8211; maybe three! &#8211; pledges for funds when we figure out the legalize of doing so.</p>
-
-
-
-<p>The good news for me is that I get both equity share and a cut of the vig (gangster term for the take).</p>
-
-
-
-<p>The good news for my readers is that we have the opportunity to get capital into Coindex at ground floor, and start earning on crypto and traditional markets with our patented edge over any given set of market conditions.</p>
-
-
-
-<p>You might ask yourself, then ask me, &#8216;but I&#8217;m not a high net worth individual &#8211; how can I contribute to a hedgefund?&#8217;</p>
-
-
-
-<p>Well, in keeping with crypto tradition&#8230;</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-29.png" alt="" class="wp-image-97" srcset="/wp-content/uploads/2019/11/image-29.png 938w, /wp-content/uploads/2019/11/image-29-300x137.png 300w, /wp-content/uploads/2019/11/image-29-768x350.png 768w" sizes="(max-width: 938px) 100vw, 938px" /></figure>
-
-
-
-<p>We very well might crowdfund in an STO!</p>
-
-
-
-<p>While this is still a gleam in the back of my eye and ultimately a rumor &#8211; what this means is that you &#8211; your friends, coworkers, acquaintances, grandma &#8211; can capitalize on <strong><a href="https://hackernoon.com/coindex-labs-novel-search-applied-via-evolutionary-ai-creating-a-money-making-machine-n62j2gei">our value proposition</a></strong>, and learn from my years of experience <a href="https://hackernoon.com/what-ive-learned-from-years-of-arbitrage-and-market-making-975w38rs"><strong>making markets and doing arbitrage trading</strong></a> and <strong><a href="https://hackernoon.com/porting-a-bot-to-binance-futures-market-making-competition-6v6a31qh">derive alphas from our bots</a></strong>!</p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p>R<em>emember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Complaint About BitMex&#8217;s WebSocket API, and Update On Profitable Market Makers</title>
-		<link>/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/</link>
-				<pubDate>Thu, 21 Nov 2019 01:56:52 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Bots]]></category>
-		<category><![CDATA[Coindex]]></category>
-
-		<guid isPermaLink="false">/?p=86</guid>
-				<description><![CDATA[See this article in it&#8217;s original form, on dunncreativess.github.io! BitMex Taking Away From Their API In BitMex&#8217;s official nodejs websocket]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/">See this article in it&#8217;s original form, on dunncreativess.github.io</a>!</p>
-
-
-
-<h2>BitMex Taking Away From Their API</h2>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-23-1024x278.png" alt="" class="wp-image-87" srcset="/wp-content/uploads/2019/11/image-23-1024x278.png 1024w, /wp-content/uploads/2019/11/image-23-300x81.png 300w, /wp-content/uploads/2019/11/image-23-768x209.png 768w, /wp-content/uploads/2019/11/image-23.png 1443w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>In BitMex&#8217;s official nodejs websocket api connector README.md, they mention &#8216;order creation&#8217; via authenticated websocket.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-24.png" alt="" class="wp-image-88" srcset="/wp-content/uploads/2019/11/image-24.png 981w, /wp-content/uploads/2019/11/image-24-300x111.png 300w, /wp-content/uploads/2019/11/image-24-768x283.png 768w" sizes="(max-width: 981px) 100vw, 981px" /></figure>
-
-
-
-<p>Lo and behold, their web hosted websocket docs removed that functionality.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-25-1024x808.png" alt="" class="wp-image-89" srcset="/wp-content/uploads/2019/11/image-25-1024x808.png 1024w, /wp-content/uploads/2019/11/image-25-300x237.png 300w, /wp-content/uploads/2019/11/image-25-768x606.png 768w, /wp-content/uploads/2019/11/image-25.png 1076w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Common knowledge says their sample market maker they have on GitHub was set up to do websocket orders, but lo! behold! Their market maker has been updated to do all POST-style commands via REST.</p>
-
-
-
-<p>:'(</p>
-
-
-
-<p>The result is that our Market Making bot template with Coindex Labs hits rate limits incredibly fast when creating or editing orders, and when we enable our rate limiter we see loop times approaching 1min over 4 instruments (BTC perp, ETH perp, BTC futures) and 3 max orders for bid/ask each. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-26.png" alt="" class="wp-image-90" srcset="/wp-content/uploads/2019/11/image-26.png 861w, /wp-content/uploads/2019/11/image-26-300x202.png 300w, /wp-content/uploads/2019/11/image-26-768x517.png 768w, /wp-content/uploads/2019/11/image-26-120x80.png 120w" sizes="(max-width: 861px) 100vw, 861px" /></figure>
-
-
-
-<p>Woe is me!</p>
-
-
-
-<p>With high-frequency trading one of the key aspects is &#8216;high frequency,&#8217; (no.. no joke!)</p>
-
-
-
-<p>The bot, however, is showing net net positive deltas:</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-27-1024x387.png" alt="" class="wp-image-91" srcset="/wp-content/uploads/2019/11/image-27-1024x387.png 1024w, /wp-content/uploads/2019/11/image-27-300x113.png 300w, /wp-content/uploads/2019/11/image-27-768x290.png 768w, /wp-content/uploads/2019/11/image-27.png 1386w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>This brings us to our next section: </p>
-
-
-
-<h2>Profitable Market Making Bots!</h2>
-
-
-
-<p>Our deribit testnet bot is up nearly 500% on equity, while livenet broke it&#8217;s 10% gains and sits happily around 15%.. in less than a week!</p>
-
-
-
-<p>Binance Futures Market Maker will be in play in the coming weeks.. but their 0% fees after a once-a-day rebate might kill the strategy. Woe!</p>
-
-
-
-<p>BitMex has much, much more taker volume on their high-volume instruments.. so gains should be more quick to realize! Time will tell!</p>
-
-
-
-<h2>Look! A plug!</h2>
-
-
-
-<p>Some of these market makers could easily be made available for sale, while there are two READ: two whole bots coming available for sale by people who&#8217;ve hired me in Telegram.</p>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us On Telegram for Updates</a>!</p>
-
-
-
-<h2>Look! Another plug!</h2>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
-
-
-
-<h2>Make Markets Across Markets!</h2>
-
-
-
-<p>Market making is an art. Like pure arbitrage, the math behind making markets in high- or low-frequency trading makes it very unlikely to lose big &#8211; while the small, incremental gains over time mean that you&#8217;ll receive predictable and measurable gains.</p>
-
-
-
-<p>This is made possible, for the most part, by having an edge over a market or a combination of markets &#8211; like market maker rebates, or reduced fees. When your trades have an advantage over the average trader or algorithm, you&#8217;ve got a sure-bet to win <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>In lamen&#8217;s terms we automate both sides of the bid/ask spread, until such time as we&#8217;re too far exposed in one side of the equation and then we wait to settle those positions. The % amounts of balance we&#8217;re exposed the trigger this safety behavior are configurable in these bots &#8211; all of the input variables are!</p>
-
-
-
-<p>And while we&#8217;ve seen ~10% net ROI in less than a week and $hundreds thousands notional ETH and $millions notional BTC traded on one exchange, we&#8217;d like to get people churning deltas, alphas and notionals with subscriptions!</p>
-
-
-
-<p>The exchanges we&#8217;re looking to support at first are those with market making fee rebates or a fee structure that&#8217;s condusive to a better trading experience &#8211; ie. Okex has a tiered fee structure that decreases with volume, which is superior to Binance&#8217;s fee tiers that decrease with volume but also require holding illiquid BNB.</p>
-
-
-
-<p><a href="https://hackernoon.com/porting-a-bot-to-binance-futures-market-making-competition-6v6a31qh">https://hackernoon.com/porting-a-bot-to-binance-futures-market-making-competition-6v6a31qh</a></p>
-
-
-
-<p><a href="https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/">https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/</a></p>
-
-
-
-<p><a href="https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/">https://dunncreativess.github.io/2019/11/20/complaint-about-bitmexs-websocket-api-and-update-on-profitable-market-makers/</a></p>
-
-
-
-<p>——</p>
-
-
-
-<p>To sign up:</p>
-
-
-
-<p>Fill out this Google Form:  <a href="https://forms.gle/WVF2SMomanKwLupY9"><strong>https://forms.gle/WVF2SMomanKwLupY9</strong></a> </p>
-
-
-
-<p>——</p>
 ]]></content:encoded>
 										</item>
 	</channel>

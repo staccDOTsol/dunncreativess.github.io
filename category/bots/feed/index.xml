@@ -12,7 +12,7 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 08 Jan 2020 07:00:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jan 2020 01:51:37 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,148 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>In Simple Terms: Risk-Free (Free Money!) Futures Trading by Leveraging Options Strategy</title>
+		<link>/2020/01/14/in-simple-terms-risk-free-free-money-futures-trading-by-leveraging-options-strategy/</link>
+				<pubDate>Wed, 15 Jan 2020 01:51:13 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=176</guid>
+				<description><![CDATA[View this content in it&#8217;s original form, on jare.cloud! Introduction In short: using an options strategy, we can trade any]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1575/1*wQN_FGI4ff7a26rJBS45Og.jpeg" alt=""/></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/14/in-simple-terms-risk-free-free-money-futures-trading-by-leveraging-options-strategy/">View this content in it&#8217;s original form, on jare.cloud</a>!</p>
+
+
+
+<h1 id="4def">Introduction</h1>
+
+
+
+<p>In short: using an options strategy, we can trade any sideways futures strategy with absolutely 0 risk. Price movements up, down, or sideways all yield profitable results. Markets go bullish, bearish, sideways or do a dance — you win no matter what!</p>
+
+
+
+<p>Awhile ago, on my Hackernoon, I penned this technical article on&nbsp;<a href="https://hackernoon.com/risk-free-futures-market-making-by-hedging-long-straddle-options-pc1236bl" target="_blank" rel="noreferrer noopener">Risk-Free Futures Market Making by Hedging Long Straddle Options</a>. In this article I will strive to deliver the points discussed in that first article to a less technical audience — who might be left scratching their heads.</p>
+
+
+
+<p>What I mean by ‘sideways’ is that the futures strategy wants to earn the best it can when the markets are neither upwards (bullish) or downwards (bearish).</p>
+
+
+
+<h1 id="3b67">Options Strategy</h1>
+
+
+
+<p>Places like Deribit via&nbsp;<a href="https://medium.com/u/c1bc81c4789b?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Deribit</a>&nbsp;and&nbsp;<a href="https://medium.com/u/c1bc81c4789b?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Deribit</a>&nbsp;(yes, two separate accounts) and Binance’s JEX platform via&nbsp;<a href="https://medium.com/u/57600910a883?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Binance</a>&nbsp;and&nbsp;<a href="https://medium.com/u/590e572dc6e7?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Miko Ilas</a>&nbsp;allow you to buy and sell BTC (and other coins…) options. An option is a deriviative, meaning that it’s value is derived from the underlying asset but not necessarily correlated — there’s loads of other ‘deriviatives,’ like futures, and that’s why we can trade with so much more leverage on options and futures — they’re not representing the actual asset, but an ‘derived’ idea.</p>
+
+
+
+<p>When you buy a call and a put you’re buying the right or ability to buy or sell (respectively) an underlying asset for the specified quantity and price sometime in the future. In European options, this point in the future is only on the day the options expire — or when they run out of time. Note that I’m not obligated to buy or sell — I simply have the right to, should I want to (or it makes financial sense). This means that (if I pay enough money, and someone is there to sell me this option) I should be able to buy the ABILITY to buy BTC for $1 sometime within the next month. That’s probably going to be a very lucrative deal, right? That’s why this option would be worth A LOT of money, and probably astronomically expensive to buy. The price at which you may buy or sell the underlying in the future is called ‘the strike.’</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/2118/1*_Ox5mK27cfvVSMM-VMvZhA.png" alt=""/></figure>
+
+
+
+<p>In the above screenshot, we see the calls and puts for BTC should the underlying index reach a price of $6750 on expiry or $6500 on expiry. Not that the price of the calls — the right to buy the asset — increases as the strike price decreases, while the cost of puts is decreasing along with it.</p>
+
+
+
+<p>On the other side of potential prices for BTC on 24 Jan 2020 (the date the options expire, or end), we see the opposite effect.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/2128/1*90q1y2_UhEPPSN60AfcKew.png" alt=""/></figure>
+
+
+
+<p>Calls are cheaper, puts are more expensive.</p>
+
+
+
+<p>Anyways, to get to my point — if you buy both a call and a put with two different strike prices at the same expiry, then you can do so for&nbsp;<em>VERY&nbsp;</em>cheap.</p>
+
+
+
+<p>What happens if the price remains around the same? The value of both the call and the put will reduce over time (as their distance to expiry is one of the things that gives them value — the uncertainty and possibility of volatility in this case means that they’re worth more now than they are tomorrow). Eventually, by expiry, they expire worthless.</p>
+
+
+
+<p>What happens if the price goes up? The value of the put goes down, and the call goes up. The more the price moves upwards, the less the put is worth — all the way down to worthless — while the call increases in value&nbsp;<em>EXPONENTIALLY</em>.</p>
+
+
+
+<p>What happens if the price goes down? The&nbsp;<em>OPPOSITE</em>. One $0 and the other gains value&nbsp;<em>EXPONENTIALLY</em>.</p>
+
+
+
+<p>This options strategy is called a ‘long straddle,’ and it essentially means you’re betting on the price moving up or down by a large amount. It’s handy in markets you expect to be volatile — like stocks on days they report earnings or, much less likely in practice, you’re aware of someone’s unannounced merger and acquisition. What this also means is that cryptocurrencies — arguably the most volatile of the assets — allow an options trader to reap in the benefits of a highly volatile market.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1680/1*YnzM0Mta90lpGCtm-wzjKg.jpeg" alt=""/></figure>
+
+
+
+<p>For instance, we know that Bitcoin’s mining yields will be half what they have been for awhile sometime in the not-so-distant future. We can surely bet that the price will either go up or down&nbsp;<em>drastically</em>&nbsp;in a short period of time. Take out a long straddle!</p>
+
+
+
+<p>Anyways, the above article I wrote on Hackernoon goes on to say that you can use some smart guys math to guesstimate the potential future ‘fair value’ for these long straddles. There’s a few smart guys to choose from, I chose Black Scholes. Now we have a programmatic way to say ‘hey if price moves 5% then I can expect my long straddle to be worth x% more,’ their math model solves for x.</p>
+
+
+
+<p>Now, where long straddles lose money is when the markets are sideways. I actually found this strategy when I was dreaming up ways to have less risk with my sideways market trading strategies — be they market makers, for instance, they lose money when the markets go up and down and they’re caught holding a bag of $$ that takes away all my yields.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/974/1*OeEhtZQFJ88ZqAvFzTlVjQ.png" alt=""/></figure>
+
+
+
+<p>These Market Makers make $$ when the markets are sideways, by earning on $ fees and $ spread. On Deribit,&nbsp;<a href="https://medium.com/u/94b52ae5502e?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">BitMEX</a>,&nbsp;<a href="https://medium.com/u/b7ff9821c710?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Bybit</a>,&nbsp;<a href="https://medium.com/u/724240b60d22?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">Bitfinex</a>&nbsp;Kraken and&nbsp;<a href="https://medium.com/u/316a1a75d708?source=post_page-----5018feca9791----------------------" target="_blank" rel="noreferrer noopener">CoinFLEX</a>&nbsp;they give you REBATES on fees you can earn when people trade against your orders. When you add liquidity to their exchanges, they split their earnings with you — sometimes 50/50!</p>
+
+
+
+<p>This means that if I was to know that my max exposure is (how many positions of what sizes I might hold if the markets go one way or another) in $$ and if the market moves y% at 6x leverage, I then liquidate at y%. This is normally bad, but…</p>
+
+
+
+<p>I can buy the exact (or almost exact) number puts/calls I need to make sure that if price goes up OR down by any % all the way up to liquidation % then I’m making money on my long straddle when I’m losing money on my Market Maker.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/1096/1*f-8ikqYVWMFzCSgXAEthng.png" alt=""/></figure>
+
+
+
+<p>This applies to any strategy that generates yield when sideways, not just market makers. Say price goes up 5% in a day and my sideways strategy liquidates, and out of my puts and calls one of them is $0 and the other one increased in value&nbsp;<em>A WHOLE HECK OF A LOT.</em></p>
+
+
+
+<p>The only way this doesn’t work is if your sideways strategy doesn’t earn more than what you lose when you hold onto the long straddles and their value goes down over time…</p>
+
+
+
+<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
+
+
+
+<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization — where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
+
+
+
+<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Benefits of Neomenia and Crypto Growth Hacker &#8211; Compound Your Crypto!</title>
 		<link>/2019/12/23/benefits-of-neomenia-and-crypto-growth-hacker-compound-your-crypto/</link>
 				<pubDate>Mon, 23 Dec 2019 11:10:46 +0000</pubDate>
@@ -970,104 +1112,6 @@ axios.post(url, {
 
 
 <p>(<strong>Disclaimer</strong>: <em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>POC Bot #1 Up 31.5% in 5 Hours &#8211; 3% Max Drawdown</title>
-		<link>/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/</link>
-				<pubDate>Sun, 17 Nov 2019 23:16:19 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=69</guid>
-				<description><![CDATA[View This Post in It&#8217;s Original Form on dunncreativess.github.io! With nearly 31 BTC notional traded in recent memory, this bot]]></description>
-								<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-15-1024x471.png" alt="" class="wp-image-70" srcset="/wp-content/uploads/2019/11/image-15-1024x471.png 1024w, /wp-content/uploads/2019/11/image-15-300x138.png 300w, /wp-content/uploads/2019/11/image-15-768x353.png 768w, /wp-content/uploads/2019/11/image-15-1536x706.png 1536w, /wp-content/uploads/2019/11/image-15.png 1805w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><a href="https://dunncreativess.github.io/2019/11/17/poc-bot-1-up-31-5-in-5-hours-3-max-drawdown/">View This Post in It&#8217;s Original Form on dunncreativess.github.io</a>!</p>
-
-
-
-<p>With nearly 31 BTC notional traded in recent memory, this bot Proof Of Concept even survived last night&#8217;s dump and subsequent pump and ended up 6% ROI after all was said and done. Aweo!</p>
-
-
-
-<p>You can <a href="http://patbot1.duckdns.org/">follow the delta graph for this so-far unnamed bot here</a>.</p>
-
-
-
-<p>The competing bot with like logic &#8211; less one indicator to confirm &#8211; lost a good 5% ROI during that dump &amp; pump. Less risk = more reward, in this sense!</p>
-
-
-
-<p>This bot&#8217;s performance at 20x leverage on Binance Futures is defined by it&#8217;s subroutines, finding price action among an index vs. another index (sorry can&#8217;t divulge more because of NDA) then acting when it&#8217;s doubly confirmed by a volume and a price volatility indicator. For the win!</p>
-
-
-
-<p>The best news? This bot&#8217;s creator (who shall remain unnamed for the time being, until he decides to come to light&#8230;) will be charging a monthly subscription fee of $59 USDT &#8211; and $10 USDT of that goes to affiliate referrers, indefinitely!</p>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Sign up for our Telegram bot chat room here</a>, to discuss eligibility for coming onboard this bot in it&#8217;s alpha v1.0 form or starting to refer people to it for your own fun &amp; profit!</p>
-
-
-
-<p>In more detail, let&#8217;s look at the most recent hour&#8217;s graph of delta on delta&#8230;</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-16-1024x393.png" alt="" class="wp-image-71" srcset="/wp-content/uploads/2019/11/image-16-1024x393.png 1024w, /wp-content/uploads/2019/11/image-16-300x115.png 300w, /wp-content/uploads/2019/11/image-16-768x295.png 768w, /wp-content/uploads/2019/11/image-16-1536x590.png 1536w, /wp-content/uploads/2019/11/image-16.png 1827w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Recovering from a 1.5% loss when it entered into a larger position, it&#8217;s slowly climbed from there &#8211; reaching a whopping 31.5% delta and a current +0.617 BTC position.</p>
-
-
-
-<p>Running this bot on other balances with other risk factors has been enlightening &#8211; following a liquidation of a small balance at 125x in a dump a few nights ago, the safer bets have been on smaller leverage and smaller order sizes.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-17-1024x45.png" alt="" class="wp-image-72" srcset="/wp-content/uploads/2019/11/image-17-1024x45.png 1024w, /wp-content/uploads/2019/11/image-17-300x13.png 300w, /wp-content/uploads/2019/11/image-17-768x34.png 768w, /wp-content/uploads/2019/11/image-17.png 1113w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-18-1024x200.png" alt="" class="wp-image-73" srcset="/wp-content/uploads/2019/11/image-18-1024x200.png 1024w, /wp-content/uploads/2019/11/image-18-300x59.png 300w, /wp-content/uploads/2019/11/image-18-768x150.png 768w, /wp-content/uploads/2019/11/image-18.png 1119w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>For the win!</p>
-
-
-
-<h2>Do You Want to Know More?</h2>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-19-1024x617.png" alt="" class="wp-image-74" srcset="/wp-content/uploads/2019/11/image-19-1024x617.png 1024w, /wp-content/uploads/2019/11/image-19-300x181.png 300w, /wp-content/uploads/2019/11/image-19-768x463.png 768w, /wp-content/uploads/2019/11/image-19.png 1433w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><br></figcaption></figure>
-
-
-
-<p>Look &#8211; my employer Coindex&#8217;s market maker has doubled it&#8217;s funds in about 2 days <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>) </p>
 ]]></content:encoded>
 										</item>
 	</channel>
