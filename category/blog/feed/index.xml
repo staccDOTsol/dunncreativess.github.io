@@ -12,7 +12,7 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 15 Jan 2020 02:43:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jan 2020 06:13:18 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,151 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Monetization Blog Part 1: How Long Does Adsense Approval Take &#038;&#038; What Does AdSense &#8216;No Content&#8217; Mean? &#038;&#038; Hackernoon is King of Views</title>
+		<link>/2020/01/15/monetization-blog-part-1-how-long-does-adsense-approval-take-what-does-adsense-no-content-mean-hackernoon-is-king-of-views/</link>
+				<pubDate>Wed, 15 Jan 2020 06:12:40 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">/?p=184</guid>
+				<description><![CDATA[View this article in it&#8217;s original form on jare.cloud! Overview Since the dawn of my adult life I&#8217;ve always wanted]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://jare.cloud/2020/01/15/monetization-blog-part-1-how-long-does-adsense-approval-take-what-does-adsense-no-content-mean-hackernoon-is-king-of-views/">View this article in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>Since the dawn of my adult life I&#8217;ve always wanted to blog for a living. What could be better than sharing details about my day and accomplishments, helping others in their pursuits &#8211; with work and life? Alas, monetizing your efforts for blogging is a tireless pursuit. As a small publisher, I&#8217;ve created a plan of attack that I&#8217;ve been following relatively closely for the past few weeks, and it appears to be working&#8230; in the future, it&#8217;ll work better! </p>
+
+
+
+<h2>Step 1: Publish on My Own Blog + Steemit + Include Mail Plug</h2>
+
+
+
+<p>Over on jare.cloud, we have a wordpress installation on my localhost that I use the Simply Static plugin to generate a flat site. I then upload these files to github, which puts my content on dunncreativess.github.io, and then I pull github files down to jare.cloud. During this process, the SteemPress WordPress plugin has published the work on SteemIt&#8230; albeit without the supporting images, who think they should be located on ./ D&#8217;oh!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-1-1024x307.png" alt="" class="wp-image-186" srcset="/wp-content/uploads/2020/01/image-1-1024x307.png 1024w, /wp-content/uploads/2020/01/image-1-300x90.png 300w, /wp-content/uploads/2020/01/image-1-768x230.png 768w, /wp-content/uploads/2020/01/image-1-1536x460.png 1536w, /wp-content/uploads/2020/01/image-1.png 1679w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>While the revenues are small, it&#8217;s 0-effort revenues &#8211; the best kind!</p>
+
+
+
+<p>Now, I&#8217;ve been attempting to get onto Google AdSense to serve ads on my site. All told, a niche blog (or a few niches&#8230;) should earn anywhere from $2.50-$10 / 1000 impressions, and my goal is to keep creating return visitors through all these efforts. I applied sometime over the holidays and was rejected on the 3rd of Jan, and I didn&#8217;t really understand the reason for rejection: &#8216;No Content.&#8217; After searching high and low for an explaination (as they don&#8217;t have a support team &#8211; just a community forum, yuck), either they didn&#8217;t like the fact there were only a half dozen blog entries or they didn&#8217;t like the fact that the blog was hosted on a subdomain of github.io. To solve these issues I&#8217;ve been pushing regular content while my application is reassessed on the new domain: jare.cloud.</p>
+
+
+
+<h2>Step 2: Import  (Canonical&#8230;) to Medium Behind Paywall</h2>
+
+
+
+<p>The post includes the link at the top to see the original on my site, and we head over to Medium to &#8216;Import Story.&#8217; Because people are encouraged to visit the original site those people without Medium Member accounts can view the content because they can follow the link at the top, and potentially drive revenues from AdSense when I have it. </p>
+
+
+
+<p>The best news? Those people with Medium Memberships will drive their own little bucket of revenue to add to the total balance&#8230; and all told, until now, the best performing source of revenues.</p>
+
+
+
+<p>My only story to get syndicated by Medium (so far&#8230; stay tuned!) and my best-performing non-Hackernoon post there earned around $5. While this seems trivial, it&#8217;s important to think: 25.4% of the revenues from that article were sourced in the months after the month in which it was published (and the initial rush of traffic was through). If you were to have an article get syndicated every so often &#8211; which is a matter of views, reads and claps in the review period as well as quality &#8211; it would drive the bottom line in a compounding way. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-2-1024x496.png" alt="" class="wp-image-187" srcset="/wp-content/uploads/2020/01/image-2-1024x496.png 1024w, /wp-content/uploads/2020/01/image-2-300x145.png 300w, /wp-content/uploads/2020/01/image-2-768x372.png 768w, /wp-content/uploads/2020/01/image-2-1536x745.png 1536w, /wp-content/uploads/2020/01/image-2.png 1650w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Your old content continues to earn: it&#8217;s evergreen, and passive.</p>
+
+
+
+<p>While the revenues are small, they&#8217;re passive after the post is imported &#8211; and continually creating income!</p>
+
+
+
+<h3>Wait, what does canonical mean? Why was it important enough to mention in the subheading?</h3>
+
+
+
+<p>A link can point to the original source of the information, allowing the secret powers behind the internet to build the SEO of that original site rather than give all the SEO juices to the new site. In such a way, content creators can leverage accounts on very high-ranking sites (like Hackernoon, Medium, CoinTelegraph (who I&#8217;m still waiting to hear back from about authoring content&#8230;)) and the eventual rankings for keywords and traffic for evermore that is sourced from the depths of Google, Bing et. al. will point to your original source&#8230; not the new one. As Google and search engines punish sites for repeat content, adding a canonical link back to the original source will allow you to rank and build your backlinks with high-grade sites.</p>
+
+
+
+<p>Importing to Medium and Hackernoon&#8217;s &#8216;originally seen on&#8230;&#8217; will automatically generate these kinds of links. Voila! Internet magic!</p>
+
+
+
+<h2>Step 3: Mail Blast, Twitter Blast, Telegram&#8230; etc</h2>
+
+
+
+<p>Mark 15 Jan 2020 (for reference in future editions of this blog series), Mailchimp subscriber count is 44, Twitter follower count is 116, Telegram member count in the group is 126&#8230;</p>
+
+
+
+<p>While these are rookie numbers, I can easily syndicate my content across social channels and generate free traffic &#8211; enticing new and engaging repeat interactions. I was thinking to myself as my Medium story on my new account reached 100 views: would I be happier with 1000? Or at the 1000 mark would I just aspire for 10 000? I think part of the human condition is never being satisfied&#8230; so although I feel like these are &#8216;rookie numbers,&#8217; they&#8217;re a measurable improvement from where I was or where I started from. *Pats self on back*</p>
+
+
+
+<p>Case in point, this story reflects a common theme among the others: a fair number of views are from referrals from Twitter, where a simple tweet can be retweeted and seen by many &#8211; including people at Hackernoon or Good Audience (a Medium publication) who can give me further exposure!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-3.png" alt="" class="wp-image-188" srcset="/wp-content/uploads/2020/01/image-3.png 732w, /wp-content/uploads/2020/01/image-3-300x214.png 300w" sizes="(max-width: 732px) 100vw, 732px" /></figure>
+
+
+
+<h2>Step 4: Re-create on Hackernoon with Canonical Link</h2>
+
+
+
+<p>SEO juices&#8230; work like magic! Hackernoon is by far my biggest winner insofar as traffic goes, with over 12k pageviews in total and nearly 11 days worth of reading!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-4-1024x439.png" alt="" class="wp-image-189" srcset="/wp-content/uploads/2020/01/image-4-1024x439.png 1024w, /wp-content/uploads/2020/01/image-4-300x129.png 300w, /wp-content/uploads/2020/01/image-4-768x330.png 768w, /wp-content/uploads/2020/01/image-4.png 1515w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>What this means is that the views I get from being published and advertised and syndicated on Hackernoon will naturally drive traffic to the original blog, both through the link in the article itself directly as well as with the canonical link building search engine results that&#8217;ll continue driving traffic long after the initial surge has died down. </p>
+
+
+
+<p>Hackernoon team tweets my articles more than once to their followers, and each time I see I&#8217;m earning likes, retweets and followers on Twitter, as well as views on all my viewcounters whenever Hackernoon tweets.</p>
+
+
+
+<p>Moreover, my Telegram room joins directly correlate to the days in which I publish Hackernoon articles&#8230;</p>
+
+
+
+<h2>Step 5: Rinse, Wash, Repeat</h2>
+
+
+
+<p>&#8230;which in turn means I should publish more often! Each guide you read to &#8216;earning more on Medium&#8217; or &#8216;earn more blogging&#8217; will tell you that the most sure-fire way to earn more is to write consistently, and produce regular content. This will increase your readership, follows, mail signups.. which in turn powers your next pieces readership. This is how we get the ball rolling&#8230;</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>While the income from my blogging might be marginal, it&#8217;s worth noting that I wouldn&#8217;t prefer doing anything else in the world &#8211; and, in some countries, marginal income is all you need to survive &amp; thrive. The solution is to build out the searchable, indexable content that drives additional traffic over time &#8211; and keep generating content. Today I made a promise to myself to blog whenever I&#8217;m bored&#8230; this is my second &#8216;I&#8217;m bored&#8217; piece today!</p>
+
+
+
+<p>In the next piece of this series we&#8217;ll look at the start of AdSense income on my wee, little blog&#8230; whenever they get around to approving me!</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>In Simple Terms: Risk-Free (Free Money!) Futures Trading by Leveraging Options Strategy</title>
 		<link>/2020/01/14/in-simple-terms-risk-free-free-money-futures-trading-by-leveraging-options-strategy/</link>
 				<pubDate>Wed, 15 Jan 2020 01:51:13 +0000</pubDate>
@@ -1146,217 +1291,6 @@
 
 
 <p></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Skip the SSL w/ Serverless Telegram Bot via Now.js</title>
-		<link>/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/</link>
-				<pubDate>Sun, 24 Nov 2019 10:17:00 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=109</guid>
-				<description><![CDATA[See this article in it&#8217;s original form on dunncreativess.github.io! Try this bot on Telegram! https://t.me/JareBotBot! Sponsor my opensource efforts on]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://dunncreativess.github.io/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/">See this article in it&#8217;s original form on dunncreativess.github.io!</a></p>
-
-
-
-<p>Try this bot on Telegram! <a href="https://t.me/JareBotBot">https://t.me/JareBotBot</a>!</p>
-
-
-
-<p><a href="https://github.com/sponsors/dunncreativess">Sponsor my opensource efforts on GitHub</a>!</p>
-
-
-
-<p>Note: these directions come without much conversation, let the hacking begin!</p>
-
-
-
-<p>Set up a Bot with @BotFather<br> </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-34.png" alt="" class="wp-image-110" srcset="/wp-content/uploads/2019/11/image-34.png 641w, /wp-content/uploads/2019/11/image-34-289x300.png 289w" sizes="(max-width: 641px) 100vw, 641px" /></figure>
-
-
-
-<p>Create a package.json</p>
-
-
-
-<p><code>{<br>   "name": "tg-bot-now",<br>   "version": "0.2.0",<br>   "description": "A sample Telegram bot via now.js",<br>   "main": "app.js",<br>   "scripts": {<br>     "start": "node app.js"<br>   },<br>   "dependencies": {<br>     "axios": "<em>",     "body-parser": "</em>",<br>     "express": "*",<br>     "request": "^2.88.0",<br>     "requests": "^0.3.0"<br>   },<br>   "license": "MIT"<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-35.png" alt="" class="wp-image-111" srcset="/wp-content/uploads/2019/11/image-35.png 827w, /wp-content/uploads/2019/11/image-35-300x150.png 300w, /wp-content/uploads/2019/11/image-35-768x384.png 768w" sizes="(max-width: 827px) 100vw, 827px" /></figure>
-
-
-
-<p>Create a now.json</p>
-
-
-
-<p><code>{<br>   "version": 2,<br>   "builds": [<br>     { "src": "app.js", "use": "@now/node-server" }<br>   ],<br>   "routes": [<br>     { "src": "/(.*)", "dest": "app.js" }<br>   ]<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-36.png" alt="" class="wp-image-112" srcset="/wp-content/uploads/2019/11/image-36.png 606w, /wp-content/uploads/2019/11/image-36-300x139.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></figure>
-
-
-
-<p>Create an app.js</p>
-
-
-
-<pre class="wp-block-code"><code>var express = require("express");
- var app = express();
- var request = require('request');
- var bodyParser = require("body-parser");
- const axios = require("axios");
- app.use(bodyParser.json());
- app.use(
-     bodyParser.urlencoded({
-         extended: true
-     })
- );
- console.log("run"); 
-function sendMessage(url, message, reply, res) {
-axios.post(url, {
-    chat_id: message.chat.id,
-    text: reply
-}).then(response => {
-    console.log("Message posted");
-    res.end("ok");
-}).catch(error => {
-    console.log(error);
-});
-}
- app.get('/', function(req, res) {
-     res.send('hello');
- })
- var bots = &#91;"http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
- app.post("/startbot", function(req, res) {
-     console.log("startbot");
-     const {
-         message
-     } = req.body;
-     let reply = "Welcome to Jare's bot bot";
-     if (message.text != undefined) {
-         if (message.text.toLowerCase().indexOf("statusupdate") != -1) {
-             reply = ""
-             for (var b in bots) {
- r = request.get(bots&#91;b], function(e, r, d) {
-
-                j = JSON.parse(d)
-                start = j.btc&#91;0]&#91;0]
-                btc = j.btc&#91;j.btc.length - 1]&#91;1]
-                end = j.btc&#91;j.btc.length - 1]&#91;0]
-                diff = end - start
-                var s = diff / 1000
-                var m = s / 60
-                var h = m / 60
-                var d = h / 24
-                var y = d / 365
-                var apr = (j.btc&#91;j.btc.length - 1]&#91;1] - j.btc&#91;0]&#91;1]) / y
-                reply += r.request.uri.href.substring(0, r.request.uri.href.length - 7) + '\n'
-                reply += "Start: " + new Date(start) + '\n'
-                reply += "Now: " + new Date(end) + "\n"
-                reply += "BTC Notional traded recent memory: " + j.qty + "\n"
-                reply += "Current position: " + j.pos + "\n"
-                reply += "BTC % Delta: " + btc.toPrecision(4) + '%\n'
-                reply += "BTC % ROI / day projected: " + (apr / 365).toPrecision(4) + '%\n'
-                reply += "BTC % APR projected: " + (apr).toPrecision(4) + '%\n\n'
-            })
-        }
-        setTimeout(function() {
-            sendMessage(telegram_url, message, reply, res);
-        }, 2000);
-    } else {
-        res.end("ok");
-    }
-}
-});
- let telegram_url = "https://api.telegram.org/bot" + process.env.key + "/sendMessage";
- app.listen(8000, () => console.log("Telegram bot is listening on port 8000!"));</code></pre>
-
-
-
-<p>Note: it&#8217;s important to send a res.end in every case, or else your bot will get hung up on old messages it couldn&#8217;t process and no res.end was sent &#8211; putting it in a forever loop of never sending a response!</p>
-
-
-
-<p>set your env key</p>
-
-
-
-<p><code>export key="whateverbotfathergaveyou"</code></p>
-
-
-
-<p>npm i</p>
-
-
-
-<p><code>npm i</code></p>
-
-
-
-<p>install now</p>
-
-
-
-<p><code>npm i -g now</code></p>
-
-
-
-<p>run now</p>
-
-
-
-<p><code>now</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-37.png" alt="" class="wp-image-113" srcset="/wp-content/uploads/2019/11/image-37.png 902w, /wp-content/uploads/2019/11/image-37-300x58.png 300w, /wp-content/uploads/2019/11/image-37-768x148.png 768w" sizes="(max-width: 902px) 100vw, 902px" /></figure>
-
-
-
-<p>Register your POST callback wtih Telegram&#8217;s grandmasters</p>
-
-
-
-<p><code>curl -F "url=https://URL_FROM_NOW/startbot" https://api.telegram.org/botYOUR_TELEGRAM_API_TOKEN/setWebhook</code></p>
-
-
-
-<p>Congrats!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-38.png" alt="" class="wp-image-114" srcset="/wp-content/uploads/2019/11/image-38.png 655w, /wp-content/uploads/2019/11/image-38-300x298.png 300w, /wp-content/uploads/2019/11/image-38-150x150.png 150w" sizes="(max-width: 655px) 100vw, 655px" /></figure>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us on Telegram</a></p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
 ]]></content:encoded>
 										</item>
 	</channel>
