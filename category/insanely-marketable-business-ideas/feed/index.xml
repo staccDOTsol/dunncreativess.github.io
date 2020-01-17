@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Insanely Marketable Business Ideas &#8211; jare.cloud</title>
+	<atom:link href="/category/insanely-marketable-business-ideas/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Jare&#039;s Cloud</description>
+	<lastBuildDate>Fri, 17 Jan 2020 04:32:49 +0000</lastBuildDate>
+	<language>en-CA</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Amazon Ebay Aliexpress Retail-Arbitrage-As-A-Service</title>
+		<link>/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/</link>
+				<pubDate>Fri, 17 Jan 2020 04:32:48 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=222</guid>
+				<description><![CDATA[As I detailed in this recent article surrounding Twitter automation to buy cryptocurrency during pumps and in this way-old Hackernoon]]></description>
+								<content:encoded><![CDATA[
+<p>As I detailed in this recent article surrounding <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Twitter automation to buy cryptocurrency during pumps</a> and in this way-old Hackernoon and Medium discussing how I once <a href="https://medium.com/@jarettdunn/i-1000th-idea-to-make-money-online-via-python-chained-sqlmaps-8acb25cc9ad8?source=your_stories_page---------------------------">toyed with the morality of ethical hacking for profit</a> &#8211; it&#8217;s obvious that I often have ideas for tech businesses that don&#8217;t really get off the ground. I lack the marketing chops to execute these things, so I&#8217;m going to continue letting you guys know how my Proof of Concepts go and maybe one day some of you can make a living with one of my ideas!</p>
+
+
+
+<p>This is another entry in Insanely Marketable Business Ideas. Hooah!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.discordapp.com/attachments/606522166166421534/667572917105590282/unknown.png" alt=""/><figcaption>Source: My code just a minute ago</figcaption></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.discordapp.com/attachments/606522166166421534/667573207414341633/unknown.png" alt=""/><figcaption>Source: My code a minute after that</figcaption></figure>
+
+
+
+<p>What you might notice about these two images is the insanely obvious: if someone were to buy one of these generic handhold consoles on Aliexpress and then sell it on Ebay they could pocket the difference in costs. This is called &#8216;retail arbitrage,&#8217; where retail is what we&#8217;re trading and arbitrage is the act of buying low and immediately selling high. It&#8217;s preferable to sell before you have to buy &#8211; which you can effectively do selling on these marketplaces.</p>
+
+
+
+<p>You&#8217;ll notice that I&#8217;m lacking a corresponding Amazon screenshot &#8211; their Product Advertising API requires you to have 3 sales in a certain amount of time as an affiliate before you can have access to the API. D&#8217;oh! I&#8217;ve sent them a message saying I&#8217;m creating a shopping comparison engine &#8211; it might be unwise to say we&#8217;re propagating the arbitrage &#8216;problem.&#8217; Sometimes, people that buy an item on Ebay and receive a package wrapped up by Amazon Fulfillment will become irate they&#8217;ve been the victim of not knowing they can search more than one site, and they might kick up a customer service complaint&#8230;</p>
+
+
+
+<p>Either way, there&#8217;s money to be made!</p>
+
+
+
+<p>But, that&#8217;s not my idea. That idea&#8217;s been tried and done effectively by many, and you can google for more info. My idea is buried in those screenshots, above, and in my explanation of the Amazon part too &#8211; these are affiliate links. If someone were to visit Aliexpress or Ebay after clicking my link and place an order within a month or a few months, I get a little % kickback from that sale. </p>
+
+
+
+<p>In the case of providing this as a service, the model would be that I create a beautiful and effective comparison tool to find the highest potential margins for search results or by the best possible margins in a given category and finding exact (or near-exact by text compare) title matches, then display them in easy-to-organize lists for arbitrageurs to peruse, click the links, buy a bulk order of many items or maybe just an item or two, and as I build my network &#8211; and community &#8211; of arbitrageurs, my income from the % of a % of each initial sale will exponentially increase above and beyond the potential returns from the actual arbitraging. </p>
+
+
+
+<p>Retail arbitrage is fraught with potential pitfalls: from max. orders or max. sales, all the way to the customer service burden &#8211; and potential returns, restocking fees or concerns &#8211; it is easy to lose some or all of your profits in a second with retail arbitraging if you&#8217;re not careful. When building a service that provides instant comparisons for the potential arbitrageur &#8211; and a supportive, helpful community of arbitraging friends &#8211; we can ensure the overall success and growth of the operation.</p>
+
+
+
+<p>Sunk costs?</p>
+
+
+
+<p>Upkeep of servers, initial dev and MARKETING.</p>
+
+
+
+<p>Potential upside?</p>
+
+
+
+<p>We&#8217;d run the site for free. Everyone can come in and discuss the opportunities of Retail Arbitrage, and use the tool to their heart&#8217;s content. In return, our marketing efforts will reflect the fact that other arbitraging tools require a monthly or yearly subscription &#8211; putting ours leagues ahead of the competition.</p>
+
+
+
+<p>Ebay Partner Network pays 1-6% per sale depending on geo, if the sale happens within 24hrs of clicking the link. Aliexpress up to 9%, and Amazon pays up to a walloping 10%! When someone wants to arbitrage again, they&#8217;d certainly want to find a new-and-improved arbitrage deal &#8211; they&#8217;d return to our platform, find a new killer deal, place another order and boombingbang more affiliate income!</p>
+
+
+
+<p>NOW, for the win, let&#8217;s review some code.</p>
+
+
+
+<p>First, after running npm install for the required packages, we&#8217;ll require them in the code:</p>
+
+
+
+<pre class="wp-block-code"><code>let eBay = require('ebay-node-api')
+var request = require('request')</code></pre>
+
+
+
+<p>Next we&#8217;ll instantiate our eBay object, like so:</p>
+
+
+
+<pre class="wp-block-code"><code>let ebay = new eBay({
+    clientID: 'JarettDu-test-PRD-7a6d6c794-59f32155	',
+    env: 'PRODUCTION', // optional default = 'PRODUCTION'
+    headers:{ // optional
+        'X-EBAY-C-MARKETPLACE-ID': 'EBAY_US' // For Great Britain https://www.ebay.co.uk/
+    }
+})</code></pre>
+
+
+
+<p>Now, I found out that I could use eBay&#8217;s affiliate tools to build an affiliate URL using my account and campaign. Afterwards, I hijack the &amp;mpre= field and replace the item URL with my URL for any given item, to build a new-and-improved eBay aff link for any given URL.</p>
+
+
+
+<p>For fun and profit, we set our eBay affiliate URL &#8216;template&#8217; as well as our hard-coded search term:</p>
+
+
+
+<pre class="wp-block-code"><code>var template = 'http://rover.ebay.com/rover/1/706-53473-19255-0/1?ff3=4&amp;pub=5575480811&amp;toolid=10001&amp;campid=5338476385&amp;customid=&amp;mpre='
+var search = '500in1 nes'</code></pre>
+
+
+
+<p>In our ebaydo function, we search eBay products using the eBay node package and loop over the resulting json. The url for the item is parsed then encoded, and we create our affiliate URL by joining our template from above with this new encoded item&#8217;s url. </p>
+
+
+
+<p>Voila! Paydirt!</p>
+
+
+
+<p>We log to console the network, affiliate URL, title, and price object for fun and profit. If there&#8217;s an error, let&#8217;s also log the error! Debugging is fun, right?</p>
+
+
+
+<pre class="wp-block-code"><code>function ebaydo(keywords) {
+
+    ebay.findItemsByKeywords({
+        keywords: keywords
+    }).then((data) => {
+        for (var item in data&#91;0].searchResult&#91;0].item) {
+            url = encodeURIComponent(data&#91;0].searchResult&#91;0].item&#91;item].viewItemURL&#91;0])
+            url = template + url
+            console.log('ebay:')
+            console.log('affiliate url: ' + url)
+            console.log(data&#91;0].searchResult&#91;0].item&#91;item].title&#91;0])
+            console.log(data&#91;0].searchResult&#91;0].item&#91;item].sellingStatus&#91;0].currentPrice&#91;0])
+            console.log(' ')
+        }
+    }, (error) => {
+        console.log(error);
+    });
+}</code></pre>
+
+
+
+<p>The ali function is more complicated. First, we&#8217;ll get and parse the current time into url-encoded string. Phew, that took a lot of Googling to figure out&#8230;</p>
+
+
+
+<p>Next, we&#8217;ll encode our keywords. That probably means some handy %20s (spaces). Then, we load a list of products based on those keywords from Alibaba&#8217;s API, parse the result into json, loop over the products and save some useful info to vars for later. We&#8217;ll take note of the price, product url, image url (why not? Should have done this for eBay too! People can compare the images when finding their like products&#8230;) and product title. Next, we send some of these vars off to a separate function.</p>
+
+
+
+<pre class="wp-block-code"><code>function ali(keywords) {
+    var time = new Date();
+    var time2 = (time.getHours().toString() + "%20" + time.getMinutes().toString() + "%20" + time.getSeconds().toString());
+    keywords = encodeURIComponent(keywords)
+
+    var url = "http://gw.api.alibaba.com/openapi/param2/2/portals.open/api.listPromotionProduct/76080?sort=volumeDown&amp;fields=salePrice,productTitle,volume,imageUrl,productUrl&amp;keywords=" + keywords;
+    console.log('keywords?: ' + url);
+    var responses = new Array();
+    try {
+        var result2 = request.get(url, function(e, r, result2) {
+            var json = JSON.parse(result2)
+            if (json.result != null) {
+                for (var i in json.result.products) {
+                    console.log(json.result.products&#91;i]);
+                    var price = json.result.products&#91;i].salePrice;
+                    var id = json.result.products&#91;i].productUrl;
+                    var img = json.result.products&#91;i].imageUrl;
+                    var title = json.result.products&#91;i].productTitle;
+
+                    
+                    dosearchurl(id, title, img, price)
+                }
+            } 
+        })
+    } catch (e) {
+        console.log('exception: ' + e.toString());
+    }
+}
+</code></pre>
+
+
+
+<p>In dosearchurl, this genius technique allows me to have the variables persistent over the next request.get call, which returns a promise, meaning that if we did request.get inside a for loop then tried to access our old variables (like title in this case, for example) it would only find the variable value at the state in the new point in time when the promise has resolved (ie. the request completes) &#8211; meaning all our results would output the same data as the for loop has completed and it executes the console.log code with the for loops final value, instead of each incremented value.</p>
+
+
+
+<p>So, by taking the for loop and feeding it the variables in a different scope, the variables remain persistent even though there&#8217;s a time delay for the promise &#8211; and we can output the variables in their proper sequence, instead of only the final one over and over again.</p>
+
+
+
+<p>In here, we load the product id on another alibaba api endpoint &#8211; this one to create an affiliate url for our product we&#8217;ve found. Then, we output to console all the juicey details about our potential arbitrageur&#8217;s opportunity &#8211; and our potential affiliate income.</p>
+
+
+
+<pre class="wp-block-code"><code>function dosearchurl(id, title, img, price) {
+    var url2 = "http://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionLinks/76080?fields=promotionUrl&amp;trackingId=4632&amp;urls=" + id;
+    var responses = new Array();
+    try {
+        var result3 = request.get(url2, function(e, r, result3) {
+
+            var json = JSON.parse(result3)
+            console.log('aliexpress:')
+            console.log('title: ' + title.replace(/&lt;&#91;^>]*>?/gm, ''))
+            console.log('affiliate url: ' + json.result.promotionUrls&#91;0].promotionUrl);
+            console.log('img: ' + img)
+            console.log('price: ' + price)
+            console.log(' ')
+
+        });
+
+    } catch (e) {
+        console.log('exception: ' + e.toString());
+    }
+}</code></pre>
+
+
+
+<p>It&#8217;s a win-win-win: goldmoney for the arbitrageur who earns surebet money, paydirt for me as I gain a tiny percent of those sales over and over again, and of course it&#8217;s a good thing &#8211; big bucks &#8211; for the retail marketplace. Hooah!</p>
+
+
+
+<p>I hope you&#8217;re as excited about my POC as I was creating it then describing it here. Someone will surely bet some time and effort and marketing chops to execute this vision.. will it be me?</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>
