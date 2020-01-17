@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Fri, 17 Jan 2020 04:38:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 17 Jan 2020 06:43:01 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,196 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>What are trade bots? Robot traders explained!</title>
+		<link>/2020/01/17/what-are-trade-bots-robot-traders-explained/</link>
+				<pubDate>Fri, 17 Jan 2020 06:42:32 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=226</guid>
+				<description><![CDATA[Read this article in it&#8217;s original form, on jare.cloud! Introduction There&#8217;s nothing more enjoyable than trading for a living. You]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://jare.cloud/2020/01/17/what-are-trade-bots-robot-traders-explained/">Read this article in it&#8217;s original form, on jare.cloud</a>!</p>
+
+
+
+<h2>Introduction</h2>
+
+
+
+<p>There&#8217;s nothing more enjoyable than trading for a living. You basically sit there, and exchange money for other things of value and then back again. Rinse wash  repeat, and you can certainly support yourself taking small profits every so often &#8211; or heavier ones, usually less often!</p>
+
+
+
+<p>Eventually, all traders will settle into a routine they&#8217;re comfortable with. They&#8217;ll build up an overall strategy of smaller strategies ranging in complexity and different input variables &#8211; from indicators to position sizing, there&#8217;s a lot to consider!</p>
+
+
+
+<p>What&#8217;s important is that it&#8217;s easy to make a day&#8217;s salary in one trade, with very little investment. It&#8217;s also easy &#8211; probably easier &#8211; to lose your entire nest egg in that same day. Remember, invest only what you can afford to lose!</p>
+
+
+
+<p>Let&#8217;s discuss a bit about the history of consumer-level trade bots, how trade bots can be used by near-infinite amounts of money by institutions, and how we can make money today using trading bots!</p>
+
+
+
+<h2>Historical Trade Bots: Expert Advisors</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://media.fxcm.com/fxpress/fxcmcom/base/page/metatrader-4/carousel-image-1.jpg?fit=cover&amp;auto=webp" alt="Image result for mt4"/></figure>
+
+
+
+<p>Most consumer-level brokers over recent years have offered a universal integration for people to day-trade: it&#8217;s called MetaTrader, and most popular of the versions is MetaTrader 4. </p>
+
+
+
+<figure class="wp-block-image"><img src="https://forexmt4ea.com/wp-content/uploads/2014/08/fdiamond_real_latest2.png" alt="Image result for mt4 ea"/></figure>
+
+
+
+<p>It included all sorts of handy features, and could trade anything you could imagine &#8211; from stocks and deriviatives to commodities and forex, it was easy to win or lose quickly and with a laugh or a tear. </p>
+
+
+
+<p>One of the most important features you could find was the Expert Advisor. What this was was a way for users &#8211; or developer shops &#8211; to program their own strategies into the machine, allowing it to trade automagically. Even when you were away to the Caribbean or when you were sleeping &#8211; and markets were open &#8211; the expert advisor code would be watching, and reacting to the markets. </p>
+
+
+
+<p>You could use all sorts of indicators &#8211; like directional ones like RSI, price ones like VWAP, volatility ones like EWMA, and the list goes on &#8211; and your own variables to manipulate the info and act on your strategies.</p>
+
+
+
+<p>This bred a whole new world where people could show off or even sell their Expert Advisors to other people. This marketplace was soon fraught with scams and genuine people trying to help out &#8211; like any other capitalist venue, it&#8217;s as important now as then to always Do Your Own Research before committing funds to anything.</p>
+
+
+
+<p>One popular scam was to employ a version of the Martingale Betting System. What this means is that when you lose a bet (or a trade), you double (or increase) your risk so then when you win the next bet (or trade) you earn back everything you lost plus a little extra that you&#8217;ve just now won. Then, when you bet again you start with the base amount again (or less, anyhow) and repeat the process.</p>
+
+
+
+<p>This sounds genius &#8211; you&#8217;ll never lose!</p>
+
+
+
+<p>In reality, probability works against you and the longer you play this game the more likely it is that you&#8217;ll see a large enough streak of losses to wipe out all your earnings. Neigh, even nations would lose when playing Martingale strategies &#8211; in roulette or in trading. <br><br>Eventually.</p>
+
+
+
+<p>Probably.</p>
+
+
+
+<p>What this looks like is a smooth chart with minimum drawdown right up until the end event where everything is lost. What this means for an expert advisor developer is that they can have a fantastic, promising looking chart &#8211; even when tested in real-time, with live funds &#8211; and they can promote that using their marketing budget to get many new subscribers. </p>
+
+
+
+<p>End event!</p>
+
+
+
+<p>I lost my money this way once with an expert advisor&#8230; I learned to not trust backtests, not trust test accounts and only trust my own forward tests &#8211; and remember the first rule: Only invest what you can afford to lose!</p>
+
+
+
+<p>Anyways, loads of people earned great money on forex robot trades. Many people still do. You can, too, if you have a good strategy that can&#8217;t easily be duplicated and you maintain your edge over the market. Many more will make money on Expert Advisors, or other forms of trading automation.  </p>
+
+
+
+<p>Hooah!</p>
+
+
+
+<h2>Robot Traders at Scale: Wall Street</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://timeentertainment.files.wordpress.com/2013/12/twows-02401r.jpg?w=720&amp;h=480&amp;crop=1" alt="Image result for wolf of wall street"/></figure>
+
+
+
+<p>Movie theatrics and fiction aside, The Wolf of Wallstreet made all his money by manipulating IPOs that he then controlled a relatively large stake in at arm&#8217;s length. </p>
+
+
+
+<p>How does one manipulate IPO prices? One trades. Using many accounts. One trades back and forth, and loses a bit on the fees and the spread but encourages other parties on the market to trade more and more and even influence the price &#8211; at just the right times in just the right increments &#8211; and voila, you&#8217;ve committed securities fraud but you&#8217;re mad rich!</p>
+
+
+
+<p>In reality, most of Wall St probably aren&#8217;t committing securities fraud. Probably.</p>
+
+
+
+<p>In reality, all of Wall St are using some form of trading automation and high-frequency trading to achieve their goals. Definitely.</p>
+
+
+
+<p>By the time any sort of opportunity exists long enough to be traded against, 10s 1000s other parties employing your same or a very like strategy have noticed that opportunity and already traded it. In traditional markets.</p>
+
+
+
+<p>How do you react? Be the first. Be the fastest. Poor tens millions dollars into developing faster infrastructure, faster code, and faster trades. Automation and delegation are the keys to success, no?</p>
+
+
+
+<p>What this boils down to is that the consumer with their expert advisors and trading terminals on $500 computers instead of $500 000 supercomputers are beaten to the punch by Wall St at every turn.</p>
+
+
+
+<p>Darn! All is lost!</p>
+
+
+
+<p>No&#8230; Read on!</p>
+
+
+
+<h2>Most Profitable Automated Trades: Cryptocurrency</h2>
+
+
+
+<p>Where Wall St haven&#8217;t yet conquered the markets &#8211; even better: new markets are introduced daily &#8211; and where market discrepencies even across exchanges offer up opportunities for arbitrage (sure-bet, guaranteed profit.. look into it! Do your own research&#8230; or <a href="https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/">read this article I wrote, it&#8217;s about a retail arbitrage business </a>&#8211; same idea! Buy low sell high!) and the execution times and volumes of big players don&#8217;t necessarily &#8216;own&#8217; the markets?</p>
+
+
+
+<p>Bitcoin and cryptocurrency.</p>
+
+
+
+<p>Everyone has a fair chance in crypto to earn a dollar &#8211; even though the big boys still spend millions on their trading bots, the little guys control much more of the market share than vs Wall St and traditional markets.</p>
+
+
+
+<p>Things like sentiment &#8211; feelings expressed on Twitter &#8211; have a massive, predictable effect on smaller-volume coins. <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Read about my Twitter sentiment bot I&#8217;m presently creating here</a> (it&#8217;s fairly technical &#8211; but gives a good overview!)</p>
+
+
+
+<p>All in all, it&#8217;s easier to make a quick buck with less capital on crypto &#8211; reliably, predictably &#8211; than it is in traditional markets.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>You, too, can earn with automation! You, too can create or hire someone to create your own trading bots &#8211; for traditional markets, or for cryptocurrencies! You, too, can feel that little joy and hit of dopamine when your trades exit in the green!</p>
+
+
+
+<p>Go for it!</p>
+
+
+
+<h2>A Plug</h2>
+
+
+
+<p>Want to learn about&nbsp;new articles&nbsp;in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a><br></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Amazon Ebay Aliexpress Retail-Arbitrage-As-A-Service</title>
 		<link>/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/</link>
 				<pubDate>Fri, 17 Jan 2020 04:32:48 +0000</pubDate>
@@ -1525,118 +1715,6 @@ Deaths schizophrenic smokers: 1.26%</p>
 
 
 <p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL" target="_blank" rel="noreferrer noopener"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Decentralized Social Media</title>
-		<link>/2019/12/30/decentralized-social-media/</link>
-				<pubDate>Tue, 31 Dec 2019 03:19:27 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Coindex]]></category>
-
-		<guid isPermaLink="false">/?p=155</guid>
-				<description><![CDATA[**submitted to Hackernoon, submitted to GCNews.io** Incentive I’m not necessarily after $200, I’m after a voice. While published on Hackernoon]]></description>
-								<content:encoded><![CDATA[
-<p>**submitted to Hackernoon, submitted to GCNews.io**</p>
-
-
-
-<h2>Incentive</h2>
-
-
-
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
-<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Let&#39;s try an experiment: $200 BTC bounty for the best review of decentralized social media.<br><br>The ideal piece covers not just crypto efforts like Voice/Akasha, but allied tech like Mastodon, CRDT, Bittorrent, Git.<br><br>Reply to this tweet with your post! cc <a href="https://twitter.com/cz_binance?ref_src=twsrc%5Etfw">@cz_binance</a> <a href="https://twitter.com/VitalikButerin?ref_src=twsrc%5Etfw">@VitalikButerin</a> <a href="https://t.co/hhS0TXU9fX">https://t.co/hhS0TXU9fX</a></p>&mdash; Balaji S. Srinivasan (@balajis) <a href="https://twitter.com/balajis/status/1210639705143951360?ref_src=twsrc%5Etfw">December 27, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div></figure>
-
-
-
-<p>I’m not necessarily after $200, I’m after a voice. While <a href="https://hackernoon.com/@jare">published on Hackernoon many times</a> and having a <a href="https://github.com/dunncreativess">Github with 100+ repositories</a>, I’d thought it might be a good idea to take part in this competition and get the attention of <a href="https://twitter.com/balajis">https://twitter.com/balajis</a> <a href="https://twitter.com/cz_binance">https://twitter.com/cz_binance</a> &#8211; maybe even <a href="https://twitter.com/VitalikButerin">https://twitter.com/VitalikButerin</a>.</p>
-
-
-
-<h1>Preface: Censorship</h1>
-
-
-
-<p>This most recent bit of news time saw YouTube censor many crypto-related voices, and a mail broadcast I received from LBRY mentioned a few (or a lot?) of them ended up there to promote their views and opinions. Moreover, we saw MetaMask removed from the Android Play Store (and also, consequently, my device), purportedly for mining crypto and more likely for offering a competing environment where people can consume the internet than the Play Store itself. This level of censorship creates a world where a few big players (aka. the ultra-rich) can dictate to us what content we can consume where, and leads the way to a dangerous version of the internet where all we can possibly consume is the ultra-rich’s agenda.<br></p>
-
-
-
-<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/1gypbqvU8CjCzicIgUaUFeVLX56b7Te7lREUwnDONBeR9DMGKZo5NmhRbJBZ4ZGP5wvN_Ze4cSy0XxFxZ0LcX5YxynExXuxQOQRXXrBQfrvJb7W-aVqSS6ybJrjbRCUkjmx16S-R" alt=""/></figure>
-
-
-
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/4qwxvQORDVRn_oxTr_nuxml1XJZLFwyXCl8daa-l7-PRVzmaE2r4NGU9vv-AT-p6BU_CPQD7EQwsHA7XnOVhs6aWbxa9LZEeDawyXMMVqyPWFT_EvREpnsAOEt2UGl_I_WoxAPKp" alt=""/></figure>
-
-
-
-<p>The answer is an open and vibrant decentralized community where censorship plays no part. Minds.com comes to mind, but there has to be other underlying mechanisms to preserve the rights and freedoms of people everywhere &#8211; even in a censorship-free arena, we shouldn’t be subjected to hate speech and other dark web reminiscent dark corners of the internet. This kind of content from supremacists and trolls alike would hurt the overall image and therein hurt adoption &#8211; which would kill our creation before it’s born.<br></p>
-
-
-
-<p>SteemIt comes to mind &#8211; along with it’s various interfaces, (and in recent iterations allow an even more well-thought / which allow a) way for people to downvote ‘bad’ content. This is a great solution for the decentralized community to self-moderate it’s own content monstrosity, but by and large this creates a demand for labor that can’t easily be rewarded (cue Steem’s life-long battle trying to figure out how to balance inflationary rewards with the need to self-moderate &#8211; and their nearly Steem-killing problem with people using the reward structure to bribe rewards and over-reward themselves).<br></p>
-
-
-
-<h1>Monetization and Reward Mechanisms</h1>
-
-
-
-<p>At this point, it’s crucial to remind ourselves that Blockchain is not cryptocurrency. Read that again! The huge interest that the ICO craze pulled into Blockchain was equally as damaging to the image of Blockchain &#8211; if not more &#8211; than the dark web’s dependency on Bitcoin as an anonymous online currency was to the image of Bitcoin. A reward mechanism for users for a decentralized social platform is not required, but could benefit actual users &#8211; actual people &#8211; for their content and social interactions.<br></p>
-
-
-
-<p>If there’s a reward mechanism built into a new decentralized social media, it should be one that allows users to reward their favorite users through micropayments and allows the generation of additional rewards through staking an amount of e-currency someone already has &#8211; showing a dedication to the network and allowing the network more buying pressure than selling pressure. Steem does this, but I’m guessing people would want to stake more if there were more perceived reward &#8211; ie. you could earn more from your social presence as a direct result of staking more.&nbsp;<br></p>
-
-
-
-<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/tawIPlUa64-MNSJ2LPqEAZDmam5AF-HvZ_d_J6iFcNreeFphWd9CzwRG5AkMrSee2i2Op4R0ivoHrBSHYyu_88pT2YUmCX-oJw5io_LRWixstkez3Q74z8XVczk0mv-dE76LEFvk" alt=""/></figure>
-
-
-
-<p>If I had a dime for each time I had this conversation &#8211; with some underemployed or unemployed, disenfranchised friend on the internet &#8211; if we had a way to monetize and reward engaging social content we could empower the unbanked worldwide.&nbsp;<br></p>
-
-
-
-<h1>Moderation</h1>
-
-
-
-<p>&#8212; Note this isn’t the original (or even unoriginal) purposes of this neural evolutionary AI project &#8211; I’m going out on a limb here, without consulting our AI devs on this &#8211; but I think that the given problem would be socially acceptable content, and one could train the proof of fitness to provide that goal. Why not? &#8212;</p>
-
-
-
-<p>In projects in the past like Akasha or Mastadon, one key feature that’s perplexed developers is how to monitor and remove spam, plagiarism, hate speech, etc. In a world with increasingly smart AI, there’s no reason to put this labor onto individual users like in Steem &#8211; one could create a neural evolutionary AI that’s rewarded by achieving happier individuals through a ‘report’ mechanism on leftover content. If something’s reported, then that competing generation responsible for that post is hit with a ‘ding’ that keeps it from being the master genome in that set &#8211; and the master genome carries on to start a new generation of competing genomes to do a better job in the next set of posts that are all moderated.&nbsp;</p>
-
-
-
-<p>The computational power required to run these competing and learning sets of problem-solving algos could be served by p2p nodes that are run by users around the world &#8211; with as little as a laptop, in another chain that rewards the users submitting to the champion net.&nbsp;</p>
-
-
-
-<p><a href="https://docs.google.com/document/d/1VBJ0UoY7MjeIEX0ljPj6G35qqnSizTv-XgzCiAx04F8/edit?usp=sharing">Read more in OuroborosChain &#8211; a white paper detailing neural evolutionary AI</a>.</p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em>&nbsp;</em></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em> http://eepurl.com/gIykNL</em></a><em> !!</em></p>
-
-
-
-<h1>Disclaimer</h1>
-
-
-
-<p>The author is Chief Liquidity Officer for Coindex Labs.<br></p>
 ]]></content:encoded>
 										</item>
 	</channel>

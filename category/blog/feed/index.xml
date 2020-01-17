@@ -12,7 +12,7 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Thu, 16 Jan 2020 04:33:44 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 17 Jan 2020 06:43:01 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,196 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>What are trade bots? Robot traders explained!</title>
+		<link>/2020/01/17/what-are-trade-bots-robot-traders-explained/</link>
+				<pubDate>Fri, 17 Jan 2020 06:42:32 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+
+		<guid isPermaLink="false">/?p=226</guid>
+				<description><![CDATA[Read this article in it&#8217;s original form, on jare.cloud! Introduction There&#8217;s nothing more enjoyable than trading for a living. You]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://jare.cloud/2020/01/17/what-are-trade-bots-robot-traders-explained/">Read this article in it&#8217;s original form, on jare.cloud</a>!</p>
+
+
+
+<h2>Introduction</h2>
+
+
+
+<p>There&#8217;s nothing more enjoyable than trading for a living. You basically sit there, and exchange money for other things of value and then back again. Rinse wash  repeat, and you can certainly support yourself taking small profits every so often &#8211; or heavier ones, usually less often!</p>
+
+
+
+<p>Eventually, all traders will settle into a routine they&#8217;re comfortable with. They&#8217;ll build up an overall strategy of smaller strategies ranging in complexity and different input variables &#8211; from indicators to position sizing, there&#8217;s a lot to consider!</p>
+
+
+
+<p>What&#8217;s important is that it&#8217;s easy to make a day&#8217;s salary in one trade, with very little investment. It&#8217;s also easy &#8211; probably easier &#8211; to lose your entire nest egg in that same day. Remember, invest only what you can afford to lose!</p>
+
+
+
+<p>Let&#8217;s discuss a bit about the history of consumer-level trade bots, how trade bots can be used by near-infinite amounts of money by institutions, and how we can make money today using trading bots!</p>
+
+
+
+<h2>Historical Trade Bots: Expert Advisors</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://media.fxcm.com/fxpress/fxcmcom/base/page/metatrader-4/carousel-image-1.jpg?fit=cover&amp;auto=webp" alt="Image result for mt4"/></figure>
+
+
+
+<p>Most consumer-level brokers over recent years have offered a universal integration for people to day-trade: it&#8217;s called MetaTrader, and most popular of the versions is MetaTrader 4. </p>
+
+
+
+<figure class="wp-block-image"><img src="https://forexmt4ea.com/wp-content/uploads/2014/08/fdiamond_real_latest2.png" alt="Image result for mt4 ea"/></figure>
+
+
+
+<p>It included all sorts of handy features, and could trade anything you could imagine &#8211; from stocks and deriviatives to commodities and forex, it was easy to win or lose quickly and with a laugh or a tear. </p>
+
+
+
+<p>One of the most important features you could find was the Expert Advisor. What this was was a way for users &#8211; or developer shops &#8211; to program their own strategies into the machine, allowing it to trade automagically. Even when you were away to the Caribbean or when you were sleeping &#8211; and markets were open &#8211; the expert advisor code would be watching, and reacting to the markets. </p>
+
+
+
+<p>You could use all sorts of indicators &#8211; like directional ones like RSI, price ones like VWAP, volatility ones like EWMA, and the list goes on &#8211; and your own variables to manipulate the info and act on your strategies.</p>
+
+
+
+<p>This bred a whole new world where people could show off or even sell their Expert Advisors to other people. This marketplace was soon fraught with scams and genuine people trying to help out &#8211; like any other capitalist venue, it&#8217;s as important now as then to always Do Your Own Research before committing funds to anything.</p>
+
+
+
+<p>One popular scam was to employ a version of the Martingale Betting System. What this means is that when you lose a bet (or a trade), you double (or increase) your risk so then when you win the next bet (or trade) you earn back everything you lost plus a little extra that you&#8217;ve just now won. Then, when you bet again you start with the base amount again (or less, anyhow) and repeat the process.</p>
+
+
+
+<p>This sounds genius &#8211; you&#8217;ll never lose!</p>
+
+
+
+<p>In reality, probability works against you and the longer you play this game the more likely it is that you&#8217;ll see a large enough streak of losses to wipe out all your earnings. Neigh, even nations would lose when playing Martingale strategies &#8211; in roulette or in trading. <br><br>Eventually.</p>
+
+
+
+<p>Probably.</p>
+
+
+
+<p>What this looks like is a smooth chart with minimum drawdown right up until the end event where everything is lost. What this means for an expert advisor developer is that they can have a fantastic, promising looking chart &#8211; even when tested in real-time, with live funds &#8211; and they can promote that using their marketing budget to get many new subscribers. </p>
+
+
+
+<p>End event!</p>
+
+
+
+<p>I lost my money this way once with an expert advisor&#8230; I learned to not trust backtests, not trust test accounts and only trust my own forward tests &#8211; and remember the first rule: Only invest what you can afford to lose!</p>
+
+
+
+<p>Anyways, loads of people earned great money on forex robot trades. Many people still do. You can, too, if you have a good strategy that can&#8217;t easily be duplicated and you maintain your edge over the market. Many more will make money on Expert Advisors, or other forms of trading automation.  </p>
+
+
+
+<p>Hooah!</p>
+
+
+
+<h2>Robot Traders at Scale: Wall Street</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://timeentertainment.files.wordpress.com/2013/12/twows-02401r.jpg?w=720&amp;h=480&amp;crop=1" alt="Image result for wolf of wall street"/></figure>
+
+
+
+<p>Movie theatrics and fiction aside, The Wolf of Wallstreet made all his money by manipulating IPOs that he then controlled a relatively large stake in at arm&#8217;s length. </p>
+
+
+
+<p>How does one manipulate IPO prices? One trades. Using many accounts. One trades back and forth, and loses a bit on the fees and the spread but encourages other parties on the market to trade more and more and even influence the price &#8211; at just the right times in just the right increments &#8211; and voila, you&#8217;ve committed securities fraud but you&#8217;re mad rich!</p>
+
+
+
+<p>In reality, most of Wall St probably aren&#8217;t committing securities fraud. Probably.</p>
+
+
+
+<p>In reality, all of Wall St are using some form of trading automation and high-frequency trading to achieve their goals. Definitely.</p>
+
+
+
+<p>By the time any sort of opportunity exists long enough to be traded against, 10s 1000s other parties employing your same or a very like strategy have noticed that opportunity and already traded it. In traditional markets.</p>
+
+
+
+<p>How do you react? Be the first. Be the fastest. Poor tens millions dollars into developing faster infrastructure, faster code, and faster trades. Automation and delegation are the keys to success, no?</p>
+
+
+
+<p>What this boils down to is that the consumer with their expert advisors and trading terminals on $500 computers instead of $500 000 supercomputers are beaten to the punch by Wall St at every turn.</p>
+
+
+
+<p>Darn! All is lost!</p>
+
+
+
+<p>No&#8230; Read on!</p>
+
+
+
+<h2>Most Profitable Automated Trades: Cryptocurrency</h2>
+
+
+
+<p>Where Wall St haven&#8217;t yet conquered the markets &#8211; even better: new markets are introduced daily &#8211; and where market discrepencies even across exchanges offer up opportunities for arbitrage (sure-bet, guaranteed profit.. look into it! Do your own research&#8230; or <a href="https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/">read this article I wrote, it&#8217;s about a retail arbitrage business </a>&#8211; same idea! Buy low sell high!) and the execution times and volumes of big players don&#8217;t necessarily &#8216;own&#8217; the markets?</p>
+
+
+
+<p>Bitcoin and cryptocurrency.</p>
+
+
+
+<p>Everyone has a fair chance in crypto to earn a dollar &#8211; even though the big boys still spend millions on their trading bots, the little guys control much more of the market share than vs Wall St and traditional markets.</p>
+
+
+
+<p>Things like sentiment &#8211; feelings expressed on Twitter &#8211; have a massive, predictable effect on smaller-volume coins. <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Read about my Twitter sentiment bot I&#8217;m presently creating here</a> (it&#8217;s fairly technical &#8211; but gives a good overview!)</p>
+
+
+
+<p>All in all, it&#8217;s easier to make a quick buck with less capital on crypto &#8211; reliably, predictably &#8211; than it is in traditional markets.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>You, too, can earn with automation! You, too can create or hire someone to create your own trading bots &#8211; for traditional markets, or for cryptocurrencies! You, too, can feel that little joy and hit of dopamine when your trades exit in the green!</p>
+
+
+
+<p>Go for it!</p>
+
+
+
+<h2>A Plug</h2>
+
+
+
+<p>Want to learn about&nbsp;new articles&nbsp;in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a><br></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Better Web: Brave Rewards Your Content! Make money monetizing Twitter!</title>
 		<link>/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/</link>
 				<pubDate>Thu, 16 Jan 2020 04:33:19 +0000</pubDate>
@@ -1411,88 +1601,6 @@ Deaths schizophrenic smokers: 1.26%</p>
 
 
 <p>The author is Chief Liquidity Officer for Coindex Labs.<br></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Benefits of Neomenia and Crypto Growth Hacker &#8211; Compound Your Crypto!</title>
-		<link>/2019/12/23/benefits-of-neomenia-and-crypto-growth-hacker-compound-your-crypto/</link>
-				<pubDate>Mon, 23 Dec 2019 11:10:46 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=146</guid>
-				<description><![CDATA[Hi SteemIt! View this post in it&#8217;s original form on dunncreativess.github.io! View my other posts on Hackernoon. Yes I&#8217;m promoting]]></description>
-								<content:encoded><![CDATA[
-<p>Hi SteemIt! View this post in it&#8217;s <a href="http://dunncreativess.github.io/2019/12/23/benefits-of-neomenia-and-crypto-growth-hacker-compound-your-crypto/">original form on dunncreativess.github.io</a>! View my <a href="https://hackernoon.com/@jare">other posts on Hackernoon.</a> Yes I&#8217;m promoting this post &#8211; I think I have some info you folks might appreciate!</p>
-
-
-
-<p>With results among users ranging from 3-4%, and a total net returns for some users at 16-22+% over a few days, it looks as though Neomenia is here to make an improvement in people&#8217;s lives.</p>
-
-
-
-<p>Trading on three exchanges simultaneously and hedging risk by altering strategies based on conditions on a given exchange, it looks like Crypto Growth Hacker is the one-stop-shop for crypto investment diversification.</p>
-
-
-
-<p>Neomenia now supports trailing takeprofit, meaning the upwards potential of a good buy or sell has increased significantly with your configurable takeprofit. It also has a special feature where the stop size is reduced by the difference in price as a percent when it moves in the right direction, so that you can lock in your profits faster while having a larger stoploss in case sh#t hits the fan.</p>
-
-
-
-<p>The win/lose ratio is 5:1&#8230; and <a href="https://www.tradingview.com/chart/XBTUSD/FkIqJJcy-Introducing-Neomenia/">it backtested 10 000% on TradingView</a>.</p>
-
-
-
-<p>It&#8217;s a price action observed in one spot confirmed in another confirmed again by a direcitonal indicator, and that&#8217;s all I&#8217;m allowed saying under NDA.. but if you want to know more, join the Neomenia chat on Telegram! <a href="https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A">https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn110-1-1024x408.png" alt="" class="wp-image-149" srcset="/wp-content/uploads/2019/12/hn110-1-1024x408.png 1024w, /wp-content/uploads/2019/12/hn110-1-300x119.png 300w, /wp-content/uploads/2019/12/hn110-1-768x306.png 768w, /wp-content/uploads/2019/12/hn110-1-1536x611.png 1536w, /wp-content/uploads/2019/12/hn110-1.png 1874w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Crypto Growth Hacker is indexing Bitmex, Deribit and Binance Futures now and using a complex market making strategy on the first two while employing Neomenia on the third. The result is a bot that&#8217;s incredibly resilient and doesn&#8217;t take very many hits that last too too long &#8211; and shows steady gains.</p>
-
-
-
-<p>Want to know more? Join our Telegram! <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn2-1-1.png" alt="" class="wp-image-148" srcset="/wp-content/uploads/2019/12/hn2-1-1.png 880w, /wp-content/uploads/2019/12/hn2-1-1-300x163.png 300w, /wp-content/uploads/2019/12/hn2-1-1-768x416.png 768w" sizes="(max-width: 880px) 100vw, 880px" /></figure>
-
-
-
-<p>What&#8217;s great about both offerings is the community. We have scores of new users &#8211; and scores of people supporting us through thick and thin &#8211; and that all starts with posts like these, to raise awareness.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-4-498x1024.png" alt="" class="wp-image-150" srcset="/wp-content/uploads/2019/12/image-4-498x1024.png 498w, /wp-content/uploads/2019/12/image-4-146x300.png 146w, /wp-content/uploads/2019/12/image-4.png 622w" sizes="(max-width: 498px) 100vw, 498px" /></figure>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-5-498x1024.png" alt="" class="wp-image-151" srcset="/wp-content/uploads/2019/12/image-5-498x1024.png 498w, /wp-content/uploads/2019/12/image-5-146x300.png 146w, /wp-content/uploads/2019/12/image-5.png 622w" sizes="(max-width: 498px) 100vw, 498px" /></figure>
-
-
-
-<p>We&#8217;re helping each other, and helping ourselves. You&#8217;re more than welcome to join! We&#8217;d be happy to have you. Ask questions! Grow with us!</p>
-
-
-
-<p>We also have attractive referral campaigns for those of you who have an audience or know the inner workings of the magical internet.. ask us how to get 10% of your referral&#8217;s profits, or a straight (and recurring.. ) fee!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/hn1-1.png" alt="" class="wp-image-147" srcset="/wp-content/uploads/2019/12/hn1-1.png 899w, /wp-content/uploads/2019/12/hn1-1-288x300.png 288w, /wp-content/uploads/2019/12/hn1-1-768x800.png 768w" sizes="(max-width: 899px) 100vw, 899px" /></figure>
-
-
-
-<p><a href="https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A">Neomenia Telegram</a></p>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Crypto Growth Hacker Telegram</a></p>
 ]]></content:encoded>
 										</item>
 	</channel>
