@@ -248,7 +248,7 @@ var request = require('request')</code></pre>
 
 
 <pre class="wp-block-code"><code>let ebay = new eBay({
-    clientID: 'JarettDu-test-PRD-7a6d6c794-59f32155	',
+    clientID: '',
     env: 'PRODUCTION', // optional default = 'PRODUCTION'
     headers:{ // optional
         'X-EBAY-C-MARKETPLACE-ID': 'EBAY_US' // For Great Britain https://www.ebay.co.uk
@@ -287,13 +287,13 @@ var search = '500in1 nes'</code></pre>
     ebay.findItemsByKeywords({
         keywords: keywords
     }).then((data) => {
-        for (var item in data&#91;0].searchResult&#91;0].item) {
-            url = encodeURIComponent(data&#91;0].searchResult&#91;0].item&#91;item].viewItemURL&#91;0])
+        for (var item in data[0].searchResult[0].item) {
+            url = encodeURIComponent(data[0].searchResult[0].item[item].viewItemURL[0])
             url = template + url
             console.log('ebay:')
             console.log('affiliate url: ' + url)
-            console.log(data&#91;0].searchResult&#91;0].item&#91;item].title&#91;0])
-            console.log(data&#91;0].searchResult&#91;0].item&#91;item].sellingStatus&#91;0].currentPrice&#91;0])
+            console.log(data[0].searchResult[0].item[item].title[0])
+            console.log(data[0].searchResult[0].item[item].sellingStatus[0].currentPrice[0])
             console.log(' ')
         }
     }, (error) => {
@@ -324,11 +324,11 @@ var search = '500in1 nes'</code></pre>
             var json = JSON.parse(result2)
             if (json.result != null) {
                 for (var i in json.result.products) {
-                    console.log(json.result.products&#91;i]);
-                    var price = json.result.products&#91;i].salePrice;
-                    var id = json.result.products&#91;i].productUrl;
-                    var img = json.result.products&#91;i].imageUrl;
-                    var title = json.result.products&#91;i].productTitle;
+                    console.log(json.result.products[i]);
+                    var price = json.result.products[i].salePrice;
+                    var id = json.result.products[i].productUrl;
+                    var img = json.result.products[i].imageUrl;
+                    var title = json.result.products[i].productTitle;
 
                     
                     dosearchurl(id, title, img, price)
@@ -363,8 +363,8 @@ var search = '500in1 nes'</code></pre>
 
             var json = JSON.parse(result3)
             console.log('aliexpress:')
-            console.log('title: ' + title.replace(/&lt;&#91;^>]*>?/gm, ''))
-            console.log('affiliate url: ' + json.result.promotionUrls&#91;0].promotionUrl);
+            console.log('title: ' + title.replace(/&lt;[^>]*>?/gm, ''))
+            console.log('affiliate url: ' + json.result.promotionUrls[0].promotionUrl);
             console.log('img: ' + img)
             console.log('price: ' + price)
             console.log(' ')
