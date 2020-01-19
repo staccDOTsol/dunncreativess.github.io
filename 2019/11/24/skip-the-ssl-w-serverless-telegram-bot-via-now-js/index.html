@@ -175,6 +175,10 @@ var maxwell_menu_title = "Navigation";
 
 
 
+<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
+
+
+
 <p>Try this bot on Telegram! <a href="https://t.me/JareBotBot">https://t.me/JareBotBot</a>!</p>
 
 
@@ -249,7 +253,7 @@ axios.post(url, {
  app.get('/', function(req, res) {
      res.send('hello');
  })
- var bots = &#91;"http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
+ var bots = ["http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
  app.post("/startbot", function(req, res) {
      console.log("startbot");
      const {
@@ -260,19 +264,19 @@ axios.post(url, {
          if (message.text.toLowerCase().indexOf("statusupdate") != -1) {
              reply = ""
              for (var b in bots) {
- r = request.get(bots&#91;b], function(e, r, d) {
+ r = request.get(bots[b], function(e, r, d) {
 
                 j = JSON.parse(d)
-                start = j.btc&#91;0]&#91;0]
-                btc = j.btc&#91;j.btc.length - 1]&#91;1]
-                end = j.btc&#91;j.btc.length - 1]&#91;0]
+                start = j.btc[0][0]
+                btc = j.btc[j.btc.length - 1][1]
+                end = j.btc[j.btc.length - 1][0]
                 diff = end - start
                 var s = diff / 1000
                 var m = s / 60
                 var h = m / 60
                 var d = h / 24
                 var y = d / 365
-                var apr = (j.btc&#91;j.btc.length - 1]&#91;1] - j.btc&#91;0]&#91;1]) / y
+                var apr = (j.btc[j.btc.length - 1][1] - j.btc[0][1]) / y
                 reply += r.request.uri.href.substring(0, r.request.uri.href.length - 7) + '\n'
                 reply += "Start: " + new Date(start) + '\n'
                 reply += "Now: " + new Date(end) + "\n"
