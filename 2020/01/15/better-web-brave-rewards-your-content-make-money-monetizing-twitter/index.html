@@ -53,6 +53,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="/xmlrpc.php">
+<script type=”text/javascript“>
+
+var a = document.getElementsByTagName(‘a’);
+for(i = 0; i < a.length; i++){
+if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:///i)){
+a[i].onclick = function(){
+_gaq.push([‘_trackEvent’, ‘outgoing_links’, this.href.replace(/^http:///i, ”)]);
+}
+}
+}
+
+</script>
+
 
 <title>Better Web: Brave Rewards Your Content! Make money monetizing Twitter! &#8211; jare.cloud</title>
 <link rel='dns-prefetch' href='//s.w.org' />
