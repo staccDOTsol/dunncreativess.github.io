@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Mon, 20 Jan 2020 00:00:35 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jan 2020 00:03:54 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -24,7 +24,8 @@
 		<link>/2020/01/19/nexo-review-for-crypto-loans-and-bitcoin-loans-and-crypto-cards-mco-visa-tenx-too/</link>
 				<pubDate>Mon, 20 Jan 2020 00:00:06 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Brave]]></category>
 
 		<guid isPermaLink="false">/?p=298</guid>
 				<description><![CDATA[View this article in it’s original form on jare.cloud! Intro What if Nexo had more than $100m USD worth of]]></description>
