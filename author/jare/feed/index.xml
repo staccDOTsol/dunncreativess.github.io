@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Mon, 20 Jan 2020 10:12:05 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jan 2020 17:28:20 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,197 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>7 Days Creating a Twitter Growth Service</title>
+		<link>/2020/01/21/7-days-creating-a-twitter-growth-service/</link>
+				<pubDate>Tue, 21 Jan 2020 17:26:08 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Brave]]></category>
+
+		<guid isPermaLink="false">/?p=234</guid>
+				<description><![CDATA[See this post in it&#8217;s original form on jare.cloud! Interested in a way to utilize Crypto Pump n Dump tweets]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://jare.cloud/2020/01/21/7-days-creating-a-twitter-growth-service/">See this post in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<p>Interested in a way to utilize Crypto Pump n Dump tweets &#8211; for fun &amp; profit? <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Check out this article I wrote on making mad stacks on Twitter sentiment</a>!</p>
+
+
+
+<h2>Day 1</h2>
+
+
+
+<p>I had a thought: if some of my traffic comes from Twitter to Medium and my blog, wouldn&#8217;t I want to maximize this &#8211; in a hands-free fashion? I&#8217;ve done this before &#8211; some of my accounts had 5k+ followers in a few months. I had bought a Google sheets templated sheet doc with Twitter integrations, and bam it flew. I later created a Github repo for a hackathon starter fork where I put in all these juicey follow, retweet, favorite logics into a prettier UI.</p>
+
+
+
+<p>The benefit of the hackathon starter is that I can login via oauth &#8211; meaning the app has api keys, but the user does not. We&#8217;re all used to oauth login &#8211; do you want to login using gmail/facebook/twitter? Redirect to platform, redirect to site, success!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-21.png" alt="" class="wp-image-236" srcset="/wp-content/uploads/2020/01/image-21.png 876w, /wp-content/uploads/2020/01/image-21-300x245.png 300w, /wp-content/uploads/2020/01/image-21-768x627.png 768w" sizes="(max-width: 876px) 100vw, 876px" /></figure>
+
+
+
+<p>I resurrected my gsheet today and started the magic. I made some edits to the code: specifically we want to follow, retweet and favorite. Hooah!</p>
+
+
+
+<p>Let&#8217;s set our benchmark&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-20-1024x303.png" alt="" class="wp-image-235" srcset="/wp-content/uploads/2020/01/image-20-1024x303.png 1024w, /wp-content/uploads/2020/01/image-20-300x89.png 300w, /wp-content/uploads/2020/01/image-20-768x227.png 768w, /wp-content/uploads/2020/01/image-20.png 1032w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>Day 2</h2>
+
+
+
+<p>Well, we have some initial results! Twitter app on my phone has been blowing up. Let&#8217;s analyze the results so far&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-22.png" alt="" class="wp-image-237" srcset="/wp-content/uploads/2020/01/image-22.png 1009w, /wp-content/uploads/2020/01/image-22-300x98.png 300w, /wp-content/uploads/2020/01/image-22-768x250.png 768w" sizes="(max-width: 1009px) 100vw, 1009px" /></figure>
+
+
+
+<p>We&#8217;ve gained 13 followers in 24 hours! That might not sound like much, but it&#8217;s a full 10.8% increase over where we were. Even better than that, the amount of followers vs the amount of people I&#8217;ve followed &#8211; an important metric on Twitter &#8211; has actually increased! </p>
+
+
+
+<p>I did notice that the UI on Twitter wouldn&#8217;t let me follow people. This is dangerous, as if we try to follow too many people and get errors because our account is limited, Twitter may ban the account. We remove the follow directives, and increase retweets and likes.</p>
+
+
+
+<h2>Day 3</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-23-1024x364.png" alt="" class="wp-image-238" srcset="/wp-content/uploads/2020/01/image-23-1024x364.png 1024w, /wp-content/uploads/2020/01/image-23-300x107.png 300w, /wp-content/uploads/2020/01/image-23-768x273.png 768w, /wp-content/uploads/2020/01/image-23.png 1048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Wow! A further 12% increase in followers! Our ratio increased again, too. That&#8217;s fantastic news&#8230; I&#8217;m greedy now, and so I&#8217;m going to increase the retweets and favorites from one per search term per hour up to 3. This should accelerate this monster&#8230; let&#8217;s wait and find out!</p>
+
+
+
+<p>UPDATE: 3/4 the way through Day 3, let&#8217;s take a look at results. Just because I hate waiting. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-24.png" alt="" class="wp-image-239" srcset="/wp-content/uploads/2020/01/image-24.png 977w, /wp-content/uploads/2020/01/image-24-300x119.png 300w, /wp-content/uploads/2020/01/image-24-768x306.png 768w" sizes="(max-width: 977px) 100vw, 977px" /></figure>
+
+
+
+<p>Well, that strategy appears to be working! No longer is my account limited, and also my followers increased a further 12% on top of the last 12% and 10% &#8211; an increase in rate. When we check in in another 6ish hours we&#8217;ll hopefully see that the data for the 18th reflect a massive increase.</p>
+
+
+
+<p>What&#8217;s even better is that my follower vs followed ratio is increasing SIGNIFICANTLY. Because I&#8217;m no longer following people using the bot &#8211; although I did some manually, messing up stats &#8211; this ratio is now EXPLODING. </p>
+
+
+
+<p>Twitter limits your ability to follow new people after you follow 5k, and if this ratio is too too deep then everyone will assume you&#8217;re digging for followers and your rate of follow backs will decrease. D&#8217;oh!</p>
+
+
+
+<h2>Day 4</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-33-1024x761.png" alt="" class="wp-image-295" srcset="/wp-content/uploads/2020/01/image-33-1024x761.png 1024w, /wp-content/uploads/2020/01/image-33-300x223.png 300w, /wp-content/uploads/2020/01/image-33-768x571.png 768w, /wp-content/uploads/2020/01/image-33.png 1045w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Twitter: Free Money</figcaption></figure>
+
+
+
+<p>Social traffic and engagements are literally free money if you monetize your visitors in any way, or put a dollar value on them.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-48-1024x249.png" alt="" class="wp-image-339" srcset="/wp-content/uploads/2020/01/image-48-1024x249.png 1024w, /wp-content/uploads/2020/01/image-48-300x73.png 300w, /wp-content/uploads/2020/01/image-48-768x187.png 768w, /wp-content/uploads/2020/01/image-48.png 1050w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Plus &#8211; we&#8217;ve seen a massive increase in both followers and the ratio! Booya!</p>
+
+
+
+<h2>Day 5</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-49-1024x259.png" alt="" class="wp-image-340" srcset="/wp-content/uploads/2020/01/image-49-1024x259.png 1024w, /wp-content/uploads/2020/01/image-49-300x76.png 300w, /wp-content/uploads/2020/01/image-49-768x194.png 768w, /wp-content/uploads/2020/01/image-49.png 1035w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>The followers and ratio continue their upwards trend, although slowing down&#8230;</p>
+
+
+
+<h2>Day 6</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-50-1024x285.png" alt="" class="wp-image-341" srcset="/wp-content/uploads/2020/01/image-50-1024x285.png 1024w, /wp-content/uploads/2020/01/image-50-300x84.png 300w, /wp-content/uploads/2020/01/image-50-768x214.png 768w, /wp-content/uploads/2020/01/image-50.png 1041w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Oh! I know why my followed is still trending up. My code had a hard-coded &#8216;followback&#8217; feature. Let&#8217;s turn that off!</p>
+
+
+
+<h2>Day 7</h2>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-51-1024x680.png" alt="" class="wp-image-342" srcset="/wp-content/uploads/2020/01/image-51-1024x680.png 1024w, /wp-content/uploads/2020/01/image-51-300x199.png 300w, /wp-content/uploads/2020/01/image-51-768x510.png 768w, /wp-content/uploads/2020/01/image-51-120x80.png 120w, /wp-content/uploads/2020/01/image-51.png 1035w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Looking good&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-52.png" alt="" class="wp-image-343" srcset="/wp-content/uploads/2020/01/image-52.png 1022w, /wp-content/uploads/2020/01/image-52-300x97.png 300w, /wp-content/uploads/2020/01/image-52-768x248.png 768w" sizes="(max-width: 1022px) 100vw, 1022px" /></figure>
+
+
+
+<p>We&#8217;ve now accomplished the 2nd-highest daily increase in % follower/followed ratio. Hooah!</p>
+
+
+
+<p>That concludes our 7-day adventure into automating Twitter engagements, for fun and profit. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-53.png" alt="" class="wp-image-344" srcset="/wp-content/uploads/2020/01/image-53.png 337w, /wp-content/uploads/2020/01/image-53-300x87.png 300w" sizes="(max-width: 337px) 100vw, 337px" /></figure>
+
+
+
+<p>We&#8217;ve seen an 85% increase &#8211; nearly double! In followers over 7 days, and 30% increase in follower/followed ratio. These are huge numbers, indicative of a healthy and growing Twitter following.</p>
+
+
+
+<p><a href="https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/">Learn how to monetize your new Twitter following with Brave Browser and BAT tokens</a>! Better yet? It blocks all third-party ads! AND protects your privacy!</p>
+
+
+
+<h2>A Plug (or Two)</h2>
+
+
+
+<p>Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
+
+
+
+<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Publish0x: Allowing Rewards for Content With Their Own Funds! Re-Distribution of Wealth, Defined!</title>
 		<link>/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/</link>
 				<pubDate>Mon, 20 Jan 2020 08:19:47 +0000</pubDate>
@@ -1393,222 +1584,6 @@ var search = '500in1 nes'</code></pre>
 
 
 <p>It&#8217;d be nice to incorporate a python django webserver like a hackathon starter so I can take advantage of their Twitter oauth2 sign-in scheme. This way I can potentially have accounts log in without supplying their own twitter API credentials &#8211; which require an application process now &#8211; and more accounts can work with my bot. This would increase the amount of actionable data and win/loss rates and severities that can be used to package tailored lists of tweeters to know.</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Schizophrenia: Curse or Blessing? Death Sentence or Gift?</title>
-		<link>/2020/01/15/why-schizophrenia-is-the-most-under-represented-of-all-the-death-sentences/</link>
-				<pubDate>Wed, 15 Jan 2020 08:19:06 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Mental Health]]></category>
-
-		<guid isPermaLink="false">/?p=192</guid>
-				<description><![CDATA[View This Article in it&#8217;s Original Form on Jare.Cloud! Join our growing Telegram community for blog updates, bot chat, general]]></description>
-								<content:encoded><![CDATA[
-<p><a href="http://jare.cloud/2020/01/15/why-schizophrenia-is-the-most-under-represented-of-all-the-death-sentences/">View This Article in it&#8217;s Original Form on Jare.Cloud</a>!</p>
-
-
-
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<p>With <a href="https://learn.onemonth.com/hacker-noon/">June estimates at 7000+ authors</a>, 69 other Hackernoon contributors might also be a victim of schizophrenia, along with me. This article serves to demonstrate why these people are facing tougher-than-average odds to live to a ripe old age, and how society isn&#8217;t doing them justice in helping or finding a permanent solution.</p>
-
-
-
-<h2>Schizophrenia</h2>
-
-
-
-<p>Schizophrenia is the psychotic disorder that&#8217;s defined by losing control over your reality. If you start to slip into beliefs or experiences &#8211; auditory, visual &#8211; that others don&#8217;t perceive, you&#8217;re schizophrenic! There&#8217;s other qualifiers to the disorder, like having a certain frequency and total number occurrences of these thoughts &#8211; as well as a lack of other conditions which may otherwise explain these often terrifying and traumatizing thoughts.</p>
-
-
-
-<p>What counts as an hallucination or delusion? A hallucination is an effect on your senses that others can&#8217;t perceive. You might see something that isn&#8217;t there, hear something in the distance that only you can hear &#8211; you might even perceive other people perceiving your hallucinations, which is a trap on it&#8217;s own because now your hallucinations are covering your other hallucinations. You can see how easy it would be to lose touch with reality when your own human mind makes up its mind to revolt!</p>
-
-
-
-<p>A delusion is a belief in something, some thought or idea or pattern that nobody else can perceive. You might think the media is talking to you, telling you to do things in secret code. You might think that you are somehow special, be it superpowers or the fact that you&#8217;re President &#8211; these delusions can vary in strength and severity, and may even go unnoticed in some for years and years before causing any issues.</p>
-
-
-
-<p>There are negative symptoms of schizophrenia, too &#8211; where the positive symptoms are qualities you&#8217;ve gained or acquired from the illness, like hallucinations or delusions &#8211; the negative symptoms are things that you&#8217;ve lost with the new mental state. These could be habits or behaviours like caring about one&#8217;s well-being (cooking, cleaning, self-care) or curtailing one&#8217;s hobbies due to lack of interest.</p>
-
-
-
-<h2>Prevalence</h2>
-
-
-
-<p><a href="https://www.mentalhelp.net/schizophrenia/statistics/">Schizophrenia affects 1% of the population, 1.5% of Americans and 1.5 million people were diagnosed with it this year.</a> This translates to 300 000 Canadians, nearly 5 million Americans &#8211; verily, 105 million people around the world. Indeed, someone you know &#8211; more than one person you know &#8211; could very well be suffering.</p>
-
-
-
-<h2>Concurrent Disorders &amp; Overdoses</h2>
-
-
-
-<p><a href="https://www.addictioncenter.com/addiction/schizophrenia/">Nearly half of people suffering from schizophrenia abuse drugs and alcohol</a>. We call this a &#8216;concurrent disorder&#8217; &#8211; meaning that drugs and alcohol abuse are occurring at the same time as the psychological symptoms that lead a professional to diagnose schizophrenia.</p>
-
-
-
-<p>I bid you welcome to the first reason schizophrenia is a death sentence: <a href="https://www.drugabuse.gov/related-topics/trends-statistics/overdose-death-rates">0.216% of the American population died from overdoses</a> from 1999-2017 (with a noticeable trend upwards in deaths/year). Given that <a href="https://www.drugabuse.gov/publications/drugfacts/nationwide-trends">9.4% of the population reported using illicit drugs</a> in the last month:</p>
-
-
-
-<p>Americans: 300 000 000<br>
-Drug abusers: 28 200 000 (9.4%)<br>
-Deaths / 18 years: 648 000 (0.216%)<br>
-Deaths / abusers: 2.3%<br>
-Abusers / schizophrenics: 50%<br>
-Schizophrenics: 5 000 000 (1.5%)<br>
-Abusers that are schizophrenics: 2 500 000 (0.75%)<br>
-Deaths / abusers that are schizophrenics: 57 500 (1.15% of # schizophrenic)<br>
-Deaths schizophrenics / deaths abusers: 8.88%</p>
-
-
-
-<p>8.88/2.3: you are 3.86 times as likely to die from an overdose than the average drug abuser if you&#8217;re schizophrenic.<br> 1.15/0.216: you are 5.32 times as likely to die from an overdose than the average person if you&#8217;re schizophrenic. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-5-1024x543.png" alt="" class="wp-image-194" srcset="/wp-content/uploads/2020/01/image-5-1024x543.png 1024w, /wp-content/uploads/2020/01/image-5-300x159.png 300w, /wp-content/uploads/2020/01/image-5-768x407.png 768w, /wp-content/uploads/2020/01/image-5.png 1418w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h2>Suicides</h2>
-
-
-
-<p>The <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwj9lIGGiYXnAhXKl-AKHVlcA-kQFjACegQIAxAB&amp;url=https%3A%2F%2Fafsp.org%2Fabout-suicide%2Fsuicide-statistics%2F&amp;usg=AOvVaw2pQbS5wgQ6GOwg_6X9pNYI">suicide rate for Americans is 0.014%</a> when &#8216;adjusted.&#8217;</p>
-
-
-
-<p>The <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951591/">&#8216;lifetime risk of suicide&#8217; for people with schizophrenia is 4.9%</a>.</p>
-
-
-
-<p>Americans: 300 000 000<br>
-Suicides: 4 200 000 (0.014%)<br>
-Suicides / schizophrenics: 4.9%<br>
-Schizophrenics: 5 000 000 (1.5%)<br>
-Suicides that are schizophrenics: 245 000 (0.08%)</p>
-
-
-
-<p>4.9/0.014: you are 350 times as likely to die from suicide than the average person if you&#8217;re schizophrenic.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-6-1024x418.png" alt="" class="wp-image-195" srcset="/wp-content/uploads/2020/01/image-6-1024x418.png 1024w, /wp-content/uploads/2020/01/image-6-300x122.png 300w, /wp-content/uploads/2020/01/image-6-768x313.png 768w, /wp-content/uploads/2020/01/image-6.png 1064w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>I&#8217;ll let the numbers speak for themselves in this section.</p>
-
-
-
-<h2>Smoking Cigarettes</h2>
-
-
-
-<p>According to the CDC, <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwi2nbLEioXnAhVlmeAKHYs-AM4QFjAAegQIARAB&amp;url=https%3A%2F%2Fwww.cdc.gov%2Ftobacco%2Fdata_statistics%2Ffact_sheets%2Fadult_data%2Fcig_smoking%2Findex.htm&amp;usg=AOvVaw1lrsmaMLcnUe3I1S6iAF4g">34 000 000 Americans smoke</a>. <a href="http://www.schizophrenia.com/smokereport.htm#">90% of schizophrenics smoke</a>. <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=5&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjIgLz6ioXnAhXSmOAKHUO6CMEQFjAEegQIDBAU&amp;url=https%3A%2F%2Fwww.washingtonpost.com%2Fnews%2Fwonk%2Fwp%2F2015%2F02%2F26%2Fthe-terrifying-rate-at-which-smokers-die-from-smoking%2F&amp;usg=AOvVaw0z4xmvDAkNBTEm8aQAQVMf">67% of smokers die from smoking</a>, 474500 a year. Excuse the changing numbers here, in the previous calculation the 1.5% of schizophrenics was from the stat &#8211; and in this second calculation it&#8217;s divided into my guesstimation of total Americans, so 1.666%.</p>
-
-
-
-<p>Americans: 300 000 000<br>
-Smokers: 34 000 000 (11.33%)<br>
-Smokers that die from smoking: 387600 (0.1292%)<br>
-Deaths / smokers: 1.14%<br>
-Deaths / population: 2 193 000 (0.731%)<br>
-Dead smokers / deaths: 17.67%<br>
-Smokers / schizophrenics: 90%<br>
-Schizophrenics: 5 000 000 (1.666%)<br>
-Smokers that are schizophrenics: 4 500 000 (1.5%)<br>
-Smokers that are schizophrenics that die: 63 000 <br>
-Deaths schizophrenic smokers: 1.26%</p>
-
-
-
-<p>You are 11% more likely to die if you smoke while schizophrenic than the average smoker.<br> You are 1.72x as likely to die in a given year if you smoke while schizophrenic than the  average population.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-7-1024x463.png" alt="" class="wp-image-196" srcset="/wp-content/uploads/2020/01/image-7-1024x463.png 1024w, /wp-content/uploads/2020/01/image-7-300x136.png 300w, /wp-content/uploads/2020/01/image-7-768x347.png 768w, /wp-content/uploads/2020/01/image-7-1536x694.png 1536w, /wp-content/uploads/2020/01/image-7.png 1614w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h2>Research</h2>
-
-
-
-<p><a href="https://www.hiv.gov/federal-response/funding/budget">0.856 billion is spent on HIV/AIDS efforts a year</a>, affecting <a href="https://www.hiv.gov/hiv-basics/overview/data-and-trends/statistics">1.1 million Americans</a> and <a href="https://www.verywellhealth.com/how-many-people-die-from-aids-each-year-49053">26 000 Americans die from HIV/AIDS each year</a>. $<a href="https://www.cancer.gov/about-cancer/understanding/statistics">147 000 000 000 is spent on cancer research</a> a year and <a href="https://www.cancer.gov/about-cancer/understanding/statistics">609 000 Americans will die from cancer every year</a> &#8211; 38.4% of people will or have had or do have cancer.</p>
-
-
-
-<p><a href="http://www.schizophrenia.com/szfacts.htm">$74.65 is spent on research per person diagnosed with schizophrenia</a>, <a href="https://www.hiv.gov/federal-response/funding/budget">$788.70 for HIV/AIDS per person</a> and $1276.04 for cancer per person. </p>
-
-
-
-<p>Seems a bit strange, no?</p>
-
-
-
-<h2>The Good News</h2>
-
-
-
-<p>While the debate of nature vs nature rages on &#8211; including <a href="https://psycnet.apa.org/record/2006-01387-000">scholarly articles with 1000+ citations</a>, I firmly stand as a testament: nurture wins. Even when dealt with an incredibly bad &#8211; and incredibly rare &#8211; hand of cards, I&#8217;ve managed to change all the detriments of psychosis and sociopathy into benefits. In some degree or another, most of my symptomatic behaviors have indeed become some kind of tool for me to be more successful.</p>
-
-
-
-<h2>Hand of Cards </h2>
-
-
-
-<p>My current diagnoses include: </p>
-
-
-
-<p>Schizo-affective disorder, which evolved from diagnoses of drug-induced schizophrenia and paranoid schizophrenia. Schizo-affective is &#8216;enough symptoms to be diagnosed schizophrenic but also with an underlying major mood disorder,&#8217; in my case bipolar. <a href="https://www.nami.org/learn-more/mental-health-conditions/schizoaffective-disorder">Prevalence of schizo-affective disorder: 0.3% of general population</a>.</p>
-
-
-
-<p>I&#8217;m also diagnosed with panic disorder, which looks and feels very much like Post Traumatic Stress Disorder except without an actual logical trauma or trigger. It&#8217;s random, and fits in with the psychoses.  <a href="https://www.nimh.nih.gov/health/statistics/panic-disorder.shtml">Prevalence of panic disorder: 2.7% of general population</a>. </p>
-
-
-
-<p>A final diagnosis is much newer, and this one&#8217;s iffy. They discussed it, along with whether or not I&#8217;d like to be tested on the Autism spectrum, but never wrote down any of this discussion &#8211; leading me to think that my psychosis made up sociopathy. Irregardless, there&#8217;s nothing you can do to actually treat a personality type &#8211; so there&#8217;s no real point officially diagnosing it. However, it does explain a lot of my personality and some of my traits: <a href="https://www.psychologytoday.com/us/conditions/antisocial-personality-disorder">Anti-Social Personality Disorder has a prevalence of 3% in men, 1% in women</a>. On paper, it looks a lot like narcissism except less likely to think myself as special and more likely to discount social convention or norms, including things like paying back debts (whoops) or feeling a need to pay taxes (ha).</p>
-
-
-
-<h2>Advantages</h2>
-
-
-
-<p>Probably my favorite psychotic symptom I draw strength from is called &#8216;clanging.&#8217; It&#8217;s a proclivity to rhythm or cadence, rhyming in speech. It gives me a very specific way of typing and writing that a certain kind of reader finds some poetry to &#8211; and it&#8217;s one of the main reasons I like hearing or re-reading my own content. This, in turn, is one of the reasons I push out as much content as I do. Content is king, and a regular contributor is more likely to gain a following and make a dollar doing this for fun &amp; profit! Without the symptom, I&#8217;d do far less content. <a href="https://www.youtube.com/watch?v=h5aSa4tmVNM">Bi-winning</a>! My content here on Hackernoon and on other publications alone has led me to basically skip interviews and acquire employment as a founding member of a tech startup that has legs &#8211; <a href="https://hackernoon.com/coindex-labs-novel-search-applied-via-evolutionary-ai-creating-a-money-making-machine-n62j2gei">read about Coindex Labs and how we&#8217;re building a money-making machine here</a>.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-32-1024x602.png" alt="" class="wp-image-257" srcset="/wp-content/uploads/2020/01/image-32-1024x602.png 1024w, /wp-content/uploads/2020/01/image-32-300x176.png 300w, /wp-content/uploads/2020/01/image-32-768x452.png 768w, /wp-content/uploads/2020/01/image-32-850x500.png 850w, /wp-content/uploads/2020/01/image-32.png 1277w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>What&#8217;s more is that a sheer depth and breadth of understanding and perception gives me insight into people, communications, arguments and perspectives that not many people have. This has led me to be a fantastic manager of people and stakeholders, balancing everyone&#8217;s opinions and underlying emotions better than the average Joe Product or Project manager. Even at a less stressful level, this allowed me to excel in call centers as customer &amp; technical support &#8211; all the way throughout my career, conquering first technical account management and then later community management (especially in cryptocurrency). This one single factor has led me to be successfully employed in extended contracts that allowed me to be alive and thrive in ways I&#8217;d never thought possible when first wrestling through my diagnoses. When you live the lives of countless people you&#8217;ve never met, you start to become more attuned with everyone &#8211; by natural extension.</p>
-
-
-
-<p>While some other symptoms really do prove to be a negative &#8211; things like losing an interest in my appearance, or upkeep of my surroundings &#8211; the real benefit here comes from challenging one&#8217;s own nature and making sure that the important thing that don&#8217;t seem so important are done anyways. If you can prioritize things in your life that you might not otherwise prioritize because it improves the mood and expectations of others, then you can apply this to then workplace in wondrous and effective ways. Sometimes, the mundane and repetitive tasks might make your role as a developer or manager seem daunting on a daily basis &#8211; but there&#8217;s probably a reason you were delegated these tasks, and I assure you it doesn&#8217;t go unnoticed &#8211; someone notices it. Conquering my deficiencies in the world around me has led me to be a pro at assuming more requirements and responsibilities, making me a more and more integral and critical cog in the overall mechanism. This quickly helps me add value. When I&#8217;m delegated something that could be automated I automate it and achieve double winnings with my time and effort. After all, delegation and automation (also: elimination. Don&#8217;t delegate or automate something that can just simply not be done!) are the <a href="https://tim.blog/4-hour-workweek-tools/">keys to a 4-hour workweek</a> (or any other measure of success). </p>
-
-
-
-<h2>A Plug</h2>
-
-
-
-<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here: <a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a></p>
 ]]></content:encoded>
 										</item>
 	</channel>
