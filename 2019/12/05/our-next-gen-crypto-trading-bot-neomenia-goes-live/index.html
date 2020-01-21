@@ -68,7 +68,9 @@ for(i = 0; i < a.length; i++){
 if (a[i].href.indexOf(location.host) == -1){
 a[i].onclick = function(){
 	var uu = this.href
-	ga('send', 'event', ['outgoing_links'], [uu], ['outgoing_links'], [uu]);
+	tracker = ga.getAll()[0];
+    if (tracker)
+        tracker.send("event", "outgoing_links", uu)
 
 
 }
