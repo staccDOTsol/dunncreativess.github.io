@@ -63,14 +63,14 @@ gtag('config', 'UA-152704802-1');
 <link rel="pingback" href="/xmlrpc.php">
 <script>
 
-var a = document.getElementsByTagName(‘a’);
+var a = document.getElementsByTagName('a');
 for(i = 0; i < a.length; i++){
-if (a[i].href.indexOf(location.host) == -1 && a[i].href.match(/^http:///i)){
+if (a[i].href.indexOf(location.host) == -1){
 a[i].onclick = function(){
-	ga('send', 'event', ['outgoing_links'], [this.href.replace(/^http:///i,'')], ['outgoing_links'], [this.href.replace(/^http:///i,'')]);
+	var uu = this.href
+	ga('send', 'event', ['outgoing_links'], [uu], ['outgoing_links'], [uu]);
 
 
-_gaq.push([‘_trackEvent’, ‘outgoing_links’, this.href.replace(/^http:///i, ”)]);
 }
 }
 }
