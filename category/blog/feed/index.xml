@@ -12,7 +12,7 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Tue, 21 Jan 2020 17:28:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Jan 2020 19:58:28 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,140 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Some Recent Reddit Posts of Mine: Microtipping, the Future of Social Rewards, Driving Crypto Adoption, and Code for a 1st Party Ad Rotator</title>
+		<link>/2020/01/21/some-recent-reddit-posts-of-mine-microtipping-the-future-of-social-rewards-driving-crypto-adoption-and-code-for-a-1st-party-ad-rotator/</link>
+				<pubDate>Tue, 21 Jan 2020 19:58:27 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Brave]]></category>
+
+		<guid isPermaLink="false">/?p=350</guid>
+				<description><![CDATA[Microtipping: Future of Social Rewards? With a minimum BAT tip of 1 BAT, there&#8217;s been some discussion around the interwebs]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-embed-reddit wp-block-embed is-type-rich is-provider-reddit"><div class="wp-block-embed__wrapper">
+    <blockquote class="reddit-card" >      <a href="https://www.reddit.com/r/BATProject/comments/eryy2e/microtipping_future_of_social_rewards/?ref_source=embed&amp;ref=share">Microtipping: Future of Social Rewards?</a> from      <a href="https://www.reddit.com/r/BATProject/">BATProject</a>    </blockquote>    <script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+</div></figure>
+
+
+
+<h1>Microtipping: Future of Social Rewards?</h1>
+
+
+
+<p>With a minimum BAT tip of 1 BAT, there&#8217;s been some discussion around the interwebs of instituting a custom # BAT tip.</p>
+
+
+
+<p>This would allow, as one user mentioned, the ability to microtip a fraction of a BAT at the same time they save a tweet for later &#8211; which would benefit everyone. Whereas, at present, a whole BAT might not be sustainable for each time I&#8217;d want to share some love &#8211; a fraction of a BAT would.</p>
+
+
+
+<p>With Uphold as the present custodial license for holding and transferring BAT and BAT rewards around the Brave ecosystem, does this work super easily &#8211; comparing it to microtipping BAT on the Ether blockchain? Is Uphold off-chain, allowing any number of smaller transactions? Would future custodial solutions that aren&#8217;t requiring KYC allowing us to also microtip in this fashion?</p>
+
+
+
+<p>Microtipping (along with the ease of use of the Tip function on social sites that Brave allows) would restructure the way people use (and think about) social interaction online.</p>
+
+
+
+<p>+1</p>
+
+
+
+<figure class="wp-block-embed-reddit wp-block-embed is-type-rich is-provider-reddit"><div class="wp-block-embed__wrapper">
+    <blockquote class="reddit-card" >      <a href="https://www.reddit.com/r/BATProject/comments/erx4j4/example_of_driving_bat_and_crypto_adoption_thru/?ref_source=embed&amp;ref=share">Example of Driving BAT and Crypto Adoption thru Responding to LinkedIn Promotion</a> from      <a href="https://www.reddit.com/r/BATProject/">BATProject</a>    </blockquote>    <script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+</div></figure>
+
+
+
+<h1>Example of Driving BAT and Crypto Adoption thru Responding to LinkedIn Promotion (since removed by mods)</h1>
+
+
+
+<p>Preface: Lisa was an outstanding connection request on LinkedIn I confirmed maybe 24 hrs ago. She has 10 mutual connections, and 500+ total.</p>
+
+
+
+<ul><li>Hi, I am Lisa, Web Development Manager and I work with experienced IT professionals who are into: * Create a New Website * Redesign a website? * Website Design and Development * Update Your Existing Website * E-Commerce Solutions If you are interested, then I can send you our Price list, company information and an affordable quotation with the best offer. Sincerely, Lisa</li><li><strong>TODAY</strong>&nbsp;1:33 AM</li><li>We are really looking forward to receiving your answer so that we can get to any final conclusion Best Lisa<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f4f7.png" alt="📷" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li><li>Jarett Dunn 12:30 PM</li><li>Hey, no thanks!</li><li><strong>Jarett Dunn</strong>&nbsp;12:34 PM</li><li>To drive revenues, you should let your website proprietors know above Brave browser and BAT:&nbsp;<a href="https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter" rel="noreferrer noopener" target="_blank"><strong>https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter</strong></a>/ Since verifying myself as a Brave publisher a/o 4 days ago I&#8217;ve earned ~11 BAT ($2.20 USD) in donations to my different platforms. That might not seem like much, but for someone with a larger audience or following it can serve as an additional revenue stream. This is compared to my&nbsp;<a href="http://medium.com/" rel="noreferrer noopener" target="_blank"><strong>Medium.com</strong></a>&nbsp;earnings for the last ~12 days, at $1.80 USD.&nbsp; As a Brave affiliate you can also earn up to $7.50 USD for browser installations that remain installed after 30 days. Since putting up that Brave article that I linked you to, I have 7 downloads and 4 installs &#8211; this could yield up to $30 USD in affiliate income, over 4 days of referrals so far.</li></ul>
+
+
+
+<figure class="wp-block-embed-reddit wp-block-embed is-type-rich is-provider-reddit"><div class="wp-block-embed__wrapper">
+<div class="reddit-embed" data-embed-media="www.redditmedia.com" data-embed-parent="false" data-embed-live="false" data-embed-uuid="ea01df20-3c87-11ea-892c-0e5220be9fd7" data-embed-created="2020-01-21T19:55:03.246117+00:00"><a href="https://www.reddit.com/r/BATProject/comments/ers2v6/interesting_data_about_medium_writer_earnings_and/ff6ar36/">Comment</a> from discussion <a href="https://www.reddit.com/r/BATProject/comments/ers2v6/interesting_data_about_medium_writer_earnings_and/">h3xadecimal2&#8217;s comment from discussion &quot;Interesting data about Medium, writer earnings and usage &#8211; I&#8217;m convinced BAT would be way better if we had 250MAU&quot;</a>.</div><script async src="https://www.redditstatic.com/comment-embed.js"></script>
+</div></figure>
+
+
+
+<p>Comment: I agree with <a rel="noreferrer noopener" href="https://www.reddit.com/u/O1O1O1O/" target="_blank">u/O1O1O1O</a> &#8211; because Brave rewards users with advertiser&#8217;s funds to then pay (or not..) their favorite content producers, then every user eventually has a BAT or a few to redistribute &#8211; and everyone wins. Brave also allows content creators/publishers of many times &#8211; theoretically any platform that includes an API where we can decide if one user&#8217;s view on a profile is for a specific other user. This discounts sites like Facebook, Minds, but is already beautifully connected on Twitter and here on Reddit. This is potentially far more views, far more publishers and far more ad spend than Medium.<br></p>
+
+
+
+<figure class="wp-block-embed-reddit wp-block-embed is-type-rich is-provider-reddit"><div class="wp-block-embed__wrapper">
+    <blockquote class="reddit-card" >      <a href="https://www.reddit.com/r/BATProject/comments/erapuj/1st_party_ad_rotator/?ref_source=embed&amp;ref=share">1st Party Ad Rotator</a> from      <a href="https://www.reddit.com/r/BATProject/">BATProject</a>    </blockquote>    <script async src="https://embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+</div></figure>
+
+
+
+<p>In the next iteration of my 1st party ad service, I created Javascript code that randomly chooses one of two ads to display in the header of each of the pages on my blog. This Brave-friendly ad displays content about Brave or Publish0x. It also detects mobile displays and gives a smaller banner for mobile.</p>
+
+
+
+<p>It&#8217;s genius in it&#8217;s simplicity. . . I half want to re-package this into a WordPress plugin for other Brave content creators on WP.</p>
+
+
+
+<p>Here&#8217;s some code:</p>
+
+
+
+<pre class="wp-block-code"><code>if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+
+	var random = Math.random(1)
+
+	if (random &lt; 0.5){
+
+	$('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/](https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/)">&lt;img src="&#91;https://jare.cloud/468.png](https://jare.cloud/468.png)" />&lt;/a>')
+
+
+}
+	else {
+
+$('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/](https://jare.cloud/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/)">&lt;img src="&#91;https://jare.cloud/468-2.png](https://jare.cloud/468-2.png)" />&lt;/a>')	
+}
+
+}
+
+else {
+
+	var random = Math.random(1)
+
+	if (random &lt; 0.5){
+
+	$('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/](https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/)">&lt;img src="&#91;https://jare.cloud/728.png](https://jare.cloud/728.png)" />&lt;/a>')
+
+}
+
+
+
+	else {
+$('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/](https://jare.cloud/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/)">&lt;img src="&#91;https://jare.cloud/728-2.png](https://jare.cloud/728-2.png)" />&lt;/a>')
+	}
+
+}
+
+})
+</code></pre>
+
+
+
+<p>Check it out: <a rel="noreferrer noopener" href="https://jare.cloud/" target="_blank">https://jare.cloud/</a></p>
+
+
+
+<p>Check out this fellow Redditor&#8217;s extension of this idea:   <a href="https://gist.github.com/thefallofbecause/26022a05836a2990d99df80b94494e34">https://gist.github.com/thefallofbecause/26022a05836a2990d99df80b94494e34</a> <br></p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>7 Days Creating a Twitter Growth Service</title>
 		<link>/2020/01/21/7-days-creating-a-twitter-growth-service/</link>
 				<pubDate>Tue, 21 Jan 2020 17:26:08 +0000</pubDate>
@@ -1484,155 +1618,6 @@ Deaths schizophrenic smokers: 1.26%</p>
 
 
 <p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here: <a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Monetization Blog Part 1: How Long Does Adsense Approval Take &#038;&#038; What Does AdSense &#8216;No Content&#8217; Mean? &#038;&#038; Hackernoon is King of Views</title>
-		<link>/2020/01/15/monetization-blog-part-1-how-long-does-adsense-approval-take-what-does-adsense-no-content-mean-hackernoon-is-king-of-views/</link>
-				<pubDate>Wed, 15 Jan 2020 06:12:40 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-
-		<guid isPermaLink="false">/?p=184</guid>
-				<description><![CDATA[View this article in it&#8217;s original form on jare.cloud! Join our growing Telegram community for blog updates, bot chat, general]]></description>
-								<content:encoded><![CDATA[
-<p><a href="http://jare.cloud/2020/01/15/monetization-blog-part-1-how-long-does-adsense-approval-take-what-does-adsense-no-content-mean-hackernoon-is-king-of-views/">View this article in it&#8217;s original form on jare.cloud</a>!</p>
-
-
-
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<h2>Overview</h2>
-
-
-
-<p>Since the dawn of my adult life I&#8217;ve always wanted to blog for a living. What could be better than sharing details about my day and accomplishments, helping others in their pursuits &#8211; with work and life? Alas, monetizing your efforts for blogging is a tireless pursuit. As a small publisher, I&#8217;ve created a plan of attack that I&#8217;ve been following relatively closely for the past few weeks, and it appears to be working&#8230; in the future, it&#8217;ll work better! </p>
-
-
-
-<h2>Step 1: Publish on My Own Blog + Steemit + Include Mail Plug</h2>
-
-
-
-<p>Over on jare.cloud, we have a wordpress installation on my localhost that I use the Simply Static plugin to generate a flat site. I then upload these files to github, which puts my content on dunncreativess.github.io, and then I pull github files down to jare.cloud. During this process, the SteemPress WordPress plugin has published the work on SteemIt&#8230; albeit without the supporting images, who think they should be located on ./ D&#8217;oh!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-1-1024x307.png" alt="" class="wp-image-186" srcset="/wp-content/uploads/2020/01/image-1-1024x307.png 1024w, /wp-content/uploads/2020/01/image-1-300x90.png 300w, /wp-content/uploads/2020/01/image-1-768x230.png 768w, /wp-content/uploads/2020/01/image-1-1536x460.png 1536w, /wp-content/uploads/2020/01/image-1.png 1679w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>While the revenues are small, it&#8217;s 0-effort revenues &#8211; the best kind!</p>
-
-
-
-<p>Now, I&#8217;ve been attempting to get onto Google AdSense to serve ads on my site. All told, a niche blog (or a few niches&#8230;) should earn anywhere from $2.50-$10 / 1000 impressions, and my goal is to keep creating return visitors through all these efforts. I applied sometime over the holidays and was rejected on the 3rd of Jan, and I didn&#8217;t really understand the reason for rejection: &#8216;No Content.&#8217; After searching high and low for an explaination (as they don&#8217;t have a support team &#8211; just a community forum, yuck), either they didn&#8217;t like the fact there were only a half dozen blog entries or they didn&#8217;t like the fact that the blog was hosted on a subdomain of github.io. To solve these issues I&#8217;ve been pushing regular content while my application is reassessed on the new domain: jare.cloud.</p>
-
-
-
-<h2>Step 2: Import  (Canonical&#8230;) to Medium Behind Paywall</h2>
-
-
-
-<p>The post includes the link at the top to see the original on my site, and we head over to Medium to &#8216;Import Story.&#8217; Because people are encouraged to visit the original site those people without Medium Member accounts can view the content because they can follow the link at the top, and potentially drive revenues from AdSense when I have it. </p>
-
-
-
-<p>The best news? Those people with Medium Memberships will drive their own little bucket of revenue to add to the total balance&#8230; and all told, until now, the best performing source of revenues.</p>
-
-
-
-<p>My only story to get syndicated by Medium (so far&#8230; stay tuned!) and my best-performing non-Hackernoon post there earned around $5. While this seems trivial, it&#8217;s important to think: 25.4% of the revenues from that article were sourced in the months after the month in which it was published (and the initial rush of traffic was through). If you were to have an article get syndicated every so often &#8211; which is a matter of views, reads and claps in the review period as well as quality &#8211; it would drive the bottom line in a compounding way. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-2-1024x496.png" alt="" class="wp-image-187" srcset="/wp-content/uploads/2020/01/image-2-1024x496.png 1024w, /wp-content/uploads/2020/01/image-2-300x145.png 300w, /wp-content/uploads/2020/01/image-2-768x372.png 768w, /wp-content/uploads/2020/01/image-2-1536x745.png 1536w, /wp-content/uploads/2020/01/image-2.png 1650w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>Your old content continues to earn: it&#8217;s evergreen, and passive.</p>
-
-
-
-<p>While the revenues are small, they&#8217;re passive after the post is imported &#8211; and continually creating income!</p>
-
-
-
-<h3>Wait, what does canonical mean? Why was it important enough to mention in the subheading?</h3>
-
-
-
-<p>A link can point to the original source of the information, allowing the secret powers behind the internet to build the SEO of that original site rather than give all the SEO juices to the new site. In such a way, content creators can leverage accounts on very high-ranking sites (like Hackernoon, Medium, CoinTelegraph (who I&#8217;m still waiting to hear back from about authoring content&#8230;)) and the eventual rankings for keywords and traffic for evermore that is sourced from the depths of Google, Bing et. al. will point to your original source&#8230; not the new one. As Google and search engines punish sites for repeat content, adding a canonical link back to the original source will allow you to rank and build your backlinks with high-grade sites.</p>
-
-
-
-<p>Importing to Medium and Hackernoon&#8217;s &#8216;originally seen on&#8230;&#8217; will automatically generate these kinds of links. Voila! Internet magic!</p>
-
-
-
-<h2>Step 3: Mail Blast, Twitter Blast, Telegram&#8230; etc</h2>
-
-
-
-<p>Mark 15 Jan 2020 (for reference in future editions of this blog series), Mailchimp subscriber count is 44, Twitter follower count is 116, Telegram member count in the group is 126&#8230;</p>
-
-
-
-<p>While these are rookie numbers, I can easily syndicate my content across social channels and generate free traffic &#8211; enticing new and engaging repeat interactions. I was thinking to myself as my Medium story on my new account reached 100 views: would I be happier with 1000? Or at the 1000 mark would I just aspire for 10 000? I think part of the human condition is never being satisfied&#8230; so although I feel like these are &#8216;rookie numbers,&#8217; they&#8217;re a measurable improvement from where I was or where I started from. *Pats self on back*</p>
-
-
-
-<p>Case in point, this story reflects a common theme among the others: a fair number of views are from referrals from Twitter, where a simple tweet can be retweeted and seen by many &#8211; including people at Hackernoon or Good Audience (a Medium publication) who can give me further exposure!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-3.png" alt="" class="wp-image-188" srcset="/wp-content/uploads/2020/01/image-3.png 732w, /wp-content/uploads/2020/01/image-3-300x214.png 300w" sizes="(max-width: 732px) 100vw, 732px" /></figure>
-
-
-
-<h2>Step 4: Re-create on Hackernoon with Canonical Link</h2>
-
-
-
-<p>SEO juices&#8230; work like magic! Hackernoon is by far my biggest winner insofar as traffic goes, with over 12k pageviews in total and nearly 11 days worth of reading!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-4-1024x439.png" alt="" class="wp-image-189" srcset="/wp-content/uploads/2020/01/image-4-1024x439.png 1024w, /wp-content/uploads/2020/01/image-4-300x129.png 300w, /wp-content/uploads/2020/01/image-4-768x330.png 768w, /wp-content/uploads/2020/01/image-4.png 1515w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>What this means is that the views I get from being published and advertised and syndicated on Hackernoon will naturally drive traffic to the original blog, both through the link in the article itself directly as well as with the canonical link building search engine results that&#8217;ll continue driving traffic long after the initial surge has died down. </p>
-
-
-
-<p>Hackernoon team tweets my articles more than once to their followers, and each time I see I&#8217;m earning likes, retweets and followers on Twitter, as well as views on all my viewcounters whenever Hackernoon tweets.</p>
-
-
-
-<p>Moreover, my Telegram room joins directly correlate to the days in which I publish Hackernoon articles&#8230;</p>
-
-
-
-<h2>Step 5: Rinse, Wash, Repeat</h2>
-
-
-
-<p>&#8230;which in turn means I should publish more often! Each guide you read to &#8216;earning more on Medium&#8217; or &#8216;earn more blogging&#8217; will tell you that the most sure-fire way to earn more is to write consistently, and produce regular content. This will increase your readership, follows, mail signups.. which in turn powers your next pieces readership. This is how we get the ball rolling&#8230;</p>
-
-
-
-<h2>Conclusion</h2>
-
-
-
-<p>While the income from my blogging might be marginal, it&#8217;s worth noting that I wouldn&#8217;t prefer doing anything else in the world &#8211; and, in some countries, marginal income is all you need to survive &amp; thrive. The solution is to build out the searchable, indexable content that drives additional traffic over time &#8211; and keep generating content. Today I made a promise to myself to blog whenever I&#8217;m bored&#8230; this is my second &#8216;I&#8217;m bored&#8217; piece today!</p>
-
-
-
-<p>In the next piece of this series we&#8217;ll look at the start of AdSense income on my wee, little blog&#8230; whenever they get around to approving me!</p>
 ]]></content:encoded>
 										</item>
 	</channel>
