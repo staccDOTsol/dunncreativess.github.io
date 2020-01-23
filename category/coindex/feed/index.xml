@@ -12,7 +12,7 @@
 	<atom:link href="/category/coindex/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Thu, 23 Jan 2020 00:38:49 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 01:34:20 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -655,6 +655,266 @@
 
 
 <p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Traded $1m CAD in 5 hours: Porting a Bot to Binance Futures Market Making Competition</title>
+		<link>/2019/11/10/traded-1m-cad-in-5-hours-porting-a-bot-to-binance-futures-market-making-competition/</link>
+				<pubDate>Mon, 11 Nov 2019 01:28:51 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=378</guid>
+				<description><![CDATA[Introduction Yesterday, Binance announced a Market Maker Competition for their new Futures platform. Included in the competition is $0 Market]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://hackernoon.com/drafts/r4l3154.png" alt=""/></figure>
+
+
+
+<h2>Introduction</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-o72ll31f9" alt=""/></figure>
+
+
+
+<p>Yesterday, Binance announced a Market Maker Competition for their new Futures platform. Included in the competition is $0 Market Maker fees, and a prize pool of $hundreds thousands USDT.</p>
+
+
+
+<h2>My Plan</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-h1231u8" alt=""/></figure>
+
+
+
+<p>I ported Deribit&#8217;s Python Example Market Maker to Binance Futures, using CCXT to connect the API.</p>
+
+
+
+<h2>Issues</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-bsls31ah" alt=""/></figure>
+
+
+
+<p>I can&#8217;t seem to edit my orders, so every bot run I cancel all the orders (by looping through open orders..) slowing down the bot considerably.</p>
+
+
+
+<h2>Findings</h2>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-6v24n31pl" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-132ks31p3" alt=""/></figure>
+
+
+
+<p>In total, in 5ish hours I traded over 80 BTC notional &#8211; almost $1m CAD. I lost about $90 USD in fees, and lost about $150 of my deposit.Note that I deposited $250 USD, and traded $1m CAD. That&#8217;s about $3.37m USD per 24 hours, projected.Over the last 100 trades, since optimizing the params as best as my human mind can achieve, there&#8217;s been a timespan of 10 minutes.In this 10 minutes, I&#8217;ve traded more than 1 BTC notional, made $0.613 realized gains and paid $1.285 in fees.</p>
+
+
+
+<h2>Tomorrow</h2>
+
+
+
+<p>When I&#8217;m accepted into the Market Maker program, and pay $0 market maker fees, my bot will achieve about 3.6% return on equity per hour. It will trade more than $3m USD notional per day. Moreover, my work Coindex will fund an account with more equity and we&#8217;ll trade even more than that &#8211; and optimize the bot for the evolving market using our proprietary AI.</p>
+
+
+
+<h2>Next Steps</h2>
+
+
+
+<p>My work, Coindex, will plug in the input variables into their Neural Evolutionary AI in order to optimize this bot even further.<em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization &#8211; where we&#8217;re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world&#8217;s greater humanitarian issues.</em><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)
+
+</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>We used Evolutionary AI and Novel Search to Build a Money-Making Machine</title>
+		<link>/2019/11/07/we-used-evolutionary-ai-and-novel-search-to-build-a-money-making-machine/</link>
+				<pubDate>Fri, 08 Nov 2019 01:32:39 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=384</guid>
+				<description><![CDATA[1. Introduction 2. Novel Search 3. Evolutionary Algorithm &#38; Competing Artificial Intelligence Genomes 4. Money-Making Machine 5. Future Use-Cases: Conquering]]></description>
+								<content:encoded><![CDATA[
+<p>1. Introduction</p>
+
+
+
+<p>2. Novel Search</p>
+
+
+
+<p>3. Evolutionary Algorithm &amp; Competing Artificial Intelligence Genomes</p>
+
+
+
+<p>4. Money-Making Machine</p>
+
+
+
+<p>5. Future Use-Cases: Conquering Every World Health Organization and United Nations Initiatives</p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-h12334k" alt=""/></figure>
+
+
+
+<h2>Introduction</h2>
+
+
+
+<p>If you take new and novel (pun intended… read on!) ways to approach a given problem, you can come up with new and exciting ways to defeat that problem.If the problem is ‘how do we trade better than the average cryptocurrency investor, and gain an edge that persists among market conditions’ then there’s a few possible solutions: the manual way, where we learn how to react to a given situation or market condition, or the automated way, where computers do it faster.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>In the manual way, we’re limited by our response times and because the majority of our competition are indeed automated traders or even automate trading desks, any edge we temporarily experience will soon be defeated when the market shifts.</p></blockquote>
+
+
+
+<p>In the automated solution, we can use any given search result for ‘github automated crypto bot’ and see what sort of success we can have. We can even devise our own strategy on Mudrex or TradingView and connect it to an exchange, or hire a third-party freelance developer for $$thousands to recreate our pride and joy &#8211;&nbsp;<em>but certain characteristics like lag experienced from the crypto exchange’s APIs hitting our servers will render such plans useless</em>.</p>
+
+
+
+<h2>What’s the best answer?</h2>
+
+
+
+<p>How about employing computers themselves to learn how to react to new and different market conditions in real-time, by re-appropriating existing crypto trading platforms and optimizing the input variables over a set period of time &#8211; using live data and live funds to see how the market reacts to buys, sells, or volume in the orderbooks at a certain point in time?On my birthday this year, I was headhunted by Coindex Lab’s CEO Ryan in order to achieve this effect. He was looking primarily for someone with live experience making market maker bots, or rather, those bots that manipulate both sides of the orderbooks in real-time &#8211; on exchanges like BitMex or Deribit, where one can absorb the trading fee rebate for having an order executed against oneself, there isn’t even really a need to accurately predict the movement of a market &#8211; so long as you have enough volume on either or both sides of the books, you can count your profits in the fee rebate.&nbsp;Enter my GitHub profile&nbsp;<a href="https://githu.com/dunncreativess">https://githu.com/dunncreativess</a>&nbsp;&#8211; where maybe 30-50 of my 111 repositories deal specifically with crypto trading, and the majority of that subset deal with crypto trading arbitrage or other high-frequency trading, and most of those attempt to automate and profit from fee rebates.The first occurence of this was ‘<strong>Qryptos Fee Monster</strong>,’ which turned a tidy profit but &#8211; more importantly, maybe &#8211; traded crypto back and forth over the course of a test 24-48 hours to the tune of $5000, $10 000 traded notional value with a mere $200 invested.</p>
+
+
+
+<h2>Sorry, In laymen’s Terms please?</h2>
+
+
+
+<p>My bot sat behind the scenes and sold, say, 0.02 Bitcoin for the equivalent value in Ether, then &#8211; when the markets hit the right condition &#8211; traded it back again, most times at a profitable difference.The key fact was that Qryptos had a fee rebate if you made the market &#8211; that is, again, if someone executes an order based on one that you’ve posted on the order book, where that person or bot is the ‘taker’ in the maker-taker model.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>So, even if I bought and sold an asset and underlying at a loss, there is a fraction of a percent revenues made from the fee rebate itself.</p></blockquote>
+
+
+
+<p>Either way, my exceptional lessons in both making markets and driving notional liquidity landed me a brand spanking new job as Chief Liquidity Officer, on the founding team of Coindex Labs.This introduction to their value proposition serves as my third set of eyes on the algorithms and learning models employed, and although I am an absolute novice at Artificial Intelligence and Evolutionary Algos, I hope it sheds some light and peaks some interest on what they are, how they function and &#8211; dare I say it &#8211; how they might end up saving the world, in more ways than one, after we patent and sell our money-making machine.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-cl1733c3" alt=""/></figure>
+
+
+
+<h2>Novel Search</h2>
+
+
+
+<p>When a human approaches a problem &#8211; at least, classically and logically &#8211;&nbsp; they’ll identify what the problem’s outline is, and then devise ways to achieve a net net result of conquering the problem.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>For a problem like ‘how do I get some milk’ the answer might obviously be ‘walk to the fridge, extract milk carton, open, drink, replace, close fridge, walk back to couch.’</p></blockquote>
+
+
+
+<p><strong>How did we find that answer?</strong>We ranked in our heads the different options for getting milk. Because we had milk in the fridge, we outlawed the answers like ‘go to grocery store, buy milk’ that involved us going out of the house.We then applied other filters and assumptions, like ‘the shortest distance between two points is a straight line.’This methodology &#8211; the classic, logical human method &#8211; is the exact opposite of Novel Search in Artificial Intelligence.In Novel Search, the computer will construct all the possible solutions to a problem and then try them from the least likely to succeed and progress to more and more likely.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>This obviously takes more time &#8211; but for a mathematical and systematic problem, a computer excludes the losing solutions in a fraction of a millisecond.&nbsp;</p></blockquote>
+
+
+
+<p>What we’re left with are the solutions that would seem unreasonable &#8211; or rather, unfathomable &#8211; to the average human, or even a supergenius. The computer has now rewarded it’s algorithm for finding extremely unlikely solutions for issues.</p>
+
+
+
+<h2>When does this come in handy?&nbsp;</h2>
+
+
+
+<p>Take our money-printing machine problem, for instance.If you can acquire an edge over a given market &#8211; in crypto, equities, futures, or options, or whatever &#8211; and assert your dominance over that derived edge while maintaining that no other human or machine can recreate your edge, you all of a sudden, have a very, very powerful and intricate tool. You have an evergreen edge.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-3q6i33p0" alt=""/></figure>
+
+
+
+<h2>Evolutionary Algorithm &amp; Competing Artificial Intelligence Genomes</h2>
+
+
+
+<p>How do we make our edge even better?&nbsp;Instead of a purely AI solution, Coindex’s proprietary solution employs another layer of optimization that most wouldn’t consider.In an Evolutionary Algorithm, we feed the input variables into competing species of the AI bot that take a different spin &#8211; learn a different way, apply a different Novel Search &#8211; and the outputs are rated on key performance indicators that sort the genomes into winners and losers.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>The winners then procreate, and apply a healthy dose of mutation to the genes &#8211; combining the best solutions into baby solutions, who compete in that new generation to see if they can beat the older generation.&nbsp;</p></blockquote>
+
+
+
+<p>Mutations aren’t just for fun, or even just for profit: they’re for the good of the species! Think: if humans never developed opposing thumbs, where would we be? Forward-facing eyes?When we take a brand-new look at the input variables and come up with fantastic, random new ways to approach them, we can find unexpected results &#8211; that are then selected by a process of natural selection.&nbsp;</p>
+
+
+
+<h2>Believe in Darwinism or not, the results are outstanding.</h2>
+
+
+
+<p>What we then get is a set of learned data competing against itself &#8211; and against other species, to boot &#8211; to create and focus on better results. We can then apply the generations down the line to the problem set in forward-facing tests, to see how they perform with real conditions and real dollars.The simulations continue in the background, and the species as well as the training data become Coindex’s Intellectual Property, whereas most of the other stuff is open-source and available to a careful Google search.</p>
+
+
+
+<h2>Money-Making Machine</h2>
+
+
+
+<p>So what do we do with these kinds of doubly-effective algorithms, tied in and dependant on each other?Rather than find milk to consume &#8211; let’s find money to make.This is where I come in with Coindex &#8211; I’ve been finding and recreating Free and Open Source Software existing on GitHub or elsewhere as crypto trading bots, then creating APIs for the input and output data that make them tick and seeing if we can get the AI to train sets and species against the data, to simulate more or less profits (more or less max daily drawdown, more or less notionary volume, etc…) and we can build our army of bots.This army performs under bearish, bullish conditions and even sideways markets &#8211; and there are neural evolutionary AIs that exist to manage the bot-specific ones, exchange-specific ones, countering counterparty risk by hedging among variables.What’s worse than a market that jumps or crashes? One that does so when you hold a position in the opposite way, of course! If you’re aiming to capitalize on the market staying around the same price, absorbing market making fee rebates, then wouldn’t you want to hedge in real-time using a long straddle in options for your underlying asset?If the market jumps too much in either direction, your puts or calls suddenly become a very worthwhile investment… that’s your tip for the day <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-ngae33se" alt=""/></figure>
+
+
+
+<h2>Future Use-Cases: Conquering Every World Health Organization and United Nations Initiatives</h2>
+
+
+
+<p>Let’s say you have a given world need that can be addressed with smarter data that has an industry-leading edge.Namely… all of them come to mind.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>We can apply our patented solution to any given need that could save the planet from hunger, sex trade, or supply chain logistics.</p></blockquote>
+
+
+
+<p>These are the greater humanitarian and organizational goals.</p>
+
+
+
+<h2>Next Steps</h2>
+
+
+
+<p>!! Click here to subscribe:<a href="http://eepurl.com/gIykNL">&nbsp;http://eepurl.com/gIykNL</a>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization &#8211; where we&#8217;re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world&#8217;s greater humanitarian issues.Remember to CLICK, subscribe:<a href="http://eepurl.com/gIykNL">&nbsp;http://eepurl.com/gIykNL</a>&nbsp;!!(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)
+
+</p>
 ]]></content:encoded>
 										</item>
 	</channel>

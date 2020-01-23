@@ -12,7 +12,7 @@
 	<atom:link href="/category/github/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Tue, 21 Jan 2020 23:30:23 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 01:54:52 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -633,6 +633,613 @@
 
 
 <p>That&#8217;s it that&#8217;s all &#8211; for now, folks!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>GitHub Sponsors Program Delivers on Promises, Allies With Stripe</title>
+		<link>/2019/09/11/github-sponsors-program-delivers-on-promises-allies-with-stripe/</link>
+				<pubDate>Thu, 12 Sep 2019 00:34:52 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=387</guid>
+				<description><![CDATA[Just got a heart-warming email from GitHub about their Sponsors program!My fellow Hackers, have you all applied your most prolific]]></description>
+								<content:encoded><![CDATA[
+<p>Just got a heart-warming email from GitHub about their Sponsors program!My fellow Hackers, have you all applied your most prolific GitHub accounts to join the program? Word to wise: they&#8217;re doubling everyone&#8217;s sponsorship dollar values up to a whopping $5000 USD each and every month for the first calendar year you&#8217;re using their services! That&#8217;s potentially $10,000 income on $5000!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-s6233aw" alt=""/></figure>
+
+
+
+<p><a href="https://stripe.com/en-ca/connect">Stripe Connect</a><a href="https://github.blog/2019-09-10-accelerating-the-github-sponsors-beta">Read all about it in our blog post →</a></p>
+
+
+
+<figure class="wp-block-image"><img src="https://hackernoon.com/photos/qwlVSFUNhGO3DAw4hoBd17XGTAC2-797b33kn" alt=""/></figure>
+
+
+
+<p>Here&#8217;s my response to their team:That&#8217;s great news GitHub,</p>
+
+
+
+<p>I have a Telegram group&nbsp;<a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a>&nbsp;and do some lazy marketing on HackerNoon&nbsp;<a href="https://hackernoon.com/@jare">https://hackernoon.com/@jare</a>&nbsp;for my selection of crytpo bots and other open-source contributions under my GitHub&nbsp;<a href="https://github.com/dunncreativess">https://github.com/dunncreativess</a>. These people in the past have shown enthusiasm and financial support for my efforts, and have been a tremendous fountain of community and support throughout my recent memory.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>It&#8217;ll be great to turn these fans into subscription income that The Man can audit (and lend against&#8230;) which will enable my continued growth towards being free from labor.</p></blockquote>
+
+
+
+<p>I&#8217;m already on Stripe with the email&nbsp;<a href="mailto:jarettrsdunn@gmail.com">jarettrsdunn@gmail.com</a>, having put a good volume of revenues through them via credit card gateway in 2014-2015, and can&#8217;t seem to figure out how to use it to sign up for future GitHub payments&nbsp;&#8211; the popup for Connect asks me if I&#8217;d like to builld a marketplace or extension <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br>Be well,<br>-Jarettif you fellow Hackers have a minute, see the form and email address below <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> in return, you can email me and I&#8217;ll fill out the form + send the email promoting your open-source contributions towards joining the Sponsors program, too!<a href="https://docs.google.com/forms/d/e/1FAIpQLSdE8nL7U-d7CBTWp9X7XOoezQD06wCzCAS9VpoUW6lJ03KU7w/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdE8nL7U-d7CBTWp9X7XOoezQD06wCzCAS9VpoUW6lJ03KU7w/viewform</a>You don&#8217;t need to provide a Github profile or email if you don&#8217;t want. For &#8216;Which developers would you like to sponsor through GitHub Sponsors?&#8217; set github.com/dunncreativess.For &#8216;anything else we should know&#8217; let them know about my efforts as dev for these bots? Tireless, sleepless nights to optimize and include feedback? :)Also, recommend me to participate in the limited beta via personalised email.Send an email to opensource@github.com with a link to https://github.com/dunncreativess and my contact information: Telegram @RegTheIII Medium @jarettrsdunn HackerNoon @jare email jarettrsdunn+git@gmail.com.Teamwork!
+
+</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Final Bot Pre-Launch &#038; Initial HN 2.0 Post!</title>
+		<link>/2019/08/14/final-bot-pre-launch-initial-hn-2-0-post/</link>
+				<pubDate>Thu, 15 Aug 2019 00:39:52 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=396</guid>
+				<description><![CDATA[Hi folks!Look at this alpha!In most of my recent&#160;https://hackernoon.com/@jarettrsdunn&#160;posts which are apparently a 404 but live here:&#160;https://medium.com/@jarettrsdunn, I&#8217;ve been discussing]]></description>
+								<content:encoded><![CDATA[
+<p>Hi folks!Look at this alpha!In most of my recent&nbsp;<a href="https://hackernoon.com/@jarettrsdunn">https://hackernoon.com/@jarettrsdunn</a>&nbsp;posts which are apparently a 404 but live here:&nbsp;<a href="https://medium.com/@jarettrsdunn">https://medium.com/@jarettrsdunn</a>, I&#8217;ve been discussing different iterations of my different bots, which are available for public consumption.What&#8217;s new is that the new strategy on Livenet appears to be live and well.. so I&#8217;m going to drop the ReadMe here and see if HackerNoon will allow me to distribute this information here on the platform again <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h1>ManyVolumeSignalMonster</h1>
+
+
+
+<h2>Telegram!</h2>
+
+
+
+<p>join our growing community!&nbsp;<a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a></p>
+
+
+
+<h2>Trello Board!</h2>
+
+
+
+<p><a href="https://trello.com/b/vQ0WFMIH/many-volume-signal-monster">https://trello.com/b/vQ0WFMIH/many-volume-signal-monster</a>You can sign up to Trello (free, can be anonymous) to vote on features <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>What is it?</h2>
+
+
+
+<p><a href="https://aggr.trade/">https://aggr.trade/</a><a href="https://github.com/Tucsky/SignificantTrades">https://github.com/Tucsky/SignificantTrades</a>&nbsp;reimagined to use buy/sell signals in automated trades!Supporting BitMEX for now on livenet+testnet, with more exchanges tbd&#8230;This repo exists to provide a &#8216;sponsor&#8217; link (should I get approved for the beta&#8230;) while the livenet and testnet code are now both private.</p>
+
+
+
+<h2>Word to the wise</h2>
+
+
+
+<p>10% Tier-1, 5% Tier-2 affiliate commissions on contributions or subscriptions &#8211; as a fraction of total weighted value, which means recurring revenues <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Here&#8217;s what I mean:&nbsp;<a href="https://docs.google.com/spreadsheets/d/1qUSILqCyizkqF-p5k_6ovuSWNsmtfofD77u4tSTq_Ds/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1qUSILqCyizkqF-p5k_6ovuSWNsmtfofD77u4tSTq_Ds/edit?usp=sharing</a>&nbsp;&#8211; notice Free Lunch Lady? She didn&#8217;t contribute a dime but she&#8217;s earned a steady stream of income through affiliate marketing <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>Want to earn MoAr???!?</h2>
+
+
+
+<p>It&#8217;s like an open-ended bounty campaign&#8230;Can you do a service?Can you add value?Social media, blogs, email marketing, PPC, or any kind of qualified traffic from marketing will do the trick!Anyone who contributes any amount of work more than just referring friends &amp; family will earn a % additional 1-Tier and 2-Tier commissions scaling according to cost-effort, potentially more from crowdsourced bot!</p>
+
+
+
+<h2>Share the riches!</h2>
+
+
+
+<p>CONTRIBUTION FUND: 3BMEXZF3i5oPeeasscPQKFjdi1EbV8YUPCSend me TX, I&#8217;ll keep track of who has how much %I&#8217;ll take 30% of realized profits weekly, the other 70% goes back to contributors weeklyIf you refer someone else and they supply your TG handle to me or admins, you&#8217;ll get 10% of their contribution added to your weight &#8211; and 5% Tier-2sample weights:&nbsp;<a href="https://docs.google.com/spreadsheets/d/1qUSILqCyizkqF-p5k_6ovuSWNsmtfofD77u4tSTq_Ds/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1qUSILqCyizkqF-p5k_6ovuSWNsmtfofD77u4tSTq_Ds/edit?usp=sharing</a>it&#8217;d be fun to put this into a tradeable token so people can buy/sell stake?</p>
+
+
+
+<h2>Does it perform?</h2>
+
+
+
+<p>For anyone who&#8217;s interested in such things, my crypto trading bot has seen some huge improvements suggested by our small community.. as of just over 1/2 of a day ago when I added configurable % take profit and configurable % stop loss, after my friend with his $30 on livenet got liquidated and he suggested more failsafes&#8230; also waiting for 3 10-second (by default) bars to confirm a signal to buy/sell&#8230; learning curves :)Testnet #1 balance since 1/4 of a day ago is:gains (margin): 184 %gains (wallet): 213 %Testnet #2 balance since 1/2 of a day ago is:gains (margin): 12.9 %gains (wallet): 32.9 %Note that the second testnet account is using the UI configurable default &#8216;order multiplier&#8217; of 1, while my testnet is using 3x that, amplifying gains :)I&#8217;ve added whitelisting of API keys or account #s so it&#8217;s now ready to sell <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>Not a fan of BitMEX?</h2>
+
+
+
+<p>More exchanges to come, tbd! I&#8217;m available for bribes to fork into your favorite exchanges <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<h2>Get me into Github Sponsors Beta</h2>
+
+
+
+<p>Your reward? % saved on subscriptions, % bonus to crowdfund contributions AND double referral income!fill out this form:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSdE8nL7U-d7CBTWp9X7XOoezQD06wCzCAS9VpoUW6lJ03KU7w/viewform">https://docs.google.com/forms/d/e/1FAIpQLSdE8nL7U-d7CBTWp9X7XOoezQD06wCzCAS9VpoUW6lJ03KU7w/viewform</a>you don&#8217;t need to provide a github profile or email for &#8216;Which developers would you like to sponsor through GitHub Sponsors?&#8217;set github.com/dunncreativess for &#8216;anything else we should know&#8217; let them know about my efforts as dev for these bots? Tireless, sleepless nights to optimize and include feedback? :)Also recommend me to participate in the limited beta. Send an email to&nbsp;<a href="mailto:opensource@github.com">opensource@github.com</a>&nbsp;with a link to&nbsp;<a href="https://github.com/dunncreativess">https://github.com/dunncreativess</a>&nbsp;and my contact information: Telegram @RegTheIII Medium @jarettrsdunn email&nbsp;<a href="mailto:jarettrsdunn+git@gmail.com">jarettrsdunn+git@gmail.com</a>They&#8217;re doubling people&#8217;s sponsorships for the first year, up to $5k&#8230;anyone that wants to pay for the bot using GitHub (paypal or credit card) will get a 25% discount on subs, 25% bonus to their contribution&#8217;s weight AND double referral % weight!Check it outI&#8217;m nearly-not-quite-able to be sponsored on GitHub!&nbsp;<a href="https://imgur.com/a/nLs3XBu">https://imgur.com/a/nLs3XBu</a></p>
+
+
+
+<h2>If you prefer running with your own $BTC on livenet</h2>
+
+
+
+<p>There&#8217;s a 0.005 BTC upfront + 0.005 BTC monthly charge, and 5% of your realized gains (monthly)&#8230;Testnet access is free <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> just ask for your apikey or account # to be included in the validity spreadsheet.Code for live / test is available on request for auditsprovide me with your API key for livenet/testnet, I&#8217;ll add it to the valid keys spreadsheet (bots running without a valid key won&#8217;t make any POST requests&#8230;like place orders)if livenet, get an ADDITIONAL 10% discount on fees:&nbsp;<a href="https://www.bitmex.com/register/30KY2F">https://www.bitmex.com/register/30KY2F</a>&nbsp;&#8211; stop loss + take profit orders will earn me affiliate income&#8230;run chromium-browser &#8211;disable-web-security &#8211;user-data-dir=/ or google-chrome &#8211;disable-web-security &#8211;user-data-dir=/ &#8211; Windows and Mac directions:&nbsp;<a href="https://www.codevoila.com/post/75/how-to-disable-same-origin-policy-in-chrome">https://www.codevoila.com/post/75/how-to-disable-same-origin-policy-in-chrome</a><a href="http://35.239.130.201/">http://35.239.130.201/</a>&nbsp;testnet<a href="http://35.239.130.201:8080/">http://35.239.130.201:8080/</a>&nbsp;livenet&#8217;couldn&#8217;t load history&#8217; is a-okin settings, set trailstop+stoploss+takeprofit %sin settings, set keys (be sure to tab / click off so they save)in settings on one tab, set BTCUSDin other, ETHUSDany of the U19 pairs will also work, I need to remind myself to grab the current futures contract in a future release&#8230;For both, click ON all the extra exchanges &#8211; and OFF BitMEX (it doesn&#8217;t like too many websocket requests, it&#8217;ll &#8216;429 too many requests&#8217; you if you reload the page too too much then &#8216;403 forbidden&#8217; ban you for an hour or two&#8230;)wait 14 10s intervals for volume SMAscheck dev tools console for errors (change log level, turn off info/debug)after SMAs cross, it&#8217;ll enter a buy/sell &#8211; and if the orders fill then trailstop+takeprofit+stoplosscheck performance of all bots here:&nbsp;<a href="http://35.239.130.201:3000/">http://35.239.130.201:3000/</a>you can lessen short-term sensitivity two ways: 1. increase timeframe (from 10s) 2. increase SMA length (from 14)</p>
+
+
+
+<h2>@crypto_tra gets free lifetime subscription</h2>
+
+
+
+<p>First for pointing out strategy, then I forgot and gave him another free lifetime sub for being the first person other than me to test on livenet <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> so he naturally gets additional referral commissions</p>
+
+
+
+<h2>Bot does a bunch of smart things:</h2>
+
+
+
+<p>if &#8211; pos, it doubles buysif + pos, it doubles sellsOriginal buy/sells are POST-ONLY limits, takeprofit and stoploss are MARKET but you can configure their respective %sup/down to match price tickSizeprice is a function of avail margin, which is then multiplied by configurable &#8216;ordermult&#8217;except when avail margin &lt; 17.5% (will later be a configurable variable), then it stops buying in current pos directionit&#8217;ll miss out some of the orders, ensuring it stays pos/neg on longer swings &#8211; fun fact there&#8217;s an unused &#8216;testingtesting123&#8217; variable that could be made into a configurable one that enters the original limit orders at the opposite of bid/ask for buy/sell, which fills orders much much quicker at the expense of fees&#8230;</p>
+
+
+
+<h1>join our growing community!&nbsp;<a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a></h1>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Market Maker Bot Signals Overview</title>
+		<link>/2019/04/03/market-maker-bot-signals-overview/</link>
+				<pubDate>Thu, 04 Apr 2019 00:51:28 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=411</guid>
+				<description><![CDATA[Introduction Deciding when to buy low and sell high is the key to any automated trading strategy. We’ve been incorporating]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/2068/1*oH0vpTJtrzGdr8P_t_-06g.png" alt=""/></figure>
+
+
+
+<h1 id="3e39">Introduction</h1>
+
+
+
+<p>Deciding when to buy low and sell high is the key to any automated trading strategy. We’ve been incorporating many theories in our bot as it evolves over time, and this post will summarize them.</p>
+
+
+
+<h1 id="6131">RSI</h1>
+
+
+
+<p>Don’t buy RSI over 70 — don’t sell RSI under 30. Simple. RSIs are minutely arrays in 6 second update intervals separated into 10 instances, checked against the minutely values from the previous 14 values of bids.</p>
+
+
+
+<h1 id="ca8a">Bollinger Bands</h1>
+
+
+
+<p>Don’t buy over upper BB band. Simple. Same methodology as RSIs except over 9 minutes.</p>
+
+
+
+<h1 id="4bd4">Tiered Buy Orders Down the Books</h1>
+
+
+
+<p>As the price declines, and we submit buy orders that turn into trades, we submit smaller buy orders for lesser prices. This allows us to scrape differences in the books easier than holding a coin until it appreciates, and allows us to profit more from holding more and more coins at lesser and lesser values in times of volatility — all else remaining equal, and after you apply a law of averages that equates to coins gaining and losing less differential than the income you’re scraping. There’s a 3 minute delay, though, before placing a new buy order for a pair — to avoid holding too too much before it regains and we scrape, mind you!</p>
+
+
+
+<h1 id="fdec">‘NeverSellAtALoss’ Minimum Sale Prices</h1>
+
+
+
+<p>Next, we enable a minProfit * buyPrice ‘minimum sale price’ per tiered buy order that gets executed. This allows us to ensure or project that we’d earn a certain % per trade, and we can also project what our income might look like should we pay lesser and lesser (even get rebates on) fees. We can be buying and selling, we can be selling, we can be buying further down the books — we’ll always anticipate a certain level of income from each individual trade.</p>
+
+
+
+<h1 id="7eea">Application 1: Mediumish Liquidity Coins with High Spreads</h1>
+
+
+
+<p>For pairs with &gt;% spreads and lesser volumes, we can profit more per trade (and after fees) than the Application 2, even if less trades are executed — while enjoying potentially more tradeable pairs. We’ll hold our coins longer and risk more exposure from some of these coins tanking, but hope that our minProfit is earning enough per scrape to combat that — and historical trades by the dev bot and community bots attest to this. Also, fear not shit coins — we take the most recent hourly candle and compare the value of volume there vs. the implied volume on the 24 hour ticker, then take the best candidates — according to a variable set by our users. The right combination of overall variables allows us to see profits of 1, 2, 3% daily — although not riskless.</p>
+
+
+
+<h1 id="575d">Application 2: Huge Liquidity Stableish Coins with Low Spreads</h1>
+
+
+
+<p>Conversationally, we can eliminate some of that risk in Application 1 by trading stable-er-coins that shouldn’t die when we hold them — and we can trade far more often, and earn a lesser percent on the spread but as the dev bot and community bots have proven the configurable variables involved here have the ability to turn quite a hefty profit — while the risk still remains you’ll hold a coin that then turns sour, and if you’re trading more often that risk might multiply should your settings not be just right… however as above we’ve seen gains of 1, 2, 3% per day!</p>
+
+
+
+<h1 id="84ea">Conclusion</h1>
+
+
+
+<p>Whatever combination of variables you dream up on whichever exchange, your odds increase significantly with volume — we’ve seen balances as little as 0.003 btc turn 0.2, 1.4 btc/day in volume — get in now and achieve a significant reduction in fees to earn your own tidy little pile of (potential) returns!</p>
+
+
+
+<h1 id="42f3">FUD and FOMO</h1>
+
+
+
+<h1 id="0cb2">1. NeverSellAtALoss ‘bag’</h1>
+
+
+
+<p>Position with negative profit but don’t want to sell at a loss and realize that loss so you don’t sell. This creates a BAG that you carry</p>
+
+
+
+<h1 id="ff01">1. Scrape Enough to Not Worry</h1>
+
+
+
+<p>I played with a variable that incremented a divisor that started at 1.0001, then after x number minutes it reduced the min sale price by 1.0001, and increased the divisor to 1.00121 or whatever, but,… with the tiered buy orders all the way down, the goal is to always sell an individual order at a % profit while it scales up and down the books. The theory is that all else remaining equal — and with the law of averages saying stuff will decline as much as it inclines, if you index enough pairs and lessen the risk of any one breaking the bell curve — with the right spread, volume, minProfit, the scraping should outweigh the ‘bag’</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Binance, HitBTC, etc., Market Maker Pitch: How To Get Rich Online</title>
+		<link>/2019/03/23/binance-hitbtc-etc-market-maker-pitch-how-to-get-rich-online/</link>
+				<pubDate>Sun, 24 Mar 2019 00:54:00 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=415</guid>
+				<description><![CDATA[Cheap VPS press ‘all’ after about 15s Case in Point Imagine this hourly graph without the steep drops from paying]]></description>
+								<content:encoded><![CDATA[
+<h1 id="b37a">Cheap VPS</h1>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+http://techvoices.club/
+</div></figure>
+
+
+
+<p>press ‘all’ after about 15s</p>
+
+
+
+<h1 id="5b2d">Case in Point</h1>
+
+
+
+<p>Imagine this hourly graph without the steep drops from paying fees on the green (buy) lines:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/47/1*WmxjLMNzSEUeuSlgJu_VCg.png?q=20" alt=""/></figure>
+
+
+
+<p>As a follow-up to this:</p>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+https://hackernoon.com/making-markets-moving-crypto-free-and-open-source-binance-9bcea607e57b
+</div></figure>
+
+
+
+<p><a href="https://github.com/DunnCreativeSS/privateMarketMakerRepo" target="_blank" rel="noreferrer noopener">https://github.com/DunnCreativeSS/privateMarketMakerRepo</a>&nbsp;** ask for access **</p>
+
+
+
+<p>TL;DR join us here&nbsp;<a href="https://t.me/themarketmakerbot" target="_blank" rel="noreferrer noopener">https://t.me/themarketmakerbot</a></p>
+
+
+
+<h1 id="7f6a">Elevator Pitch</h1>
+
+
+
+<p>Market making on Deribit and BitMex failed because it counted on the market to remain more or less stagnant on the 0.25$ step. We’re now looking at automating two market making strategies for smaller volume, higher spread pairs.</p>
+
+
+
+<h1 id="9d41">Market Maker Trader</h1>
+
+
+
+<p>We buy just above the highest bid and sell just below the lowest ask. We repeat this process, using a fraction of account balance in base pairs, until we see the net profits as price fluctuations cancel each other out in the approaching infinity sense — while we soak up profits from the spread itself in the ‘relative orders’ strategy.</p>
+
+
+
+<p>Conversationally, and not coded yet, is the ‘staggered order’ strategy, where you pick a maximum and minimum price for that pair and then stagger orders up and down the order book to buy and sell along set intervals.</p>
+
+
+
+<p>Resources: Would need servers close to different exchanges.</p>
+
+
+
+<p>Scalability: More coins; more scale</p>
+
+
+
+<p>Pros: I’ve had 0.57 bitcoin volume on my deposit of $18 worth of coins on the ‘relative’ strategy in the last 24 hours, while sustaining about -0.5% growth. There are other exchanges (some with margin) where we can reproduce the bot, like bitfinex/ethfinex who have a market maker rebate paid monthly in their proprietary coin, or liquid who has a market maker rebate on pairs that were previously on qryptos</p>
+
+
+
+<p>Add’l pros: on Binance I can effect a 20% or 40% income on fees via my referral link, on HitBTC the affiliate program is on pause but I may eventually be able to effect 75% — although the potential gains from HitBTC affiliate are less as there will eventually be a 0% or rebate on the maker fees</p>
+
+
+
+<p>Cons: To prove profitable on Binance or HitBTC, you’d need to eliminate the fees or effect a market maker rebate. On Binance this involves volume as well as holding BNB — while still paying some fees, while on HitBTC that only involves building volume first — effecting 0% maker fees then 0.01% rebate.&nbsp;<a href="https://hitbtc.com/fee-tier" target="_blank" rel="noreferrer noopener">https://hitbtc.com/fee-tier</a>&nbsp;<a href="https://www.binance.com/en/fee/schedule" target="_blank" rel="noreferrer noopener">https://www.binance.com/en/fee/schedule</a>&nbsp;On HitBTC there’s also a market making program&nbsp;<a href="https://hitbtc.com/mm" target="_blank" rel="noreferrer noopener">https://hitbtc.com/mm</a>.</p>
+
+
+
+<h1 id="3ad0">To Prove for Viability</h1>
+
+
+
+<h1 id="d4f5">Consistent over all types of markets, but identify when it does better</h1>
+
+
+
+<p>In the long run, price volatility helps the ‘staggered’ strategy more than it does the ‘relative’ strategy<br>Less volatility but still having volume, there will be gains from the ‘relative’ strategy<br>The potential loss is 1. Fees 2. Grabbing a coin that immediately dies, inclusive.<br>If you’re to eliminate fees or effect a fee rebate, this risk goes down<br>If you automate many pairs you lessen the negative effect of grabbing a coin that dies<br>Conversationally, a stop loss can be created to further lessen this risk</p>
+
+
+
+<h1 id="e285">Sunk costs of development</h1>
+
+
+
+<p>None — need to code the ‘staggered’ strategy, which I can do</p>
+
+
+
+<h1 id="fcfb">Scalability given current market liquidity and volume</h1>
+
+
+
+<p>On exchanges like Binance or HitBTC, with many coin pairs that have significant volume, we can scale indefinitely<br>The bot currently checks the average volume per base asset, then the spread of a given pair, and enters only into those markets that meet the minimum and maximum volumes and target spread, as well as a minimum order quantity and maximum order quantity (to avoid sh#tcoins)</p>
+
+
+
+<p>In base: market pair: volume in base, that looks like this:</p>
+
+
+
+<p>{ BTC: { XDNBTC: 69.3393775486, VETBTC: 42.606415325 },<br>TUSD: { NXTUSD: 67247.7248096, TNTUSD: 53891.073732 },<br>MUSD: { QTUMUSD: 2545776.043225 },<br>NUSD: { XDNUSD: 280614.7629689 },<br>DUSD: { MAIDUSD: 54019.8292817 },<br>ETH:<br>{ ICXETH: 589.145211656,<br>NXTETH: 266.992269315,<br>REPETH: 616.456689351,<br>ONTETH: 5359.788369161,<br>NTKETH: 197.416308344,<br>KBCETH: 355.311810444,<br>ROXETH: 311.845628547 },<br>BUSD: { DGBUSD: 2445.14526651 },<br>GUSD: { BTGUSD: 141765.29622322 },<br>UUSD: { QNTUUSD: 29.4731369 },<br>PUSD: { ETPUSD: 68.5015549, ZAPUSD: 40.1461164 },<br>YUSD: { DAYUSD: 338.8757426, BERRYUSD: 248.9052084 },<br>QUSD: { STQUSD: 6039.7474451 },<br>IUSD: { WIKIUSD: 10575.2656811 },<br>FUSD: { ELFUSD: 14.04120135 },<br>URS:<br>{ ETHEURS: 2486.24206583,<br>LTCEURS: 1485.789705,<br>XMREURS: 2807.0239136 },<br>‘0USD’: { POA20USD: 20.1087685 },<br>EOS: { LSKEOS: 39.06901764 },<br>RWB: { BTCKRWB: 44.82036 } }</p>
+
+
+
+<h1 id="dc50">Forward Tests</h1>
+
+
+
+<p>This strategy was first coded about 48 hours ago on Binance. It lost about 0.5% in one day, and had 0.46 BTC in volume.</p>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2FqEyq1ZB&amp;src=https%3A%2F%2Fimgur.com%2FqEyq1ZB%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D607&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="364" width="607"></iframe></figure>
+
+
+
+<p>The second iteration was on HitBTC, and as of about 10–12 hours ago has 0.12 BTC in volume (across many smaller orders, instead of the test version on Binance risking everything on one pair).</p>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2FU6p4pX6&amp;src=https%3A%2F%2Fimgur.com%2FU6p4pX6%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D500&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="339" width="500"></iframe></figure>
+
+
+
+<p>It’s lost about 0.23% in that time:</p>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2FxEk6xe4&amp;src=https%3A%2F%2Fimgur.com%2FxEk6xe4%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D598&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="335" width="598"></iframe></figure>
+
+
+
+<p>My calculations, based on losing 0.5% a day on average with entry level fees and based on HitBTC’s 0% maker fee after 1500BTC in 30-day volume, indicate that after a certain amount of time while trading a certain balance we can effect 0% fees, and therein effect profits:</p>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+https://docs.google.com/spreadsheets/d/1U343CX4ghe_Au9Q3QwHZHW8A0WIwwprgP23mndKOzAE/edit?usp=sharing
+</div></figure>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2FHFQjgl0&amp;src=https%3A%2F%2Fimgur.com%2FHFQjgl0%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D616&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="303" width="616"></iframe></figure>
+
+
+
+<p>This is not including the chance we can get market maker benefits or the 0.01%<br>rebate after 6000 BTC volume.</p>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2F80ifssM&amp;src=https%3A%2F%2Fimgur.com%2F80ifssM%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D500&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="599" width="500"></iframe></figure>
+
+
+
+<figure><iframe src="https://cdn.embedly.com/widgets/media.html?url=https%3A%2F%2Fimgur.com%2Fo5mpKYc&amp;src=https%3A%2F%2Fimgur.com%2Fo5mpKYc%2Fembed%3Fpub%3Dtrue%26ref%3Dhttps%253A%252F%252Fembed.ly%26w%3D500&amp;type=text%2Fhtml&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;schema=imgur" allowfullscreen="" height="639" width="500"></iframe></figure>
+
+
+
+<h1 id="2b9a">Conclusion</h1>
+
+
+
+<p>With enough volume anything is possible. Come join us!&nbsp;<a href="https://t.me/themarketmakerbot" target="_blank" rel="noreferrer noopener">https://t.me/themarketmakerbot</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Market Making, Moving Crypto — Free and Open Source Binance Bot</title>
+		<link>/2019/03/21/market-making-moving-crypto-free-and-open-source-binance-bot/</link>
+				<pubDate>Fri, 22 Mar 2019 00:49:48 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Github]]></category>
+
+		<guid isPermaLink="false">/?p=409</guid>
+				<description><![CDATA[# binanceMarketMaker https://github.com/DunnCreativeSS/privateMarketMakerRepo&#160;** ask for access ** This bot automates making markets on Binance. Where other market making bots fail]]></description>
+								<content:encoded><![CDATA[
+<p># binanceMarketMaker</p>
+
+
+
+<p><a href="https://github.com/DunnCreativeSS/privateMarketMakerRepo" target="_blank" rel="noreferrer noopener">https://github.com/DunnCreativeSS/privateMarketMakerRepo</a>&nbsp;** ask for access **</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/47/1*RherGVryezvMQjPBc3_vwg.png?q=20" alt=""/><figcaption>Buy Low Sell High!</figcaption></figure>
+
+
+
+<p>This bot automates making markets on Binance.</p>
+
+
+
+<p>Where other market making bots fail (ie. BitMex, Deribit, other attempts I’ve made in the past) is by counting on the market to not be volatile. Where this bot wins is by finding markets where we can soak up profits in the volatility by taking those profits from the spread itself, where on BitMex and Deribit these spreads ar 0.25$ of a BTC, some smaller markets on Binance have 1%.. 2%… 5% spreads, and greater-than-average volumes.</p>
+
+
+
+<p>You’ll want to have about $20 per market pair it’s looking to trade, in the base asset (BTC, BNB, ETH, etc…). It will look to trade more markets if the targetSpread, targetVolDiv, targetVolMult are higher. The more total funds in a particular base asset there are, the higher value the orders will have.</p>
+
+
+
+<p>If for whatever reason a market pair leaves the universe scope of considered pairs, it will continue selling that asset with the same sell logic (on the quoteAsset+BNB market, or BTC then ETH if BNB isn’t available), while pausing buying it.</p>
+
+
+
+<p>I don’t have enough personal funds available to run the bot, but I can get a good amount of income if I share it and people use my ref link. targetOrderSizeMult exists so that people can compete using the same bot on the same markets without it just outbidding the other bot constantly, as you can set a % of your order size to ignore when there’s a bid or ask better than yours. When the volume that beats your price is higher than the —</p>
+
+
+
+<p>order size * this multiplier,</p>
+
+
+
+<p>it’ll re-enter the market.</p>
+
+
+
+<p>‘At the current time Binance rate limits are: 1200 requests per minute. 10 orders per second. 100,000 orders per 24hrs.’</p>
+
+
+
+<p>There are no limits for unfilled orders, and at most it’ll make about 6&#215;20 or so pairs x 2 orders, 1 cancel and 1 re-post a minute, along with checking balance and getting order books so a total of about ~500 a minute — not close to 1200 <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>On that note I’ve only been trading one pair, averaging 42 orders an hour or ~1000 per day, again by about 20 pairs would be 20 000 orders per day — a bit shy of 100k.</p>
+
+
+
+<p>To use:</p>
+
+
+
+<p>1. (please do) sign up for Binance using my ref link:&nbsp;<a href="https://www.binance.com/?ref=27039658" target="_blank" rel="noreferrer noopener">https://www.binance.com/?ref=27039658</a></p>
+
+
+
+<p>2. Place your Binance API key and secret in binance.js</p>
+
+
+
+<p>3. Optionally change the targetSpread, targetVolDiv, targetVolMult, targetOrderSizeMult</p>
+
+
+
+<p>4. Install NPM and Node</p>
+
+
+
+<p>5. Clone this repo, cd into directory</p>
+
+
+
+<p>6. Run npm i binance-api-node</p>
+
+
+
+<p>7. Run node binance.js</p>
+
+
+
+<h1 id="fac3">API Rate Limiting?</h1>
+
+
+
+<p>The first FUD someone might say is that this will lock your API for too many unfilled orders or too many interactions.</p>
+
+
+
+<p>‘At the current time Binance rate limits are: 1200 requests per minute. 10 orders per second. 100,000 orders per 24hrs.’</p>
+
+
+
+<p>There are no limits for unfilled orders, and at most it’ll make about 6x 20 or so pairs x 2 orders, 1 cancel and 1 re-post a minute, along with checking balance and getting order books so a total of about ~500 a minute — not close to 1200 <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>On that note I’ve only been trading three or so pairs at a time, averaging 42 orders an hour or ~1000 per day, again by about 20 pairs would be 20 000 orders per day — a bit shy of 100k.</p>
+
+
+
+<h1 id="0cd8">Conclusion</h1>
+
+
+
+<p>I was originally trading GNTBNB almost exclusively for testing, the first trade is screenshotted. I’ve since opened it up to trade anything it noticed it could trade, made the required spread lower, and let it run overnight. It’s lost a bit of value but it’s also held eth for awhile while not doing anything with it (due to the required spread % not being enough), but over 45 orders (excluding cancelled) with 0.00568192 balance (or so) I have 0.03090300 in volume — meaning that while it lost ~3% BTC and ~4% USD it traded the original 0.00568192 back and forth for 22–23 round trips @ 0.2% fees, beating the 4.5% fees it endured… with more careful settings it should perform better or at least act on less orders and capitalize higher spreads.</p>
+
+
+
+<p>If you’re looking to start building your volume on Binance, the easiest way would be to put this bot to work and choose some safer settings to automate the spreads of a few pairs — after trading a few hours with 0.00568192 balance (or so) I have 0.03090300 in volume. While this strategy might not automate profits (at least out of the box), it does trade a whole heck of a lot. If you check&nbsp;<a href="https://www.binance.com/en/fee/schedule" target="_blank" rel="noreferrer noopener">Binance’s fee schedule</a>, you’ll see that as you graduate levels of volume and hold BNB then you’ll be treated to lesser and lesser maker/taker fees, which might prove healthy should you have other strategies (especially high-frequency-trading) that would benefit from lesser fees — although the BNB requirements might be high, given the current value of a BNB has exploded. Again, should you use my invite code 27039658 or&nbsp;<a href="https://www.binance.com/?ref=27039658" target="_blank" rel="noreferrer noopener">invite link</a>&nbsp;I’ll get a tiny slice of the rewards, too!</p>
+
+
+
+<p>Join Telegram for interactive support and a community!</p>
+
+
+
+<p>Jarett Dunn, [21.03.19 15:35]<br>ok going to start a new set of conditions for a strategy using the bot, mark @ benchmark 2 Estimated Value： 0.00569181 BTC / $22.57</p>
+
+
+
+<p>Jarett Dunn, [21.03.19 15:35]<br>note it held Eth during a major Eth crash</p>
+
+
+
+<p>Jarett Dunn, [21.03.19 15:35]</p>
+
+
+
+<figure class="wp-block-image"><img src="https://miro.medium.com/max/24/1*o-UTuvLapaSKRFN2GkIFjw.jpeg?q=20" alt=""/></figure>
+
+
+
+<p><a href="https://t.me/themarketmakerbot">Market Maker BotYou can view and join @themarketmakerbot right away.t.me</a></p>
+
+
+
+<p>Note: I’m available to re-write the bot for other exchanges, to build your volumes elsewhere.</p>
 ]]></content:encoded>
 										</item>
 	</channel>
