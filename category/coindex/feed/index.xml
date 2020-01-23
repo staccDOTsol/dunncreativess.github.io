@@ -12,7 +12,7 @@
 	<atom:link href="/category/coindex/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Thu, 23 Jan 2020 01:34:20 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 04:25:10 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,80 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Building an AI &#038;&#038; Everything You Need to Know About Artificial Intelligence</title>
+		<link>/2020/01/22/building-an-ai-everything-you-need-to-know-about-artificial-intelligence/</link>
+				<pubDate>Thu, 23 Jan 2020 04:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=425</guid>
+				<description><![CDATA[View this post in it&#8217;s original form on jare.cloud! With Google&#8217;s execs offering warnings on regulating AIs and thinktanks predicting]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/1-28-1024x573.png" alt="" class="wp-image-427" srcset="/wp-content/uploads/2020/01/1-28-1024x573.png 1024w, /wp-content/uploads/2020/01/1-28-300x168.png 300w, /wp-content/uploads/2020/01/1-28-768x430.png 768w, /wp-content/uploads/2020/01/1-28.png 1086w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/22/building-an-ai-everything-you-need-to-know-about-artificial-intelligence/">View this post in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<p>With <a href="https://thenextweb.com/artificial-intelligence/2020/01/20/sundar-pichai-offers-a-cryptic-warning-against-over-regulating-ai/">Google&#8217;s execs offering warnings on regulating AIs</a> and thinktanks predicting artificial intelligence will take over all sectors of labor, and <a href="https://searchhrsoftware.techtarget.com/news/252477189/Impact-of-AI-on-jobs-goes-on-the-presidential-campaign-trail">AI stealing jobs having an effect on the campaign trail</a> &#8211; it&#8217;s as important as ever to know everything you need to know about artificial intelligence.</p>
+
+
+
+<p>What are the pitfalls of AI? What are they really well suited at doing? How do they work?</p>
+
+
+
+<p>AI &#8211; traditionally &#8211; take a bunch of data (a training set) and figure out ways to approach problems by being rewarded or reprimanded points, which affects the fitness of a model. By telling the AI what we want, we can achieve the results we&#8217;re after. It&#8217;s then applied to new, raw data, with the idea that it can predict an outcome or achieve an objective.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.idgesg.net/images/article/2018/10/ai_virtual-monitor_circuitry_binary_robot_robotic-100777427-large.jpg" alt="Image result for ai"/></figure>
+
+
+
+<p>Artificial Intelligence &#8216;learns&#8217; better ways to approach a problem, and modifies its approach to do it better. It&#8217;s naturally suited to things like recognizing faces in images or <a href="https://jare.cloud/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/">identifying emotions or sentiment in text &#8211; even if it&#8217;s expressed sarcastically</a>.</p>
+
+
+
+<p>When does it fail? AI can be trained on too large of a dataset or with too many rewards/detriments, which is called &#8216;overfitting&#8217; the model. This would mean that the programming becomes too familiar with the older data, which looks better on paper but in reality causes it to be less accurate when it&#8217;s thrown to the wolves with new, live data &#8211; and it performs worse than a less &#8216;fitted&#8217; model might have. Boo!</p>
+
+
+
+<p>As Chief Liquidity Officer for Coindex Labs, we&#8217;re employing a new and novel approach to AI that is naturally resilient against overfitting. <a href="https://jare.cloud/2019/11/07/we-used-evolutionary-ai-and-novel-search-to-build-a-money-making-machine/">This is a neuro-evolutionary  AI</a> &#8211; meaning that it not only learns on a training set based on +1/-1, it also has competing datasets in a generation that see who can perform better &#8211; and they pass down certain genetic traits when they&#8217;re successful to the next generation&#8217;s population, for them to compete again. We&#8217;re first applying it to new &amp; novel markets for trading financial assets, then transferring those lessons to more traditional markets, and finally going to use the research to solve basic human needs.</p>
+
+
+
+<p>What does this mean for you? While artificial intelligences become smarter and achieve more and more objectives, they&#8217;ll be able to replace human labor in more and more sectors. While this might not necessarily put you out of the job any time soon, you should certainly ensure that your kids know enough code to be dangerous in a New World Economy where the wage earners are those teaching the AIs to do things that &#8211; in the 2010s &#8211; millions of wage earners used to accomplish. Case in point is self-serve checkouts &#8211; or even in the generation before, Automatic Teller Machines. <a href="https://newsexaminer.net/food/mcdonalds-to-open-restaurant-run-by-robots/">There are even whole McDonalds restaurants without any human staff</a>!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://newsexaminer.net/wp-content/uploads/2018/03/McRobot-810x553.jpg" alt="New McDonald’s In Phoenix Run Entirely By Robots"/></figure>
+
+
+
+<p>To stay ahead of the curve, you can encourage kids to take part in logic, code and maths. While this might not seem exciting, the right programs will focus a kid&#8217;s attention on the fun that can be had with code: I was introduced to C++ in the 90s and immediately started to build an RPG for my friends and I to play. This is the kind of introduction, positioning and framing that allow kids to associate their favorite activities with this new &#8211; and life-long &#8211; challenge.</p>
+
+
+
+<p>With all change and even change that negatively affects many comes new and interesting opportunities. The advances in AI and associated new and novel tech like augmented reality, virtual reality, and whole ecosystems popping up surrounding the artistic need for these communities, products and services will never be able to be fully replaced by the machine. Someone in the future will be able to completely provide for themselves and their families by creating fun artistic pieces that manifest in a digital world. Indeed, people already are!</p>
+
+
+
+<h2>A Plug (or Two)</h2>
+
+
+
+<p>Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
+
+
+
+<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>How to Build a Winning Tool for Sentiment Analysis of Twitter Data</title>
 		<link>/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/</link>
 				<pubDate>Thu, 23 Jan 2020 00:38:08 +0000</pubDate>

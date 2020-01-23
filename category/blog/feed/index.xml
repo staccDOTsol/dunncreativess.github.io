@@ -12,7 +12,7 @@
 	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Thu, 23 Jan 2020 03:40:55 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 04:25:10 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,80 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Building an AI &#038;&#038; Everything You Need to Know About Artificial Intelligence</title>
+		<link>/2020/01/22/building-an-ai-everything-you-need-to-know-about-artificial-intelligence/</link>
+				<pubDate>Thu, 23 Jan 2020 04:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=425</guid>
+				<description><![CDATA[View this post in it&#8217;s original form on jare.cloud! With Google&#8217;s execs offering warnings on regulating AIs and thinktanks predicting]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/1-28-1024x573.png" alt="" class="wp-image-427" srcset="/wp-content/uploads/2020/01/1-28-1024x573.png 1024w, /wp-content/uploads/2020/01/1-28-300x168.png 300w, /wp-content/uploads/2020/01/1-28-768x430.png 768w, /wp-content/uploads/2020/01/1-28.png 1086w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="http://jare.cloud/2020/01/22/building-an-ai-everything-you-need-to-know-about-artificial-intelligence/">View this post in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<p>With <a href="https://thenextweb.com/artificial-intelligence/2020/01/20/sundar-pichai-offers-a-cryptic-warning-against-over-regulating-ai/">Google&#8217;s execs offering warnings on regulating AIs</a> and thinktanks predicting artificial intelligence will take over all sectors of labor, and <a href="https://searchhrsoftware.techtarget.com/news/252477189/Impact-of-AI-on-jobs-goes-on-the-presidential-campaign-trail">AI stealing jobs having an effect on the campaign trail</a> &#8211; it&#8217;s as important as ever to know everything you need to know about artificial intelligence.</p>
+
+
+
+<p>What are the pitfalls of AI? What are they really well suited at doing? How do they work?</p>
+
+
+
+<p>AI &#8211; traditionally &#8211; take a bunch of data (a training set) and figure out ways to approach problems by being rewarded or reprimanded points, which affects the fitness of a model. By telling the AI what we want, we can achieve the results we&#8217;re after. It&#8217;s then applied to new, raw data, with the idea that it can predict an outcome or achieve an objective.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://images.idgesg.net/images/article/2018/10/ai_virtual-monitor_circuitry_binary_robot_robotic-100777427-large.jpg" alt="Image result for ai"/></figure>
+
+
+
+<p>Artificial Intelligence &#8216;learns&#8217; better ways to approach a problem, and modifies its approach to do it better. It&#8217;s naturally suited to things like recognizing faces in images or <a href="https://jare.cloud/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/">identifying emotions or sentiment in text &#8211; even if it&#8217;s expressed sarcastically</a>.</p>
+
+
+
+<p>When does it fail? AI can be trained on too large of a dataset or with too many rewards/detriments, which is called &#8216;overfitting&#8217; the model. This would mean that the programming becomes too familiar with the older data, which looks better on paper but in reality causes it to be less accurate when it&#8217;s thrown to the wolves with new, live data &#8211; and it performs worse than a less &#8216;fitted&#8217; model might have. Boo!</p>
+
+
+
+<p>As Chief Liquidity Officer for Coindex Labs, we&#8217;re employing a new and novel approach to AI that is naturally resilient against overfitting. <a href="https://jare.cloud/2019/11/07/we-used-evolutionary-ai-and-novel-search-to-build-a-money-making-machine/">This is a neuro-evolutionary  AI</a> &#8211; meaning that it not only learns on a training set based on +1/-1, it also has competing datasets in a generation that see who can perform better &#8211; and they pass down certain genetic traits when they&#8217;re successful to the next generation&#8217;s population, for them to compete again. We&#8217;re first applying it to new &amp; novel markets for trading financial assets, then transferring those lessons to more traditional markets, and finally going to use the research to solve basic human needs.</p>
+
+
+
+<p>What does this mean for you? While artificial intelligences become smarter and achieve more and more objectives, they&#8217;ll be able to replace human labor in more and more sectors. While this might not necessarily put you out of the job any time soon, you should certainly ensure that your kids know enough code to be dangerous in a New World Economy where the wage earners are those teaching the AIs to do things that &#8211; in the 2010s &#8211; millions of wage earners used to accomplish. Case in point is self-serve checkouts &#8211; or even in the generation before, Automatic Teller Machines. <a href="https://newsexaminer.net/food/mcdonalds-to-open-restaurant-run-by-robots/">There are even whole McDonalds restaurants without any human staff</a>!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://newsexaminer.net/wp-content/uploads/2018/03/McRobot-810x553.jpg" alt="New McDonald’s In Phoenix Run Entirely By Robots"/></figure>
+
+
+
+<p>To stay ahead of the curve, you can encourage kids to take part in logic, code and maths. While this might not seem exciting, the right programs will focus a kid&#8217;s attention on the fun that can be had with code: I was introduced to C++ in the 90s and immediately started to build an RPG for my friends and I to play. This is the kind of introduction, positioning and framing that allow kids to associate their favorite activities with this new &#8211; and life-long &#8211; challenge.</p>
+
+
+
+<p>With all change and even change that negatively affects many comes new and interesting opportunities. The advances in AI and associated new and novel tech like augmented reality, virtual reality, and whole ecosystems popping up surrounding the artistic need for these communities, products and services will never be able to be fully replaced by the machine. Someone in the future will be able to completely provide for themselves and their families by creating fun artistic pieces that manifest in a digital world. Indeed, people already are!</p>
+
+
+
+<h2>A Plug (or Two)</h2>
+
+
+
+<p>Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
+
+
+
+<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Top 3 Ways: How to Influence People and Make Friends (and How Maslow Theory Applies)</title>
 		<link>/2020/01/22/top-3-ways-how-to-influence-people-and-make-friends-and-how-maslow-theory-applies/</link>
 				<pubDate>Thu, 23 Jan 2020 03:40:42 +0000</pubDate>
@@ -1159,132 +1233,6 @@ $('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/20/publish0x
 
 
 <p>Now that we&#8217;ve talked about having the benefits of those with beautiful minds &#8211; <a href="https://jare.cloud/2020/01/15/why-schizophrenia-is-the-most-under-represented-of-all-the-death-sentences/">let&#8217;s talk about the challenges schizophrenics face</a>, in this article I wrote!</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Top 4 (And Bonuses!) Reasons You Should Always Prepare for the Worst</title>
-		<link>/2020/01/17/top-4-and-bonuses-reasons-you-should-always-prepare-for-the-worst/</link>
-				<pubDate>Fri, 17 Jan 2020 19:14:33 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Mental Health]]></category>
-
-		<guid isPermaLink="false">/?p=230</guid>
-				<description><![CDATA[Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? https://t.me/ManyVolumeSignalMonster #1: You&#8217;ll Always be]]></description>
-								<content:encoded><![CDATA[
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<h2>#1: You&#8217;ll Always be Pleasantly Surprised</h2>
-
-
-
-<p>This is actually a secret my mom taught me over and over again. If you expect the worst possible outcome in any given situation &#8211; love, relationships, family, work &#8211; then whatever does come to pass will certainly be better than your expectations!</p>
-
-
-
-<p>In such a way, you&#8217;ll find little joys throughout your day and week. These little joys will create a sense of reward that you might not have had if you were constantly being let down by your own expectations.</p>
-
-
-
-<p>Framing your world in a different light can have certain advantages &#8211; for those with very specific minds, you might lose touch with the &#8216;real reality&#8217; and become a concern for your own self&#8217;s well-being. Read an article I wrote on how <a href="https://jare.cloud/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/">people with schizophrenia and mental health can actually think</a> (from first-hand experience).</p>
-
-
-
-<figure class="wp-block-image"><img src="https://live.staticflickr.com/2118/2511788463_03d9281e2e_z.jpg" alt="Image result for pleasant surprise"/></figure>
-
-
-
-<h2>#2: Emergency Preparedness Saves Lives</h2>
-
-
-
-<p>In a much more literal sense, being prepared for the worst will mean that you create disaster recovery plans &#8211; be they for the zombie apocalypse, should your car die and need repairs you can&#8217;t immediately afford, or if the lights go out for a day or two &#8211; having a plan improves your chances of getting through the scenario measurably. </p>
-
-
-
-<p>This is so true that a brief Google search returns many millions islands (results, in Google English Pirate language) for &#8217;emergency preparedness course,&#8217; <a href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwjL39ilpYvnAhVN1sAKHex_BzcYABAAGgJpbQ&amp;ohost=www.google.com&amp;cid=CAESQOD2M1X01icn_Ddsj9d_VtuSw2OJzkWb-hMqPuHbRQdhjHlW1fmxM4R73TFopbDePIk6WevtDEoZfVqZPTnors0&amp;sig=AOD64_0WZlRmA4DrGAF_Av58ZgcPrRp7aA&amp;q=&amp;ved=2ahUKEwixoc2lpYvnAhXFWc0KHTQqBxIQ0Qx6BAgQEAE&amp;adurl=">like this one at a Canadian university</a>.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-19-1024x696.png" alt="" class="wp-image-231" srcset="/wp-content/uploads/2020/01/image-19-1024x696.png 1024w, /wp-content/uploads/2020/01/image-19-300x204.png 300w, /wp-content/uploads/2020/01/image-19-768x522.png 768w, /wp-content/uploads/2020/01/image-19.png 1178w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h2>#3: You&#8217;ll Be Ready for Anything</h2>
-
-
-
-<p>Hand in hand with being prepared for the worst-case scenario, you&#8217;ll also be ready for all the other scenarios up and down the range of possible outcomes &#8211; from the best possible ones right down to what could potentially be the absolute worst. Because you have considered and somehow either counted or discounted each possible route, you will have a plan for accomplishing things regardless of how fate will twist your arm. </p>
-
-
-
-<p>As you get more and more used to this mental exercise, you&#8217;ll notice that your breadth of perception will naturally expand &#8211; as you&#8217;ll be considering more &#8216;twists of fate,&#8217; having added personal experience and the nature of the universe as it tends towards infinity. What I mean to say, rather, is that as the Powers That Be (whatever you subscribe to) throw new and unexpected curveballs your way, your brain will naturally plan for even more possibilities and outcomes. This will expand your mind way better than the hippie in highschool promised you Lysergic Acid Diethylamide ever could have come close to.</p>
-
-
-
-<figure class="wp-block-image"><img src="https://i.guim.co.uk/img/media/4e83b3f710949ba6d82614821d6d3f93dd1786b9/0_1020_3125_1875/master/3125.jpg?width=300&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=7fd40712c4db8af6b93a0ab9580243a9" alt="Image result for lsd"/></figure>
-
-
-
-<h2>#4: You&#8217;ll Achieve More Goals</h2>
-
-
-
-<p>Well, #3 was a bit of a doublethink mindfuck. What does it translate to, practically? Why should it be encouraging, rather than something to be afraid of?</p>
-
-
-
-<p>In reality, creating new and interesting ways to approach problems will give you new and novel ways of conquering those problems. Your new disaster emergency preparedness attitude &#8211; when applied to everything &#8211; will allow you to accomplish more and more of your goals, more and more frequently. </p>
-
-
-
-<p>This has a fantastic effect on your mindset, and overall happiness. If you do end up doing the things you set out to do more often than you do now, or even in fashions you hadn&#8217;t considered before, then you&#8217;ll have more and more dopamine for your pleasure centers &#8211; which means a happier, healthier you!</p>
-
-
-
-<figure class="wp-block-image"><img src="https://images.saba.com/uploads/blog/what-should-you-do-when-you-dont-accomplish-your-goals/what-should-you-do-when-you-dont-accomplish-your-goals.jpg?s=1696x900" alt="Image result for accomplish"/></figure>
-
-
-
-<h2>Bonus: Win Friends and Influence Enemies</h2>
-
-
-
-<p>With a happier, healthier you comes a number of bonus effects &#8211; like a boost in charisma, confidence, ability. This truly is a snowball effect of positive outcomes.</p>
-
-
-
-<p>When you present yourself better &#8211; or at least, more confidently &#8211; it results in people taking you more seriously, or appreciating you (or at least, your opinions and voice) more and more. This will allow you to gain more traction at work, home, and play. </p>
-
-
-
-<p>It will allow you to harness your new-found powers of persuasion in two important ways. First, you&#8217;ll be able to befriend more people more frequently &#8211; winning their approval and allowing them to become proponents of whatever causes or values you subscribe to. Second, you&#8217;ll be able to exert your newfound influence over people who might detract from your causes or values &#8211; allowing you to gain more of a say over the people who would do you ill or harm (even just on the theoretical, intellectual level).</p>
-
-
-
-<p>Did I interest you already about the ways in which a segregated, compartmentalized mindset can be a blessing &#8211; and a curse? <a href="https://jare.cloud/2020/01/15/why-schizophrenia-is-the-most-under-represented-of-all-the-death-sentences/">Read my other article here on how schizophrenia increases your chances of an early end to your mortal turmoil</a> (read again: it&#8217;s a fatal diagnosis. No, no joke!)</p>
-
-
-
-<figure class="wp-block-image"><img src="https://images-na.ssl-images-amazon.com/images/I/51Ad%2BUal74L.jpg" alt="Image result for win friends influence people"/></figure>
-
-
-
-<h2>Bonus (Voice of Reason!) #2: This Is Actually a Lot of Work</h2>
-
-
-
-<p>When you&#8217;re tasking your mind with so much data to consume and analyze, you&#8217;re actually spending a lot more time thinking about yourself and your surroundings, experiences and misconceptions an awful lot more than you are should you not be exercising this theory. This can translate to an awful lot of work &#8211; something that might end up tasking you to a point where it can do more harm than good.</p>
-
-
-
-<p>Truly, if you become preoccupied by this exercise and it gets in the way of goals rather than helping them &#8211; or prevents you from performing at work, home, school, or anywhere &#8211; then it might not be worth the time that goes into it. As with anything, it&#8217;s good in moderation &#8211; and we should always exercise a good balance in our own minds.</p>
-
-
-
-<figure class="wp-block-image"><img src="http://m.quickmeme.com/img/e3/e3a8e54d319943a447a88e1fc37c027eba0991c2af0bf7af9ea6822622db1c13.jpg" alt="Image result for everything in moderation meme"/></figure>
 ]]></content:encoded>
 										</item>
 	</channel>
