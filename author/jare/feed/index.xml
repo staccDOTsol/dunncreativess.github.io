@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 22 Jan 2020 00:53:50 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 00:38:49 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,73 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>How to Build a Winning Tool for Sentiment Analysis of Twitter Data</title>
+		<link>/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/</link>
+				<pubDate>Thu, 23 Jan 2020 00:38:08 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=368</guid>
+				<description><![CDATA[See this post in it&#8217;s original form on jare.cloud! Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://jare.cloud/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/">See this post in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<p>Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis tool. This tool is using the Twitter API to consume 97 different Twitter handles, that provide Crypto trading signals. This method can easily be applied to traditional markets &#8211; effectively capitalizing on new and highly lucrative means for trading stocks online. We&#8217;ll be reviewing the opportunities to add a neuro evolutionary AI to our bot. You can review the <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">first iteration of this series on Twitter sentiment bots here</a> on my blog.</p>
+
+
+
+<p>When it comes to classical issues facing sentiment analysis applications, it&#8217;s important to consider how algorithms work. If we&#8217;re using a Natural Language Processing tool to rank the individual words in a phrase based on positive, neutral and negative sentiment, wouldn&#8217;t a product review like &#8216;All these wonderful new features! Although none of them work!&#8217; confuse the machine? Words like &#8216;none&#8217; are the true sentiment &#8211; being negative &#8211; but the overall feeling the programming gets from the message involve words like &#8216;wonderful&#8217; &#8216;new&#8217; &#8216;work.&#8217; This would yield a false positive in the ranking and scoring of phrases. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/1-14-1024x329.png" alt="" class="wp-image-370" srcset="/wp-content/uploads/2020/01/1-14-1024x329.png 1024w, /wp-content/uploads/2020/01/1-14-300x96.png 300w, /wp-content/uploads/2020/01/1-14-768x247.png 768w, /wp-content/uploads/2020/01/1-14.png 1110w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>What we need is a way for the computer to overcome this sarcasm in the tweets. Certain <a href="https://medium.com/dair-ai/detecting-sarcasm-with-deep-convolutional-neural-networks-4a0657f79e80">AIs are capable of establishing context</a> by ranking sentiment, emotion and personality. We&#8217;ll then apply this when we analyze Twitter data. As <a href="https://www.linkedin.com/in/jarettdunn/">Chief Liquidity Officer of Coindex Labs</a>, I have access to a new and novel way to train datasets and apply resulting genomes on configurations &#8211; using an AI that&#8217;s naturally resilient to over-fitting.</p>
+
+
+
+<p> AI has other advantages when it comes to sentiment analysis, like identifying unique opinions that may otherwise get re-hashed, re-worded, and delivered in a separate &#8216;original content&#8217; tweet. This doesn&#8217;t really apply as much in our trading bot, as we&#8217;re limiting our input tweets to those 97 Twitter accounts, but with a larger dataset this is critical. To identify the true emotion of the Internet at large, we&#8217;d need a way to filter out people (and even computers) with accounts that are used to artificially manipulate people&#8217;s sentiment bots. It&#8217;s &#8216;a feint within a feint within a feint,&#8217; as Muad&#8217;Dib would have said!</p>
+
+
+
+<p>Once we&#8217;ve created our new model and use it to weed out the bad apples, our analysis of sentiment will be far more effective. As far as sentiment scores go, this tweet that my Twitter bot picks up on is ahead of the bell curve &#8211; but, on manual inspection, it looks as though it&#8217;s a joke rather than actual sentiment one way or another.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-58.png" alt="" class="wp-image-369" srcset="/wp-content/uploads/2020/01/image-58.png 815w, /wp-content/uploads/2020/01/image-58-300x99.png 300w, /wp-content/uploads/2020/01/image-58-768x253.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></figure>
+
+
+
+<p>Entries like these should be ignored in the final product. I&#8217;ve toyed with the idea of human intervention before acting on a given signal, but the delays involved would mean that the average trader would miss 70% of the swing. Ideally, the bot would act on the &#8216;good&#8217; signals within a matter of seconds or minutes &#8211; beating the overall shift in the markets when others pick up on the sentiment, before everyone exits. This is how the goldmoney is made.</p>
+
+
+
+<p>This is what a profitable tweet looks like, and currently our win/lose ratio is far higher than 50% &#8211; combined with a creative trailing takeprofit, we can establish an edge on the market:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-59-1024x190.png" alt="" class="wp-image-372" srcset="/wp-content/uploads/2020/01/image-59-1024x190.png 1024w, /wp-content/uploads/2020/01/image-59-300x56.png 300w, /wp-content/uploads/2020/01/image-59-768x143.png 768w, /wp-content/uploads/2020/01/image-59.png 1361w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://media.discordapp.net/attachments/666371834102677565/667705444596187136/SmartSelect_20200117-122805_TabTrader.jpg?width=367&amp;height=658" alt=""/></figure>
+
+
+
+<p>The next steps are to build out the AI&#8217;s training set with loads of tweets to run analysis on. These will then serve as a benchmark with which to apply to forward-testing data with live, real incoming tweets based on our followed list. Then, our evolutionary part of the neuro evolutionary AI will create competing sets of genomes with the different input variables, and the best-performing genome will become the champion set that runs the live trader. The next generation of genomes will then (likely, by and large) perform better vs the previous generation, and a new champion might be selected. </p>
+
+
+
+<p>Are you more interested in how to automagically grow your Twitter following? Check out this article I wrote on <a href="https://jare.cloud/2020/01/21/7-days-creating-a-twitter-growth-service/">consuming the Twitter API to hack your account&#8217;s growth</a>! All in all, we have a clear plan for how our analysis of Twitter for fun &amp; profit will continue to become more sophisticated and the win/lose ratio will increase significantly. </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Maslow&#8217;s Hierarchy of Needs: Universally Applied (for 1st World Countries, anyways), Here&#8217;s a Wellness Pyramid!</title>
 		<link>/2020/01/21/maslovs-hierarchy-of-needs-universally-applied-for-1st-world-countries-anyways-heres-a-wellness-pyramid/</link>
 				<pubDate>Wed, 22 Jan 2020 00:49:25 +0000</pubDate>
@@ -1218,204 +1285,6 @@ $('#masthead').prepend('&lt;a href="&#91;https://jare.cloud/2020/01/20/publish0x
 
 
 <figure class="wp-block-image"><img src="http://m.quickmeme.com/img/e3/e3a8e54d319943a447a88e1fc37c027eba0991c2af0bf7af9ea6822622db1c13.jpg" alt="Image result for everything in moderation meme"/></figure>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>What are trade bots? Robot traders explained!</title>
-		<link>/2020/01/17/what-are-trade-bots-robot-traders-explained/</link>
-				<pubDate>Fri, 17 Jan 2020 06:42:32 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=226</guid>
-				<description><![CDATA[Read this article in it&#8217;s original form, on jare.cloud! Join our growing Telegram community for blog updates, bot chat, general]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://jare.cloud/2020/01/17/what-are-trade-bots-robot-traders-explained/">Read this article in it&#8217;s original form, on jare.cloud</a>!</p>
-
-
-
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<h2>Introduction</h2>
-
-
-
-<p>There&#8217;s nothing more enjoyable than trading for a living. You basically sit there, and exchange money for other things of value and then back again. Rinse wash  repeat, and you can certainly support yourself taking small profits every so often &#8211; or heavier ones, usually less often!</p>
-
-
-
-<p>Eventually, all traders will settle into a routine they&#8217;re comfortable with. They&#8217;ll build up an overall strategy of smaller strategies ranging in complexity and different input variables &#8211; from indicators to position sizing, there&#8217;s a lot to consider!</p>
-
-
-
-<p>What&#8217;s important is that it&#8217;s easy to make a day&#8217;s salary in one trade, with very little investment. It&#8217;s also easy &#8211; probably easier &#8211; to lose your entire nest egg in that same day. Remember, invest only what you can afford to lose!</p>
-
-
-
-<p>Let&#8217;s discuss a bit about the history of consumer-level trade bots, how trade bots can be used by near-infinite amounts of money by institutions, and how we can make money today using trading bots!</p>
-
-
-
-<h2>Historical Trade Bots: Expert Advisors</h2>
-
-
-
-<figure class="wp-block-image"><img src="https://media.fxcm.com/fxpress/fxcmcom/base/page/metatrader-4/carousel-image-1.jpg?fit=cover&amp;auto=webp" alt="Image result for mt4"/></figure>
-
-
-
-<p>Most consumer-level brokers over recent years have offered a universal integration for people to day-trade: it&#8217;s called MetaTrader, and most popular of the versions is MetaTrader 4. </p>
-
-
-
-<figure class="wp-block-image"><img src="https://forexmt4ea.com/wp-content/uploads/2014/08/fdiamond_real_latest2.png" alt="Image result for mt4 ea"/></figure>
-
-
-
-<p>It included all sorts of handy features, and could trade anything you could imagine &#8211; from stocks and deriviatives to commodities and forex, it was easy to win or lose quickly and with a laugh or a tear. </p>
-
-
-
-<p>One of the most important features you could find was the Expert Advisor. What this was was a way for users &#8211; or developer shops &#8211; to program their own strategies into the machine, allowing it to trade automagically. Even when you were away to the Caribbean or when you were sleeping &#8211; and markets were open &#8211; the expert advisor code would be watching, and reacting to the markets. </p>
-
-
-
-<p>You could use all sorts of indicators &#8211; like directional ones like RSI, price ones like VWAP, volatility ones like EWMA, and the list goes on &#8211; and your own variables to manipulate the info and act on your strategies.</p>
-
-
-
-<p>This bred a whole new world where people could show off or even sell their Expert Advisors to other people. This marketplace was soon fraught with scams and genuine people trying to help out &#8211; like any other capitalist venue, it&#8217;s as important now as then to always Do Your Own Research before committing funds to anything.</p>
-
-
-
-<p>One popular scam was to employ a version of the Martingale Betting System. What this means is that when you lose a bet (or a trade), you double (or increase) your risk so then when you win the next bet (or trade) you earn back everything you lost plus a little extra that you&#8217;ve just now won. Then, when you bet again you start with the base amount again (or less, anyhow) and repeat the process.</p>
-
-
-
-<p>This sounds genius &#8211; you&#8217;ll never lose!</p>
-
-
-
-<p>In reality, probability works against you and the longer you play this game the more likely it is that you&#8217;ll see a large enough streak of losses to wipe out all your earnings. Neigh, even nations would lose when playing Martingale strategies &#8211; in roulette or in trading. <br><br>Eventually.</p>
-
-
-
-<p>Probably.</p>
-
-
-
-<p>What this looks like is a smooth chart with minimum drawdown right up until the end event where everything is lost. What this means for an expert advisor developer is that they can have a fantastic, promising looking chart &#8211; even when tested in real-time, with live funds &#8211; and they can promote that using their marketing budget to get many new subscribers. </p>
-
-
-
-<p>End event!</p>
-
-
-
-<p>I lost my money this way once with an expert advisor&#8230; I learned to not trust backtests, not trust test accounts and only trust my own forward tests &#8211; and remember the first rule: Only invest what you can afford to lose!</p>
-
-
-
-<p>Anyways, loads of people earned great money on forex robot trades. Many people still do. You can, too, if you have a good strategy that can&#8217;t easily be duplicated and you maintain your edge over the market. Many more will make money on Expert Advisors, or other forms of trading automation.  </p>
-
-
-
-<p>Hooah!</p>
-
-
-
-<h2>Robot Traders at Scale: Wall Street</h2>
-
-
-
-<figure class="wp-block-image"><img src="https://timeentertainment.files.wordpress.com/2013/12/twows-02401r.jpg?w=720&amp;h=480&amp;crop=1" alt="Image result for wolf of wall street"/></figure>
-
-
-
-<p>Movie theatrics and fiction aside, The Wolf of Wallstreet made all his money by manipulating IPOs that he then controlled a relatively large stake in at arm&#8217;s length. </p>
-
-
-
-<p>How does one manipulate IPO prices? One trades. Using many accounts. One trades back and forth, and loses a bit on the fees and the spread but encourages other parties on the market to trade more and more and even influence the price &#8211; at just the right times in just the right increments &#8211; and voila, you&#8217;ve committed securities fraud but you&#8217;re mad rich!</p>
-
-
-
-<p>In reality, most of Wall St probably aren&#8217;t committing securities fraud. Probably.</p>
-
-
-
-<p>In reality, all of Wall St are using some form of trading automation and high-frequency trading to achieve their goals. Definitely.</p>
-
-
-
-<p>By the time any sort of opportunity exists long enough to be traded against, 10s 1000s other parties employing your same or a very like strategy have noticed that opportunity and already traded it. In traditional markets.</p>
-
-
-
-<p>How do you react? Be the first. Be the fastest. Poor tens millions dollars into developing faster infrastructure, faster code, and faster trades. Automation and delegation are the keys to success, no?</p>
-
-
-
-<p>What this boils down to is that the consumer with their expert advisors and trading terminals on $500 computers instead of $500 000 supercomputers are beaten to the punch by Wall St at every turn.</p>
-
-
-
-<p>Darn! All is lost!</p>
-
-
-
-<p>No&#8230; Read on!</p>
-
-
-
-<h2>Most Profitable Automated Trades: Cryptocurrency</h2>
-
-
-
-<p>Where Wall St haven&#8217;t yet conquered the markets &#8211; even better: new markets are introduced daily &#8211; and where market discrepencies even across exchanges offer up opportunities for arbitrage (sure-bet, guaranteed profit.. look into it! Do your own research&#8230; or <a href="https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/">read this article I wrote, it&#8217;s about a retail arbitrage business </a>&#8211; same idea! Buy low sell high!) and the execution times and volumes of big players don&#8217;t necessarily &#8216;own&#8217; the markets?</p>
-
-
-
-<p>Bitcoin and cryptocurrency.</p>
-
-
-
-<p>Everyone has a fair chance in crypto to earn a dollar &#8211; even though the big boys still spend millions on their trading bots, the little guys control much more of the market share than vs Wall St and traditional markets.</p>
-
-
-
-<p>Things like sentiment &#8211; feelings expressed on Twitter &#8211; have a massive, predictable effect on smaller-volume coins. <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">Read about my Twitter sentiment bot I&#8217;m presently creating here</a> (it&#8217;s fairly technical &#8211; but gives a good overview!)</p>
-
-
-
-<p>All in all, it&#8217;s easier to make a quick buck with less capital on crypto &#8211; reliably, predictably &#8211; than it is in traditional markets.</p>
-
-
-
-<p>You can try <a href="https://3commas.io/?c=tc174830">3commas &#8211; where you can automate your favorite strategy</a>, pull in a given strategy from places like TradingView, or subscribe to any number live automated trading strategies. For the win!</p>
-
-
-
-<h2>Conclusion</h2>
-
-
-
-<p>You, too, can earn with automation! You, too can create or hire someone to create your own trading bots &#8211; for traditional markets, or for cryptocurrencies! You, too, can feel that little joy and hit of dopamine when your trades exit in the green!</p>
-
-
-
-<p>Go for it!</p>
-
-
-
-<h2>A Plug</h2>
-
-
-
-<p>Want to learn about&nbsp;new articles&nbsp;in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a><br></p>
 ]]></content:encoded>
 										</item>
 	</channel>

@@ -12,7 +12,7 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Tue, 21 Jan 2020 17:28:20 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2020 00:38:49 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,73 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>How to Build a Winning Tool for Sentiment Analysis of Twitter Data</title>
+		<link>/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/</link>
+				<pubDate>Thu, 23 Jan 2020 00:38:08 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Coindex]]></category>
+
+		<guid isPermaLink="false">/?p=368</guid>
+				<description><![CDATA[See this post in it&#8217;s original form on jare.cloud! Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://jare.cloud/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/">See this post in it&#8217;s original form on jare.cloud</a>!</p>
+
+
+
+<p>Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis tool. This tool is using the Twitter API to consume 97 different Twitter handles, that provide Crypto trading signals. This method can easily be applied to traditional markets &#8211; effectively capitalizing on new and highly lucrative means for trading stocks online. We&#8217;ll be reviewing the opportunities to add a neuro evolutionary AI to our bot. You can review the <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">first iteration of this series on Twitter sentiment bots here</a> on my blog.</p>
+
+
+
+<p>When it comes to classical issues facing sentiment analysis applications, it&#8217;s important to consider how algorithms work. If we&#8217;re using a Natural Language Processing tool to rank the individual words in a phrase based on positive, neutral and negative sentiment, wouldn&#8217;t a product review like &#8216;All these wonderful new features! Although none of them work!&#8217; confuse the machine? Words like &#8216;none&#8217; are the true sentiment &#8211; being negative &#8211; but the overall feeling the programming gets from the message involve words like &#8216;wonderful&#8217; &#8216;new&#8217; &#8216;work.&#8217; This would yield a false positive in the ranking and scoring of phrases. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/1-14-1024x329.png" alt="" class="wp-image-370" srcset="/wp-content/uploads/2020/01/1-14-1024x329.png 1024w, /wp-content/uploads/2020/01/1-14-300x96.png 300w, /wp-content/uploads/2020/01/1-14-768x247.png 768w, /wp-content/uploads/2020/01/1-14.png 1110w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>What we need is a way for the computer to overcome this sarcasm in the tweets. Certain <a href="https://medium.com/dair-ai/detecting-sarcasm-with-deep-convolutional-neural-networks-4a0657f79e80">AIs are capable of establishing context</a> by ranking sentiment, emotion and personality. We&#8217;ll then apply this when we analyze Twitter data. As <a href="https://www.linkedin.com/in/jarettdunn/">Chief Liquidity Officer of Coindex Labs</a>, I have access to a new and novel way to train datasets and apply resulting genomes on configurations &#8211; using an AI that&#8217;s naturally resilient to over-fitting.</p>
+
+
+
+<p> AI has other advantages when it comes to sentiment analysis, like identifying unique opinions that may otherwise get re-hashed, re-worded, and delivered in a separate &#8216;original content&#8217; tweet. This doesn&#8217;t really apply as much in our trading bot, as we&#8217;re limiting our input tweets to those 97 Twitter accounts, but with a larger dataset this is critical. To identify the true emotion of the Internet at large, we&#8217;d need a way to filter out people (and even computers) with accounts that are used to artificially manipulate people&#8217;s sentiment bots. It&#8217;s &#8216;a feint within a feint within a feint,&#8217; as Muad&#8217;Dib would have said!</p>
+
+
+
+<p>Once we&#8217;ve created our new model and use it to weed out the bad apples, our analysis of sentiment will be far more effective. As far as sentiment scores go, this tweet that my Twitter bot picks up on is ahead of the bell curve &#8211; but, on manual inspection, it looks as though it&#8217;s a joke rather than actual sentiment one way or another.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-58.png" alt="" class="wp-image-369" srcset="/wp-content/uploads/2020/01/image-58.png 815w, /wp-content/uploads/2020/01/image-58-300x99.png 300w, /wp-content/uploads/2020/01/image-58-768x253.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></figure>
+
+
+
+<p>Entries like these should be ignored in the final product. I&#8217;ve toyed with the idea of human intervention before acting on a given signal, but the delays involved would mean that the average trader would miss 70% of the swing. Ideally, the bot would act on the &#8216;good&#8217; signals within a matter of seconds or minutes &#8211; beating the overall shift in the markets when others pick up on the sentiment, before everyone exits. This is how the goldmoney is made.</p>
+
+
+
+<p>This is what a profitable tweet looks like, and currently our win/lose ratio is far higher than 50% &#8211; combined with a creative trailing takeprofit, we can establish an edge on the market:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-59-1024x190.png" alt="" class="wp-image-372" srcset="/wp-content/uploads/2020/01/image-59-1024x190.png 1024w, /wp-content/uploads/2020/01/image-59-300x56.png 300w, /wp-content/uploads/2020/01/image-59-768x143.png 768w, /wp-content/uploads/2020/01/image-59.png 1361w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://media.discordapp.net/attachments/666371834102677565/667705444596187136/SmartSelect_20200117-122805_TabTrader.jpg?width=367&amp;height=658" alt=""/></figure>
+
+
+
+<p>The next steps are to build out the AI&#8217;s training set with loads of tweets to run analysis on. These will then serve as a benchmark with which to apply to forward-testing data with live, real incoming tweets based on our followed list. Then, our evolutionary part of the neuro evolutionary AI will create competing sets of genomes with the different input variables, and the best-performing genome will become the champion set that runs the live trader. The next generation of genomes will then (likely, by and large) perform better vs the previous generation, and a new champion might be selected. </p>
+
+
+
+<p>Are you more interested in how to automagically grow your Twitter following? Check out this article I wrote on <a href="https://jare.cloud/2020/01/21/7-days-creating-a-twitter-growth-service/">consuming the Twitter API to hack your account&#8217;s growth</a>! All in all, we have a clear plan for how our analysis of Twitter for fun &amp; profit will continue to become more sophisticated and the win/lose ratio will increase significantly. </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>7 Days Creating a Twitter Growth Service</title>
 		<link>/2020/01/21/7-days-creating-a-twitter-growth-service/</link>
 				<pubDate>Tue, 21 Jan 2020 17:26:08 +0000</pubDate>
@@ -1274,221 +1341,6 @@ var search = '500in1 nes'</code></pre>
 
 
 <p><a href="https://forms.gle/hWa7uzZFg9nD1khg8">https://forms.gle/hWa7uzZFg9nD1khg8</a></p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Skip the SSL w/ Serverless Telegram Bot via Now.js</title>
-		<link>/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/</link>
-				<pubDate>Sun, 24 Nov 2019 10:17:00 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=109</guid>
-				<description><![CDATA[See this article in it&#8217;s original form on dunncreativess.github.io! Join our growing Telegram community for blog updates, bot chat, general]]></description>
-								<content:encoded><![CDATA[
-<p><a href="https://dunncreativess.github.io/2019/11/24/skip-the-ssl-w-serverless-telegram-bot-via-now-js/">See this article in it&#8217;s original form on dunncreativess.github.io!</a></p>
-
-
-
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<p>Try this bot on Telegram! <a href="https://t.me/JareBotBot">https://t.me/JareBotBot</a>!</p>
-
-
-
-<p><a href="https://github.com/sponsors/dunncreativess">Sponsor my opensource efforts on GitHub</a>!</p>
-
-
-
-<p>Note: these directions come without much conversation, let the hacking begin!</p>
-
-
-
-<p>Set up a Bot with @BotFather<br> </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-34.png" alt="" class="wp-image-110" srcset="/wp-content/uploads/2019/11/image-34.png 641w, /wp-content/uploads/2019/11/image-34-289x300.png 289w" sizes="(max-width: 641px) 100vw, 641px" /></figure>
-
-
-
-<p>Create a package.json</p>
-
-
-
-<p><code>{<br>   "name": "tg-bot-now",<br>   "version": "0.2.0",<br>   "description": "A sample Telegram bot via now.js",<br>   "main": "app.js",<br>   "scripts": {<br>     "start": "node app.js"<br>   },<br>   "dependencies": {<br>     "axios": "<em>",     "body-parser": "</em>",<br>     "express": "*",<br>     "request": "^2.88.0",<br>     "requests": "^0.3.0"<br>   },<br>   "license": "MIT"<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-35.png" alt="" class="wp-image-111" srcset="/wp-content/uploads/2019/11/image-35.png 827w, /wp-content/uploads/2019/11/image-35-300x150.png 300w, /wp-content/uploads/2019/11/image-35-768x384.png 768w" sizes="(max-width: 827px) 100vw, 827px" /></figure>
-
-
-
-<p>Create a now.json</p>
-
-
-
-<p><code>{<br>   "version": 2,<br>   "builds": [<br>     { "src": "app.js", "use": "@now/node-server" }<br>   ],<br>   "routes": [<br>     { "src": "/(.*)", "dest": "app.js" }<br>   ]<br> }</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-36.png" alt="" class="wp-image-112" srcset="/wp-content/uploads/2019/11/image-36.png 606w, /wp-content/uploads/2019/11/image-36-300x139.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></figure>
-
-
-
-<p>Create an app.js</p>
-
-
-
-<pre class="wp-block-code"><code>var express = require("express");
- var app = express();
- var request = require('request');
- var bodyParser = require("body-parser");
- const axios = require("axios");
- app.use(bodyParser.json());
- app.use(
-     bodyParser.urlencoded({
-         extended: true
-     })
- );
- console.log("run"); 
-function sendMessage(url, message, reply, res) {
-axios.post(url, {
-    chat_id: message.chat.id,
-    text: reply
-}).then(response => {
-    console.log("Message posted");
-    res.end("ok");
-}).catch(error => {
-    console.log(error);
-});
-}
- app.get('/', function(req, res) {
-     res.send('hello');
- })
- var bots = ["http://patbot1.duckdns.org/update", "http://coindexbot.duckdns.org:8080/update"]
- app.post("/startbot", function(req, res) {
-     console.log("startbot");
-     const {
-         message
-     } = req.body;
-     let reply = "Welcome to Jare's bot bot";
-     if (message.text != undefined) {
-         if (message.text.toLowerCase().indexOf("statusupdate") != -1) {
-             reply = ""
-             for (var b in bots) {
- r = request.get(bots[b], function(e, r, d) {
-
-                j = JSON.parse(d)
-                start = j.btc[0][0]
-                btc = j.btc[j.btc.length - 1][1]
-                end = j.btc[j.btc.length - 1][0]
-                diff = end - start
-                var s = diff / 1000
-                var m = s / 60
-                var h = m / 60
-                var d = h / 24
-                var y = d / 365
-                var apr = (j.btc[j.btc.length - 1][1] - j.btc[0][1]) / y
-                reply += r.request.uri.href.substring(0, r.request.uri.href.length - 7) + '\n'
-                reply += "Start: " + new Date(start) + '\n'
-                reply += "Now: " + new Date(end) + "\n"
-                reply += "BTC Notional traded recent memory: " + j.qty + "\n"
-                reply += "Current position: " + j.pos + "\n"
-                reply += "BTC % Delta: " + btc.toPrecision(4) + '%\n'
-                reply += "BTC % ROI / day projected: " + (apr / 365).toPrecision(4) + '%\n'
-                reply += "BTC % APR projected: " + (apr).toPrecision(4) + '%\n\n'
-            })
-        }
-        setTimeout(function() {
-            sendMessage(telegram_url, message, reply, res);
-        }, 2000);
-    } else {
-        res.end("ok");
-    }
-}
-});
- let telegram_url = "https://api.telegram.org/bot" + process.env.key + "/sendMessage";
- app.listen(8000, () => console.log("Telegram bot is listening on port 8000!"));</code></pre>
-
-
-
-<p>Note: it&#8217;s important to send a res.end in every case, or else your bot will get hung up on old messages it couldn&#8217;t process and no res.end was sent &#8211; putting it in a forever loop of never sending a response!</p>
-
-
-
-<p>set your env key</p>
-
-
-
-<p><code>export key="whateverbotfathergaveyou"</code></p>
-
-
-
-<p>npm i</p>
-
-
-
-<p><code>npm i</code></p>
-
-
-
-<p>install now</p>
-
-
-
-<p><code>npm i -g now</code></p>
-
-
-
-<p>run now</p>
-
-
-
-<p><code>now</code></p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-37.png" alt="" class="wp-image-113" srcset="/wp-content/uploads/2019/11/image-37.png 902w, /wp-content/uploads/2019/11/image-37-300x58.png 300w, /wp-content/uploads/2019/11/image-37-768x148.png 768w" sizes="(max-width: 902px) 100vw, 902px" /></figure>
-
-
-
-<p>Register your POST callback wtih Telegram&#8217;s grandmasters</p>
-
-
-
-<p><code>curl -F "url=https://URL_FROM_NOW/startbot" https://api.telegram.org/botYOUR_TELEGRAM_API_TOKEN/setWebhook</code></p>
-
-
-
-<p>Congrats!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/11/image-38.png" alt="" class="wp-image-114" srcset="/wp-content/uploads/2019/11/image-38.png 655w, /wp-content/uploads/2019/11/image-38-300x298.png 300w, /wp-content/uploads/2019/11/image-38-150x150.png 150w" sizes="(max-width: 655px) 100vw, 655px" /></figure>
-
-
-
-<p><a href="https://t.me/ManyVolumeSignalMonster">Join Us on Telegram</a></p>
-
-
-
-<p><em>!! Click here to subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a></p>
-
-
-
-<p><em>Be notified about new articles? Welcome to the Jarett Dunn email subscriber list! Each new signup will receive a link to download the Coindex Labs non-NDA teaser, which includes information about the value proposition for my organization – where we’re setting our sights first on a money-printing machine, then returning later as conquering heroes in order to then defeat the world’s greater humanitarian issues.</em></p>
-
-
-
-<p><em>Remember to CLICK, subscribe:</em><a href="http://eepurl.com/gIykNL"><em>&nbsp;http://eepurl.com/gIykNL</em></a><em>&nbsp;!!</em></p>
-
-
-
-<p>(<strong>Disclaimer</strong>:&nbsp;<em>The Author is the Chief Liquidity Officer at Coindex</em>)</p>
 ]]></content:encoded>
 										</item>
 	</channel>
