@@ -12,7 +12,7 @@
 	<atom:link href="/category/bots/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Thu, 23 Jan 2020 00:38:49 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 Jan 2020 07:42:13 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,105 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Now ANYONE can Make Money Online with My FREE Retail Arbitrage Tool!</title>
+		<link>/2020/01/25/now-anyone-can-make-money-online-with-my-free-retail-arbitrage-tool/</link>
+				<pubDate>Sat, 25 Jan 2020 07:40:59 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=455</guid>
+				<description><![CDATA[For anyone who doesn&#8217;t know, #Retail #Arbitrage is #buying #low and #selling #high from different retail outlets or #platforms. I]]></description>
+								<content:encoded><![CDATA[
+<p>For anyone who doesn&#8217;t know, #Retail #Arbitrage is #buying #low and #selling #high from different retail outlets or #platforms. I created an #aggregator that gets items via search and compares them for similar titles and shows the % and $ #gains, from #aliexpress to #ebay, for the top 300 results on each site. </p>
+
+
+
+<p>This tool is #free! </p>
+
+
+
+<p>Tool: <a rel="noreferrer noopener" href="http://arb.jare.cloud/" target="_blank">http://arb.jare.cloud/</a></p>
+
+
+
+<p>Backstory: <a rel="noreferrer noopener" href="https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/" target="_blank">https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/</a> </p>
+
+
+
+<p>Youtube of it in development: <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=f7Pj7q3hXsU" target="_blank">https://www.youtube.com/watch?v=f7Pj7q3hXsU</a> </p>
+
+
+
+<p>Opensource Github repository: <a href="https://github.com/DunnCreativeSS/arb.jare.cloud">https://github.com/DunnCreativeSS/arb.jare.cloud</a></p>
+
+
+
+<h1>arb.jare.cloud</h1>
+
+
+
+<p><a href="http://arb.jare.cloud/">http://arb.jare.cloud/</a></p>
+
+
+
+<h2><a href="https://github.com/DunnCreativeSS/arb.jare.cloud#changelog"></a>Changelog:</h2>
+
+
+
+<p>0.01.01: initial commit. Live. Works with Aliexpress and Ebay. Earns thru affiliate $.</p>
+
+
+
+<p>0.01.02: Changed the logic so that ebay and ali objects are unique to sessions. This increases performance if there is more than one concurrent user from an unusable platform.</p>
+
+
+
+<p>0.01.03: Added Git link to result page. Added Google Analytics tracking.</p>
+
+
+
+<h2><a href="https://github.com/DunnCreativeSS/arb.jare.cloud#todo"></a>Todo:</h2>
+
+
+
+<ol><li>Get Amazon affiliate sales.</li><li>Implement Amazon affiliate API for third aggregate source.</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-64-1024x431.png" alt="" class="wp-image-457" srcset="/wp-content/uploads/2020/01/image-64-1024x431.png 1024w, /wp-content/uploads/2020/01/image-64-300x126.png 300w, /wp-content/uploads/2020/01/image-64-768x324.png 768w, /wp-content/uploads/2020/01/image-64-1536x647.png 1536w, /wp-content/uploads/2020/01/image-64.png 1901w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>The Pitch</h2>
+
+
+
+<p>You can secure surebet, arbitrage income by searching whatever floats your boat and seeing how similar the titles match for these goods on Ebay and Aliexpress, For free! See those links there? Those are affiliate links &#8211; meaning that if you do find a way to earn big money buying low and selling high from one marketplace to another, I earn a percent of those sales. Want to sell hundreds of these items? Buy hundreds, then! Want to wait until your sale has gone through on Ebay, then buy the item with the proceeds and ship it directly to the customer? Chances are you&#8217;ll be doing it through my same referral link.. and we all win!</p>
+
+
+
+<h2>Next Steps</h2>
+
+
+
+<p>I want to include Amazon Affiliate API results to compare against these two. There&#8217;s a chance for more ways for people to arbitrage &#8211; buy on ebay, sell on Amazon? Alas, Amazon&#8217;s Affiliate API is only open for business after you sell three items on their affiliate platform. Boo!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-65-1024x632.png" alt="" class="wp-image-458" srcset="/wp-content/uploads/2020/01/image-65-1024x632.png 1024w, /wp-content/uploads/2020/01/image-65-300x185.png 300w, /wp-content/uploads/2020/01/image-65-768x474.png 768w, /wp-content/uploads/2020/01/image-65.png 1334w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>How Does It Compare?</h2>
+
+
+
+<p>Other retail arbitrage tools will charge you hundreds a month for membership. They also have fancy tools to help you bulk import selections, but my revenue model comes from those little affiliate links &#8211; so the bulk import tools aren&#8217;t necessarily conducive. Some people might prefer paying a subscription to get access to these premium tools &#8211; others would prefer cut costs and use a free tool to find their sure-fire winning merchandise!</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>How to Build a Winning Tool for Sentiment Analysis of Twitter Data</title>
 		<link>/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/</link>
 				<pubDate>Thu, 23 Jan 2020 00:38:08 +0000</pubDate>
@@ -1216,131 +1315,6 @@ var search = '500in1 nes'</code></pre>
 
 
 <p>Form to fill: https://forms.gle/bDQmuUhQQ5FJPvgN6</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Our Next-Gen Crypto Trading Bot Neomenia Goes Live!</title>
-		<link>/2019/12/05/our-next-gen-crypto-trading-bot-neomenia-goes-live/</link>
-				<pubDate>Thu, 05 Dec 2019 19:20:11 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Bots]]></category>
-
-		<guid isPermaLink="false">/?p=128</guid>
-				<description><![CDATA[Intro http://patbot1.duckdns.org/ Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC) Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC) BTC Notional]]></description>
-								<content:encoded><![CDATA[
-<h2>Intro</h2>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-473x1024.png" alt="" class="wp-image-129" srcset="/wp-content/uploads/2019/12/image-473x1024.png 473w, /wp-content/uploads/2019/12/image-139x300.png 139w, /wp-content/uploads/2019/12/image.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
-
-
-
-<p>http://patbot1.duckdns.org/<br> Start: Sat Nov 30 2019 14:21:06 GMT+0000 (UTC)<br> Now: Sun Dec 01 2019 05:17:39 GMT+0000 (UTC)<br> BTC Notional traded recent memory: 38.44400000000188<br> Current position: -1.952<br> BTC % Delta: 31.89%<br> BTC % ROI / day projected: 51.22%<br> BTC % APR projected: 1.869e+4%</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-1-473x1024.png" alt="" class="wp-image-130" srcset="/wp-content/uploads/2019/12/image-1-473x1024.png 473w, /wp-content/uploads/2019/12/image-1-139x300.png 139w, /wp-content/uploads/2019/12/image-1.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
-
-
-
-<p> Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<h2>Steps to Reproduce</h2>
-
-
-
-<p>Step 1. Join our Telegram https://t.me/joinchat/G3tz4RdZGmNdxs9vXdum7A<br> Step 2. Create a net-new Binance account, and enable futures, and create an api key after enabling futures http://www.binance.com/en/register?ref=27039658, You&#8217;re allowed to have as many Binance accounts as you like, while only verifying one &#8211; the max daily withdrawal on an unverified account is still huge<br> Step 3: Sent the subscription fee to our wallet 0x55FC78F760fBeb15A8a14ce2B8e9DCfA4CE0f966<br> Step 4: Enter your transaction ID on this form.<br> Step 5: And the last 6 characters of your API key.<br> Step 6: The team will manually add you to the bot&#8217;s license, and send you the executable file and other directions.<br> Step 7: Run the appropriate exports or setx&#8217;s from within env.sh. DO NOT simply run env.sh, it won&#8217;t work, copy and paste the commands into a terminal/cmd window. On windows, open a net new cmd when finished.<br> Step 8: Run the executable for app for BTCUSDT, eth for ETHUSDT, and balance for a balance output graph like the ones you&#8217;re used to seeing.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-2-473x1024.png" alt="" class="wp-image-131" srcset="/wp-content/uploads/2019/12/image-2-473x1024.png 473w, /wp-content/uploads/2019/12/image-2-139x300.png 139w, /wp-content/uploads/2019/12/image-2.png 591w" sizes="(max-width: 473px) 100vw, 473px" /></figure>
-
-
-
-<h2>Neomenia FAQs</h2>
-
-
-
-<h1>FAQ 1: Settings</h1>
-
-
-
-<p>variables with ‘eth’ prepended are the same, for the ethusdt bot<br></p>
-
-
-
-<p>delaybetweenorder, higher for more delay before a new limit order</p>
-
-
-
-<p>takeProfit, in % what gains to lock in before market out</p>
-
-
-
-<p>stopLoss, in % what losses to accept before market out</p>
-
-
-
-<p>tgUser, your Telegram username for use with the Telegram bot</p>
-
-
-
-<p>key, APIkey</p>
-
-
-
-<p>secret, APIsecret<br></p>
-
-
-
-<p>&#8212;-<br></p>
-
-
-
-<p>Note that the key and secret are never communicated anywhere off the local machine, except in signed requests to the exchange (which hide your details). Wireshark sniffing can confirm this.<br></p>
-
-
-
-<p>&#8212;-<br></p>
-
-
-
-<p>site, the http or https address where your server is located. You can google curl ipify to find your address if you’re in a headless server, or google ‘what is my ip’ if you have an interface. You can set up DNS forwarding on duckdns.org or register your own spiffy shiny new domain if you like.</p>
-
-
-
-<p>poirt, which port to run the balance server on. Use 80 for http 443 for https (which isn’t enabled anyhow) or a higher number like 8080 if you’re having permissions issues.</p>
-
-
-
-<p>maxFreePerc, what maximum % of the wallet will be used before stopping ordering in the same direction. Note this doesn’t count existing limit orders, which could max our margin if your delay is too small.</p>
-
-
-
-<p>orderSizeMult, for a $50 USDT account use 5, for $250 use 1, for $500 use 0.5. Etc.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2019/12/image-3-1024x549.png" alt="" class="wp-image-132" srcset="/wp-content/uploads/2019/12/image-3-1024x549.png 1024w, /wp-content/uploads/2019/12/image-3-300x161.png 300w, /wp-content/uploads/2019/12/image-3-768x412.png 768w, /wp-content/uploads/2019/12/image-3.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<h2>FAQ 2: Legal Mumbo Jumbo</h2>
-
-
-
-<p>In no way are our team or any affiliated member responsible for any gains or losses you might experience. Previous action is no indication implied or assured of future performance. Risk only what you can afford to lose. This bot does not constitute financial advice by any means, and is meant to be used in an educational, communal, and fun format.</p>
-
-
-
-<h2>Sign Up Now!</h2>
-
-
-
-<p><a href="https://forms.gle/hWa7uzZFg9nD1khg8">https://forms.gle/hWa7uzZFg9nD1khg8</a></p>
 ]]></content:encoded>
 										</item>
 	</channel>

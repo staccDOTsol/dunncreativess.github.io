@@ -12,7 +12,7 @@
 	<atom:link href="/category/insanely-marketable-business-ideas/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Sun, 19 Jan 2020 03:53:18 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 25 Jan 2020 07:42:13 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,105 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Now ANYONE can Make Money Online with My FREE Retail Arbitrage Tool!</title>
+		<link>/2020/01/25/now-anyone-can-make-money-online-with-my-free-retail-arbitrage-tool/</link>
+				<pubDate>Sat, 25 Jan 2020 07:40:59 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Bots]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=455</guid>
+				<description><![CDATA[For anyone who doesn&#8217;t know, #Retail #Arbitrage is #buying #low and #selling #high from different retail outlets or #platforms. I]]></description>
+								<content:encoded><![CDATA[
+<p>For anyone who doesn&#8217;t know, #Retail #Arbitrage is #buying #low and #selling #high from different retail outlets or #platforms. I created an #aggregator that gets items via search and compares them for similar titles and shows the % and $ #gains, from #aliexpress to #ebay, for the top 300 results on each site. </p>
+
+
+
+<p>This tool is #free! </p>
+
+
+
+<p>Tool: <a rel="noreferrer noopener" href="http://arb.jare.cloud/" target="_blank">http://arb.jare.cloud/</a></p>
+
+
+
+<p>Backstory: <a rel="noreferrer noopener" href="https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/" target="_blank">https://jare.cloud/2020/01/16/amazon-ebay-aliexpress-retail-arbitrage-as-a-service/</a> </p>
+
+
+
+<p>Youtube of it in development: <a rel="noreferrer noopener" href="https://www.youtube.com/watch?v=f7Pj7q3hXsU" target="_blank">https://www.youtube.com/watch?v=f7Pj7q3hXsU</a> </p>
+
+
+
+<p>Opensource Github repository: <a href="https://github.com/DunnCreativeSS/arb.jare.cloud">https://github.com/DunnCreativeSS/arb.jare.cloud</a></p>
+
+
+
+<h1>arb.jare.cloud</h1>
+
+
+
+<p><a href="http://arb.jare.cloud/">http://arb.jare.cloud/</a></p>
+
+
+
+<h2><a href="https://github.com/DunnCreativeSS/arb.jare.cloud#changelog"></a>Changelog:</h2>
+
+
+
+<p>0.01.01: initial commit. Live. Works with Aliexpress and Ebay. Earns thru affiliate $.</p>
+
+
+
+<p>0.01.02: Changed the logic so that ebay and ali objects are unique to sessions. This increases performance if there is more than one concurrent user from an unusable platform.</p>
+
+
+
+<p>0.01.03: Added Git link to result page. Added Google Analytics tracking.</p>
+
+
+
+<h2><a href="https://github.com/DunnCreativeSS/arb.jare.cloud#todo"></a>Todo:</h2>
+
+
+
+<ol><li>Get Amazon affiliate sales.</li><li>Implement Amazon affiliate API for third aggregate source.</li></ol>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-64-1024x431.png" alt="" class="wp-image-457" srcset="/wp-content/uploads/2020/01/image-64-1024x431.png 1024w, /wp-content/uploads/2020/01/image-64-300x126.png 300w, /wp-content/uploads/2020/01/image-64-768x324.png 768w, /wp-content/uploads/2020/01/image-64-1536x647.png 1536w, /wp-content/uploads/2020/01/image-64.png 1901w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>The Pitch</h2>
+
+
+
+<p>You can secure surebet, arbitrage income by searching whatever floats your boat and seeing how similar the titles match for these goods on Ebay and Aliexpress, For free! See those links there? Those are affiliate links &#8211; meaning that if you do find a way to earn big money buying low and selling high from one marketplace to another, I earn a percent of those sales. Want to sell hundreds of these items? Buy hundreds, then! Want to wait until your sale has gone through on Ebay, then buy the item with the proceeds and ship it directly to the customer? Chances are you&#8217;ll be doing it through my same referral link.. and we all win!</p>
+
+
+
+<h2>Next Steps</h2>
+
+
+
+<p>I want to include Amazon Affiliate API results to compare against these two. There&#8217;s a chance for more ways for people to arbitrage &#8211; buy on ebay, sell on Amazon? Alas, Amazon&#8217;s Affiliate API is only open for business after you sell three items on their affiliate platform. Boo!</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-65-1024x632.png" alt="" class="wp-image-458" srcset="/wp-content/uploads/2020/01/image-65-1024x632.png 1024w, /wp-content/uploads/2020/01/image-65-300x185.png 300w, /wp-content/uploads/2020/01/image-65-768x474.png 768w, /wp-content/uploads/2020/01/image-65.png 1334w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2>How Does It Compare?</h2>
+
+
+
+<p>Other retail arbitrage tools will charge you hundreds a month for membership. They also have fancy tools to help you bulk import selections, but my revenue model comes from those little affiliate links &#8211; so the bulk import tools aren&#8217;t necessarily conducive. Some people might prefer paying a subscription to get access to these premium tools &#8211; others would prefer cut costs and use a free tool to find their sure-fire winning merchandise!</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>The Nash Equilibrium, Fomo3d, and Dangerous Game Theory</title>
 		<link>/2020/01/17/the-nash-equilibrium-fomo3d-and-dangerous-game-theory/</link>
 				<pubDate>Sat, 18 Jan 2020 01:02:16 +0000</pubDate>
