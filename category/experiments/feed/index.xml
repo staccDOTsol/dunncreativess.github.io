@@ -12,7 +12,7 @@
 	<atom:link href="/category/experiments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Fri, 31 Jan 2020 14:06:54 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 Jan 2020 19:43:59 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,21 +20,6 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
-		<title>Protected: Growth Hacking YouTube For Views Funneling Into Clicks and Referrals</title>
-		<link>/2020/01/31/growth-hacking-youtube-for-views-funneling-into-clicks-and-referrals/</link>
-				<pubDate>Fri, 31 Jan 2020 14:06:20 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Experiments]]></category>
-
-		<guid isPermaLink="false">/?p=478</guid>
-				<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
-								<content:encoded><![CDATA[<form action="/wp-login.php?action=postpass" class="post-password-form" method="post">
-<p>This content is password protected. To view it please enter your password below:</p>
-<p><label for="pwbox-478">Password: <input name="post_password" id="pwbox-478" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
-</form>
-]]></content:encoded>
-										</item>
-		<item>
 		<title>A Social Experiment In Influential Linguistics: #KoalaNation</title>
 		<link>/2020/01/28/a-social-experiment-in-influential-linguistics-koalanation/</link>
 				<pubDate>Tue, 28 Jan 2020 19:43:37 +0000</pubDate>
