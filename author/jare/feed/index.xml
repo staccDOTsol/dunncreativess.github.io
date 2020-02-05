@@ -12,7 +12,7 @@
 	<atom:link href="/author/jare/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Sun, 02 Feb 2020 21:07:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Feb 2020 06:30:47 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,220 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Growth Hacking YouTube For Views Funneling Into Clicks and Referrals</title>
+		<link>/2020/02/05/growth-hacking-youtube-for-views-funneling-into-clicks-and-referrals-2/</link>
+				<pubDate>Wed, 05 Feb 2020 06:30:46 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Brave]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=501</guid>
+				<description><![CDATA[Note that this is a case study that paints a picture and then shows specific results. To emulate these results,]]></description>
+								<content:encoded><![CDATA[
+<p>Note that this is a case study that paints a picture and then shows specific results. To emulate these results, you&#8217;d need to find your own niche and add new value to some other community &#8211; this is a very specific instance of a community I&#8217;m very familiar with, and already invested in.</p>
+
+
+
+<p>&gt;&gt; Pique your interest about Brave, and $BAT?<a href="https://brave.com/laz390"> Download the browser here</a> &#8211; and start earning on your own terms, with a more private and secure browsing experience! &lt;&lt;</p>
+
+
+
+<p>YouTube is an playing field for alternative monetization techniques. Awhile ago, I started diving into the world of<a href="https://jare.cloud/category/brave/"> being a publisher on the Brave browser&#8217;s $BAT Ecosystem</a>. Being an avid fan of Karl Pilkington&#8217;s radio shows, podcasts, and TV shows on YouTube, I wrote a brief note to some of his more prominent publishers there on YouTube:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/P5tZsobiEyy919ptfRPAq-2dkWifzCdzX6YAmRyLaibIKlyVxBk_mgCDRyvBmxTqQWUJhvVajjp9BAdF6dkZSDwitUh7HS1YL5zqprQuoZnOfniEVZhfEDwqeorwi-fOJ2ygMiSu" alt=""/></figure>
+
+
+
+<p>I immediately thought to myself that I might capitalize on that:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/EEcOaS1V8kCGBwQcm7DBRmqAFitW__z2bOiCDgxGcLkXRvevF3eBBtTcNlw1y2UsLaQ9o0Nw-KUp9B-1b6l5iiU_NlKNGplA3V9YN9CZhyxxwCiAooGH48tNjB3yfSkHywm5Qbr7" alt=""/></figure>
+
+
+
+<p>And so &#8211; an idea was born. I&#8217;d take originally reposted content and repost that content back onto YouTube, after removing watermarks and creating a net-new piece of content to add value to the community of The Ricky Gervais Show followers, while planting a seed for my referral link for Brave. This would allow people to download the Brave browser and increment my Brave referrals (paying up to $7.50 if some geographies keep the browser installed 30 days), and people who kept viewing my new content with their new browser would also trickle down some of their new earnings they get by viewing ads in Brave back to me as I own part of their &#8216;attention.&#8217; It is, after all, the Basic Attention Token.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/NIFnXBh7uWyTcyYdheEO_6olMUAcm-0-C9oqEiB5_AR4l08XFP4PV9UkawLY6Ab-rvWPrLGsbRoW5UjFzXEdHukuCj_-uO1eoym7P28wxABiNmv7DQjlakZtDlD3Zfx06_Pcyu30" alt=""/></figure>
+
+
+
+<p>Look &#8211; since the inception of this project, 35% of my attention has been focused on myself. Look, too, I renamed my YouTube channel from a boring and non-branded &#8216;Jarett Dunn&#8217; to a TRGS quote &#8211; as most other publishers in this space have done with channel names like PilkBoys or Bald Manc.</p>
+
+
+
+<p>Anyhow, I downloaded a YouTube video bulk download tool for Windows from GitHub. It allowed me to enter in a playlist and it would scrape the video file from each constituent member of that playlist. Afterwards, I used my extensive knowledge of the subject matter to retitle the episodes creatively so that my content sources might not be aware of the plot being executed. In this particular case, this isn&#8217;t terrible nefarious as they&#8217;d all ripped the content from BBC and old English radio stations &#8211; they&#8217;re all perpetrators of the same means and ends!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/bkAp_oWTR1VDjpRclq8mZyWTw7cSUtOzLvnu4PkXYIkvnFjZEoeOCRpIJBStUW34YFTXwQZIgB1j0HBiFJVucs038JtjjQvXjD52gd4nB6xEhaOI3IjWpqPnagJNZuQduMciFx1a" alt=""/></figure>
+
+
+
+<p>Opensource!</p>
+
+
+
+<p>I then replaced the video track of the file with a static .png image I created in MS Paint.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/7VzH5Yn5L3YbuO4AZh4xU1I55unr-PWkftrkHExLXnqhCkbeCpeLa-1OWesdppd84JV2HCwMpv6lBkcCyfQv7Kh3seNob7gJyT2T5kU1Cye8IdGt2LDIikJ6hh_AWNYCFBq_7ilD" alt=""/></figure>
+
+
+
+<p>I Googled until I combined a few different Windows batch (.bat) scripts to automate this process to loop through all of the files in the directory, and run the video manipulation program ffmpeg to edit the files. This outputs it in a codec and filetype that YouTube likes and contains the tags and metadata where it likes in order to process the files as quickly as little YouTube encoders can!</p>
+
+
+
+<p>Here&#8217;s what that code looks like:</p>
+
+
+
+<p>@ECHO OFF</p>
+
+
+
+<p>setlocal enabledelayedexpansion</p>
+
+
+
+<p>for %%f in (.\*.mp4) do (</p>
+
+
+
+<p>&nbsp;&nbsp;set /p val=&lt;%%f<br></p>
+
+
+
+<p>c:\users\jarettrsdunn\Downloads\yt\ffmpeg.exe -loop 1 -framerate 2 -i c:\users\jarettrsdunn\Pictures\lands.png -i &#8220;%%f&#8221; -c:v libx264 -preset ultrafast -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p &#8220;%%~nf For YOU!.mkv&#8221;</p>
+
+
+
+<p>&nbsp;&nbsp;echo &#8220;fullname: %%f&#8221;</p>
+
+
+
+<p>)</p>
+
+
+
+<p>At one point, I found it prudent to cut 4m30s from the beginning of some of the video files &#8211; listening to the same intro countless thousands times myself, I thought I&#8217;d save my viewers from the same issue.</p>
+
+
+
+<p>Here&#8217;s what that other piece of code looks like:</p>
+
+
+
+<p>@ECHO OFF</p>
+
+
+
+<p>setlocal enabledelayedexpansion</p>
+
+
+
+<p>for %%f in (.\*.mkv) do (</p>
+
+
+
+<p>&nbsp;&nbsp;set /p val=&lt;%%f<br></p>
+
+
+
+<p>c:\users\jarettrsdunn\Downloads\yt\ffmpeg.exe -ss 270 -i &#8220;%%f&#8221; -c copy -y &#8220;%%~nf-!.mkv&#8221;</p>
+
+
+
+<p>&nbsp;&nbsp;echo &#8220;fullname: %%f&#8221;</p>
+
+
+
+<p>)</p>
+
+
+
+<p>Next, we use YouTube&#8217;s horrible uploading tool (albeit, when we can we can do 15 files at once instead of 1 by using the classic tool instead of the brand-spanking-new one), label the videos and give them a description. Here&#8217;s where the magic comes in, here&#8217;s a boilerplate description:</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Read all my articles in the Head Like a {Messin’} Orange category all about Karl, Ricky and Steve here on my blog:<a href="https://jare.cloud/category/head-like-a-fuckin-orange/"> https://jare.cloud/category/head-like&#8230;</a></p>
+
+
+
+<p>!!<a href="https://brave.com/laz390"> https://brave.com/laz390</a> !!</p>
+
+
+
+<p>Support this channel and many countless hundreds thousands others for FREE while also earning yourself for browsing with a safer, more privacy-protecting experience using Brave &#8211; paying YOU for viewing ads while also removing annoying, long and boring third-party ads across the web!</p>
+
+
+
+<p>!! Download Brave now and earn $BAT!<a href="https://brave.com/laz390"> https://brave.com/laz390</a> !!</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Now, for the juicy bits &#8211; 24 hours and 2 sets of ~100 uploads later, let&#8217;s look at some stats!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/7kkJ49M9asjLSIXyvod9VuJJ3k_pfsNfAYkBplbLXD9ERpnptNWajw6D5aY2WgbSUziF_nZu98j54SHGQYwVMYBenwpE7Xqj-ZSUuPPzf8miaBdPVXqvz1LshEaeh2gM-kR_-sX0" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/geL3JGnC-OK0c-0FLC4rDp5FD3oy7zpzdTavB5sECpinhqwIt-LhMbbIfNski_ekE8f9Cs6ZCcenWcLCOgmF4o6SUFYd7raUnO2Jr5YMPAlMVdws_VDkENL0KpKHIqz8iL3IGy1p" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/nOpBpq5Mh5asApxFAj8g4-aI21iQCgZWrRgq5_MUOdGC5I9ne7yzMK-ZR_yA1Mbeu8UjW2JHH-u1qrGoKXn0FzF8160QapDrJES_RM042roy0Ji1CNa5mlkPnhJpDvX23g41_8H1" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/fA_1OVJdKk2mZSzGY1A8AY27TWokkG6ZL5kIkxLbZY4gQw6dkq2XdDRNwdzEhNd4lU0yVGX31m0lhLj7FMusDo1yuHxVKtnYLN1nBo6RyVbl1XeTkCr8rVSAZRLVjutMtCRdRaZ-" alt=""/></figure>
+
+
+
+<p>I think the above charts speak for themselves!</p>
+
+
+
+<p>Conversationally (and no, I haven&#8217;t been uploading smut &#8211; I promise!) the three most viewed new videos in this experiment mention &#8216;SEX,&#8217; &#8216;boobs&#8217; and &#8216;masturbation&#8217; &#8211; a sad commentary on the state of YouTube searches.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/ow8zdpH6iVieIw7JXEZU7ILcpKc814GIP14DDWCaUFptNbnGj9zNj0E7bZbi5cWG_tgMKime8U6CQBnP8-2ABHg_DTylMkMyDLTK6CccvBzuTFFAYbRpToccMephedw78Noifx9q" alt=""/></figure>
+
+
+
+<p>All in all, I&#8217;ve managed to create myself a new (evergreen, residual&#8230;) revenue stream &#8211; it might not seem like all that many views, but as I&#8217;m fighting for every email signup and cent of ad revenue on the blog, it&#8217;s a good start in the right direction. What it really means more than anything is that anyone can achieve some very strange or unprecedented growth hacks by applying some ingenuity and a touch of automation to save on the sweat equity. This has bigger implications for people with loftier goals or &#8211; dare I suggest &#8211; a marketing budget.</p>
+
+
+
+<p>ANNNNDDDD&#8230; Three days after the first YouTube post, we have our first successful Brave referral download! While it didn&#8217;t yet convert to an install, it is in the highest yielding tier for geos (USA).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/02/image-4.png" alt="" class="wp-image-502" srcset="/wp-content/uploads/2020/02/image-4.png 935w, /wp-content/uploads/2020/02/image-4-300x194.png 300w, /wp-content/uploads/2020/02/image-4-768x496.png 768w, /wp-content/uploads/2020/02/image-4-850x550.png 850w" sizes="(max-width: 935px) 100vw, 935px" /><figcaption><br></figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/02/image-5.png" alt="" class="wp-image-503" srcset="/wp-content/uploads/2020/02/image-5.png 470w, /wp-content/uploads/2020/02/image-5-300x213.png 300w" sizes="(max-width: 470px) 100vw, 470px" /></figure>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>No I Will Not Attend Your Event: As Prospect, Prospector or Media. Here&#8217;s A Piece Detailing Symptomatically Why I Will Not</title>
 		<link>/2020/02/02/no-i-will-not-attend-your-event-as-prospect-prospector-or-media-heres-a-piece-detailing-symptomatically-why-i-will-not/</link>
 				<pubDate>Sun, 02 Feb 2020 21:07:28 +0000</pubDate>
@@ -687,120 +901,6 @@
 
 
 <p>Are you more interested in how to automagically grow your Twitter following? Check out this article I wrote on <a href="https://jare.cloud/2020/01/21/7-days-creating-a-twitter-growth-service/">consuming the Twitter API to hack your account&#8217;s growth</a>! All in all, we have a clear plan for how our analysis of Twitter for fun &amp; profit will continue to become more sophisticated and the win/lose ratio will increase significantly. </p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>Maslow&#8217;s Hierarchy of Needs: Universally Applied (for 1st World Countries, anyways), Here&#8217;s a Wellness Pyramid!</title>
-		<link>/2020/01/21/maslovs-hierarchy-of-needs-universally-applied-for-1st-world-countries-anyways-heres-a-wellness-pyramid/</link>
-				<pubDate>Wed, 22 Jan 2020 00:49:25 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Mental Health]]></category>
-
-		<guid isPermaLink="false">/?p=304</guid>
-				<description><![CDATA[View this post in it&#8217;s original form, on jare.cloud! In a given Maslow&#8217;s Hierarchy of Needs you&#8217;ll find a tiered]]></description>
-								<content:encoded><![CDATA[
-<p><a href="http://jare.cloud/2020/01/21/maslovs-hierarchy-of-needs-universally-applied-for-1st-world-countries-anyways-heres-a-wellness-pyramid/">View this post in it&#8217;s original form, on jare.cloud</a>!</p>
-
-
-
-<p>In a given Maslow&#8217;s Hierarchy of Needs you&#8217;ll find a tiered pyramid that starts with you being fed, and climbs  thru safety then belongingness and love, esteem, and finally &#8211; at the highest tier &#8211; self-actualization.</p>
-
-
-
-<p>A brief search on your favorite search engine will find images like so:</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/maslow-5.jpg" alt="" class="wp-image-358" srcset="/wp-content/uploads/2020/01/maslow-5.jpg 900w, /wp-content/uploads/2020/01/maslow-5-300x223.jpg 300w, /wp-content/uploads/2020/01/maslow-5-768x572.jpg 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
-
-
-
-<p>What I&#8217;d like to suggest is a Maslow Hierarchy for people in first-world countries: where we take safety for granted. What do we need in our Wellness Pyramid in order to be, well, well?</p>
-
-
-
-<p>On our first tier, we&#8217;ll find rest and liquids. Any doctor worth his weight in gold (or bitcoin) will tell you that the tricks to becoming well are rest and liquids. Without sleep, we&#8217;d eventually turn insane and then die &#8211; and without water, we&#8217;d die within days. Days! Interested in bitcoin? <a href="https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/">Read here how you can turn your daily browsing into potentially hundreds of dollars a month</a> &#8211; as advertisers pay YOU for viewing your ads, all the while blocking dangerous 3rd-party ads (like YouTube ads).</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-54.png" alt="" class="wp-image-359" srcset="/wp-content/uploads/2020/01/image-54.png 981w, /wp-content/uploads/2020/01/image-54-300x210.png 300w, /wp-content/uploads/2020/01/image-54-768x537.png 768w" sizes="(max-width: 981px) 100vw, 981px" /></figure>
-
-
-
-<p>Stay hydrated!</p>
-
-
-
-<p>On our next tier we&#8217;ll find the other stuff that medical professionals recommend for anyone, regardless of their physical or mental ailment (barring extremes, like catatonic schizophrenia): Exercise, and healthy diet!</p>
-
-
-
-<p>We can control a whole bunch of our brains worst and best tendencies if we practice these two essential parts of our lifestyles. <a href="https://thesleepdoctor.com/2017/05/22/benefits-exercise-sleep/">With proper and regular exercise we not only sleep better</a>, but we feel better and we live longer. Fact! With healthy diet we can make sure that we keep our body&#8217;s needs in check and also feed our brains the vitamins, minerals and all that jazz that it sorely needs in order to think better, <a href="https://www.theemotionmachine.com/how-to-use-diet-to-impact-positive-thinking/">think more positively</a> and think more often.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-55.png" alt="" class="wp-image-360" srcset="/wp-content/uploads/2020/01/image-55.png 999w, /wp-content/uploads/2020/01/image-55-300x196.png 300w, /wp-content/uploads/2020/01/image-55-768x503.png 768w, /wp-content/uploads/2020/01/image-55-120x80.png 120w" sizes="(max-width: 999px) 100vw, 999px" /></figure>
-
-
-
-<p>Now, to be well we need to be stress-free. The #1 way to be stress-free is to distract yourself: like <a href="https://www.verywellmind.com/the-importance-of-hobbies-for-stress-relief-3144574">to spend time with hobbies reduces stress</a>, jobs, a gamenight with family or the internet&#8217;s world of memes and joy can all help you spend the time. These distractions give you little doses of dopamine throughout the day that you can expect and count on. Down this road also lies dangerous, negative solutions like drugs and alcohol giving you that same release &#8211; so take care, and try to surround yourself with activities that attribute to your overall success rather than detract from them. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-56.png" alt="" class="wp-image-361" srcset="/wp-content/uploads/2020/01/image-56.png 999w, /wp-content/uploads/2020/01/image-56-300x206.png 300w, /wp-content/uploads/2020/01/image-56-768x527.png 768w" sizes="(max-width: 999px) 100vw, 999px" /></figure>
-
-
-
-<p>What crowns our new wellness and happiness pyramid? </p>
-
-
-
-<p>Fulfillment.</p>
-
-
-
-<p>We&#8217;re all trying to be heard, to be cared about and to have an effect on someone&#8217;s life, way of thinking, or their own wellbeing &#8211; whether they be close to us, or the greater population at large. Some of us take up blogging &#8211; some of us, journalism &#8211; and some of us just want to make sure we have some kind of everlasting imprint on our kids, friends or other loved ones.</p>
-
-
-
-<p>This is quintessential to your wellbeing and health when all else is taken for granted.</p>
-
-
-
-<p>As you grow older, you may notice that your mobility and autonomy start slipping away. You&#8217;ll no longer be able to drive, to garden, to sing &#8211; and you may find yourself less and less responsible for other people&#8217;s schedules, days, and otherwise find yourself proving less and less of a use.</p>
-
-
-
-<p>If you&#8217;re young now: enjoy your autonomy and mobility. Enjoy the ways in which you influence others and win friends.</p>
-
-
-
-<p>If you&#8217;re getting older: try and find new and exciting ways to have an effect on the world (like blogging, writing a book, or otherwise expressing yourself in a low-effort way. Did you know you could speak to your internet browser, and have it type out what you&#8217;re saying? It&#8217;s called Speech-to-Text!). </p>
-
-
-
-<p>Are you interested in blogging, or are you already blogging, but want to feel a little bit extra dopamine when you&#8217;re expressing yourself? <a href="https://jare.cloud/2020/01/20/publish0x-allowing-rewards-for-content-with-their-own-funds-re-distribution-of-wealth-defined/">Sign up for Publish0x as an author and get rewarded by people tipping you</a> &#8211; the tips come from their own funds, and the tipper earns a custom % of the tip, too, so everyone wins!</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-57.png" alt="" class="wp-image-362" srcset="/wp-content/uploads/2020/01/image-57.png 986w, /wp-content/uploads/2020/01/image-57-300x212.png 300w, /wp-content/uploads/2020/01/image-57-768x543.png 768w" sizes="(max-width: 986px) 100vw, 986px" /></figure>
-
-
-
-<p>And that concludes our Wellness Pyramid, a Maslow Hierarchy applied to everyone living where the basics are taken for granted!</p>
-
-
-
-<h2>A Plug (or Two)</h2>
-
-
-
-<p>Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness? <a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a> </p>
-
-
-
-<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a> </p>
 ]]></content:encoded>
 										</item>
 	</channel>

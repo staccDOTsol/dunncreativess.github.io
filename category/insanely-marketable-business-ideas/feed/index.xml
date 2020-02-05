@@ -12,7 +12,7 @@
 	<atom:link href="/category/insanely-marketable-business-ideas/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Sat, 25 Jan 2020 14:35:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Feb 2020 06:30:47 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,220 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Growth Hacking YouTube For Views Funneling Into Clicks and Referrals</title>
+		<link>/2020/02/05/growth-hacking-youtube-for-views-funneling-into-clicks-and-referrals-2/</link>
+				<pubDate>Wed, 05 Feb 2020 06:30:46 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Brave]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=501</guid>
+				<description><![CDATA[Note that this is a case study that paints a picture and then shows specific results. To emulate these results,]]></description>
+								<content:encoded><![CDATA[
+<p>Note that this is a case study that paints a picture and then shows specific results. To emulate these results, you&#8217;d need to find your own niche and add new value to some other community &#8211; this is a very specific instance of a community I&#8217;m very familiar with, and already invested in.</p>
+
+
+
+<p>&gt;&gt; Pique your interest about Brave, and $BAT?<a href="https://brave.com/laz390"> Download the browser here</a> &#8211; and start earning on your own terms, with a more private and secure browsing experience! &lt;&lt;</p>
+
+
+
+<p>YouTube is an playing field for alternative monetization techniques. Awhile ago, I started diving into the world of<a href="https://jare.cloud/category/brave/"> being a publisher on the Brave browser&#8217;s $BAT Ecosystem</a>. Being an avid fan of Karl Pilkington&#8217;s radio shows, podcasts, and TV shows on YouTube, I wrote a brief note to some of his more prominent publishers there on YouTube:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/P5tZsobiEyy919ptfRPAq-2dkWifzCdzX6YAmRyLaibIKlyVxBk_mgCDRyvBmxTqQWUJhvVajjp9BAdF6dkZSDwitUh7HS1YL5zqprQuoZnOfniEVZhfEDwqeorwi-fOJ2ygMiSu" alt=""/></figure>
+
+
+
+<p>I immediately thought to myself that I might capitalize on that:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/EEcOaS1V8kCGBwQcm7DBRmqAFitW__z2bOiCDgxGcLkXRvevF3eBBtTcNlw1y2UsLaQ9o0Nw-KUp9B-1b6l5iiU_NlKNGplA3V9YN9CZhyxxwCiAooGH48tNjB3yfSkHywm5Qbr7" alt=""/></figure>
+
+
+
+<p>And so &#8211; an idea was born. I&#8217;d take originally reposted content and repost that content back onto YouTube, after removing watermarks and creating a net-new piece of content to add value to the community of The Ricky Gervais Show followers, while planting a seed for my referral link for Brave. This would allow people to download the Brave browser and increment my Brave referrals (paying up to $7.50 if some geographies keep the browser installed 30 days), and people who kept viewing my new content with their new browser would also trickle down some of their new earnings they get by viewing ads in Brave back to me as I own part of their &#8216;attention.&#8217; It is, after all, the Basic Attention Token.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/NIFnXBh7uWyTcyYdheEO_6olMUAcm-0-C9oqEiB5_AR4l08XFP4PV9UkawLY6Ab-rvWPrLGsbRoW5UjFzXEdHukuCj_-uO1eoym7P28wxABiNmv7DQjlakZtDlD3Zfx06_Pcyu30" alt=""/></figure>
+
+
+
+<p>Look &#8211; since the inception of this project, 35% of my attention has been focused on myself. Look, too, I renamed my YouTube channel from a boring and non-branded &#8216;Jarett Dunn&#8217; to a TRGS quote &#8211; as most other publishers in this space have done with channel names like PilkBoys or Bald Manc.</p>
+
+
+
+<p>Anyhow, I downloaded a YouTube video bulk download tool for Windows from GitHub. It allowed me to enter in a playlist and it would scrape the video file from each constituent member of that playlist. Afterwards, I used my extensive knowledge of the subject matter to retitle the episodes creatively so that my content sources might not be aware of the plot being executed. In this particular case, this isn&#8217;t terrible nefarious as they&#8217;d all ripped the content from BBC and old English radio stations &#8211; they&#8217;re all perpetrators of the same means and ends!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/bkAp_oWTR1VDjpRclq8mZyWTw7cSUtOzLvnu4PkXYIkvnFjZEoeOCRpIJBStUW34YFTXwQZIgB1j0HBiFJVucs038JtjjQvXjD52gd4nB6xEhaOI3IjWpqPnagJNZuQduMciFx1a" alt=""/></figure>
+
+
+
+<p>Opensource!</p>
+
+
+
+<p>I then replaced the video track of the file with a static .png image I created in MS Paint.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh3.googleusercontent.com/7VzH5Yn5L3YbuO4AZh4xU1I55unr-PWkftrkHExLXnqhCkbeCpeLa-1OWesdppd84JV2HCwMpv6lBkcCyfQv7Kh3seNob7gJyT2T5kU1Cye8IdGt2LDIikJ6hh_AWNYCFBq_7ilD" alt=""/></figure>
+
+
+
+<p>I Googled until I combined a few different Windows batch (.bat) scripts to automate this process to loop through all of the files in the directory, and run the video manipulation program ffmpeg to edit the files. This outputs it in a codec and filetype that YouTube likes and contains the tags and metadata where it likes in order to process the files as quickly as little YouTube encoders can!</p>
+
+
+
+<p>Here&#8217;s what that code looks like:</p>
+
+
+
+<p>@ECHO OFF</p>
+
+
+
+<p>setlocal enabledelayedexpansion</p>
+
+
+
+<p>for %%f in (.\*.mp4) do (</p>
+
+
+
+<p>&nbsp;&nbsp;set /p val=&lt;%%f<br></p>
+
+
+
+<p>c:\users\jarettrsdunn\Downloads\yt\ffmpeg.exe -loop 1 -framerate 2 -i c:\users\jarettrsdunn\Pictures\lands.png -i &#8220;%%f&#8221; -c:v libx264 -preset ultrafast -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p &#8220;%%~nf For YOU!.mkv&#8221;</p>
+
+
+
+<p>&nbsp;&nbsp;echo &#8220;fullname: %%f&#8221;</p>
+
+
+
+<p>)</p>
+
+
+
+<p>At one point, I found it prudent to cut 4m30s from the beginning of some of the video files &#8211; listening to the same intro countless thousands times myself, I thought I&#8217;d save my viewers from the same issue.</p>
+
+
+
+<p>Here&#8217;s what that other piece of code looks like:</p>
+
+
+
+<p>@ECHO OFF</p>
+
+
+
+<p>setlocal enabledelayedexpansion</p>
+
+
+
+<p>for %%f in (.\*.mkv) do (</p>
+
+
+
+<p>&nbsp;&nbsp;set /p val=&lt;%%f<br></p>
+
+
+
+<p>c:\users\jarettrsdunn\Downloads\yt\ffmpeg.exe -ss 270 -i &#8220;%%f&#8221; -c copy -y &#8220;%%~nf-!.mkv&#8221;</p>
+
+
+
+<p>&nbsp;&nbsp;echo &#8220;fullname: %%f&#8221;</p>
+
+
+
+<p>)</p>
+
+
+
+<p>Next, we use YouTube&#8217;s horrible uploading tool (albeit, when we can we can do 15 files at once instead of 1 by using the classic tool instead of the brand-spanking-new one), label the videos and give them a description. Here&#8217;s where the magic comes in, here&#8217;s a boilerplate description:</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Read all my articles in the Head Like a {Messin’} Orange category all about Karl, Ricky and Steve here on my blog:<a href="https://jare.cloud/category/head-like-a-fuckin-orange/"> https://jare.cloud/category/head-like&#8230;</a></p>
+
+
+
+<p>!!<a href="https://brave.com/laz390"> https://brave.com/laz390</a> !!</p>
+
+
+
+<p>Support this channel and many countless hundreds thousands others for FREE while also earning yourself for browsing with a safer, more privacy-protecting experience using Brave &#8211; paying YOU for viewing ads while also removing annoying, long and boring third-party ads across the web!</p>
+
+
+
+<p>!! Download Brave now and earn $BAT!<a href="https://brave.com/laz390"> https://brave.com/laz390</a> !!</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Now, for the juicy bits &#8211; 24 hours and 2 sets of ~100 uploads later, let&#8217;s look at some stats!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/7kkJ49M9asjLSIXyvod9VuJJ3k_pfsNfAYkBplbLXD9ERpnptNWajw6D5aY2WgbSUziF_nZu98j54SHGQYwVMYBenwpE7Xqj-ZSUuPPzf8miaBdPVXqvz1LshEaeh2gM-kR_-sX0" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/geL3JGnC-OK0c-0FLC4rDp5FD3oy7zpzdTavB5sECpinhqwIt-LhMbbIfNski_ekE8f9Cs6ZCcenWcLCOgmF4o6SUFYd7raUnO2Jr5YMPAlMVdws_VDkENL0KpKHIqz8iL3IGy1p" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/nOpBpq5Mh5asApxFAj8g4-aI21iQCgZWrRgq5_MUOdGC5I9ne7yzMK-ZR_yA1Mbeu8UjW2JHH-u1qrGoKXn0FzF8160QapDrJES_RM042roy0Ji1CNa5mlkPnhJpDvX23g41_8H1" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/fA_1OVJdKk2mZSzGY1A8AY27TWokkG6ZL5kIkxLbZY4gQw6dkq2XdDRNwdzEhNd4lU0yVGX31m0lhLj7FMusDo1yuHxVKtnYLN1nBo6RyVbl1XeTkCr8rVSAZRLVjutMtCRdRaZ-" alt=""/></figure>
+
+
+
+<p>I think the above charts speak for themselves!</p>
+
+
+
+<p>Conversationally (and no, I haven&#8217;t been uploading smut &#8211; I promise!) the three most viewed new videos in this experiment mention &#8216;SEX,&#8217; &#8216;boobs&#8217; and &#8216;masturbation&#8217; &#8211; a sad commentary on the state of YouTube searches.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/ow8zdpH6iVieIw7JXEZU7ILcpKc814GIP14DDWCaUFptNbnGj9zNj0E7bZbi5cWG_tgMKime8U6CQBnP8-2ABHg_DTylMkMyDLTK6CccvBzuTFFAYbRpToccMephedw78Noifx9q" alt=""/></figure>
+
+
+
+<p>All in all, I&#8217;ve managed to create myself a new (evergreen, residual&#8230;) revenue stream &#8211; it might not seem like all that many views, but as I&#8217;m fighting for every email signup and cent of ad revenue on the blog, it&#8217;s a good start in the right direction. What it really means more than anything is that anyone can achieve some very strange or unprecedented growth hacks by applying some ingenuity and a touch of automation to save on the sweat equity. This has bigger implications for people with loftier goals or &#8211; dare I suggest &#8211; a marketing budget.</p>
+
+
+
+<p>ANNNNDDDD&#8230; Three days after the first YouTube post, we have our first successful Brave referral download! While it didn&#8217;t yet convert to an install, it is in the highest yielding tier for geos (USA).</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/02/image-4.png" alt="" class="wp-image-502" srcset="/wp-content/uploads/2020/02/image-4.png 935w, /wp-content/uploads/2020/02/image-4-300x194.png 300w, /wp-content/uploads/2020/02/image-4-768x496.png 768w, /wp-content/uploads/2020/02/image-4-850x550.png 850w" sizes="(max-width: 935px) 100vw, 935px" /><figcaption><br></figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/02/image-5.png" alt="" class="wp-image-503" srcset="/wp-content/uploads/2020/02/image-5.png 470w, /wp-content/uploads/2020/02/image-5-300x213.png 300w" sizes="(max-width: 470px) 100vw, 470px" /></figure>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Now ANYONE can Make Money Online with My FREE Retail Arbitrage Tool!</title>
 		<link>/2020/01/25/now-anyone-can-make-money-online-with-my-free-retail-arbitrage-tool/</link>
 				<pubDate>Sat, 25 Jan 2020 07:40:59 +0000</pubDate>
@@ -116,6 +330,160 @@
 
 
 <p>Other retail arbitrage tools will charge you hundreds a month for membership. They also have fancy tools to help you bulk import selections, but my revenue model comes from those little affiliate links &#8211; so the bulk import tools aren&#8217;t necessarily conducive. Some people might prefer paying a subscription to get access to these premium tools &#8211; others would prefer cut costs and use a free tool to find their sure-fire winning merchandise!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>The Nash Equilibrium, Fomo3d, and Dangerous Game Theory</title>
+		<link>/2020/01/17/the-nash-equilibrium-fomo3d-and-dangerous-game-theory/</link>
+				<pubDate>Sat, 18 Jan 2020 01:02:16 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Insanely Marketable Business Ideas]]></category>
+
+		<guid isPermaLink="false">/?p=241</guid>
+				<description><![CDATA[Join our Discord for updates on this project! Fomo3D was a dangerous game theory that was then applied, obfuscated, and]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-31-1024x653.png" alt="" class="wp-image-248" srcset="/wp-content/uploads/2020/01/image-31-1024x653.png 1024w, /wp-content/uploads/2020/01/image-31-300x191.png 300w, /wp-content/uploads/2020/01/image-31-768x490.png 768w, /wp-content/uploads/2020/01/image-31-360x230.png 360w, /wp-content/uploads/2020/01/image-31.png 1332w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="https://discord.gg/c4AwMg">Join our Discord for updates on this project</a>!</p>
+
+
+
+<p>Fomo3D was a dangerous game theory that was then applied, obfuscated, and raked in a sh#tton of cold, hard cash.</p>
+
+
+
+<p>Users would sign up for <a href="https://exitscam.me/">https://exitscam.me/</a> and play the game. Their greed would ensure they always spent more than they lost in an auction that Harvard Business School teaches their pupils &#8211; it&#8217;s called a &#8216;War of Attrition.&#8217;</p>
+
+
+
+<p>When offered the chance to bid on a $20 bill with $1, people will bid on it. The problem is this: the 2nd highest bid also has to pay whenever the winner is chosen. So, when the bid is $19 and the prize is $20, someone will surely bid to make a dollar. Now, when you&#8217;re the $18 bid you might lose your $18 if you don&#8217;t bid again &#8211; paying $20 for $20. If you win, you&#8217;re down $0. If you don&#8217;t bid, and lose now, you&#8217;re down $18. </p>
+
+
+
+<p>What&#8217;s the person with the $19 bid do?</p>
+
+
+
+<p>There&#8217;s been documented cases where the bidding reached a walloping $4000 &#8211; in a display of sheer ego. The loser was caught up in the ecstasy of playing the game.</p>
+
+
+
+<p>That&#8217;s exactly what Fomo3D did, except the winnings were divvied up in a very smart way that wasn&#8217;t previously available to the general public: using an underlying dividend-paying or burning token (forget which) they cleverly increased the token value or delivered payments for token holders when people played the game.</p>
+
+
+
+<p>This caused a huge social effort by token holders &#8211; and game players &#8211; to spread FOMO about the game around the internet. This would bring in new players and &#8211; occasionally &#8211; those who would even win or lose by ego, or win or lose because of the sheer thrill of the game.</p>
+
+
+
+<p>Learning all of this tonight for the first time, I did a brief Google on &#8216;dangerous game theory&#8217; and was actually learning about game theory for the first time in my life. Now, this shit is fun. And profitable.</p>
+
+
+
+<p>I read about War of Attrition. What a beautiful concept. </p>
+
+
+
+<p>The wikipedia article linked to a few other sources: Chicken, another dangerous game theory, has a fancy theory name &#8211; but it&#8217;s still chicken. When one veers off they lose, when both collide they both lose. We&#8217;ll examine opportunities here at a later date, but I also came across another interesting concept.</p>
+
+
+
+<p>The prisoner&#8217;s dilemma is that two guys are caught for selling drugs, and both are facing 2 years for sure. The feds think they&#8217;re both involved in a much more serious crime, and tell Prisoner A that he&#8217;ll get 3 years if they both confess &#8211; but if he confesses, and Prisoner B doesn&#8217;t, he&#8217;ll get 1 year and Prisoner B will get 10. Now, if he denies and Prisoner B confesses, then he will get 10 years and Prisoner B will get 1 year.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-25.png" alt="" class="wp-image-242" srcset="/wp-content/uploads/2020/01/image-25.png 645w, /wp-content/uploads/2020/01/image-25-300x84.png 300w" sizes="(max-width: 645px) 100vw, 645px" /></figure>
+
+
+
+<p>What the feds don&#8217;t mention is the final outcome: if they both deny, they&#8217;re both faced with 2 years. This is what&#8217;s referred to as the &#8216;globally optimal solution&#8217; &#8211; meaning that if I was able to talk to the other prisoner we might both deny.</p>
+
+
+
+<p>What&#8217;s in my best interest, as Prisoner 1?</p>
+
+
+
+<p>Well, it looks as though no matter what I do &#8211; without knowing the other party&#8217;s intentions &#8211; confessing is my best option. I either face 1 year &#8211; which is great &#8211; or three years. However, I&#8217;m completely avoiding the possibility that I might get 10 years &#8211; which is the worst-case scenario. Both of us confessing isn&#8217;t the best optimal answer on the board, but it&#8217;s what&#8217;s best without knowing the other party&#8217;s intentions &#8211; we call this the Nash Equilibrium, after famous mathematician John Nash. This is applied extensively to playing poker &#8211; where it applies just as much. </p>
+
+
+
+<p>Nash was also one of the most famous schizophrenics, and the subject of the movie A Beautiful Mind. Want to read more about how people with schizophrenia think? <a href="https://jare.cloud/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/">Check out this article I wrote on psychotic thoughts</a> (from first-hand experience!)</p>
+
+
+
+<p>Now, if we flip these numbers to their inverse and do some jiggery pokery, we can come up with a profitable business idea for anyone to rake in huge amounts of capital from tokensales and giving people the opportunity to have fun &#8211; and potentially win big.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-27.png" alt="" class="wp-image-244" srcset="/wp-content/uploads/2020/01/image-27.png 658w, /wp-content/uploads/2020/01/image-27-300x83.png 300w" sizes="(max-width: 658px) 100vw, 658px" /></figure>
+
+
+
+<p>Say my risk is that I might lose all of my 2 Ether deposit on betting in this game. The funds are locked in smart contract. If I go with Option 2, there&#8217;s a chance that I could lose my whole balance or there&#8217;s a chance I might get 1.7 of my ether back. OK, good enough.</p>
+
+
+
+<p>If I choose Option 1, there&#8217;s a chance I get 1.3 of my Ether back or &#8211; here&#8217;s the kicker &#8211; I might get 2.3 of my ether back (and &#8216;win&#8217;) should Player 2 choose option 2.</p>
+
+
+
+<p>Logic would say that a rational person wants their chance at winning, and will always go with Option 1. Whereas, if both players do, then they both lose. Right?</p>
+
+
+
+<p>So far this isn&#8217;t very promising as a dangerous game.</p>
+
+
+
+<p>However, enter an oraclized call to a random number generator choosing 50/50 either option 1 or option 2, as player 2. Sure, this player would need to put funds up first in order to play &#8211; which might come from project funds or from tokenholders putting up the funds against people that lock up Eth in a contract &#8211; but check this out, here&#8217;s what would happen in Game 1:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-28-1024x154.png" alt="" class="wp-image-245" srcset="/wp-content/uploads/2020/01/image-28-1024x154.png 1024w, /wp-content/uploads/2020/01/image-28-300x45.png 300w, /wp-content/uploads/2020/01/image-28-768x115.png 768w, /wp-content/uploads/2020/01/image-28-1536x231.png 1536w, /wp-content/uploads/2020/01/image-28.png 1750w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Player 1 will always (rationally) choose option 1. The RNG chooses 50/50 options 1 or 2. In green/yellow are the possible outcomes for player 1: they either get 1.3 Ether if they lose, or 2.3 ether if they win. Now, no rational GAMBLER would play these odds &#8211; but, keep listening! There&#8217;s a 50% chance that the pot wins 0.7 Ether, and a 50% chance it loses 0.3 Ether. Fair enough, so averaging out our winnings that&#8217;s 0.2 Ether.</p>
+
+
+
+<p>I&#8217;m going to take this Ether and add half to the game pot. The other half I&#8217;m going to use to give value to my game token &#8211; by buy n burn or dividends.</p>
+
+
+
+<p>Let&#8217;s look what happens in Game 2:</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-29-1024x123.png" alt="" class="wp-image-246" srcset="/wp-content/uploads/2020/01/image-29-1024x123.png 1024w, /wp-content/uploads/2020/01/image-29-300x36.png 300w, /wp-content/uploads/2020/01/image-29-768x92.png 768w, /wp-content/uploads/2020/01/image-29-1536x184.png 1536w, /wp-content/uploads/2020/01/image-29.png 1743w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Now we&#8217;re talking, we&#8217;ve sweetened the pot that the Player has a 50/50 chance of winning &#8211; with half the house&#8217;s winnings from each game before that reinvested back into the pot. There&#8217;s a chance they win &#8211; and pot doesn&#8217;t increase, no new token burn or dividends happen. There&#8217;s half a chance they lose again &#8211; and it&#8217;s added to the pot and increases the value of the token.</p>
+
+
+
+<p>Etc etc tending towards infinity, the potential winnings for playing the game increase ever so much while they&#8217;re still losing 1/2 the time playing against the evil supercomputer. </p>
+
+
+
+<p>3rd game? More money to be won! Eventually, the gambler&#8217;s odds increase enough to be a worthwhile bet no matter what &#8211; and the token&#8217;s value continues to increase with each average result of the game. This creates a frenzy of people spreading news about the game, drawing more and more people and money into the game.</p>
+
+
+
+<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-30-1024x124.png" alt="" class="wp-image-247" srcset="/wp-content/uploads/2020/01/image-30-1024x124.png 1024w, /wp-content/uploads/2020/01/image-30-300x36.png 300w, /wp-content/uploads/2020/01/image-30-768x93.png 768w, /wp-content/uploads/2020/01/image-30-1536x186.png 1536w, /wp-content/uploads/2020/01/image-30.png 1730w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>What does this mean for me, penning this article? Even though I don&#8217;t have a smart contract developer or a budget, at least now I own the Intellectual Property on this new evolution of a Dangerous Game Theory smart contract game. If you are a smart contract developer and would like to team up, let me know! If I&#8217;ve made any critical errors in my math &#8211; it wouldn&#8217;t be the first time! Let me know!</p>
+
+
+
+<p>Remember to<a href="https://discord.gg/c4AwMg"> join our Discord for updates on this project</a>! </p>
 ]]></content:encoded>
 										</item>
 		<item>
