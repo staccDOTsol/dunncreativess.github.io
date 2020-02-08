@@ -12,7 +12,7 @@
 	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Mon, 20 Jan 2020 00:00:35 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 08 Feb 2020 16:50:32 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,224 +20,112 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
-		<title>Nexo Review for Crypto Loans and Bitcoin Loans and Crypto Cards: MCO Visa, TenX too</title>
-		<link>/2020/01/19/nexo-review-for-crypto-loans-and-bitcoin-loans-and-crypto-cards-mco-visa-tenx-too/</link>
-				<pubDate>Mon, 20 Jan 2020 00:00:06 +0000</pubDate>
+		<title>Two Sides of Free Money on Compound.Finance &#8211; and Opportunities for Staked.us</title>
+		<link>/2020/02/08/two-sides-of-free-money-on-compound-finance-and-opportunities-for-staked-us/</link>
+				<pubDate>Sat, 08 Feb 2020 16:49:06 +0000</pubDate>
 		<dc:creator><![CDATA[jare]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=298</guid>
-				<description><![CDATA[View this article in it’s original form on jare.cloud! Intro What if Nexo had more than $100m USD worth of]]></description>
+		<guid isPermaLink="false">/?p=507</guid>
+				<description><![CDATA[Introduction DeFi or Decentralized Finance is changing the ways people interact with money. Check this CoinTelegraph article on ‘decentralized finance,]]></description>
 								<content:encoded><![CDATA[
-<p><a href="https://jare.cloud/2020/01/19/nexo-review-for-crypto-loans-and-bitcoin-loans-and-crypto-cards-mco-visa-tenx-too/">View this article in it’s original form on jare.cloud</a>!</p>
+<h1>Introduction</h1>
 
 
 
-<h2>Intro</h2>
+<p>DeFi or Decentralized Finance is changing the ways people interact with money. Check this <a href="https://cointelegraph.com/explained/decentralized-finance-explained">CoinTelegraph article on ‘decentralized finance, explained.</a>’ DeFi empowers people across borders to bank in ways that only the underlying trustless, immutable tech that is Blockchain could allow.&nbsp;<br></p>
 
 
 
-<p>What if Nexo had more than $100m USD worth of YOUR assets? More than their centralized bank-backed insurance fund protects?</p>
+<p>In this article, we’ll look at two new and novel ways to approach lending and borrowing to achieve previously unheard of situations. Traditional lenders and institutions would cringe if they knew more people were aware of how to use their funds wisely. We can both avoid unnecessary fees and middlemen by using DeFi.<br></p>
 
 
 
-<p>What if Nexo began speculatively investing YOUR funds into third-party protocols, putting the capital at risk &#8211; or even losing substantial amounts of it?</p>
+<p>The difference among DeFi and centralized finance is that with DeFi you hold your keys and nobody else has access to your funds &#8211; only your wallet, interacting directly with the platform or protocol. There’s no middlemen and no counter-party risk. <a href="https://jare.cloud/2020/01/19/nexo-review-for-crypto-loans-and-bitcoin-loans-and-crypto-cards-mco-visa-tenx-too/">You can read more about the risks involved with handing over your cash to a middleman in this other article I wrote</a>.</p>
 
 
 
-<p>What if Nexo, Monaco (MCO) or TenX bailed with all your funds &#8211; in massive exit scams the likes of which we have indeed seen before, at Mt. Gox or QuadrigaCX?</p>
+<h1>Free Money #1: 0% APR Secured Loans</h1>
 
 
 
-<p>What are the alternatives for collateralized loans &#8211; where can we hedge our crypto assets, using Bitcoin or Ether or other underlyings to draw tax-friendly income? </p>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/T21wxhI6O9CwkwnMn4PLHSsVecvzIyc1sd8FCq-n6HPfx0ZsW_RulphjUXxS94EUqi5ibZ6k2XUn3PYh15eAhn22LCHe3ceRGgEIALT59HDcDe3TS8PRswP_HgZI7-fxC9qqnOaA" alt=""/></figure>
 
 
 
-<p>Read on&#8230;</p>
+<p>I coded a small script that checks the borrow and lend rates on <a href="https://compound.finance/">compound.finance</a>. I then calculated which of the coins backed by USD (stablecoins) I could borrow for the least amount of annually compounding interest. Next, I got the average of lending interest rates for all the other coins on the platform. Dividing the two into a quotient, I can get an amount I can borrow as a secured loan against my capital &#8211; while lending to an index of the other coins on the platform &#8211; to effect $0 per year in accrued interest on my loan.<br></p>
 
 
 
-<h2>Centralized Off-Chain Crypto Interest on Holdings &#8211; and Collateralized Loans Against Crypto &#8211; Seems Like a Great Idea</h2>
+<p>If someone were to build a platform on top of this, they could include other DeFi solutions like <a href="https://torque.loans/#/">torque.loans</a> and <a href="http://fulcrum.trade/">fulcrum.trade</a> to net even more beneficial rates of yield and interest on amounts borrowed &#8211; meaning you could index more coins and generate a higher $0 and 0% borrowing amount. The platform would show your gains/losses for the tokens on next login &#8211; and there’s a chance your BTC or ETH (or any other token) have appreciated 10x since your last login, allowing you to borrow more at $0 or 0%. During that time, your holdings would have appreciated based on the difference of lend/borrow rates. In the case some tokens depreciate in face value, your interface would present you with a ‘rebalance’ option. It would allow you to deposit (and then index) more to all the tokens or whichever you’re most comfortable with. If you decide to lend DAI and borrow USDC, another interesting idea pops up…<br></p>
 
 
 
-<p>While Nexo and Nexo clones offer some great incentives to help you feel safe &amp; secure handing over your hard-earned crypto, like a $100 million insurance fund or tax-friendly income while not spending your assets &#8211; there are huge pitfalls to trusting The Man with your units of value&#8230; with YOUR money.</p>
+<p>If you have equity and want a cotterilizied, on-chain solution to it, you can borrow risk-free by doing 0% loans.That would bring a bunch of interesting endeavors. I do have some friends that would pounce on&nbsp; capital secure,  fully liquid (withdraw your capital at any time, less the fees into locked, secured accounts that you can trust- trustlesly.<br></p>
 
 
 
-<p>Sure, someone may be in the position where they hold 1 BTC and want to earn a % of that 1 BTC back from an organization while doing absolutely nothing. Seems risk-free, right? &#8216;Compound your crypto&#8217; is a popular sentiment on the Internet of late &#8211; I even <a href="https://twitter.com/jarettdunn">use that phrase in my twitter bio</a>. </p>
+<p>Look, more DeFi is more eggs in more baskets (in a risk-averse sense), and even finds more competitive rates to use against USDC so you can have more than half your money back while hodling a cross-selection of Eth and Ether tokens (like Wrapped Bitcoin) that might potentially explode in value.<br></p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-34.png" alt="" class="wp-image-306" srcset="/wp-content/uploads/2020/01/image-34.png 996w, /wp-content/uploads/2020/01/image-34-300x78.png 300w, /wp-content/uploads/2020/01/image-34-768x200.png 768w" sizes="(max-width: 996px) 100vw, 996px" /></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/y20ig1muP31jo6geVlO7pzCQj9C_a3dficOreKClqqdQ8dUAZZ3CTsFS5qOyaskl_DtEyL-ZjYdNH7KJIwIVvS3KeoMvwDFSkDne-3jiUMoneWTjHvMiiOIV9oYZnN1j246jMryT" alt=""/></figure>
 
 
 
-<p>What does it mean, in actual effect?</p>
+<p>We can index and figure out which are non-custodial, then launch a service.</p>
 
 
 
-<p>Well, if I have 1 BTC now and that BTC earns me 8% APR &#8211; each and every year &#8211; that 8% will earn another 8% on the 8% in year 2. </p>
+<h1>Free Money #2: Interest Rate Arbitrage: Borrow to Yield</h1>
 
 
 
-<p>If we&#8217;re also long BTC, or think it&#8217;ll grow at, say, 5% average per year in value, then our resulting investment would look like this:</p>
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/JcHdvua0xSRVtj4Tkn8vWPHCfBWpdR2-CwOmmhHb3hNid7D4BdLxgwidvnxGtt-EmleBm0gjf4WOljNOUTsW3wk90bs589tWj0VSMg4YmDtEgH4ZHGPMnr4lFTSkyxfN7eJCo5Av" alt=""/></figure>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-35-1024x303.png" alt="" class="wp-image-307" srcset="/wp-content/uploads/2020/01/image-35-1024x303.png 1024w, /wp-content/uploads/2020/01/image-35-300x89.png 300w, /wp-content/uploads/2020/01/image-35-768x227.png 768w, /wp-content/uploads/2020/01/image-35.png 1377w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/oPKrmKViuzg7fg-iCbfT7F_WZsgp_tBwfOlSOpYbJ39OnGmmzuAgdvtyl3YFSlABDOKlxod5wi7kVOFrvoxecQ15PwYkCh0vq_zF4Ukzmc0tdG6mpmjIYfAgHF_RtlYIF5T4xsnw" alt=""/></figure>
 
 
 
-<p>After 10 years your BTC has nearly doubled, and the value of that BTC is up 112x&#8230;.</p>
+<p>Now, 0.73% difference doesn’t sound like much. Let’s keep in mind that a new platform with a new smartcontract might for instance copy what staked.us does for RAY contract and get even higher yields by indexing more DeFis, where the yields are sometimes higher. For the purpose of this doc we’ll say the solution in place uses compound’s smart contracts. I’d already figured out the web3 magic in the past to deposit and withdraw from compound.. This means our funds will remain liquide and we can ‘double down’ our proceeds in the same interface.<br></p>
 
 
 
-<p>That seems to be fantastic, right? And a 5% growth on BTC per year is rather.. well, conservative, right?</p>
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/Tob8O2NDwO7LWunjsHr3pN_P82Y2x1p2DC9ybpaXILIUWSmoX9zBrWwYbf2dAJG_zUQ_58spidTAMEgANHGdOQqZDabmERzwvQ6HnPadvwf6wSlwFFuvikElbXgtTaXH7wqmy4bP" alt=""/></figure>
 
 
 
-<h2>Other Side of That Coin</h2>
+<p>Now, on Compound we can deposit anything and get our capital out without a lockup. If I lean on Compound I still earn interest on the asset I borrow. I start off with $100 000, and I can get $75 000 USDC by completing that loan. Now, I’m paying 8.08% APR on the $75 000.&nbsp; My portfolio size is now $175 000. Now, I repeat. First, I go to uniswap and transfer USDC for DAI.  I take the maximum loan I can from $75 000, and I can increase my portfolio size to $400 000. It’ll look something like this:<br></p>
 
 
 
-<p>Say we&#8217;re even more long on a bullish BTC, and think it&#8217;ll rise in value by &#8211; say &#8211; 30% per year. Now, we can look at Nexo or other centralized bank-backed solutions to lend US Dollar against our asset. I&#8217;m risk averse to clicking on their site, but I imagine their rates are maybe 10-14% APR. So, we lend the max. amount against our BTC at around $4500 USD, and pay 14% on the loan &#8211; while our BTC appreciates 30%.</p>
+<p>Remember that you can only ‘bite off more than you can chew’ in situations like these, where you earn more from lending another like asset (meaning the value would be or remain around the same).<br></p>
 
 
 
-<p>Here&#8217;s what that math looks like:</p>
+<p>Now, it’s important to think that if you’re risk-averse to speculative to coins rises or sudden falls, it’s possible to exclude the speculative coins from the list of coins they’re considering &#8211; say, only hold DAI and SAI, never Eth or WBTC.</p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-36-1024x334.png" alt="" class="wp-image-308" srcset="/wp-content/uploads/2020/01/image-36-1024x334.png 1024w, /wp-content/uploads/2020/01/image-36-300x98.png 300w, /wp-content/uploads/2020/01/image-36-768x250.png 768w, /wp-content/uploads/2020/01/image-36.png 1313w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<h1>Conclusion</h1>
 
 
 
-<p>All else remaining equal, shortly after 6 years we have ALL of our bitcoin back in appreciated value vs what we owe on our loan. </p>
+<p>I’m daring the fine folks at staked.us to build these into fully functionable marketable products &#8211; or by streamlessly linking them to their current Robo Advisor for Ray, have a look:<br></p>
 
 
 
-<p>Let&#8217;s go even more bullish BTC &#8211; think The Halvening will grow BTC to $12k, then it&#8217;s a clear road to $20k, then moon? So do I!</p>
+<p><a href="https://github.com/Stakedllc/robo-advisor-yield/issues/11">https://github.com/Stakedllc/robo-advisor-yield/issues/11</a></p>
 
 
 
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-37-1024x334.png" alt="" class="wp-image-309" srcset="/wp-content/uploads/2020/01/image-37-1024x334.png 1024w, /wp-content/uploads/2020/01/image-37-300x98.png 300w, /wp-content/uploads/2020/01/image-37-768x250.png 768w, /wp-content/uploads/2020/01/image-37.png 1313w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<p><a href="https://github.com/Stakedllc/robo-advisor-yield/issues/12">https://github.com/Stakedllc/robo-advisor-yield/issues/12</a></p>
 
 
 
-<p>If BTC grows 230% in a calendar year, we effectively have a free half BTC in loaned amount in less than a year. That&#8217;s fantastic! Free money!</p>
-
-
-
-<h2>Now, the Catch</h2>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-38.png" alt="" class="wp-image-310" srcset="/wp-content/uploads/2020/01/image-38.png 728w, /wp-content/uploads/2020/01/image-38-300x84.png 300w" sizes="(max-width: 728px) 100vw, 728px" /></figure>
-
-
-
-<p>I wonder if Nexo has overgrown their little insurance scheme? I wonder if too many people have trusted something too good to be true &#8211; in the hands of a select few, a legal entity, and human fallacies?</p>
-
-
-
-<p>Even more sinister, let&#8217;s say Nexo was sitting on millions of dollars in Ether. Let&#8217;s say they thought &#8211; nay, they bet on the idea &#8211; that Ether would never ever possibly depreciate past $300. Long Live Ether, right? Now, they use a third party protocol to lend against their Ether bankroll &#8211; to the tune of millions $ USD &#8211; to boost their coffers and all their marketing campaigns to draw more people into their massive &#8216;insured&#8217; ponzi. </p>
-
-
-
-<p>Then, as we witnessed, Eth did go down. Way. Past. $300.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-39-1024x473.png" alt="" class="wp-image-311" srcset="/wp-content/uploads/2020/01/image-39-1024x473.png 1024w, /wp-content/uploads/2020/01/image-39-300x139.png 300w, /wp-content/uploads/2020/01/image-39-768x355.png 768w, /wp-content/uploads/2020/01/image-39.png 1343w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-40-1024x627.png" alt="" class="wp-image-312" srcset="/wp-content/uploads/2020/01/image-40-1024x627.png 1024w, /wp-content/uploads/2020/01/image-40-300x184.png 300w, /wp-content/uploads/2020/01/image-40-768x470.png 768w, /wp-content/uploads/2020/01/image-40.png 1077w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-41.png" alt="" class="wp-image-313" srcset="/wp-content/uploads/2020/01/image-41.png 916w, /wp-content/uploads/2020/01/image-41-300x216.png 300w, /wp-content/uploads/2020/01/image-41-768x552.png 768w" sizes="(max-width: 916px) 100vw, 916px" /></figure>
-
-
-
-<p>Can you think of anything more sinister&#8230; than risking people&#8217;s funds they trust your insurance to cover, then losing it? </p>
-
-
-
-<p>Trust the banks to mess with you like this.</p>
-
-
-
-<p>Trust custodial solutions to mess with your hard-earned cash.</p>
-
-
-
-<h2>Monaco&#8217;s Visa Card, TenX, Populous, and the Others</h2>
-
-
-
-<p>Nexo has another product in the pipes: a crypto-loans backed credit/debit card. When you put your crypto onto a debit/credit card, you&#8217;re actually just giving it to banks to hold onto &#8211; and with that, you&#8217;re giving them all of your personally identifiable information, as well as the right to track you and sell your data to the highest bidder (and all the other bidders with half a dollar). What this means is that you&#8217;re taking the ultimate grassroots revolution against banks and the richest 1% and giving it right back to them. This goes against everything Satoshi and all the other crypto revolutionaries had wanted with their digital cash. Do Your Own Research, and decide what&#8217;s right.</p>
-
-
-
-<p>Moreover, existing crypto card solutions like cryptopay.me and xapo all lost their licenses for dealing with North America and loads of other places &#8211; because banks, by and large, don&#8217;t trust crypto. </p>
-
-
-
-<p>If you need to spend your crypto look to solutions like localbitcoins.com &#8211; where you can even sell your BTC at around 1% on the dollar value to meet in person and get cold, hard cash.</p>
-
-
-
-<h2>The Solution</h2>
-
-
-
-<p>Never, ever trust custodial solutions! There&#8217;s such a thing as counter-party risk that&#8217;s well documented, and this is why decentralized exchanges and decentralized finance are winning with a clear advantage &#8211; employing trustless solutions where people are interacting with a tech protocol rather than an organization, person, people, or &#8211; worse yet &#8211; a bank.</p>
-
-
-
-<p>Solutions are abound: check <a href="https://jare.cloud/2020/01/14/top-money-making-decentralized-finance-defi-applications/">my article comparing the top 6-8 decentralized finance protocols</a>.</p>
-
-
-
-<p>Of these, a few come to mind for compounding your crypto: like <a href="https://compound.finance/">compound.finance</a>, where you can earn interest on your cryptos while holding them in your own damned wallet, secured by your own damned keys. This completely removes the counter-party risk of earning on your crypto. Almost all the other solutions in the above article like <a href="http://nuo.network/">nuo.network</a> or <a href="http://fulcrum.trade/">fulcrum.trade</a> allow you to earn, too, sometimes at higher rates &#8211; and aggregators exist, too, like <a href="http://staked.us/?pid=fr5BC09Vgc">staked.us&#8217;s Robo Advisor for Yield</a> which allows you to passively rebalance your lent portfolio.</p>
-
-
-
-<p>Compound also allows you to borrow against your crypto assets &#8211; all on-chain, all non-custodial. You own your own keys. You can receive a number of stablecoins for your Ether or other tokens, or even borrow against non-stable assets &#8211; the choice is yours to long or short whatever you like. </p>
-
-
-
-<p>They currently don&#8217;t support borrowing against BTC or the BTC-backed Wrapped BTC (WBTC), but have no fear! Fulcrum.trade has a sister-site powered by the same protocol <a href="https://torque.loans/">https://torque.loans/</a>  where &#8211; at present &#8211; you can get $4800 in stablecoins for your 1 WBTC.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-42.png" alt="" class="wp-image-314" srcset="/wp-content/uploads/2020/01/image-42.png 821w, /wp-content/uploads/2020/01/image-42-300x232.png 300w, /wp-content/uploads/2020/01/image-42-768x593.png 768w" sizes="(max-width: 821px) 100vw, 821px" /></figure>
-
-
-
-<h2>The Verdict</h2>
-
-
-
-<p>Never, ever trust The Man with your money. That&#8217;s the point of Blockchain. Banks, governments will collapse and fail, the ATMs will stop giving you money and gas will stop being delivered to your favorite gas stations &#8211; food will stop being delivered to your supermarkets &#8211; but crypto will not fail because the protocols are run without the interference or governance of man (or woman, or other).</p>
-
-
-
-<p>Tired of The Man earning from your browsing habits, personally identifiable information and by selling your data? Try the <a href="https://jare.cloud/2020/01/15/better-web-brave-rewards-your-content-make-money-monetizing-twitter/">Brave browser, which not only protects all of your data and privacy,</a> but also axes all those damaging ads around the web &#8211; delivering you a faster, safer browsing experience!</p>
-
-
-
-<h2>A Plug (or Two)</h2>
-
-
-
-<p>Join our growing Telegram community for blog updates, bot chat, general fun and crypto madness?&nbsp;<a href="https://t.me/ManyVolumeSignalMonster">https://t.me/ManyVolumeSignalMonster</a></p>
-
-
-
-<p>Want to learn about new articles in tech and being a madman? Subscribe to my mailing list here:&nbsp;<a href="http://eepurl.com/gIykNL">http://eepurl.com/gIykNL</a><br></p>
+<p>EDIT: Turns out Great Minds Think Alike (or Simple Ones Seldom Differ):  <a href="https://github.com/Stakedllc/YIPs/issues/8">https://github.com/Stakedllc/YIPs/issues/8</a> </p>
 ]]></content:encoded>
 										</item>
 	</channel>

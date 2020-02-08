@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Jare&#039;s Cloud</description>
-	<lastBuildDate>Wed, 05 Feb 2020 06:30:47 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 08 Feb 2020 16:50:32 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,115 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 	<item>
+		<title>Two Sides of Free Money on Compound.Finance &#8211; and Opportunities for Staked.us</title>
+		<link>/2020/02/08/two-sides-of-free-money-on-compound-finance-and-opportunities-for-staked-us/</link>
+				<pubDate>Sat, 08 Feb 2020 16:49:06 +0000</pubDate>
+		<dc:creator><![CDATA[jare]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">/?p=507</guid>
+				<description><![CDATA[Introduction DeFi or Decentralized Finance is changing the ways people interact with money. Check this CoinTelegraph article on ‘decentralized finance,]]></description>
+								<content:encoded><![CDATA[
+<h1>Introduction</h1>
+
+
+
+<p>DeFi or Decentralized Finance is changing the ways people interact with money. Check this <a href="https://cointelegraph.com/explained/decentralized-finance-explained">CoinTelegraph article on ‘decentralized finance, explained.</a>’ DeFi empowers people across borders to bank in ways that only the underlying trustless, immutable tech that is Blockchain could allow.&nbsp;<br></p>
+
+
+
+<p>In this article, we’ll look at two new and novel ways to approach lending and borrowing to achieve previously unheard of situations. Traditional lenders and institutions would cringe if they knew more people were aware of how to use their funds wisely. We can both avoid unnecessary fees and middlemen by using DeFi.<br></p>
+
+
+
+<p>The difference among DeFi and centralized finance is that with DeFi you hold your keys and nobody else has access to your funds &#8211; only your wallet, interacting directly with the platform or protocol. There’s no middlemen and no counter-party risk. <a href="https://jare.cloud/2020/01/19/nexo-review-for-crypto-loans-and-bitcoin-loans-and-crypto-cards-mco-visa-tenx-too/">You can read more about the risks involved with handing over your cash to a middleman in this other article I wrote</a>.</p>
+
+
+
+<h1>Free Money #1: 0% APR Secured Loans</h1>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/T21wxhI6O9CwkwnMn4PLHSsVecvzIyc1sd8FCq-n6HPfx0ZsW_RulphjUXxS94EUqi5ibZ6k2XUn3PYh15eAhn22LCHe3ceRGgEIALT59HDcDe3TS8PRswP_HgZI7-fxC9qqnOaA" alt=""/></figure>
+
+
+
+<p>I coded a small script that checks the borrow and lend rates on <a href="https://compound.finance/">compound.finance</a>. I then calculated which of the coins backed by USD (stablecoins) I could borrow for the least amount of annually compounding interest. Next, I got the average of lending interest rates for all the other coins on the platform. Dividing the two into a quotient, I can get an amount I can borrow as a secured loan against my capital &#8211; while lending to an index of the other coins on the platform &#8211; to effect $0 per year in accrued interest on my loan.<br></p>
+
+
+
+<p>If someone were to build a platform on top of this, they could include other DeFi solutions like <a href="https://torque.loans/#/">torque.loans</a> and <a href="http://fulcrum.trade/">fulcrum.trade</a> to net even more beneficial rates of yield and interest on amounts borrowed &#8211; meaning you could index more coins and generate a higher $0 and 0% borrowing amount. The platform would show your gains/losses for the tokens on next login &#8211; and there’s a chance your BTC or ETH (or any other token) have appreciated 10x since your last login, allowing you to borrow more at $0 or 0%. During that time, your holdings would have appreciated based on the difference of lend/borrow rates. In the case some tokens depreciate in face value, your interface would present you with a ‘rebalance’ option. It would allow you to deposit (and then index) more to all the tokens or whichever you’re most comfortable with. If you decide to lend DAI and borrow USDC, another interesting idea pops up…<br></p>
+
+
+
+<p>If you have equity and want a cotterilizied, on-chain solution to it, you can borrow risk-free by doing 0% loans.That would bring a bunch of interesting endeavors. I do have some friends that would pounce on&nbsp; capital secure,  fully liquid (withdraw your capital at any time, less the fees into locked, secured accounts that you can trust- trustlesly.<br></p>
+
+
+
+<p>Look, more DeFi is more eggs in more baskets (in a risk-averse sense), and even finds more competitive rates to use against USDC so you can have more than half your money back while hodling a cross-selection of Eth and Ether tokens (like Wrapped Bitcoin) that might potentially explode in value.<br></p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/y20ig1muP31jo6geVlO7pzCQj9C_a3dficOreKClqqdQ8dUAZZ3CTsFS5qOyaskl_DtEyL-ZjYdNH7KJIwIVvS3KeoMvwDFSkDne-3jiUMoneWTjHvMiiOIV9oYZnN1j246jMryT" alt=""/></figure>
+
+
+
+<p>We can index and figure out which are non-custodial, then launch a service.</p>
+
+
+
+<h1>Free Money #2: Interest Rate Arbitrage: Borrow to Yield</h1>
+
+
+
+<figure class="wp-block-image"><img src="https://lh5.googleusercontent.com/JcHdvua0xSRVtj4Tkn8vWPHCfBWpdR2-CwOmmhHb3hNid7D4BdLxgwidvnxGtt-EmleBm0gjf4WOljNOUTsW3wk90bs589tWj0VSMg4YmDtEgH4ZHGPMnr4lFTSkyxfN7eJCo5Av" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://lh6.googleusercontent.com/oPKrmKViuzg7fg-iCbfT7F_WZsgp_tBwfOlSOpYbJ39OnGmmzuAgdvtyl3YFSlABDOKlxod5wi7kVOFrvoxecQ15PwYkCh0vq_zF4Ukzmc0tdG6mpmjIYfAgHF_RtlYIF5T4xsnw" alt=""/></figure>
+
+
+
+<p>Now, 0.73% difference doesn’t sound like much. Let’s keep in mind that a new platform with a new smartcontract might for instance copy what staked.us does for RAY contract and get even higher yields by indexing more DeFis, where the yields are sometimes higher. For the purpose of this doc we’ll say the solution in place uses compound’s smart contracts. I’d already figured out the web3 magic in the past to deposit and withdraw from compound.. This means our funds will remain liquide and we can ‘double down’ our proceeds in the same interface.<br></p>
+
+
+
+<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/Tob8O2NDwO7LWunjsHr3pN_P82Y2x1p2DC9ybpaXILIUWSmoX9zBrWwYbf2dAJG_zUQ_58spidTAMEgANHGdOQqZDabmERzwvQ6HnPadvwf6wSlwFFuvikElbXgtTaXH7wqmy4bP" alt=""/></figure>
+
+
+
+<p>Now, on Compound we can deposit anything and get our capital out without a lockup. If I lean on Compound I still earn interest on the asset I borrow. I start off with $100 000, and I can get $75 000 USDC by completing that loan. Now, I’m paying 8.08% APR on the $75 000.&nbsp; My portfolio size is now $175 000. Now, I repeat. First, I go to uniswap and transfer USDC for DAI.  I take the maximum loan I can from $75 000, and I can increase my portfolio size to $400 000. It’ll look something like this:<br></p>
+
+
+
+<p>Remember that you can only ‘bite off more than you can chew’ in situations like these, where you earn more from lending another like asset (meaning the value would be or remain around the same).<br></p>
+
+
+
+<p>Now, it’s important to think that if you’re risk-averse to speculative to coins rises or sudden falls, it’s possible to exclude the speculative coins from the list of coins they’re considering &#8211; say, only hold DAI and SAI, never Eth or WBTC.</p>
+
+
+
+<h1>Conclusion</h1>
+
+
+
+<p>I’m daring the fine folks at staked.us to build these into fully functionable marketable products &#8211; or by streamlessly linking them to their current Robo Advisor for Ray, have a look:<br></p>
+
+
+
+<p><a href="https://github.com/Stakedllc/robo-advisor-yield/issues/11">https://github.com/Stakedllc/robo-advisor-yield/issues/11</a></p>
+
+
+
+<p><a href="https://github.com/Stakedllc/robo-advisor-yield/issues/12">https://github.com/Stakedllc/robo-advisor-yield/issues/12</a></p>
+
+
+
+<p>EDIT: Turns out Great Minds Think Alike (or Simple Ones Seldom Differ):  <a href="https://github.com/Stakedllc/YIPs/issues/8">https://github.com/Stakedllc/YIPs/issues/8</a> </p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Growth Hacking YouTube For Views Funneling Into Clicks and Referrals</title>
 		<link>/2020/02/05/growth-hacking-youtube-for-views-funneling-into-clicks-and-referrals-2/</link>
 				<pubDate>Wed, 05 Feb 2020 06:30:46 +0000</pubDate>
@@ -834,73 +943,6 @@
 
 
 <p>Interested in how people with psychoses think? You can read a creative <a href="https://jare.cloud/2020/01/14/how-do-people-with-mental-health-illnesses-like-schizophrenia-or-other-psychoses-think/">piece about symptomatic thoughts</a> I authored here!</p>
-]]></content:encoded>
-										</item>
-		<item>
-		<title>How to Build a Winning Tool for Sentiment Analysis of Twitter Data</title>
-		<link>/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/</link>
-				<pubDate>Thu, 23 Jan 2020 00:38:08 +0000</pubDate>
-		<dc:creator><![CDATA[jare]]></dc:creator>
-				<category><![CDATA[Blog]]></category>
-		<category><![CDATA[Bots]]></category>
-		<category><![CDATA[Coindex]]></category>
-
-		<guid isPermaLink="false">/?p=368</guid>
-				<description><![CDATA[See this post in it&#8217;s original form on jare.cloud! Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis]]></description>
-								<content:encoded><![CDATA[
-<p><a href="http://jare.cloud/2020/01/22/how-to-build-a-winning-tool-for-sentiment-analysis-of-twitter-data/">See this post in it&#8217;s original form on jare.cloud</a>!</p>
-
-
-
-<p>Today, we&#8217;ll summarize my continued efforts to build a sentiment analysis tool. This tool is using the Twitter API to consume 97 different Twitter handles, that provide Crypto trading signals. This method can easily be applied to traditional markets &#8211; effectively capitalizing on new and highly lucrative means for trading stocks online. We&#8217;ll be reviewing the opportunities to add a neuro evolutionary AI to our bot. You can review the <a href="https://jare.cloud/2020/01/15/automated-crypto-trading-bot-to-buy-pump-and-dump-sentiment-signals-from-twitter/">first iteration of this series on Twitter sentiment bots here</a> on my blog.</p>
-
-
-
-<p>When it comes to classical issues facing sentiment analysis applications, it&#8217;s important to consider how algorithms work. If we&#8217;re using a Natural Language Processing tool to rank the individual words in a phrase based on positive, neutral and negative sentiment, wouldn&#8217;t a product review like &#8216;All these wonderful new features! Although none of them work!&#8217; confuse the machine? Words like &#8216;none&#8217; are the true sentiment &#8211; being negative &#8211; but the overall feeling the programming gets from the message involve words like &#8216;wonderful&#8217; &#8216;new&#8217; &#8216;work.&#8217; This would yield a false positive in the ranking and scoring of phrases. </p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/1-14-1024x329.png" alt="" class="wp-image-370" srcset="/wp-content/uploads/2020/01/1-14-1024x329.png 1024w, /wp-content/uploads/2020/01/1-14-300x96.png 300w, /wp-content/uploads/2020/01/1-14-768x247.png 768w, /wp-content/uploads/2020/01/1-14.png 1110w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>What we need is a way for the computer to overcome this sarcasm in the tweets. Certain <a href="https://medium.com/dair-ai/detecting-sarcasm-with-deep-convolutional-neural-networks-4a0657f79e80">AIs are capable of establishing context</a> by ranking sentiment, emotion and personality. We&#8217;ll then apply this when we analyze Twitter data. As <a href="https://www.linkedin.com/in/jarettdunn/">Chief Liquidity Officer of Coindex Labs</a>, I have access to a new and novel way to train datasets and apply resulting genomes on configurations &#8211; using an AI that&#8217;s naturally resilient to over-fitting.</p>
-
-
-
-<p> AI has other advantages when it comes to sentiment analysis, like identifying unique opinions that may otherwise get re-hashed, re-worded, and delivered in a separate &#8216;original content&#8217; tweet. This doesn&#8217;t really apply as much in our trading bot, as we&#8217;re limiting our input tweets to those 97 Twitter accounts, but with a larger dataset this is critical. To identify the true emotion of the Internet at large, we&#8217;d need a way to filter out people (and even computers) with accounts that are used to artificially manipulate people&#8217;s sentiment bots. It&#8217;s &#8216;a feint within a feint within a feint,&#8217; as Muad&#8217;Dib would have said!</p>
-
-
-
-<p>Once we&#8217;ve created our new model and use it to weed out the bad apples, our analysis of sentiment will be far more effective. As far as sentiment scores go, this tweet that my Twitter bot picks up on is ahead of the bell curve &#8211; but, on manual inspection, it looks as though it&#8217;s a joke rather than actual sentiment one way or another.</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-58.png" alt="" class="wp-image-369" srcset="/wp-content/uploads/2020/01/image-58.png 815w, /wp-content/uploads/2020/01/image-58-300x99.png 300w, /wp-content/uploads/2020/01/image-58-768x253.png 768w" sizes="(max-width: 815px) 100vw, 815px" /></figure>
-
-
-
-<p>Entries like these should be ignored in the final product. I&#8217;ve toyed with the idea of human intervention before acting on a given signal, but the delays involved would mean that the average trader would miss 70% of the swing. Ideally, the bot would act on the &#8216;good&#8217; signals within a matter of seconds or minutes &#8211; beating the overall shift in the markets when others pick up on the sentiment, before everyone exits. This is how the goldmoney is made.</p>
-
-
-
-<p>This is what a profitable tweet looks like, and currently our win/lose ratio is far higher than 50% &#8211; combined with a creative trailing takeprofit, we can establish an edge on the market:</p>
-
-
-
-<figure class="wp-block-image size-large"><img src="/wp-content/uploads/2020/01/image-59-1024x190.png" alt="" class="wp-image-372" srcset="/wp-content/uploads/2020/01/image-59-1024x190.png 1024w, /wp-content/uploads/2020/01/image-59-300x56.png 300w, /wp-content/uploads/2020/01/image-59-768x143.png 768w, /wp-content/uploads/2020/01/image-59.png 1361w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<figure class="wp-block-image"><img src="https://media.discordapp.net/attachments/666371834102677565/667705444596187136/SmartSelect_20200117-122805_TabTrader.jpg?width=367&amp;height=658" alt=""/></figure>
-
-
-
-<p>The next steps are to build out the AI&#8217;s training set with loads of tweets to run analysis on. These will then serve as a benchmark with which to apply to forward-testing data with live, real incoming tweets based on our followed list. Then, our evolutionary part of the neuro evolutionary AI will create competing sets of genomes with the different input variables, and the best-performing genome will become the champion set that runs the live trader. The next generation of genomes will then (likely, by and large) perform better vs the previous generation, and a new champion might be selected. </p>
-
-
-
-<p>Are you more interested in how to automagically grow your Twitter following? Check out this article I wrote on <a href="https://jare.cloud/2020/01/21/7-days-creating-a-twitter-growth-service/">consuming the Twitter API to hack your account&#8217;s growth</a>! All in all, we have a clear plan for how our analysis of Twitter for fun &amp; profit will continue to become more sophisticated and the win/lose ratio will increase significantly. </p>
 ]]></content:encoded>
 										</item>
 	</channel>
